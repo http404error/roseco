@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/tf_tools/html
+authors: Stephan Wirth <stwirth@uib.es>, Miquel Massot <miquel.massot@uib.es>
+brief: ''
+bugtracker: ''
+depends:
+- tf
+- catkin
+depends_on:
+- srv_tools
+description: ROS tools and scripts relates to tf
+doc_job: doc-hydro-srv_tools
+has_changelog_rst: false
+license: BSD
+maintainers: Miquel Massot <miquel.massot@uib.es>
+metapackages:
+- srv_tools
+msgs: []
+package_type: package
+repo_name: srv_tools
+repo_url: ''
+srvs: []
+timestamp: 1405774086.522813
+url: http://ros.org/wiki/tf_tools
+vcs: git
+vcs_uri: https://github.com/srv/srv_tools.git
+vcs_version: hydro

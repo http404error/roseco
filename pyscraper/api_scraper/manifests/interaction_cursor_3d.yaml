@@ -1,0 +1,30 @@
+authors: Adam Leeper <adamleeper@gmail.com>
+depends:
+- catkin
+- eigen
+- rviz_fixed_view_controller
+- message_runtime
+- std_msgs
+- rviz
+- cmake_modules
+- geometry_msgs
+- interaction_cursor_msgs
+- tf
+- razer_hydra
+- visualization_msgs
+- roscpp
+description: Metapackage for interaction cursor functionality.
+license: BSD
+maintainers: Adam Leeper <adamleeper@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-interaction-cursor-3d_sourcedeb
+- ros-hydro-interaction-cursor-3d_binarydeb_precise_amd64
+- ros-hydro-interaction-cursor-3d_binarydeb_precise_i386
+- ros-hydro-interaction-cursor-3d_binarydeb_quantal_amd64
+- ros-hydro-interaction-cursor-3d_binarydeb_quantal_i386
+- ros-hydro-interaction-cursor-3d_binarydeb_raring_amd64
+- ros-hydro-interaction-cursor-3d_binarydeb_raring_i386
+repo_name: interaction_cursor_3d
+timestamp: 1405956414.805518
+url: http://www.ros.org/wiki/interaction_cursor_3d

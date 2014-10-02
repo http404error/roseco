@@ -1,0 +1,62 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosgraph_msgs/html
+authors: Ken Conley
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- catkin
+- message_runtime
+- std_msgs
+depends_on:
+- rosjava_messages
+- rospy
+- gazebo_ros
+- roslaunch
+- rqt_bag
+- rosruby_messages
+- test_roslib_comm
+- roscpp
+- gazebo_plugins
+- rosruby
+- msvc_runtime
+- test_rosbag
+- test_roscpp
+- rosout
+- rosmatlab_common_msgs
+- rqt_graph
+- rqt_video_playback
+- roslisp
+- rtt_rosgraph_msgs
+- ros_comm
+description: Messages relating to the ROS Computation Graph. These are generally considered
+  to be low-level messages that end users do not interact with.
+devel_jobs:
+- devel-hydro-ros_comm
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros_comm
+msgs:
+- Clock
+- Log
+package_type: package
+release_jobs:
+- ros-hydro-rosgraph-msgs_sourcedeb
+- ros-hydro-rosgraph-msgs_binarydeb_precise_amd64
+- ros-hydro-rosgraph-msgs_binarydeb_precise_i386
+- ros-hydro-rosgraph-msgs_binarydeb_quantal_amd64
+- ros-hydro-rosgraph-msgs_binarydeb_quantal_i386
+- ros-hydro-rosgraph-msgs_binarydeb_raring_amd64
+- ros-hydro-rosgraph-msgs_binarydeb_raring_i386
+repo_name: ros_comm
+repo_url: ''
+srvs: []
+timestamp: 1405773124.794919
+url: http://ros.org/wiki/rosgraph_msgs
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

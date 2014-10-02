@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_3d_fov_segmentation/html
+authors: Georg Arbeiter
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- cob_3d_mapping_common
+- catkin
+- tf_conversions
+depends_on:
+- cob_3d_mapping_tools
+- cob_environment_perception
+description: This package can be used to segment a point cloud by the field of view
+  (FOV) of a camera.
+doc_job: doc-hydro-cob_environment_perception
+has_changelog_rst: false
+license: LGPL
+maintainers: Georg Arbeiter <goa@ipa.fhg.de>
+metapackages:
+- cob_environment_perception
+msgs: []
+package_type: package
+repo_name: cob_environment_perception
+repo_url: ''
+srvs: []
+timestamp: 1405962405.153182
+url: http://wiki.ros.org/cob_3d_fov_segmentation
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_environment_perception.git
+vcs_version: hydro_dev

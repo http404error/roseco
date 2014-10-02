@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/navquest_dvl/html
+authors: Gyula Nagy <dula.nad@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- geometry_msgs
+- auv_msgs
+- tf
+- snippets
+depends_on: []
+description: The driver package for the LinkQuest NavQuest Micro DVL.
+doc_job: doc-hydro-labust_ros_pkg
+has_changelog_rst: false
+license: BSD
+maintainers: Gyula Nagy <dula.nad@gmail.com>
+msgs: []
+package_type: package
+repo_name: labust_ros_pkg
+repo_url: ''
+srvs: []
+timestamp: 1404988441.308707
+url: ''
+vcs: git
+vcs_uri: https://github.com/labust/labust-ros-pkg.git
+vcs_version: hydro-devel

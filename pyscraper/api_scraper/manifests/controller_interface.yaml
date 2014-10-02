@@ -1,0 +1,58 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/controller_interface/html
+authors: Wim Meeussen
+brief: ''
+bugtracker: https://github.com/ros-controls/ros_control/issues
+depends:
+- hardware_interface
+- catkin
+- roscpp
+- pluginlib
+depends_on:
+- steered_wheel_base_controller
+- force_torque_sensor_controller
+- velocity_controllers
+- joint_trajectory_controller
+- diff_drive_controller
+- pr2_controller_interface
+- sr_ronex_controllers
+- controller_manager_tests
+- sr_ronex_examples
+- joint_state_controller
+- controller_manager
+- hector_quadrotor_controller
+- gripper_action_controller
+- position_controllers
+- imu_sensor_controller
+- effort_controllers
+- tedusar_cartesian_controller
+- forward_command_controller
+- ros_control
+description: Interface base class for controllers
+devel_jobs:
+- devel-hydro-ros_control
+doc_job: doc-hydro-ros_control
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Wim Meeussen <wim@hidof.com>
+metapackages:
+- ros_control
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-controller-interface_sourcedeb
+- ros-hydro-controller-interface_binarydeb_precise_amd64
+- ros-hydro-controller-interface_binarydeb_precise_i386
+- ros-hydro-controller-interface_binarydeb_quantal_amd64
+- ros-hydro-controller-interface_binarydeb_quantal_i386
+- ros-hydro-controller-interface_binarydeb_raring_amd64
+- ros-hydro-controller-interface_binarydeb_raring_i386
+repo_name: ros_control
+repo_url: https://github.com/ros-controls/ros_control
+srvs: []
+timestamp: 1405773259.951463
+url: https://github.com/ros-controls/ros_control/wiki
+vcs: git
+vcs_uri: https://github.com/ros-controls/ros_control.git
+vcs_version: hydro-devel

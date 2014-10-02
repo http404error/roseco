@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/imu_compass/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- sensor_msgs
+- std_msgs
+- python-scipy
+- geometry_msgs
+- tf
+depends_on:
+- husky_bringup
+description: Node to combine IMU data (accelerometers and gyroscopes) with Compass
+  data (magnetometers) for a cleaner reading of a Vehicles Heading
+devel_jobs:
+- devel-hydro-imu_compass
+doc_job: doc-hydro-imu_compass
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Prasenjit Mukherjee <pmukherj@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-imu-compass_sourcedeb
+- ros-hydro-imu-compass_binarydeb_precise_amd64
+- ros-hydro-imu-compass_binarydeb_precise_i386
+- ros-hydro-imu-compass_binarydeb_quantal_amd64
+- ros-hydro-imu-compass_binarydeb_quantal_i386
+- ros-hydro-imu-compass_binarydeb_raring_amd64
+- ros-hydro-imu-compass_binarydeb_raring_i386
+repo_name: imu_compass
+repo_url: ''
+srvs: []
+timestamp: 1405771242.260747
+url: ''
+vcs: git
+vcs_uri: https://github.com/clearpathrobotics/imu_compass.git
+vcs_version: master

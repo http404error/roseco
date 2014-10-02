@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/segbot_description/html
+authors: Piyush Khandelwal <piyushk@gmail.com>
+brief: ''
+bugtracker: https://github.com/utexas-bwi/segbot/issues
+depends:
+- pr2_description
+- xacro
+- catkin
+depends_on:
+- segbot_gazebo
+- segbot
+- segbot_bringup
+description: "Contains URDF descriptions of all robot components and sensors for the\n\
+  \    segbot, as well as all the different sensor configurations for a segbot."
+devel_jobs:
+- devel-hydro-segbot
+doc_job: doc-hydro-segbot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Piyush Khandelwal <piyushk@gmail.com>, Jack O'Quin <jack.oquin@gmail.com>
+metapackages:
+- segbot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-segbot-description_sourcedeb
+- ros-hydro-segbot-description_binarydeb_precise_amd64
+- ros-hydro-segbot-description_binarydeb_precise_i386
+- ros-hydro-segbot-description_binarydeb_quantal_amd64
+- ros-hydro-segbot-description_binarydeb_quantal_i386
+- ros-hydro-segbot-description_binarydeb_raring_amd64
+- ros-hydro-segbot-description_binarydeb_raring_i386
+repo_name: segbot
+repo_url: https://github.com/utexas-bwi/segbot.git
+srvs: []
+timestamp: 1405773662.155266
+url: http://ros.org/wiki/segbot_description
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/segbot.git
+vcs_version: master

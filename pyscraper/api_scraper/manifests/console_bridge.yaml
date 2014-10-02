@@ -1,0 +1,21 @@
+authors: Ryan Luna <lunaryan@gmail.com>, Ioan Sucan <isucan@willowgarage.com>
+depends:
+- cmake
+- boost
+- catkin
+description: Lightweight tool for forwarding output from libraries to other logging
+  systems.
+license: BSD
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-console-bridge_sourcedeb
+- ros-hydro-console-bridge_binarydeb_precise_amd64
+- ros-hydro-console-bridge_binarydeb_precise_i386
+- ros-hydro-console-bridge_binarydeb_quantal_amd64
+- ros-hydro-console-bridge_binarydeb_quantal_i386
+- ros-hydro-console-bridge_binarydeb_raring_amd64
+- ros-hydro-console-bridge_binarydeb_raring_i386
+repo_name: console_bridge
+timestamp: 1405956414.718637
+url: https://github.com/ros/console_bridge

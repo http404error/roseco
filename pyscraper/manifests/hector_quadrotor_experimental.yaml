@@ -1,0 +1,23 @@
+api_documentation: http://docs.ros.org/hydro/api/hector_quadrotor_experimental/html
+authors: Johannes Meyer and Stefan Kohlbrecher
+brief: hector_quadrotor_experimental
+depends:
+- ros
+- hector_quadrotor
+- ethzasl_ptam
+depends_on: []
+description: hector_quadrotor_experimental contains experimental packages that are
+  related to the [[hector_quadrotor]] stack
+doc_job: doc-hydro-hector_quadrotor_experimental
+license: BSD
+msgs: []
+package_type: stack
+packages:
+- hector_quadrotor_ptam
+repo_name: hector_quadrotor_experimental
+srvs: []
+timestamp: 1405973550.584985
+url: http://ros.org/wiki/hector_quadrotor_experimental
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor_experimental.git
+vcs_version: master

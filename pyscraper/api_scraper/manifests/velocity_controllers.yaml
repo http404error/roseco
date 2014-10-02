@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/velocity_controllers/html
+authors: Vijay Pradeep
+brief: ''
+bugtracker: https://github.com/ros-controls/ros_controllers/issues
+depends:
+- catkin
+- forward_command_controller
+- controller_interface
+depends_on:
+- ros_controllers
+- cob_controller_configuration_gazebo
+description: velocity_controllers
+devel_jobs:
+- devel-hydro-ros_controllers
+doc_job: doc-hydro-ros_controllers
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Vijay Pradeep <vijay@hidof.com>
+metapackages:
+- ros_controllers
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-velocity-controllers_sourcedeb
+- ros-hydro-velocity-controllers_binarydeb_precise_amd64
+- ros-hydro-velocity-controllers_binarydeb_precise_i386
+- ros-hydro-velocity-controllers_binarydeb_quantal_amd64
+- ros-hydro-velocity-controllers_binarydeb_quantal_i386
+- ros-hydro-velocity-controllers_binarydeb_raring_amd64
+- ros-hydro-velocity-controllers_binarydeb_raring_i386
+repo_name: ros_controllers
+repo_url: https://github.com/ros-controls/ros_controllers
+srvs: []
+timestamp: 1405773416.412636
+url: https://github.com/ros-controls/ros_controllers/wiki
+vcs: git
+vcs_uri: https://github.com/ros-controls/ros_controllers.git
+vcs_version: hydro-devel

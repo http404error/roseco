@@ -1,0 +1,60 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/schunk_sdh/html
+authors: Mathias Luedtke <mdl@ipa.fhg.de>, Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- urdf
+- catkin
+- roscpp
+- brics_actuator
+- std_msgs
+- actionlib
+- trajectory_msgs
+- sensor_msgs
+- message_generation
+- cob_srvs
+- control_msgs
+- libpcan
+- message_runtime
+- libntcan
+- diagnostic_msgs
+- dpkg
+- libusb-dev
+depends_on:
+- rosjava_messages
+- schunk_simulated_tactile_sensors
+- cob_bringup
+- schunk_modular_robotics
+- cob_tactiletools
+description: This package provides an interface for operating the schunk dexterous
+  hand (SDH), including the tactile sensors.
+devel_jobs:
+- devel-hydro-schunk_modular_robotics
+doc_job: doc-hydro-schunk_modular_robotics
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Mathias Luedtke <mdl@ipa.fhg.de>, Florian Weisshardt <fmw@ipa.fhg.de>
+metapackages:
+- schunk_modular_robotics
+msgs:
+- TactileMatrix
+- TactileSensor
+package_type: package
+release_jobs:
+- ros-hydro-schunk-sdh_sourcedeb
+- ros-hydro-schunk-sdh_binarydeb_precise_amd64
+- ros-hydro-schunk-sdh_binarydeb_precise_i386
+- ros-hydro-schunk-sdh_binarydeb_quantal_amd64
+- ros-hydro-schunk-sdh_binarydeb_quantal_i386
+- ros-hydro-schunk-sdh_binarydeb_raring_amd64
+- ros-hydro-schunk-sdh_binarydeb_raring_i386
+repo_name: schunk_modular_robotics
+repo_url: ''
+srvs: []
+timestamp: 1405975327.61001
+url: http://ros.org/wiki/schunk_sdh
+vcs: git
+vcs_uri: https://github.com/ipa320/schunk_modular_robotics.git
+vcs_version: hydro_release_candidate

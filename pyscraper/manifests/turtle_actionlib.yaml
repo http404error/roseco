@@ -1,0 +1,50 @@
+actions:
+- Shape
+api_documentation: http://docs.ros.org/hydro/api/turtle_actionlib/html
+authors: Melonee Wise
+brief: ''
+bugtracker: https://github.com/ros/common_tutorials/issues
+depends:
+- rosconsole
+- catkin
+- roscpp
+- actionlib
+- message_runtime
+- std_msgs
+- geometry_msgs
+- angles
+- message_generation
+- turtlesim
+- actionlib_msgs
+depends_on:
+- rosjava_messages
+- common_tutorials
+description: turtle_actionlib demonstrates how to write an action server and client
+  with the turtlesim. The shape_server provides and action interface for drawing regular
+  polygons with the turtlesim.
+doc_job: doc-hydro-common_tutorials
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- common_tutorials
+msgs:
+- Velocity
+package_type: package
+release_jobs:
+- ros-hydro-turtle-actionlib_sourcedeb
+- ros-hydro-turtle-actionlib_binarydeb_precise_amd64
+- ros-hydro-turtle-actionlib_binarydeb_precise_i386
+- ros-hydro-turtle-actionlib_binarydeb_quantal_amd64
+- ros-hydro-turtle-actionlib_binarydeb_quantal_i386
+- ros-hydro-turtle-actionlib_binarydeb_raring_amd64
+- ros-hydro-turtle-actionlib_binarydeb_raring_i386
+repo_name: common_tutorials
+repo_url: https://github.com/ros/common_tutorials
+srvs: []
+timestamp: 1405973199.984008
+url: http://ros.org/wiki/turtle_actionlib
+vcs: git
+vcs_uri: https://github.com/ros/common_tutorials.git
+vcs_version: hydro-devel

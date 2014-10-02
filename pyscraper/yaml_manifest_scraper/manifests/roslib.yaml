@@ -1,0 +1,117 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roslib/html
+authors: Ken Conley <kwc@willowgarage.com>, Morgan Quigley <mquigley@cs.stanford.edu>,
+  Josh Faust <jfaust@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends:
+- python-rospkg
+- rospack
+- boost
+- catkin
+depends_on:
+- rtt_ros
+- openni_tracker
+- master_sync_fkie
+- default_cfg_fkie
+- pluginlib
+- rviz
+- rocon_gateway
+- launch_tools
+- ffha
+- rocon_app_manager
+- cob_dashboard
+- roshlaunch
+- rqt_msg
+- master_discovery_fkie
+- sr_robot_msgs
+- sentis_tof_m100
+- ml_classifiers
+- moveit_core
+- libphidgets
+- ros
+- rospy
+- rosmsg
+- rosunit
+- gazebo_ros
+- roswtf
+- wiimote
+- sr_edc_ethercat_drivers
+- rtt_rospack
+- node_manager_fkie
+- rqt_decision_graph
+- rosservice
+- rqt_bag_plugins
+- rosh_visualization
+- concert_orchestra
+- roslaunch
+- downward
+- rqt_bag
+- test_roslib_comm
+- velodyne_pointcloud
+- mjpeg_server
+- rtt_rospack_tests
+- rqt_console
+- rqt_pr2_dashboard
+- timestamp_tools
+- ff
+- rosh_common
+- resource_retriever
+- filters
+- household_objects_database
+- stdr_parser
+- image_transport
+- rqt_py_common
+- test_rosbag
+- libsiftfast
+- schunk_libm5api
+- rocon_apps
+- libpcan
+- camera_info_manager
+- rocon_python_comms
+- rqt_publisher
+- rocon_python_utils
+- sr_hand
+- rqt_graph
+- sound_play
+- jsk_interactive_marker
+- turtlesim
+- diagnostic_analysis
+- rosjson_time
+- dynamic_reconfigure
+- argos3d_p100
+- openni_tracker_jsk_patch
+- stdr_gui
+- rosh_geometry
+- industrial_extrinsic_cal
+- rosbag
+description: "Base dependencies and support libraries for ROS.\n    roslib contains\
+  \ many of the common data structures and tools that are shared across ROS client\
+  \ library implementations."
+devel_jobs:
+- devel-hydro-ros
+doc_job: doc-hydro-ros
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-roslib_sourcedeb
+- ros-hydro-roslib_binarydeb_precise_amd64
+- ros-hydro-roslib_binarydeb_precise_i386
+- ros-hydro-roslib_binarydeb_quantal_amd64
+- ros-hydro-roslib_binarydeb_quantal_i386
+- ros-hydro-roslib_binarydeb_raring_amd64
+- ros-hydro-roslib_binarydeb_raring_i386
+repo_name: ros
+repo_url: ''
+srvs: []
+timestamp: 1405974957.616693
+url: http://ros.org/wiki/roslib
+vcs: git
+vcs_uri: https://github.com/ros/ros.git
+vcs_version: hydro-devel

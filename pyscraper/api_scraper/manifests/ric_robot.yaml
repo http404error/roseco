@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ric_robot/html
+authors: RoboTiCan <support@robotican.net>
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- roscpp
+- message_runtime
+- sensor_msgs
+- tf
+- geometry_msgs
+- message_generation
+depends_on:
+- ric_base_station
+- ric
+description: The main ric_robot robot package
+doc_job: doc-hydro-ric
+has_changelog_rst: false
+license: BSD
+maintainers: RoboTiCan <support@robotican.net>
+metapackages:
+- ric
+msgs:
+- ric_rc
+- ric_pan_tilt
+- ric_elevator_command
+- ric_command
+- ric_status
+- ric_raw
+- ric_gps
+package_type: package
+repo_name: ric
+repo_url: ''
+srvs:
+- relays
+- home_elevator
+- imu_calib
+- set_elevator
+- set_odom
+timestamp: 1405696414.719964
+url: http://ros.org/wiki/ric_robot
+vcs: git
+vcs_uri: https://github.com/robotican/ric.git
+vcs_version: master

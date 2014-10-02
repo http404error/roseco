@@ -1,0 +1,23 @@
+authors: Brian Axelrod <baxelrod@willowgarage.com>
+depends:
+- moveit_core
+- catkin
+- sensor_msgs
+- roscpp
+- dynamixel_pro_controller
+description: The dynamixel_pro_moveit_controller package, it interprets joint trajectories
+  and uses the low level drivers to directly control the arm. Avoiding the extra layer
+  of translating the joint_trajectory messages to joint_state messages
+license: BSD
+maintainers: Brian Axelrod <baxelrod@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-dynamixel-pro-moveit-controller_sourcedeb
+- ros-hydro-dynamixel-pro-moveit-controller_binarydeb_precise_amd64
+- ros-hydro-dynamixel-pro-moveit-controller_binarydeb_precise_i386
+- ros-hydro-dynamixel-pro-moveit-controller_binarydeb_quantal_amd64
+- ros-hydro-dynamixel-pro-moveit-controller_binarydeb_quantal_i386
+- ros-hydro-dynamixel-pro-moveit-controller_binarydeb_raring_amd64
+- ros-hydro-dynamixel-pro-moveit-controller_binarydeb_raring_i386
+repo_name: dynamixel_pro_moveit_controller
+timestamp: 1405956414.746718

@@ -1,0 +1,18 @@
+authors: Alexander Bubeck <aub@ipa.fhg.de>
+depends:
+- catkin
+description: bride_compilers
+license: BSD
+maintainers: Alexander Bubeck <aub@ipa.fhg.de>
+package_type: package
+release_jobs:
+- ros-hydro-bride-compilers_sourcedeb
+- ros-hydro-bride-compilers_binarydeb_precise_amd64
+- ros-hydro-bride-compilers_binarydeb_precise_i386
+- ros-hydro-bride-compilers_binarydeb_quantal_amd64
+- ros-hydro-bride-compilers_binarydeb_quantal_i386
+- ros-hydro-bride-compilers_binarydeb_raring_amd64
+- ros-hydro-bride-compilers_binarydeb_raring_i386
+repo_name: bride
+timestamp: 1405956414.688227
+url: http://ros.org/wiki/bride_compilers

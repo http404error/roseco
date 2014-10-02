@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ackermann_msgs/html
+authors: Jack O'Quin
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- catkin
+- message_runtime
+- std_msgs
+depends_on:
+- ackermann_qt
+- ackermann_hks
+- rosjava_messages
+- ackermann_teleop
+- rosruby_messages
+- ackermann_vehicle_gazebo
+description: ROS messages for robots using Ackermann steering.
+devel_jobs:
+- devel-hydro-ackermann_msgs
+doc_job: doc-hydro-ackermann_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Jack O'Quin <jack.oquin@gmail.com>
+msgs:
+- AckermannDriveStamped
+- AckermannDrive
+package_type: package
+release_jobs:
+- ros-hydro-ackermann-msgs_sourcedeb
+- ros-hydro-ackermann-msgs_binarydeb_precise_amd64
+- ros-hydro-ackermann-msgs_binarydeb_precise_i386
+- ros-hydro-ackermann-msgs_binarydeb_quantal_amd64
+- ros-hydro-ackermann-msgs_binarydeb_quantal_i386
+- ros-hydro-ackermann-msgs_binarydeb_raring_amd64
+- ros-hydro-ackermann-msgs_binarydeb_raring_i386
+repo_name: ackermann_msgs
+repo_url: ''
+srvs: []
+timestamp: 1405769371.474966
+url: http://ros.org/wiki/ackermann_msgs
+vcs: git
+vcs_uri: https://github.com/jack-oquin/ackermann_msgs.git
+vcs_version: master

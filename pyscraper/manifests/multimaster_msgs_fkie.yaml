@@ -1,0 +1,60 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/multimaster_msgs_fkie/html
+authors: Alexander Tiderko
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- catkin
+- message_runtime
+- std_msgs
+depends_on:
+- master_sync_fkie
+- default_cfg_fkie
+- master_discovery_fkie
+- rosjava_messages
+- node_manager_fkie
+- rosruby_messages
+- multimaster_fkie
+description: The messages required by multimaster packages.
+devel_jobs:
+- devel-hydro-multimaster_fkie
+doc_job: doc-hydro-multimaster_fkie
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Alexander Tiderko <alexander.tiderko@gmail.com>
+metapackages:
+- multimaster_fkie
+msgs:
+- LinkState
+- LinkStatesStamped
+- SyncTopicInfo
+- SyncMasterInfo
+- Capability
+- SyncServiceInfo
+- ROSMaster
+- MasterState
+package_type: package
+release_jobs:
+- ros-hydro-multimaster-msgs-fkie_sourcedeb
+- ros-hydro-multimaster-msgs-fkie_binarydeb_precise_amd64
+- ros-hydro-multimaster-msgs-fkie_binarydeb_precise_i386
+- ros-hydro-multimaster-msgs-fkie_binarydeb_quantal_amd64
+- ros-hydro-multimaster-msgs-fkie_binarydeb_quantal_i386
+- ros-hydro-multimaster-msgs-fkie_binarydeb_raring_amd64
+- ros-hydro-multimaster-msgs-fkie_binarydeb_raring_i386
+repo_name: multimaster_fkie
+repo_url: ''
+srvs:
+- LoadLaunch
+- DiscoverMasters
+- GetSyncInfo
+- ListNodes
+- ListDescription
+- Task
+timestamp: 1405772084.76584
+url: http://ros.org/wiki/multimaster_msgs_fkie
+vcs: git
+vcs_uri: https://github.com/fkie/multimaster_fkie.git
+vcs_version: hydro-devel

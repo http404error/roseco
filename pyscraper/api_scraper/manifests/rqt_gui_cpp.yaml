@@ -1,0 +1,51 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_gui_cpp/html
+authors: Dirk Thomas
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt/issues
+depends:
+- catkin
+- qt_gui_cpp
+- nodelet
+- qt_gui
+- roscpp
+depends_on:
+- scriptable_monitor_rqt
+- rqt_marble_plugin
+- cob_dashboard
+- mr_rqt
+- caddy_ui
+- rqt_image_view
+- rqt_marble
+- rqt_rviz
+- hector_rqt_plugins
+- rqt_video_playback
+- rqt
+description: rqt_gui_cpp enables GUI plugins to use the C++ client library for ROS.
+devel_jobs:
+- devel-hydro-rqt
+doc_job: doc-hydro-rqt
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- rqt
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-gui-cpp_sourcedeb
+- ros-hydro-rqt-gui-cpp_binarydeb_precise_amd64
+- ros-hydro-rqt-gui-cpp_binarydeb_precise_i386
+- ros-hydro-rqt-gui-cpp_binarydeb_quantal_amd64
+- ros-hydro-rqt-gui-cpp_binarydeb_quantal_i386
+- ros-hydro-rqt-gui-cpp_binarydeb_raring_amd64
+- ros-hydro-rqt-gui-cpp_binarydeb_raring_i386
+repo_name: rqt
+repo_url: https://github.com/ros-visualization/rqt
+srvs: []
+timestamp: 1405975186.078854
+url: http://ros.org/wiki/rqt_gui_cpp
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt.git
+vcs_version: groovy-devel

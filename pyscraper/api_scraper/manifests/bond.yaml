@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/bond/html
+authors: Stuart Glaser
+brief: ''
+bugtracker: https://github.com/ros/bond_core/issues
+depends:
+- message_generation
+- catkin
+- message_runtime
+- std_msgs
+depends_on:
+- rosjava_messages
+- bondpy
+- bond_core
+- bondcpp
+description: "A bond allows two processes, A and B, to know when the other has\n \
+  \   terminated, either cleanly or by crashing.  The bond remains\n    connected\
+  \ until it is either broken explicitly or until a\n    heartbeat times out."
+devel_jobs:
+- devel-hydro-bond_core
+doc_job: doc-hydro-bond_core
+has_changelog_rst: false
+license: BSD
+maintainers: Esteve Fernandez <esteve@osrfoundation.org>
+metapackages:
+- bond_core
+msgs:
+- Status
+- Constants
+package_type: package
+release_jobs:
+- ros-hydro-bond_sourcedeb
+- ros-hydro-bond_binarydeb_precise_amd64
+- ros-hydro-bond_binarydeb_precise_i386
+- ros-hydro-bond_binarydeb_quantal_amd64
+- ros-hydro-bond_binarydeb_quantal_i386
+- ros-hydro-bond_binarydeb_raring_amd64
+- ros-hydro-bond_binarydeb_raring_i386
+repo_name: bond_core
+repo_url: https://github.com/ros/bond_core
+srvs: []
+timestamp: 1405769713.00621
+url: http://www.ros.org/wiki/bond
+vcs: git
+vcs_uri: https://github.com/ros/bond_core.git
+vcs_version: master

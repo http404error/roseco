@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_controller_configuration_gazebo/html
+authors: Wim Meeussen, John Hsu
+brief: ''
+bugtracker: ''
+depends:
+- pr2_controller_manager
+- single_joint_position_action
+- pr2_gripper_action
+- catkin
+- pr2_head_action
+depends_on:
+- pr2_gazebo
+description: "A copy of the pr2_controller_configuration package, for use in \n  \
+  \  the PR2 simulator.  We maintain two copies to allow for controller\n    gains\
+  \ to be set differently between hardware and simulation."
+devel_jobs:
+- devel-hydro-pr2_simulator
+doc_job: doc-hydro-pr2_simulator
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: John Hsu <hsu@osrfoundation.org>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-pr2-controller-configuration-gazebo_sourcedeb
+- ros-hydro-pr2-controller-configuration-gazebo_binarydeb_precise_amd64
+- ros-hydro-pr2-controller-configuration-gazebo_binarydeb_precise_i386
+- ros-hydro-pr2-controller-configuration-gazebo_binarydeb_quantal_amd64
+- ros-hydro-pr2-controller-configuration-gazebo_binarydeb_quantal_i386
+- ros-hydro-pr2-controller-configuration-gazebo_binarydeb_raring_amd64
+- ros-hydro-pr2-controller-configuration-gazebo_binarydeb_raring_i386
+repo_name: pr2_simulator
+repo_url: ''
+srvs: []
+timestamp: 1405964617.722816
+url: http://ros.org/wiki/pr2_controller_configuration_gazebo
+vcs: git
+vcs_uri: https://github.com/PR2/pr2_simulator.git
+vcs_version: hydro-devel

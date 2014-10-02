@@ -1,0 +1,28 @@
+<package>
+  <name>ur_driver</name>
+  <version>1.0.2</version>
+  <description>
+      Driver for the UR5/10 arm based on the Polyscope control scheme.
+  </description>
+
+  <maintainer email="aub@ipa.fhg.de">Alexander Bubeck</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/ur_driver</url>
+  <author>Stuart Glaser</author>
+  <author email="sedwards@swri.org">Shaun Edwards</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <run_depend>rospy</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>control_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>trajectory_msgs</run_depend>
+  <run_depend>ur_msgs</run_depend>
+  <run_depend>python-beautifulsoup</run_depend>
+
+
+  <export>
+  </export>
+</package>

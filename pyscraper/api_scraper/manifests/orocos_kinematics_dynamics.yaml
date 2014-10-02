@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/orocos_kinematics_dynamics/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- orocos_kdl
+- catkin
+- python_orocos_kdl
+depends_on: []
+description: "This package depends on a recent version of the Kinematics and Dynamics\n\
+  \    Library (KDL), distributed by the Orocos Project. It is a meta-package that\n\
+  \    depends on kdl which contains the c++ version and pykdl which contains the\n\
+  \    generated python bindings."
+devel_jobs:
+- devel-hydro-orocos_kinematics_dynamics
+doc_job: doc-hydro-orocos_kinematics_dynamics
+has_changelog_rst: false
+license: LGPL
+maintainer_status: maintained
+maintainers: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-orocos-kinematics-dynamics_sourcedeb
+- ros-hydro-orocos-kinematics-dynamics_binarydeb_precise_amd64
+- ros-hydro-orocos-kinematics-dynamics_binarydeb_precise_i386
+- ros-hydro-orocos-kinematics-dynamics_binarydeb_quantal_amd64
+- ros-hydro-orocos-kinematics-dynamics_binarydeb_quantal_i386
+- ros-hydro-orocos-kinematics-dynamics_binarydeb_raring_amd64
+- ros-hydro-orocos-kinematics-dynamics_binarydeb_raring_i386
+repo_name: orocos_kinematics_dynamics
+repo_url: ''
+srvs: []
+timestamp: 1405964302.829892
+url: ''
+vcs: git
+vcs_uri: https://github.com/orocos/orocos_kinematics_dynamics.git
+vcs_version: master

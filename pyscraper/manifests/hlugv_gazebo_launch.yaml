@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hlugv_gazebo_launch/html
+authors: Stefan Kohlbrecher
+brief: hlugv_gazebo_launch provides launch file for starting the hlugv inside gazebo
+  simulation scenarios
+bugtracker: ''
+depends:
+- hlugv_apps
+- hector_nist_arena_worlds
+- hlugv_gazebo
+depends_on: []
+description: "\n\n     hlugv_gazebo_launch provides launch file for starting the hlugv\
+  \ inside gazebo simulation scenarios\n\n  "
+doc_job: doc-hydro-hlugv_common
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: hlugv_common
+repo_url: ''
+srvs: []
+timestamp: 1405973650.773695
+url: http://ros.org/wiki/hlugv_gazebo_launch
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hlugv_common
+vcs_version: HEAD

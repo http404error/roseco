@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ur_gazebo/html
+authors: Alexander Bubeck
+brief: ''
+bugtracker: ''
+depends:
+- ur_description
+- catkin
+depends_on:
+- universal_robot
+description: Gazebo wrapper for the Universal UR5/10 robot arms.
+devel_jobs:
+- devel-hydro-universal_robot
+doc_job: doc-hydro-universal_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Shaun Edwards <sedwards@swri.org>
+metapackages:
+- universal_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ur-gazebo_sourcedeb
+- ros-hydro-ur-gazebo_binarydeb_precise_amd64
+- ros-hydro-ur-gazebo_binarydeb_precise_i386
+- ros-hydro-ur-gazebo_binarydeb_quantal_amd64
+- ros-hydro-ur-gazebo_binarydeb_quantal_i386
+- ros-hydro-ur-gazebo_binarydeb_raring_amd64
+- ros-hydro-ur-gazebo_binarydeb_raring_i386
+repo_name: universal_robot
+repo_url: ''
+srvs: []
+timestamp: 1405774318.633587
+url: ''
+vcs: git
+vcs_uri: https://github.com/ros-industrial/universal_robot.git
+vcs_version: hydro

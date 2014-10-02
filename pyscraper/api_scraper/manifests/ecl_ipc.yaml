@@ -1,0 +1,49 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ecl_ipc/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/stonier/ecl_core/issues
+depends:
+- catkin
+- ecl_license
+- ecl_errors
+- ecl_time_lite
+- ecl_time
+- ecl_config
+- ecl_build
+- ecl_exceptions
+depends_on:
+- ecl_core
+- ecl_core_apps
+description: "Interprocess mechanisms vary greatly across platforms - sysv, posix,\
+  \ win32, there\n  are more than a few. This package provides an infrastructure to\
+  \ allow for developing \n  cross platform c++ wrappers around the lower level c\
+  \ api's that handle these \n  mechanisms. These make it not only easier to utilise\
+  \ such mechanisms, but allow it \n  to be done consistently across platforms."
+devel_jobs:
+- devel-hydro-ecl_core
+doc_job: doc-hydro-ecl_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- ecl_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ecl-ipc_sourcedeb
+- ros-hydro-ecl-ipc_binarydeb_precise_amd64
+- ros-hydro-ecl-ipc_binarydeb_precise_i386
+- ros-hydro-ecl-ipc_binarydeb_quantal_amd64
+- ros-hydro-ecl-ipc_binarydeb_quantal_i386
+- ros-hydro-ecl-ipc_binarydeb_raring_amd64
+- ros-hydro-ecl-ipc_binarydeb_raring_i386
+repo_name: ecl_core
+repo_url: https://github.com/stonier/ecl_core
+srvs: []
+timestamp: 1405963110.201903
+url: http://wiki.ros.org/ecl_ipc
+vcs: git
+vcs_uri: https://github.com/stonier/ecl_core.git
+vcs_version: hydro-devel

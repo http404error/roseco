@@ -1,0 +1,21 @@
+<?xml version="1.0" ?><package>
+  <name>threemxl</name>
+  <version>0.2.0</version>
+  <description>Dynamixel and 3mxl driver</description>
+  <maintainer email="w.caarls@tudelft.nl">Wouter Caarls</maintainer>
+  <license>GPL</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>shared_serial</build_depend>
+  <build_depend>libreadline-dev</build_depend>
+  <build_depend>libftdipp-dev</build_depend>
+  <build_depend>muparser</build_depend>
+  <build_depend>tinyxml</build_depend>
+  <build_depend>pkg-config</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>shared_serial</run_depend>
+  <run_depend>libreadline</run_depend>
+  <run_depend>libftdipp-dev</run_depend>
+  <run_depend>muparser</run_depend>
+  <run_depend>tinyxml</run_depend>
+</package>

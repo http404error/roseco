@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/gps_common/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- roscpp
+- message_filters
+- std_msgs
+- message_runtime
+- sensor_msgs
+- message_generation
+depends_on:
+- rosjava_messages
+- gps_umd
+- gpsd_client
+description: GPS messages and common routines for use in GPS drivers
+devel_jobs:
+- devel-hydro-gps_umd
+doc_job: doc-hydro-gps_umd
+has_changelog_rst: true
+license: BSD
+maintainers: Timo Roehling <timo.roehling@fkie.fraunhofer.de>
+metapackages:
+- gps_umd
+msgs:
+- GPSStatus
+- GPSFix
+package_type: package
+release_jobs:
+- ros-hydro-gps-common_sourcedeb
+- ros-hydro-gps-common_binarydeb_precise_amd64
+- ros-hydro-gps-common_binarydeb_precise_i386
+- ros-hydro-gps-common_binarydeb_quantal_amd64
+- ros-hydro-gps-common_binarydeb_quantal_i386
+- ros-hydro-gps-common_binarydeb_raring_amd64
+- ros-hydro-gps-common_binarydeb_raring_i386
+repo_name: gps_umd
+repo_url: ''
+srvs: []
+timestamp: 1405770768.192005
+url: http://ros.org/wiki/gps_common
+vcs: git
+vcs_uri: https://github.com/ktossell/gps_umd.git
+vcs_version: master

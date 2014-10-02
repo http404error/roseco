@@ -1,0 +1,72 @@
+<package>
+  <name>rospilot</name>
+  <version>0.1.1</version>
+  <description>rospilot</description>
+
+   
+  
+  
+  <maintainer email="christopherberner@gmail.com">Christopher Berner</maintainer>
+
+
+  
+  
+  
+  <license>Apache</license>
+
+
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>roslint</build_depend>
+  <build_depend>libgphoto-dev</build_depend>
+  <build_depend>roscpp</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>std_srvs</run_depend>
+  <run_depend>rospilot_deps</run_depend>
+  <run_depend>rosbridge_suite</run_depend>
+  <run_depend>python-cherrypy</run_depend>
+  <run_depend>libvlc</run_depend>
+  <run_depend>roslaunch</run_depend>
+
+
+  
+  <export>
+    
+    
+
+    
+
+  </export>
+</package>

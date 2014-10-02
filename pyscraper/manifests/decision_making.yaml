@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/decision_making/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- decision_making_parsing
+- catkin
+- roscpp
+- actionlib_msgs
+- std_msgs
+- diagnostic_updater
+- rospy
+- message_generation
+- actionlib
+- robot_task
+depends_on:
+- decision_making_tools
+- decision_making_examples
+- dm_lizi
+- labust_mission
+description: The decision_making package
+doc_job: doc-hydro-decision_making
+has_changelog_rst: false
+license: TODO
+maintainers: dan <dan@todo.todo>
+metapackages:
+- decision_making_tools
+msgs: []
+package_type: package
+repo_name: decision_making
+repo_url: ''
+srvs: []
+timestamp: 1405962901.482576
+url: ''
+vcs: git
+vcs_uri: https://github.com/cogniteam/decision_making.git
+vcs_version: master

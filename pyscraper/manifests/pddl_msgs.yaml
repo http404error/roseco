@@ -1,0 +1,52 @@
+actions:
+- PDDLPlanner
+api_documentation: http://docs.ros.org/hydro/api/pddl_msgs/html
+authors: Ryohei Ueda (ueda@jsk.t.u-tokyo.ac.jp)
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- actionlib
+- message_runtime
+- catkin
+- actionlib_msgs
+depends_on:
+- rosjava_messages
+- jsk_planning
+- pddl_planner
+description: message for pddl planner
+devel_jobs:
+- devel-hydro-jsk_planning
+doc_job: doc-hydro-jsk_planning
+has_changelog_rst: true
+license: Apache License 2.0
+maintainer_status: developed
+maintainers: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>, Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>,
+  Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>, Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+metapackages:
+- pddl
+- jsk_planning
+msgs:
+- PDDLActionArray
+- PDDLStep
+- PDDLProblem
+- PDDLDomain
+- PDDLAction
+- PDDLObject
+package_type: package
+release_jobs:
+- ros-hydro-pddl-msgs_sourcedeb
+- ros-hydro-pddl-msgs_binarydeb_precise_amd64
+- ros-hydro-pddl-msgs_binarydeb_precise_i386
+- ros-hydro-pddl-msgs_binarydeb_quantal_amd64
+- ros-hydro-pddl-msgs_binarydeb_quantal_i386
+- ros-hydro-pddl-msgs_binarydeb_raring_amd64
+- ros-hydro-pddl-msgs_binarydeb_raring_i386
+repo_name: jsk_planning
+repo_url: ''
+srvs: []
+timestamp: 1405963633.699117
+url: ''
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_planning.git
+vcs_version: master

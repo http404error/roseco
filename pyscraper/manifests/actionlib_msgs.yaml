@@ -1,0 +1,119 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/actionlib_msgs/html
+authors: Vijay Pradeep
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- catkin
+- message_runtime
+- std_msgs
+depends_on:
+- pr2_move_base
+- moveit_msgs
+- robot_navigator
+- cob_lookat_action
+- pddl_msgs
+- jaco_driver
+- cob_light
+- cob_sound
+- pr2_controllers_msgs
+- cob_gazebo
+- motoman_driver
+- blort_msgs
+- cob_3d_segmentation
+- rosjava_messages
+- navcon_msgs
+- pano_ros
+- misc_msgs
+- cob_grasp_generation
+- moveit_core
+- cob_3d_mapping_point_map
+- industrial_robot_client
+- humanoid_nav_msgs
+- play_motion_msgs
+- cob_script_server
+- cob_pick_place_action
+- actionlib_tutorials
+- turtle_actionlib
+- tedusar_box_detection_msgs
+- jsk_footstep_msgs
+- iai_robosherlock_actions
+- nao_msgs
+- rosruby_messages
+- pr2_gripper_action
+- moveit_simple_grasps
+- actionlib_lisp
+- object_recognition_msgs
+- frontier_exploration
+- monocam_settler
+- cob_3d_mapping_msgs
+- actionlib
+- nao_pose
+- rosruby_actionlib
+- asctec_hl_comm
+- rtt_actionlib
+- image_cb_detector
+- common_msgs
+- yocs_waypoints_navi
+- tf2_ros
+- move_base_msgs
+- jaco_msgs
+- control_msgs
+- scanning_table_msgs
+- nav2d_navigator
+- laser_cb_detector
+- kobuki_auto_docking
+- face_detector
+- move_base_straight
+- joint_states_settler
+- pr2_mechanism_msgs
+- stdr_msgs
+- labust_primitives
+- tf2_msgs
+- tf2_web_republisher
+- robot_task
+- interval_intersection
+- turtlebot_actions
+- decision_making
+- topological_tools
+- iai_pancake_perception_action
+- nav_msgs
+- rosbridge_library
+- rtt_actionlib_msgs
+- kobuki_msgs
+- roseus
+description: "actionlib_msgs defines the common messages to interact with an\n   \
+  \  action server and an action client.  For full documentation of\n     the actionlib\
+  \ API see\n     the <a href=\"http://www.ros.org/wiki/actionlib\">actionlib</a>\n\
+  \     package."
+devel_jobs:
+- devel-hydro-common_msgs
+doc_job: doc-hydro-common_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Tully Foote <tfoote@osrfoundation.org>
+metapackages:
+- common_msgs
+msgs:
+- GoalID
+- GoalStatus
+- GoalStatusArray
+package_type: package
+release_jobs:
+- ros-hydro-actionlib-msgs_sourcedeb
+- ros-hydro-actionlib-msgs_binarydeb_precise_amd64
+- ros-hydro-actionlib-msgs_binarydeb_precise_i386
+- ros-hydro-actionlib-msgs_binarydeb_quantal_amd64
+- ros-hydro-actionlib-msgs_binarydeb_quantal_i386
+- ros-hydro-actionlib-msgs_binarydeb_raring_amd64
+- ros-hydro-actionlib-msgs_binarydeb_raring_i386
+repo_name: common_msgs
+repo_url: ''
+srvs: []
+timestamp: 1405962301.922686
+url: http://ros.org/wiki/actionlib_msgs
+vcs: git
+vcs_uri: https://github.com/ros/common_msgs.git
+vcs_version: hydro-devel

@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/dynamixel_controllers/html
+authors: Antons Rebguns, Cody Jorgensen, Cara Slutter
+brief: ''
+bugtracker: https://github.com/arebgun/dynamixel_motor
+depends:
+- catkin
+- actionlib
+- trajectory_msgs
+- std_msgs
+- rospy
+- dynamixel_driver
+- message_generation
+- control_msgs
+- dynamixel_msgs
+- diagnostic_msgs
+depends_on:
+- rosjava_messages
+- dynamixel_motor
+- dynamixel_tutorials
+description: "This package contains a configurable node, services and a spawner script\n\
+  \        to start, stop and restart one or more controller plugins. Reusable\n \
+  \       controller types are defined for common Dynamixel motor joints. Both speed\
+  \ and\n        torque can be set for each joint. This python package can be used\
+  \ by more\n        specific robot controllers and all configurable parameters can\
+  \ be loaded\n        via a yaml file."
+doc_job: doc-hydro-dynamixel_motor
+has_changelog_rst: true
+license: BSD
+maintainers: Antons Rebguns <arebgun@gmail.com>
+metapackages:
+- dynamixel_motor
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-dynamixel-controllers_sourcedeb
+- ros-hydro-dynamixel-controllers_binarydeb_precise_amd64
+- ros-hydro-dynamixel-controllers_binarydeb_precise_i386
+- ros-hydro-dynamixel-controllers_binarydeb_quantal_amd64
+- ros-hydro-dynamixel-controllers_binarydeb_quantal_i386
+- ros-hydro-dynamixel-controllers_binarydeb_raring_amd64
+- ros-hydro-dynamixel-controllers_binarydeb_raring_i386
+repo_name: dynamixel_motor
+repo_url: ''
+srvs:
+- RestartController
+- SetComplianceMargin
+- StartController
+- TorqueEnable
+- StopController
+- SetTorqueLimit
+- SetCompliancePunch
+- SetComplianceSlope
+- SetSpeed
+timestamp: 1405962979.443977
+url: http://ros.org/wiki/dynamixel_controllers
+vcs: git
+vcs_uri: https://github.com/arebgun/dynamixel_motor.git
+vcs_version: master

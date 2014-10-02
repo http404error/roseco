@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_ft_moveit_config/html
+authors: Francisco Vina <fevb@kth.se>
+brief: ''
+bugtracker: https://github.com/kth-ros-pkg/pr2_ft_moveit_config/issues
+depends:
+- catkin
+- moveit_ros_move_group
+depends_on: []
+description: Configuration and launch files for using the PR2 robot with force-torque
+  sensors with the MoveIt Motion Planning Framework
+doc_job: doc-hydro-pr2_ft_moveit_config
+has_changelog_rst: true
+license: BSD
+maintainers: Francisco Vina <fevb@kth.se>
+msgs: []
+package_type: package
+repo_name: pr2_ft_moveit_config
+repo_url: https://github.com/kth-ros-pkg/pr2_ft_moveit_config.git
+srvs: []
+timestamp: 1405974746.820753
+url: http://wiki.ros.org/pr2_ft_moveit_config
+vcs: git
+vcs_uri: https://github.com/kth-ros-pkg/pr2_ft_moveit_config.git
+vcs_version: hydro

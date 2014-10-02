@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/wheeled_robin_node/html
+authors: Johannes Mayr <joh.mayr@jku.at>, Klemens Springer <klemens.springer@jku.at>
+brief: ''
+bugtracker: https://github.com/robinJKU/wheeled_robin/issues
+depends:
+- dynamic_reconfigure
+- nav_msgs
+- catkin
+- message_runtime
+- python_orocos_kdl
+- tf
+- geometry_msgs
+- message_generation
+- rospy
+- wheeled_robin_driver
+- diagnostic_msgs
+depends_on:
+- wheeled_robin_bringup
+- wheeled_robin
+description: The wheeled_robin_node package
+doc_job: doc-hydro-wheeled_robin
+has_changelog_rst: false
+license: BSD
+maintainers: Johannes Mayr <joh.mayr@jku.at>
+metapackages:
+- wheeled_robin
+msgs:
+- WheeledRobinSensorState
+- WheeledRobinSensorStateRaw
+package_type: package
+repo_name: wheeled_robin
+repo_url: https://github.com/robinJKU/wheeled_robin
+srvs:
+- SetDigitalOutputs
+- SetWheeledRobinMode
+timestamp: 1405774468.30002
+url: http://ros.org/wiki/wheeled_robin_node
+vcs: git
+vcs_uri: https://github.com/robinJKU/wheeled_robin.git
+vcs_version: hydro-devel

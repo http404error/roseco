@@ -1,0 +1,18 @@
+authors: Ioan Sucan <isucan@willowgarage.edu>, Acorn Pooley <acorn@willowgarage.edu>
+depends:
+- catkin
+description: Resources used by MoveIt!
+license: BSD
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-moveit-resources_sourcedeb
+- ros-hydro-moveit-resources_binarydeb_precise_amd64
+- ros-hydro-moveit-resources_binarydeb_precise_i386
+- ros-hydro-moveit-resources_binarydeb_quantal_amd64
+- ros-hydro-moveit-resources_binarydeb_quantal_i386
+- ros-hydro-moveit-resources_binarydeb_raring_amd64
+- ros-hydro-moveit-resources_binarydeb_raring_i386
+repo_name: moveit_resources
+timestamp: 1405956414.884997
+url: http://moveit.ros.org

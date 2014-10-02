@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/erratic_teleop/html
+authors: Antons Rebguns
+brief: Teleoperation for Erratic robot
+bugtracker: ''
+depends:
+- geometry_msgs
+- roscpp
+depends_on: []
+description: "\n        This package contains keyboard teleoperation node used to\
+  \ drive the\n        Erratic robot.\n    "
+doc_job: doc-hydro-erratic_robot
+license: BSD
+maintainers: ''
+metapackages:
+- erratic_robot
+msgs: []
+package_type: package
+repo_name: erratic_robot
+repo_url: ''
+srvs: []
+timestamp: 1405963250.780975
+url: http://ros.org/wiki/erratic_teleop
+vcs: git
+vcs_uri: https://github.com/arebgun/erratic_robot.git
+vcs_version: master

@@ -1,0 +1,58 @@
+<package>
+  <name>blob</name>
+  <version>0.1.1</version>
+  <description>blob provides a new message type blob/Blob for binary data.</description>
+
+   
+  
+  
+  <maintainer email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</maintainer>
+
+
+  
+  
+  
+  <license>BSD</license>
+
+
+  
+  
+  
+  <url type="website">http://github.com/tu-darmstadt-ros-pkg/blob_tools</url>
+
+
+  
+  
+  
+  
+  <author email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</author>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>bzip2</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>bzip2</run_depend>
+
+
+  
+  <export>
+    
+    
+
+    
+
+  </export>
+</package>

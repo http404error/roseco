@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_interactive_teleop/html
+authors: Michal Spanel <spanel@fit.vutbr.cz>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- message_filters
+- sensor_msgs
+- interactive_markers
+- std_msgs
+- geometry_msgs
+- visualization_msgs
+- tf
+- rviz
+depends_on:
+- cob_command_tools
+description: COB teleop interactive marker for RViz provided by dcgm-robotics@FIT
+  group.
+devel_jobs:
+- devel-hydro-cob_command_tools
+doc_job: doc-hydro-cob_command_tools
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Michal Spanel <spanel@fit.vutbr.cz>
+metapackages:
+- cob_command_tools
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-interactive-teleop_sourcedeb
+- ros-hydro-cob-interactive-teleop_binarydeb_precise_amd64
+- ros-hydro-cob-interactive-teleop_binarydeb_precise_i386
+- ros-hydro-cob-interactive-teleop_binarydeb_quantal_amd64
+- ros-hydro-cob-interactive-teleop_binarydeb_quantal_i386
+- ros-hydro-cob-interactive-teleop_binarydeb_raring_amd64
+- ros-hydro-cob-interactive-teleop_binarydeb_raring_i386
+repo_name: cob_command_tools
+repo_url: ''
+srvs: []
+timestamp: 1405973048.420104
+url: http://ros.org/wiki/cob_interactive_teleop
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_command_tools.git
+vcs_version: hydro_release_candidate

@@ -1,0 +1,22 @@
+<package>
+  <name>neo_base_mp_500</name>
+  <version>0.1.2</version>
+  <description>
+    launchfiles for MP_500
+  </description>
+  <maintainer email="nieland@neobotix.de">Neobotix</maintainer>
+  <license>BSD</license>
+  <url type="website">http://www.neobotix-robots.com</url>
+  <author>Jan-Niklas Nieland</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>neo_platformctrl_diff</build_depend>
+  <build_depend>neo_relayboard</build_depend>
+  <build_depend>cob_sick_s300</build_depend>
+
+  <run_depend>neo_platformctrl_diff</run_depend>
+  <run_depend>neo_relayboard</run_depend>
+  <run_depend>cob_sick_s300</run_depend>
+
+</package>

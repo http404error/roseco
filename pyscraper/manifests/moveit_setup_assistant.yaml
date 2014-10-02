@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/moveit_setup_assistant/html
+authors: Dave Coleman <davetcoleman@gmail.com>
+brief: ''
+bugtracker: https://github.com/ros-planning/moveit_setup_assistant/issues
+depends:
+- moveit_core
+- catkin
+- moveit_ros_planning
+- yaml-cpp
+- xacro
+- moveit_ros_visualization
+depends_on: []
+description: Generates a configuration package that makes it easy to use MoveIt!
+doc_job: doc-hydro-moveit_setup_assistant
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@gmail.com>, Dave Coleman <davetcoleman@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-moveit-setup-assistant_sourcedeb
+- ros-hydro-moveit-setup-assistant_binarydeb_precise_amd64
+- ros-hydro-moveit-setup-assistant_binarydeb_precise_i386
+- ros-hydro-moveit-setup-assistant_binarydeb_quantal_amd64
+- ros-hydro-moveit-setup-assistant_binarydeb_quantal_i386
+- ros-hydro-moveit-setup-assistant_binarydeb_raring_amd64
+- ros-hydro-moveit-setup-assistant_binarydeb_raring_i386
+repo_name: moveit_setup_assistant
+repo_url: https://github.com/ros-planning/moveit_setup_assistant
+srvs: []
+timestamp: 1405964079.054379
+url: http://moveit.ros.org
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_setup_assistant.git
+vcs_version: hydro-devel

@@ -1,0 +1,19 @@
+authors: ''
+depends:
+- catkin
+- roscpp
+- nmea_msgs
+description: The nmea_comms package
+license: BSD
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+package_type: package
+release_jobs:
+- ros-hydro-nmea-comms_sourcedeb
+- ros-hydro-nmea-comms_binarydeb_precise_amd64
+- ros-hydro-nmea-comms_binarydeb_precise_i386
+- ros-hydro-nmea-comms_binarydeb_quantal_amd64
+- ros-hydro-nmea-comms_binarydeb_quantal_i386
+- ros-hydro-nmea-comms_binarydeb_raring_amd64
+- ros-hydro-nmea-comms_binarydeb_raring_i386
+repo_name: nmea_comms
+timestamp: 1405956414.898257

@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rtt_ros_msgs/html
+authors: ''
+brief: ''
+bugtracker: https://github.com/orocos/rtt_ros_integration/issues
+depends:
+- message_generation
+- catkin
+- message_runtime
+- std_msgs
+depends_on:
+- rtt_ros_integration
+- rtt_rosdeployment
+description: This package provides .msg and .srv files for use with the rtt_ros_integration
+  packages.
+devel_jobs:
+- devel-hydro-rtt_ros_integration
+doc_job: doc-hydro-rtt_ros_integration
+has_changelog_rst: false
+license: BSD
+maintainer_status: developed
+maintainers: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+metapackages:
+- rtt_ros_integration
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rtt-ros-msgs_sourcedeb
+- ros-hydro-rtt-ros-msgs_binarydeb_precise_amd64
+- ros-hydro-rtt-ros-msgs_binarydeb_precise_i386
+- ros-hydro-rtt-ros-msgs_binarydeb_quantal_amd64
+- ros-hydro-rtt-ros-msgs_binarydeb_quantal_i386
+- ros-hydro-rtt-ros-msgs_binarydeb_raring_amd64
+- ros-hydro-rtt-ros-msgs_binarydeb_raring_i386
+repo_name: rtt_ros_integration
+repo_url: ''
+srvs:
+- GetPeerList
+- RunScript
+timestamp: 1405975327.581291
+url: http://ros.org/wiki/rtt_ros_integration
+vcs: git
+vcs_uri: https://github.com/orocos/rtt_ros_integration.git
+vcs_version: hydro-devel

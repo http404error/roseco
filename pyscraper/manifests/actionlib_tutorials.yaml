@@ -1,0 +1,46 @@
+actions:
+- Averaging
+- Fibonacci
+api_documentation: http://docs.ros.org/hydro/api/actionlib_tutorials/html
+authors: Melonee Wise
+brief: ''
+bugtracker: https://github.com/ros/common_tutorials/issues
+depends:
+- catkin
+- roscpp
+- actionlib
+- message_runtime
+- std_msgs
+- message_generation
+- actionlib_msgs
+depends_on:
+- rosjava_messages
+- rosruby_tutorials
+- common_tutorials
+- rosruby_actionlib
+description: The actionlib_tutorials package
+doc_job: doc-hydro-common_tutorials
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- common_tutorials
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-actionlib-tutorials_sourcedeb
+- ros-hydro-actionlib-tutorials_binarydeb_precise_amd64
+- ros-hydro-actionlib-tutorials_binarydeb_precise_i386
+- ros-hydro-actionlib-tutorials_binarydeb_quantal_amd64
+- ros-hydro-actionlib-tutorials_binarydeb_quantal_i386
+- ros-hydro-actionlib-tutorials_binarydeb_raring_amd64
+- ros-hydro-actionlib-tutorials_binarydeb_raring_i386
+repo_name: common_tutorials
+repo_url: https://github.com/ros/common_tutorials
+srvs: []
+timestamp: 1405973203.158426
+url: http://www.ros.org/wiki/actionlib/Tutorials
+vcs: git
+vcs_uri: https://github.com/ros/common_tutorials.git
+vcs_version: hydro-devel

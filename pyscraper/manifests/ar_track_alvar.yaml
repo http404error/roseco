@@ -1,0 +1,36 @@
+authors: ''
+depends:
+- dynamic_reconfigure
+- pcl_conversions
+- roscpp
+- std_msgs
+- message_runtime
+- sensor_msgs
+- resource_retriever
+- image_transport
+- tf
+- geometry_msgs
+- tinyxml
+- visualization_msgs
+- message_generation
+- rospy
+- catkin
+- tf2
+- cv_bridge
+- pcl_ros
+description: This package is a ROS wrapper for Alvar, an open source AR tag tracking
+  library.
+license: BSD
+maintainers: Scott Niekum <sniekum@cs.umass.edu>
+package_type: package
+release_jobs:
+- ros-hydro-ar-track-alvar_sourcedeb
+- ros-hydro-ar-track-alvar_binarydeb_precise_amd64
+- ros-hydro-ar-track-alvar_binarydeb_precise_i386
+- ros-hydro-ar-track-alvar_binarydeb_quantal_amd64
+- ros-hydro-ar-track-alvar_binarydeb_quantal_i386
+- ros-hydro-ar-track-alvar_binarydeb_raring_amd64
+- ros-hydro-ar-track-alvar_binarydeb_raring_i386
+repo_name: ar_track_alvar
+timestamp: 1405956414.676829
+url: http://ros.org/wiki/ar_track_alvar

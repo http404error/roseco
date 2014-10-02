@@ -1,0 +1,84 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/costmap_2d/html
+authors: Eitan Marder-Eppstein, David V. Lu!!, Dave Hershberger, contradict@gmail.com
+brief: ''
+bugtracker: ''
+depends:
+- rosconsole
+- pcl_conversions
+- cmake_modules
+- catkin
+- pcl_ros
+- nav_msgs
+- laser_geometry
+- roscpp
+- rostest
+- visualization_msgs
+- tf
+- map_server
+- message_filters
+- sensor_msgs
+- message_runtime
+- std_msgs
+- message_generation
+- map_msgs
+- voxel_grid
+- dynamic_reconfigure
+- pluginlib
+- geometry_msgs
+- rosbag
+depends_on:
+- rosjava_messages
+- navigation
+- move_slow_and_clear
+- cob_bringup
+- hector_exploration_planner
+- clear_costmap_recovery
+- navfn
+- dwa_local_planner
+- move_base
+- erratic_navigation_apps
+- robot_operator
+- frontier_exploration
+- base_local_planner
+- carrot_planner
+- social_navigation_layers
+- rotate_recovery
+- global_planner
+- nav2d_operator
+- nav_core
+description: "This package provides an implementation of a 2D costmap that takes in\
+  \ sensor\n        data from the world, builds a 2D or 3D occupancy grid of the data\
+  \ (depending\n        on whether a voxel based implementation is used), and inflates\
+  \ costs in a\n        2D costmap based on the occupancy grid and a user specified\
+  \ inflation radius.\n        This package also provides support for map_server based\
+  \ initialization of a\n        costmap, rolling window based costmaps, and parameter\
+  \ based subscription to\n        and configuration of sensor topics."
+devel_jobs:
+- devel-hydro-navigation
+doc_job: doc-hydro-navigation
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <fergs@unboundedrobotics.com>
+metapackages:
+- navigation
+msgs:
+- VoxelGrid
+package_type: package
+release_jobs:
+- ros-hydro-costmap-2d_sourcedeb
+- ros-hydro-costmap-2d_binarydeb_precise_amd64
+- ros-hydro-costmap-2d_binarydeb_precise_i386
+- ros-hydro-costmap-2d_binarydeb_quantal_amd64
+- ros-hydro-costmap-2d_binarydeb_quantal_i386
+- ros-hydro-costmap-2d_binarydeb_raring_amd64
+- ros-hydro-costmap-2d_binarydeb_raring_i386
+repo_name: navigation
+repo_url: ''
+srvs: []
+timestamp: 1405974560.051655
+url: http://wiki.ros.org/costmap_2d
+vcs: git
+vcs_uri: https://github.com/ros-planning/navigation.git
+vcs_version: hydro-devel

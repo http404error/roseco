@@ -1,0 +1,50 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_kinematics/html
+authors: Mathias Luedtke <mdl@ipa.fhg.de>
+brief: ''
+bugtracker: https://github.com/ipa320/cob_manipulation/issues
+depends:
+- moveit_core
+- message_runtime
+- catkin
+- roscpp
+- pluginlib
+- moveit_msgs
+- urdf
+- std_msgs
+- geometry_msgs
+- message_generation
+- liblapack-dev
+- tf_conversions
+depends_on:
+- rosjava_messages
+- cob_manipulation
+description: IK solvers and utilities for Care-O-bot
+devel_jobs:
+- devel-hydro-cob_manipulation
+doc_job: doc-hydro-cob_manipulation
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Mathias Luedtke <mdl@ipa.fhg.de>, Felix Messmer <fxm@ipa.fhg.de>
+metapackages:
+- cob_manipulation
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-kinematics_sourcedeb
+- ros-hydro-cob-kinematics_binarydeb_precise_amd64
+- ros-hydro-cob-kinematics_binarydeb_precise_i386
+- ros-hydro-cob-kinematics_binarydeb_quantal_amd64
+- ros-hydro-cob-kinematics_binarydeb_quantal_i386
+- ros-hydro-cob-kinematics_binarydeb_raring_amd64
+- ros-hydro-cob-kinematics_binarydeb_raring_i386
+repo_name: cob_manipulation
+repo_url: https://github.com/ipa320/cob_manipulation
+srvs:
+- GetPositionIKExtended
+timestamp: 1405962316.338012
+url: http://ros.org/wiki/cob_manipulation/
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_manipulation.git
+vcs_version: hydro_release_candidate

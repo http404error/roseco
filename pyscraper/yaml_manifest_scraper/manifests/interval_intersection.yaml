@@ -1,0 +1,51 @@
+actions:
+- Config
+api_documentation: http://docs.ros.org/hydro/api/interval_intersection/html
+authors: Romain Thibaux
+brief: ''
+bugtracker: ''
+depends:
+- rosconsole
+- catkin
+- roscpp
+- std_msgs
+- actionlib
+- rostime
+- roscpp_serialization
+- geometry_msgs
+- calibration_msgs
+- boost
+- actionlib_msgs
+depends_on:
+- calibration_launch
+- calibration
+description: "Tools for calculating the intersection of interval messages coming\n\
+  \    in on several topics. This package is experimental and unstable.\n    Expect\
+  \ its APIs to change."
+devel_jobs:
+- devel-hydro-calibration
+doc_job: doc-hydro-calibration
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+metapackages:
+- calibration
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-interval-intersection_sourcedeb
+- ros-hydro-interval-intersection_binarydeb_precise_amd64
+- ros-hydro-interval-intersection_binarydeb_precise_i386
+- ros-hydro-interval-intersection_binarydeb_quantal_amd64
+- ros-hydro-interval-intersection_binarydeb_quantal_i386
+- ros-hydro-interval-intersection_binarydeb_raring_amd64
+- ros-hydro-interval-intersection_binarydeb_raring_i386
+repo_name: calibration
+repo_url: ''
+srvs: []
+timestamp: 1405962113.146596
+url: http://www.ros.org/wiki/interval_intersection
+vcs: git
+vcs_uri: https://github.com/ros-perception/calibration.git
+vcs_version: hydro

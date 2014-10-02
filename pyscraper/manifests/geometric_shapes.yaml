@@ -1,0 +1,53 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/geometric_shapes/html
+authors: Ioan Sucan <isucan@google.com>
+brief: ''
+bugtracker: ''
+depends:
+- shape_tools
+- shape_msgs
+- catkin
+- eigen
+- libqhull
+- resource_retriever
+- assimp-dev
+- assimp
+- octomap
+- random_numbers
+- eigen_stl_containers
+- console_bridge
+- boost
+- cmake_modules
+- pkg-config
+depends_on:
+- hrl_kinematics
+- moveit_core
+- collada_urdf
+- collada_urdf_jsk_patch
+- moveit_ros_visualization
+description: This package contains generic definitions of geometric shapes and bodies.
+devel_jobs:
+- devel-hydro-geometric_shapes
+doc_job: doc-hydro-geometric_shapes
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@google.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-geometric-shapes_sourcedeb
+- ros-hydro-geometric-shapes_binarydeb_precise_amd64
+- ros-hydro-geometric-shapes_binarydeb_precise_i386
+- ros-hydro-geometric-shapes_binarydeb_quantal_amd64
+- ros-hydro-geometric-shapes_binarydeb_quantal_i386
+- ros-hydro-geometric-shapes_binarydeb_raring_amd64
+- ros-hydro-geometric-shapes_binarydeb_raring_i386
+repo_name: geometric_shapes
+repo_url: ''
+srvs: []
+timestamp: 1405963226.177001
+url: http://ros.org/wiki/geometric_shapes
+vcs: git
+vcs_uri: https://github.com/ros-planning/geometric_shapes.git
+vcs_version: hydro-devel

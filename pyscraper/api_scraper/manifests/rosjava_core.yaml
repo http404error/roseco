@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosjava_core/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- rosjava_bootstrap
+- catkin
+- rosjava_build_tools
+- rosjava_messages
+depends_on:
+- android_remocons
+- rosjava
+- android_core
+- rosjava_extras
+description: An implementation of ROS in pure-Java with Android support.
+devel_jobs:
+- devel-hydro-rosjava_core
+doc_job: doc-hydro-rosjava_core
+has_changelog_rst: true
+license: Apache 2.0
+maintainer_status: developed
+maintainers: Damon Kohler <damonkohler@google.com>
+metapackages:
+- rosjava
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosjava-core_sourcedeb
+- ros-hydro-rosjava-core_binarydeb_precise_amd64
+- ros-hydro-rosjava-core_binarydeb_precise_i386
+- ros-hydro-rosjava-core_binarydeb_quantal_amd64
+- ros-hydro-rosjava-core_binarydeb_quantal_i386
+- ros-hydro-rosjava-core_binarydeb_raring_amd64
+- ros-hydro-rosjava-core_binarydeb_raring_i386
+repo_name: rosjava_core
+repo_url: ''
+srvs: []
+timestamp: 1405964942.667308
+url: http://ros.org/wiki/rosjava_core
+vcs: git
+vcs_uri: https://github.com/rosjava/rosjava_core.git
+vcs_version: hydro

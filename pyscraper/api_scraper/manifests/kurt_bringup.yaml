@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kurt_bringup/html
+authors: Jochen Sprickerhof
+brief: kurt_bringup
+bugtracker: ''
+depends:
+- kurt_description
+- sicktoolbox_wrapper
+- robot_state_publisher
+- rotunit_snapshotter
+- kurt_base
+- laser_assembler
+- uos_diffdrive_teleop
+depends_on:
+- kurt3d
+description: "\n\n     kurt_bringup\n\n  "
+doc_job: doc-hydro-kurt_driver
+license: BSD
+maintainers: ''
+metapackages:
+- kurt_driver
+msgs: []
+package_type: package
+repo_name: kurt_driver
+repo_url: ''
+srvs: []
+timestamp: 1405974109.985483
+url: http://ros.org/wiki/kurt_bringup
+vcs: git
+vcs_uri: https://github.com/uos/kurt_driver.git
+vcs_version: hydro

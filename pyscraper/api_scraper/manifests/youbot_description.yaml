@@ -1,0 +1,17 @@
+authors: Frederik Heger <frederik.hegger@h-brs.de>
+depends:
+- catkin
+description: Robot descriptions in form of URDF files and meshes
+license: GPLv3
+maintainers: Walter Nowak <nowak@locomotec.com>, Sebastian Blumenthal <blumenthal@locomotec.com>
+package_type: package
+release_jobs:
+- ros-hydro-youbot-description_sourcedeb
+- ros-hydro-youbot-description_binarydeb_precise_amd64
+- ros-hydro-youbot-description_binarydeb_precise_i386
+- ros-hydro-youbot-description_binarydeb_quantal_amd64
+- ros-hydro-youbot-description_binarydeb_quantal_i386
+- ros-hydro-youbot-description_binarydeb_raring_amd64
+- ros-hydro-youbot-description_binarydeb_raring_i386
+repo_name: youbot_description
+timestamp: 1405956415.189813

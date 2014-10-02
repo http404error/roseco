@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_icons/html
+authors: Daniel Stonier
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_tools/issues
+depends:
+- catkin
+depends_on:
+- rocon_interactions
+- rocon_master_info
+description: Icons for rocon.
+doc_job: doc-hydro-rocon_tools
+has_changelog_rst: true
+license: BSD
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+msgs: []
+package_type: package
+repo_name: rocon_tools
+repo_url: https://github.com/robotics-in-concert/rocon_tools
+srvs: []
+timestamp: 1399026941.779587
+url: http://ros.org/wiki/rocon_icons
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_tools.git
+vcs_version: hydro-devel

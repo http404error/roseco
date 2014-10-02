@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ros_web_video/html
+authors: Julius Kammer <jkammerl@willowgarage.com>
+brief: ''
+bugtracker: https://github.com/RobotWebTools/ros_web_video/issues
+depends:
+- bzip2
+- git
+- catkin
+- roscpp
+- rostime
+- zlib
+- sensor_msgs
+- mk
+- yasm
+- image_transport
+depends_on: []
+description: Streaming of ROS Image Topics via HTTP
+devel_jobs:
+- devel-hydro-ros_web_video
+doc_job: doc-hydro-ros_web_video
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Russell Toris <rctoris@wpi.edu>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ros-web-video_sourcedeb
+- ros-hydro-ros-web-video_binarydeb_precise_amd64
+- ros-hydro-ros-web-video_binarydeb_precise_i386
+- ros-hydro-ros-web-video_binarydeb_quantal_amd64
+- ros-hydro-ros-web-video_binarydeb_quantal_i386
+- ros-hydro-ros-web-video_binarydeb_raring_amd64
+- ros-hydro-ros-web-video_binarydeb_raring_i386
+repo_name: ros_web_video
+repo_url: https://github.com/RobotWebTools/ros_web_video
+srvs: []
+timestamp: 1405773258.311349
+url: http://wiki.ros.org/ros_web_video
+vcs: git
+vcs_uri: https://github.com/RobotWebTools/ros_web_video.git
+vcs_version: master

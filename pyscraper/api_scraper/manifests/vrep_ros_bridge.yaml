@@ -1,0 +1,33 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/vrep_ros_bridge/html
+authors: Riccardo Spica <riccardo.spica@inria.fr>, Giovanni Claudio <giovanni.claudio@inria.fr>
+brief: ''
+bugtracker: ''
+depends: &id001
+- imu_handler
+- manipulator_handler
+- catkin
+- quadrotor_handler
+- force_sensor_handler
+- vrep_ros_plugin
+- camera_handler
+- rigid_body_handler
+depends_on: []
+description: The main application of the plugin is to provide a communication interface
+  between V-Rep and (ROS). The aim is to control the V-Rep simulation externally using
+  ROS messages and ROS services.
+doc_job: doc-hydro-vrep_ros_bridge
+has_changelog_rst: false
+license: GPLv2
+maintainers: Giovanni Claudio <giovanni.claudio@inria.fr>, Riccardo Spica <riccardo.spica@inria.fr>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: vrep_ros_bridge
+repo_url: ''
+srvs: []
+timestamp: 1405975691.31726
+url: http://wiki.ros.org/vrep_ros_bridge
+vcs: git
+vcs_uri: https://github.com/lagadic/vrep_ros_bridge.git
+vcs_version: master

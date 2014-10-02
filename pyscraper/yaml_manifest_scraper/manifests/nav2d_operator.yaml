@@ -1,0 +1,52 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nav2d_operator/html
+authors: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- costmap_2d
+- message_runtime
+- sensor_msgs
+- tf
+- message_generation
+depends_on:
+- nav2d_tutorials
+- rosjava_messages
+- nav2d_remote
+- nav2d
+- nav2d_navigator
+description: "The operator is a lightweight, purely reactive obstacle-avoidance\n\
+  \    module for mobile robots moving in a planar environment. The operator node\n\
+  \    works by evaluating a set of predefined motion primitives based on a local\n\
+  \    costmap and a desired direction. The best evaluated motion command will be\n\
+  \    send to the mobile base."
+devel_jobs:
+- devel-hydro-navigation_2d
+doc_job: doc-hydro-navigation_2d
+has_changelog_rst: false
+license: GPLv3
+maintainer_status: developed
+maintainers: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+metapackages:
+- nav2d
+msgs:
+- cmd
+package_type: package
+release_jobs:
+- ros-hydro-nav2d-operator_sourcedeb
+- ros-hydro-nav2d-operator_binarydeb_precise_amd64
+- ros-hydro-nav2d-operator_binarydeb_precise_i386
+- ros-hydro-nav2d-operator_binarydeb_quantal_amd64
+- ros-hydro-nav2d-operator_binarydeb_quantal_i386
+- ros-hydro-nav2d-operator_binarydeb_raring_amd64
+- ros-hydro-nav2d-operator_binarydeb_raring_i386
+repo_name: navigation_2d
+repo_url: ''
+srvs: []
+timestamp: 1405974507.283485
+url: http://wiki.ros.org/nav2d_operator
+vcs: git
+vcs_uri: https://github.com/skasperski/navigation_2d.git
+vcs_version: hydro

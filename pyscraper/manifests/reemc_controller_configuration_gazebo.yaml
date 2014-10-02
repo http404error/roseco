@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/reemc_controller_configuration_gazebo/html
+authors: Luca Marchionni <luca.marchionni@pal-robotics.com>
+brief: ''
+bugtracker: ''
+depends:
+- joint_trajectory_controller
+- catkin
+- controller_manager
+- joint_state_controller
+depends_on:
+- reemc_simulation
+- reemc_gazebo
+description: "Gazebo-specifig launch files and scripts needed to configure\n    the\
+  \ controllers of the REEM-C robot in simulation."
+doc_job: doc-hydro-reemc_simulation
+has_changelog_rst: false
+license: Modified BSD
+maintainers: Luca Marchionni <luca.marchionni@pal-robotics.com>, Paul Mathieu <paul.mathieu@pal-robotics.com>
+metapackages:
+- reemc_simulation
+msgs: []
+package_type: package
+repo_name: reemc_simulation
+repo_url: ''
+srvs: []
+timestamp: 1405974933.826626
+url: ''
+vcs: git
+vcs_uri: https://github.com/pal-robotics/reemc_simulation.git
+vcs_version: hydro-devel

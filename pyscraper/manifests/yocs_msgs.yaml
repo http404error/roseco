@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/yocs_msgs/html
+authors: Jorge Santos <jorge@rnd.yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/yujin_ocs/issues
+depends:
+- std_srvs
+- message_runtime
+- std_msgs
+- geometry_msgs
+- message_generation
+- catkin
+depends_on:
+- rosjava_messages
+- yocs_virtual_sensor
+- rosruby_messages
+description: Yujin's Open Control System messages, services and actions
+devel_jobs:
+- devel-hydro-yocs_msgs
+doc_job: doc-hydro-yocs_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Jorge Santos <jorge@rnd.yujinrobot.com>
+msgs:
+- ColumnList
+- Column
+- Wall
+- WallList
+package_type: package
+release_jobs:
+- ros-hydro-yocs-msgs_sourcedeb
+- ros-hydro-yocs-msgs_binarydeb_precise_amd64
+- ros-hydro-yocs-msgs_binarydeb_precise_i386
+- ros-hydro-yocs-msgs_binarydeb_quantal_amd64
+- ros-hydro-yocs-msgs_binarydeb_quantal_i386
+- ros-hydro-yocs-msgs_binarydeb_raring_amd64
+- ros-hydro-yocs-msgs_binarydeb_raring_i386
+repo_name: yocs_msgs
+repo_url: https://github.com/yujinrobot/yujin_ocs
+srvs: []
+timestamp: 1405975715.510074
+url: http://ros.org/wiki/yocs_msgs
+vcs: git
+vcs_uri: https://github.com/yujinrobot/yocs_msgs.git
+vcs_version: hydro

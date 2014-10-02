@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/oculus_sdk/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- mesa-common-dev
+- cmake
+- glut
+- libxinerama-dev
+- libxext
+- libudev-dev
+depends_on:
+- oculus_rviz_plugins
+description: The Oculus Rift SDK
+doc_job: doc-hydro-oculus_sdk
+has_changelog_rst: false
+license: Oculus Rift SDK
+maintainers: Tully Foote <tfoote@osrfoundation.org>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-oculus-sdk_sourcedeb
+- ros-hydro-oculus-sdk_binarydeb_precise_amd64
+- ros-hydro-oculus-sdk_binarydeb_precise_i386
+- ros-hydro-oculus-sdk_binarydeb_quantal_amd64
+- ros-hydro-oculus-sdk_binarydeb_quantal_i386
+- ros-hydro-oculus-sdk_binarydeb_raring_amd64
+- ros-hydro-oculus-sdk_binarydeb_raring_i386
+repo_name: oculus_sdk
+repo_url: ''
+srvs: []
+timestamp: 1405772412.149394
+url: https://developer.oculusvr.com
+vcs: git
+vcs_uri: https://github.com/ros-visualization/oculus_sdk.git
+vcs_version: groovy-devel

@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_calibration_data/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on:
+- cob_hardware_config
+description: This repository holds the current calibration data for Care-O-bot.
+devel_jobs:
+- devel-hydro-cob_calibration_data
+doc_job: doc-hydro-cob_calibration_data
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-calibration-data_sourcedeb
+- ros-hydro-cob-calibration-data_binarydeb_precise_amd64
+- ros-hydro-cob-calibration-data_binarydeb_precise_i386
+- ros-hydro-cob-calibration-data_binarydeb_quantal_amd64
+- ros-hydro-cob-calibration-data_binarydeb_quantal_i386
+- ros-hydro-cob-calibration-data_binarydeb_raring_amd64
+- ros-hydro-cob-calibration-data_binarydeb_raring_i386
+repo_name: cob_calibration_data
+repo_url: ''
+srvs: []
+timestamp: 1405972901.855209
+url: http://ros.org/wiki/cob_calibration_data
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_calibration_data.git
+vcs_version: hydro_release_candidate

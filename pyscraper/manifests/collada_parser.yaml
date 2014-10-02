@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/collada_parser/html
+authors: Rosen Diankov, Kei Okada
+brief: ''
+bugtracker: https://github.com/ros/robot_model/issues
+depends:
+- catkin
+- roscpp
+- collada-dom
+- urdfdom_headers
+- urdf_parser_plugin
+- class_loader
+depends_on:
+- collada_urdf
+- collada_urdf_jsk_patch
+- robot_model
+description: "This package contains a C++ parser for the Collada robot\n    description\
+  \ format. The parser reads a Collada XML robot\n    description, and creates a C++\
+  \ URDF model. Although it is possible\n    to directly use this parser when working\
+  \ with Collada robot\n    descriptions, the preferred user API is found in the urdf\
+  \ package."
+devel_jobs:
+- devel-hydro-robot_model
+doc_job: doc-hydro-robot_model
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@gmail.com>
+metapackages:
+- robot_model
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-collada-parser_sourcedeb
+- ros-hydro-collada-parser_binarydeb_precise_amd64
+- ros-hydro-collada-parser_binarydeb_precise_i386
+- ros-hydro-collada-parser_binarydeb_quantal_amd64
+- ros-hydro-collada-parser_binarydeb_quantal_i386
+- ros-hydro-collada-parser_binarydeb_raring_amd64
+- ros-hydro-collada-parser_binarydeb_raring_i386
+repo_name: robot_model
+repo_url: https://github.com/ros/robot_model
+srvs: []
+timestamp: 1405974874.917538
+url: http://ros.org/wiki/collada_parser
+vcs: git
+vcs_uri: https://github.com/ros/robot_model.git
+vcs_version: hydro-devel

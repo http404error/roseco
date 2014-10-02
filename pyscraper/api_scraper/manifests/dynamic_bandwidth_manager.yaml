@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/dynamic_bandwidth_manager/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- std_msgs
+- rospy
+- roscpp
+- catkin
+depends_on: []
+description: dynamic_bandwidth_manager is a ros-based dynamic bandwidth management
+  system for controlling the rate that a node publishes a topic, managing different
+  channels where commands, sensory data and video frames are exchanged
+doc_job: doc-hydro-rosdbm
+has_changelog_rst: false
+license: BSD
+maintainers: Ricardo Emerson Julio <ricardo@gmail.com>, Guilherme Sousa Bastos <sousa@unifei.edu.br>
+msgs: []
+package_type: package
+repo_name: rosdbm
+repo_url: ''
+srvs: []
+timestamp: 1405975007.017597
+url: ''
+vcs: git
+vcs_uri: https://github.com/ricardoej/rosdbm.git
+vcs_version: master

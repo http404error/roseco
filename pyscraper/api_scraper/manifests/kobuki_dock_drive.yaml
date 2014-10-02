@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kobuki_dock_drive/html
+authors: Younghun Ju <yhju@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/kobuki_core/issues
+depends:
+- ecl_threads
+- ecl_linear_algebra
+- catkin
+- ecl_geometry
+depends_on:
+- kobuki_core
+- kobuki_auto_docking
+description: "Dock driving library for Kobuki. Users owning a docking station for\
+  \ Kobuki \n\t    can use this tool to develop autonomous docking drive algorithms."
+devel_jobs:
+- devel-hydro-kobuki_core
+doc_job: doc-hydro-kobuki_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Younghun Ju <yhju@yujinrobot.com>
+metapackages:
+- kobuki_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-kobuki-dock-drive_sourcedeb
+- ros-hydro-kobuki-dock-drive_binarydeb_precise_amd64
+- ros-hydro-kobuki-dock-drive_binarydeb_precise_i386
+- ros-hydro-kobuki-dock-drive_binarydeb_quantal_amd64
+- ros-hydro-kobuki-dock-drive_binarydeb_quantal_i386
+- ros-hydro-kobuki-dock-drive_binarydeb_raring_amd64
+- ros-hydro-kobuki-dock-drive_binarydeb_raring_i386
+repo_name: kobuki_core
+repo_url: https://github.com/yujinrobot/kobuki_core
+srvs: []
+timestamp: 1405974039.447272
+url: http://ros.org/wiki/kobuki_dock_drive
+vcs: git
+vcs_uri: https://github.com/yujinrobot/kobuki_core.git
+vcs_version: hydro

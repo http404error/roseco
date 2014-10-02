@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roscpp_core/html
+authors: Josh Faust
+brief: ''
+bugtracker: ''
+depends: &id001
+- roscpp_traits
+- rostime
+- cpp_common
+- catkin
+- roscpp_serialization
+depends_on: []
+description: Underlying data libraries for roscpp messages.
+devel_jobs:
+- devel-hydro-roscpp_core
+doc_job: doc-hydro-roscpp_core
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-roscpp-core_sourcedeb
+- ros-hydro-roscpp-core_binarydeb_precise_amd64
+- ros-hydro-roscpp-core_binarydeb_precise_i386
+- ros-hydro-roscpp-core_binarydeb_quantal_amd64
+- ros-hydro-roscpp-core_binarydeb_quantal_i386
+- ros-hydro-roscpp-core_binarydeb_raring_amd64
+- ros-hydro-roscpp-core_binarydeb_raring_i386
+repo_name: roscpp_core
+repo_url: ''
+srvs: []
+timestamp: 1405773299.238209
+url: http://www.ros.org/wiki/roscpp_core
+vcs: git
+vcs_uri: https://github.com/ros/roscpp_core.git
+vcs_version: hydro-devel

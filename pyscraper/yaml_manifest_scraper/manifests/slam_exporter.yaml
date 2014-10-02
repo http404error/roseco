@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/slam_exporter/html
+authors: Jochen Sprickerhof
+brief: slam_exporter
+bugtracker: ''
+depends:
+- tf
+- sensor_msgs
+- roscpp
+- pcl_ros
+depends_on: []
+description: "\n\n     slam_exporter\n\n  "
+doc_job: doc-hydro-uos_slam
+license: BSD
+maintainers: ''
+metapackages:
+- uos_slam
+msgs: []
+package_type: package
+repo_name: uos_slam
+repo_url: ''
+srvs: []
+timestamp: 1405965351.539475
+url: http://ros.org/wiki/slam_exporter
+vcs: git
+vcs_uri: https://github.com/uos/uos_slam.git
+vcs_version: hydro

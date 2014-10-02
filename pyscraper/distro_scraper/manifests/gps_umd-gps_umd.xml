@@ -1,0 +1,54 @@
+<package>
+  <name>gps_umd</name>
+  <version>0.1.7</version>
+  <description>gps_umd metapackage</description>
+
+   
+  
+  
+  <maintainer email="ken@tossell.net">Ken Tossell</maintainer>
+
+
+  
+  
+  
+  <license>BSD</license>
+
+
+  
+  
+  
+  <url type="website">http://ros.org/wiki/gps_umd</url>
+
+
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <run_depend>gpsd_client</run_depend>
+  <run_depend>gps_common</run_depend>
+  
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  
+  <export>
+    
+    <metapackage />
+
+    
+
+  </export>
+</package>

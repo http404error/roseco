@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/demo_rgbd/html
+authors: Ji Zhang
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- std_msgs
+- sensor_msgs
+- cv_bridge
+- pcl_ros
+depends_on: []
+description: Depth Enhanced Monocular Odometry (RGBD camera version)
+doc_job: doc-hydro-demo_rgbd
+has_changelog_rst: false
+license: LGPL
+maintainers: Ji Zhang <zhangji@cmu.edu>
+msgs: []
+package_type: package
+repo_name: demo_rgbd
+repo_url: ''
+srvs: []
+timestamp: 1405962956.156795
+url: http://wiki.ros.org/demo_rgbd
+vcs: git
+vcs_uri: https://github.com/jizhang-cmu/demo_rgbd.git
+vcs_version: hydro

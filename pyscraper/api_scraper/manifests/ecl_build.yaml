@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ecl_build/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/stonier/ecl_tools/issues
+depends:
+- catkin
+- ecl_license
+depends_on:
+- ecl_time_lite
+- ecl_tools
+- ecl_threads
+- ecl_ipc
+- ecl_config
+description: "Collection of cmake/make build tools primarily for ecl development itself,\
+  \ but also\n     contains a few cmake modules useful outside of the ecl."
+devel_jobs:
+- devel-hydro-ecl_tools
+doc_job: doc-hydro-ecl_tools
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- ecl_tools
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ecl-build_sourcedeb
+- ros-hydro-ecl-build_binarydeb_precise_amd64
+- ros-hydro-ecl-build_binarydeb_precise_i386
+- ros-hydro-ecl-build_binarydeb_quantal_amd64
+- ros-hydro-ecl-build_binarydeb_quantal_i386
+- ros-hydro-ecl-build_binarydeb_raring_amd64
+- ros-hydro-ecl-build_binarydeb_raring_i386
+repo_name: ecl_tools
+repo_url: https://github.com/stonier/ecl_tools
+srvs: []
+timestamp: 1405963109.674875
+url: http://wiki.ros.org/ecl_build
+vcs: git
+vcs_uri: https://github.com/stonier/ecl_tools.git
+vcs_version: hydro-devel

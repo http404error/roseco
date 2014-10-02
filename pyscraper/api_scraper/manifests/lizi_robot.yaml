@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/lizi_robot/html
+authors: RoboTiCan <support@robotican.net>
+brief: ''
+bugtracker: ''
+depends: &id001
+- lizi
+- lizi_arduino
+- catkin
+- lizi_base_station
+- lizi_urdf
+depends_on: []
+description: Lizi robot package collection
+devel_jobs:
+- devel-hydro-lizi_robot
+doc_job: doc-hydro-lizi_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: RoboTiCan <support@robotican.net>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-lizi-robot_sourcedeb
+- ros-hydro-lizi-robot_binarydeb_precise_amd64
+- ros-hydro-lizi-robot_binarydeb_precise_i386
+- ros-hydro-lizi-robot_binarydeb_quantal_amd64
+- ros-hydro-lizi-robot_binarydeb_quantal_i386
+- ros-hydro-lizi-robot_binarydeb_raring_amd64
+- ros-hydro-lizi-robot_binarydeb_raring_i386
+repo_name: lizi_robot
+repo_url: ''
+srvs: []
+timestamp: 1405963790.460867
+url: http://www.ros.org/wiki/lizi_robot
+vcs: git
+vcs_uri: https://github.com/robotican/lizi_robot.git
+vcs_version: master

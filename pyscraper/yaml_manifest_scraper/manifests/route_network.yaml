@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/route_network/html
+authors: Jack O'Quin
+brief: ''
+bugtracker: https://github.com/ros-geographic-info/open_street_map/issues
+depends:
+- roslaunch
+- dynamic_reconfigure
+- catkin
+- geographic_msgs
+- nav_msgs
+- geometry_msgs
+- geodesy
+- visualization_msgs
+- rospy
+depends_on:
+- test_osm
+description: Route network graphing and path planning.
+devel_jobs:
+- devel-hydro-open_street_map
+doc_job: doc-hydro-open_street_map
+has_changelog_rst: true
+license: BSD
+maintainers: Jack O'Quin <jack.oquin@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-route-network_sourcedeb
+- ros-hydro-route-network_binarydeb_precise_amd64
+- ros-hydro-route-network_binarydeb_precise_i386
+- ros-hydro-route-network_binarydeb_quantal_amd64
+- ros-hydro-route-network_binarydeb_quantal_i386
+- ros-hydro-route-network_binarydeb_raring_amd64
+- ros-hydro-route-network_binarydeb_raring_i386
+repo_name: open_street_map
+repo_url: https://github.com/ros-geographic-info/open_street_map.git
+srvs: []
+timestamp: 1405964197.842253
+url: http://ros.org/wiki/route_network
+vcs: git
+vcs_uri: https://github.com/ros-geographic-info/open_street_map.git
+vcs_version: master

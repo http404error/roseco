@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_moveit_tutorials/html
+authors: Sachin Chitta <sachinc@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends:
+- moveit_core
+- moveit_ros_perception
+- pluginlib
+- interactive_markers
+- cmake_modules
+- moveit_fake_controller_manager
+- catkin
+- moveit_ros_planning_interface
+depends_on:
+- moveit_pr2
+description: The pr2_moveit_tutorials package
+devel_jobs:
+- devel-hydro-moveit_pr2
+doc_job: doc-hydro-moveit_pr2
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+metapackages:
+- moveit_pr2
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-pr2-moveit-tutorials_sourcedeb
+- ros-hydro-pr2-moveit-tutorials_binarydeb_precise_amd64
+- ros-hydro-pr2-moveit-tutorials_binarydeb_precise_i386
+- ros-hydro-pr2-moveit-tutorials_binarydeb_quantal_amd64
+- ros-hydro-pr2-moveit-tutorials_binarydeb_quantal_i386
+- ros-hydro-pr2-moveit-tutorials_binarydeb_raring_amd64
+- ros-hydro-pr2-moveit-tutorials_binarydeb_raring_i386
+repo_name: moveit_pr2
+repo_url: ''
+srvs: []
+timestamp: 1405964104.992293
+url: ''
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_pr2.git
+vcs_version: hydro-devel

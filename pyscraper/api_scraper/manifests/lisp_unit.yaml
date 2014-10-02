@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/lisp_unit/html
+authors: ''
+brief: ''
+bugtracker: https://github.com/cram-code/cram_core/issues
+depends:
+- catkin
+- sbcl
+depends_on:
+- cram_3rdparty
+- cram_projection
+- cram_reasoning
+- cram_process_modules
+- cram_designators
+- cram_utilities
+description: '3rd party library: A unit testing framework for common lisp.'
+devel_jobs:
+- devel-hydro-cram_3rdparty
+doc_job: doc-hydro-cram_3rdparty
+has_changelog_rst: false
+license: GPL
+maintainer_status: maintained
+maintainers: Lorenz Moesenlechner <moesenle@cs.tum.edu>, Georg Bartels <georg.bartels@cs.uni-bremen.de>
+metapackages:
+- cram_3rdparty
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-lisp-unit_sourcedeb
+- ros-hydro-lisp-unit_binarydeb_precise_amd64
+- ros-hydro-lisp-unit_binarydeb_precise_i386
+- ros-hydro-lisp-unit_binarydeb_quantal_amd64
+- ros-hydro-lisp-unit_binarydeb_quantal_i386
+- ros-hydro-lisp-unit_binarydeb_raring_amd64
+- ros-hydro-lisp-unit_binarydeb_raring_i386
+repo_name: cram_3rdparty
+repo_url: https://github.com/cram-code/cram_core
+srvs: []
+timestamp: 1405770048.688852
+url: http://www.cliki.net/lisp-unit
+vcs: git
+vcs_uri: https://github.com/cram-code/cram_3rdparty.git
+vcs_version: master

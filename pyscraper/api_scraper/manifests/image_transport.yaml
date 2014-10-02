@@ -1,0 +1,119 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/image_transport/html
+authors: Patrick Mihelich
+brief: ''
+bugtracker: https://github.com/ros-perception/image_common/issues
+depends:
+- rosconsole
+- catkin
+- roscpp
+- message_filters
+- pluginlib
+- roslib
+- sensor_msgs
+depends_on:
+- v4r_uvc
+- gscam
+- uvc_camera
+- visp_tracker
+- rviz
+- jpeg_streamer
+- pal_vision_segmentation
+- hector_qrcode_detection
+- depthcloud_encoder
+- pano_ros
+- map_to_jpeg
+- camera_aravis
+- image_view2
+- ueye_cam
+- fovis_ros
+- ar_pose
+- blort_ros
+- camera_handler
+- polled_camera
+- ros_web_video
+- image_rotate
+- moveit_ros_perception
+- cr_capture
+- aruco_ros
+- imagesift
+- image_view
+- cv_camera
+- multisense_ros
+- usb_cam
+- uwsim
+- gazebo_plugins
+- mjpeg_server
+- rqt_image_view
+- pano_py
+- hector_heat_detection
+- corobot_camera
+- v4r_artoolkitplus
+- turtlebot_panorama
+- stereo_slam
+- compressed_depth_image_transport
+- depth_image_proc
+- libuvc_camera
+- image_cb_detector
+- depthimage_to_laserscan
+- stereo_image_proc
+- hector_motion_detection
+- ardrone_autonomy
+- camera_info_manager
+- openni_camera
+- image_proc
+- freenect_camera
+- face_detector
+- hector_gazebo_thermal_camera
+- jsk_pcl_ros
+- theora_image_transport
+- hector_rqt_plugins
+- jsk_perception
+- compressed_image_transport
+- pr2_gazebo_plugins
+- avt_vimba_camera
+- resized_image_transport
+- turtlebot_actions
+- image_common
+- camera1394
+- hector_compressed_map_transport
+- ueye
+- viso2_ros
+- hrpsys_ros_bridge
+- optris_drivers
+- v4r_ellipses
+- stereo_synchronizer
+- openni2_camera
+- camera1394stereo
+- pointgrey_camera_driver
+description: "image_transport should always be used to subscribe to and publish images.\
+  \ It provides transparent\n     support for transporting images in low-bandwidth\
+  \ compressed formats. Examples (provided by separate\n     plugin packages) include\
+  \ JPEG/PNG compression and Theora streaming video."
+devel_jobs:
+- devel-hydro-image_common
+doc_job: doc-hydro-image_common
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Jack O'Quin <jack.oquin@gmail.com>, Vincent Rabaud <vincent.rabaud@gmail.com>
+metapackages:
+- image_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-image-transport_sourcedeb
+- ros-hydro-image-transport_binarydeb_precise_amd64
+- ros-hydro-image-transport_binarydeb_precise_i386
+- ros-hydro-image-transport_binarydeb_quantal_amd64
+- ros-hydro-image-transport_binarydeb_quantal_i386
+- ros-hydro-image-transport_binarydeb_raring_amd64
+- ros-hydro-image-transport_binarydeb_raring_i386
+repo_name: image_common
+repo_url: https://github.com/ros-perception/image_common
+srvs: []
+timestamp: 1405973910.408769
+url: http://ros.org/wiki/image_transport
+vcs: git
+vcs_uri: https://github.com/ros-perception/image_common.git
+vcs_version: hydro-devel

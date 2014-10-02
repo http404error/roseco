@@ -1,0 +1,55 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rospack/html
+authors: Brian Gerkey, Morgan Quigley, Dirk Thomas
+brief: ''
+bugtracker: https://github.com/ros/rospack/issues
+depends:
+- catkin
+- python-coverage
+- python
+- python-rosdep
+- python-catkin-pkg
+- gtest
+- tinyxml
+- boost
+- pkg-config
+depends_on:
+- rtt_ros
+- ffha
+- libphidgets
+- rtt_rosclock
+- opt_camera
+- downward
+- ff
+- libsiftfast
+- libpcan
+- jsk_perception
+- roslisp
+- roslib
+- roseus
+description: ROS Package Tool
+devel_jobs:
+- devel-hydro-rospack
+doc_job: doc-hydro-rospack
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rospack_sourcedeb
+- ros-hydro-rospack_binarydeb_precise_amd64
+- ros-hydro-rospack_binarydeb_precise_i386
+- ros-hydro-rospack_binarydeb_quantal_amd64
+- ros-hydro-rospack_binarydeb_quantal_i386
+- ros-hydro-rospack_binarydeb_raring_amd64
+- ros-hydro-rospack_binarydeb_raring_i386
+repo_name: rospack
+repo_url: https://github.com/ros/rospack
+srvs: []
+timestamp: 1405773386.281163
+url: http://wiki.ros.org/rospack
+vcs: git
+vcs_uri: https://github.com/ros/rospack.git
+vcs_version: groovy-devel

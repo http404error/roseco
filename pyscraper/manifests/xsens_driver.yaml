@@ -1,0 +1,24 @@
+authors: ''
+depends:
+- gps_common
+- catkin
+- sensor_msgs
+- std_msgs
+- rospy
+- tf
+- geometry_msgs
+- diagnostic_msgs
+description: ROS Driver for XSens MT/MTi/MTi-G devices.
+license: BSD
+maintainers: Francis Colas <francis.colas@mavt.ethz.ch>
+package_type: package
+release_jobs:
+- ros-hydro-xsens-driver_sourcedeb
+- ros-hydro-xsens-driver_binarydeb_precise_amd64
+- ros-hydro-xsens-driver_binarydeb_precise_i386
+- ros-hydro-xsens-driver_binarydeb_quantal_amd64
+- ros-hydro-xsens-driver_binarydeb_quantal_i386
+- ros-hydro-xsens-driver_binarydeb_raring_amd64
+- ros-hydro-xsens-driver_binarydeb_raring_i386
+repo_name: xsens_driver
+timestamp: 1405956415.183901

@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/shape_msgs/html
+authors: Ioan Sucan
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- std_msgs
+- message_runtime
+- geometry_msgs
+- catkin
+depends_on:
+- moveit_msgs
+- geometric_shapes
+- rosjava_messages
+- moveit_core
+- iai_robosherlock_actions
+- rosruby_messages
+- grasping_msgs
+- moveit_python
+- object_recognition_msgs
+- household_objects_database_msgs
+- common_msgs
+- rtt_shape_msgs
+- shape_tools
+- calvin_pick_n_place
+description: "This package contains messages for defining shapes, such as simple solid\n\
+  \    object primitives (cube, sphere, etc), planes, and meshes."
+devel_jobs:
+- devel-hydro-common_msgs
+doc_job: doc-hydro-common_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+metapackages:
+- common_msgs
+msgs:
+- Mesh
+- MeshTriangle
+- Plane
+- SolidPrimitive
+package_type: package
+release_jobs:
+- ros-hydro-shape-msgs_sourcedeb
+- ros-hydro-shape-msgs_binarydeb_precise_amd64
+- ros-hydro-shape-msgs_binarydeb_precise_i386
+- ros-hydro-shape-msgs_binarydeb_quantal_amd64
+- ros-hydro-shape-msgs_binarydeb_quantal_i386
+- ros-hydro-shape-msgs_binarydeb_raring_amd64
+- ros-hydro-shape-msgs_binarydeb_raring_i386
+repo_name: common_msgs
+repo_url: ''
+srvs: []
+timestamp: 1405962303.263896
+url: http://ros.org/wiki/shape_msgs
+vcs: git
+vcs_uri: https://github.com/ros/common_msgs.git
+vcs_version: hydro-devel

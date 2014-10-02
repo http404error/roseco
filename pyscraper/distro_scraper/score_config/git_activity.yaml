@@ -1,0 +1,9 @@
+impact:
+- metric: created_issues
+  include: True
+  weights:
+   created_at: 1.0  #Adjusted for recency, weight div by days since
+- metric: assigned_issues
+  include: True
+  weights:
+   assigned_to: 1.5 #Adjusted for recency, weight div by days since

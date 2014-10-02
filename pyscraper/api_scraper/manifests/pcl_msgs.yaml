@@ -1,0 +1,24 @@
+authors: Open Perception
+depends:
+- catkin
+- eigen
+- sensor_msgs
+- message_runtime
+- std_msgs
+- message_generation
+description: "<p>\n  Package containing PCL (Point Cloud Library)-related ROS messages.\n\
+  </p>"
+license: BSD
+maintainers: Julius Kammerl <jkammerl@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-pcl-msgs_sourcedeb
+- ros-hydro-pcl-msgs_binarydeb_precise_amd64
+- ros-hydro-pcl-msgs_binarydeb_precise_i386
+- ros-hydro-pcl-msgs_binarydeb_quantal_amd64
+- ros-hydro-pcl-msgs_binarydeb_quantal_i386
+- ros-hydro-pcl-msgs_binarydeb_raring_amd64
+- ros-hydro-pcl-msgs_binarydeb_raring_i386
+repo_name: pcl_msgs
+timestamp: 1405956414.981963
+url: http://ros.org/wiki/pcl-msgs

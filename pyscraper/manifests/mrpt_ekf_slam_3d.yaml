@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/mrpt_ekf_slam_3d/html
+authors: Jose Luis
+brief: mrpt_ekf_slam_3d
+bugtracker: ''
+depends:
+- roscpp
+- mrpt_msgs
+depends_on: []
+description: "\n\n     mrpt_ekf_slam_3d\n\n  "
+doc_job: doc-hydro-mrpt_slam
+license: BSD
+maintainers: ''
+metapackages:
+- mrpt_slam
+msgs: []
+package_type: package
+repo_name: mrpt_slam
+repo_url: ''
+srvs: []
+timestamp: 1405772051.902968
+url: http://ros.org/wiki/mrpt_ekf_slam_3d
+vcs: git
+vcs_uri: https://github.com/mrpt-ros-pkg/mrpt_slam.git
+vcs_version: master

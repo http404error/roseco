@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roslisp_common/html
+authors: ''
+brief: ''
+bugtracker: https://github.com/ros/roslisp_common/issues
+depends: &id001
+- cl_transforms
+- catkin
+- cl_tf
+- actionlib_lisp
+- cl_utils
+- roslisp_utilities
+depends_on: []
+description: "Common libraries to control ROS based robots. This stack contains\n\
+  \    an implementation of actionlib (client and server) in Common Lisp,\n    a transformation\
+  \ library and an implementation of tf in Common\n    Lisp."
+doc_job: doc-hydro-roslisp_common
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Lorenz Moesenlechner <moesenle@cs.tum.edu>, Georg Bartels <georg.bartels@cs.uni-bremen.de>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-roslisp-common_sourcedeb
+- ros-hydro-roslisp-common_binarydeb_precise_amd64
+- ros-hydro-roslisp-common_binarydeb_precise_i386
+- ros-hydro-roslisp-common_binarydeb_quantal_amd64
+- ros-hydro-roslisp-common_binarydeb_quantal_i386
+- ros-hydro-roslisp-common_binarydeb_raring_amd64
+- ros-hydro-roslisp-common_binarydeb_raring_i386
+repo_name: roslisp_common
+repo_url: https://github.com/ros/roslisp_common
+srvs: []
+timestamp: 1405964908.324559
+url: http://ros.org/wiki/roslisp_common
+vcs: git
+vcs_uri: https://github.com/ros/roslisp_common.git
+vcs_version: master

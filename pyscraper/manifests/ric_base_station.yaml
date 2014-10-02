@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ric_base_station/html
+authors: RoboTiCan <support@robotican.net>
+brief: ''
+bugtracker: ''
+depends:
+- sensor_msgs
+- rospy
+- catkin
+- geometry_msgs
+- ric_robot
+depends_on:
+- ric
+description: The ric_base_station package
+doc_job: doc-hydro-ric
+has_changelog_rst: false
+license: BSD
+maintainers: RoboTiCan <support@robotican.net>
+metapackages:
+- ric
+msgs: []
+package_type: package
+repo_name: ric
+repo_url: ''
+srvs: []
+timestamp: 1405696487.077961
+url: ''
+vcs: git
+vcs_uri: https://github.com/robotican/ric.git
+vcs_version: master

@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/robot_upstart/html
+authors: Mike Purvis <mpurvis@clearpathrobotics.com>
+brief: ''
+bugtracker: ''
+depends:
+- roslaunch
+- xacro
+- catkin
+- daemontools
+depends_on:
+- husky_bringup
+description: "The robot_upstart package provides scripts which may be used to install\n\
+  \    and uninstall Ubuntu Linux upstart jobs which launch groups of roslaunch files."
+devel_jobs:
+- devel-hydro-robot_upstart
+doc_job: doc-hydro-robot_upstart
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-robot-upstart_sourcedeb
+- ros-hydro-robot-upstart_binarydeb_precise_amd64
+- ros-hydro-robot-upstart_binarydeb_precise_i386
+- ros-hydro-robot-upstart_binarydeb_quantal_amd64
+- ros-hydro-robot-upstart_binarydeb_quantal_i386
+- ros-hydro-robot-upstart_binarydeb_raring_amd64
+- ros-hydro-robot-upstart_binarydeb_raring_i386
+repo_name: robot_upstart
+repo_url: ''
+srvs: []
+timestamp: 1405974909.89116
+url: ''
+vcs: git
+vcs_uri: https://github.com/clearpathrobotics/robot_upstart.git
+vcs_version: hydro-devel

@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_visualization_icons/html
+authors: Ugo Cupcic <software@shadowrobot.com>
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-visualization/issues
+depends:
+- catkin
+depends_on:
+- sr_gui_movement_recorder
+- sr_gui_self_test
+- sr_gui_bootloader
+- sr_gui_controller_tuner
+- sr_gui_motor_resetter
+- sr_gui_joint_slider
+- sr_gui_muscle_driver_bootloader
+- sr_gui_grasp_controller
+- sr_visualization
+- sr_gui_change_muscle_controllers
+- sr_gui_change_controllers
+description: Contains icons used by all guis in sr_visualization.
+devel_jobs:
+- devel-hydro-sr_visualization
+doc_job: doc-hydro-sr_visualization
+has_changelog_rst: true
+license: GPL
+maintainer_status: maintained
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- sr_visualization
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sr-visualization-icons_sourcedeb
+- ros-hydro-sr-visualization-icons_binarydeb_precise_amd64
+- ros-hydro-sr-visualization-icons_binarydeb_precise_i386
+- ros-hydro-sr-visualization-icons_binarydeb_quantal_amd64
+- ros-hydro-sr-visualization-icons_binarydeb_quantal_i386
+- ros-hydro-sr-visualization-icons_binarydeb_raring_amd64
+- ros-hydro-sr-visualization-icons_binarydeb_raring_i386
+repo_name: sr_visualization
+repo_url: https://github.com/shadow-robot/sr-visualization
+srvs: []
+timestamp: 1405773982.029061
+url: http://ros.org/wiki/sr_visualization_icons
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-visualization.git
+vcs_version: hydro-devel

@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_3d_mapping_demonstrator/html
+authors: Georg Arbeiter
+brief: ''
+bugtracker: ''
+depends:
+- cob_3d_mapping_pipeline
+- robot_state_publisher
+- catkin
+- cob_script_server
+- cob_srvs
+- actionlib
+- urdf
+- cob_3d_mapping_msgs
+- brics_actuator
+- openni_launch
+- rviz
+- libqt4
+- nodelet
+- diagnostic_msgs
+- roscpp
+depends_on:
+- cob_environment_perception
+description: Package for operation of the 3D mapping demonstrator.
+doc_job: doc-hydro-cob_environment_perception
+has_changelog_rst: false
+license: LGPL
+maintainers: Georg Arbeiter <goa@ipa.fhg.de>
+metapackages:
+- cob_environment_perception
+msgs: []
+package_type: package
+repo_name: cob_environment_perception
+repo_url: ''
+srvs: []
+timestamp: 1405962385.385829
+url: http://wiki.ros.org/cob_3d_mapping_demonstrator
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_environment_perception.git
+vcs_version: hydro_dev

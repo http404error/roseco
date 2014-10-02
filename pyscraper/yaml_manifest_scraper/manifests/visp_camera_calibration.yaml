@@ -1,0 +1,53 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/visp_camera_calibration/html
+authors: Filip Novotny
+brief: ''
+bugtracker: ''
+depends:
+- visp
+- catkin
+- roscpp
+- std_msgs
+- message_runtime
+- sensor_msgs
+- geometry_msgs
+- camera_calibration_parsers
+- message_generation
+- visp_bridge
+depends_on:
+- rosjava_messages
+- vision_visp
+description: "visp_camera_calibration allows easy calibration of\n     cameras using\
+  \ a customizable pattern and ViSP library."
+devel_jobs:
+- devel-hydro-vision_visp
+doc_job: doc-hydro-vision_visp
+has_changelog_rst: true
+license: GPLv2
+maintainer_status: maintained
+maintainers: Fabien Spindler <Fabien.Spindler@inria.fr>
+metapackages:
+- vision_visp
+msgs:
+- ImagePoint
+- ImageAndPoints
+- CalibPointArray
+- CalibPoint
+package_type: package
+release_jobs:
+- ros-hydro-visp-camera-calibration_sourcedeb
+- ros-hydro-visp-camera-calibration_binarydeb_precise_amd64
+- ros-hydro-visp-camera-calibration_binarydeb_precise_i386
+- ros-hydro-visp-camera-calibration_binarydeb_quantal_amd64
+- ros-hydro-visp-camera-calibration_binarydeb_quantal_i386
+- ros-hydro-visp-camera-calibration_binarydeb_raring_amd64
+- ros-hydro-visp-camera-calibration_binarydeb_raring_i386
+repo_name: vision_visp
+repo_url: ''
+srvs:
+- calibrate
+timestamp: 1405774395.48594
+url: http://ros.org/wiki/visp_camera_calibration
+vcs: git
+vcs_uri: https://github.com/lagadic/vision_visp.git
+vcs_version: hydro

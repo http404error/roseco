@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ric_gazebo/html
+authors: RoboTiCan <support@robotican.net>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on:
+- ric
+description: The ric_gazebo package
+doc_job: doc-hydro-ric
+has_changelog_rst: false
+license: BSD
+maintainers: RoboTiCan <support@robotican.net>
+metapackages:
+- ric
+msgs: []
+package_type: package
+repo_name: ric
+repo_url: ''
+srvs: []
+timestamp: 1403868320.112254
+url: http://ros.org/wiki/ric_gazebo
+vcs: git
+vcs_uri: https://github.com/robotican/ric.git
+vcs_version: master

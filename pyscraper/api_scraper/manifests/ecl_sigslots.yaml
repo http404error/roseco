@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ecl_sigslots/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/stonier/ecl_core/issues
+depends:
+- ecl_threads
+- ecl_config
+- catkin
+- ecl_license
+depends_on:
+- kobuki_driver
+- ecl_core
+- ecl_core_apps
+- kobuki_node
+description: "Provides a signal/slot mechanism (in the same vein as qt sigslots, \n\
+  \     boost::signals etc for intra-process communication. These include \n     some\
+  \ improvements - they do not need a preprocessor, are fully type safe,\n     allow\
+  \ for simple connections via a posix style string identifier \n     and are multithread-safe."
+devel_jobs:
+- devel-hydro-ecl_core
+doc_job: doc-hydro-ecl_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- ecl_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ecl-sigslots_sourcedeb
+- ros-hydro-ecl-sigslots_binarydeb_precise_amd64
+- ros-hydro-ecl-sigslots_binarydeb_precise_i386
+- ros-hydro-ecl-sigslots_binarydeb_quantal_amd64
+- ros-hydro-ecl-sigslots_binarydeb_quantal_i386
+- ros-hydro-ecl-sigslots_binarydeb_raring_amd64
+- ros-hydro-ecl-sigslots_binarydeb_raring_i386
+repo_name: ecl_core
+repo_url: https://github.com/stonier/ecl_core
+srvs: []
+timestamp: 1405963106.261102
+url: http://ros.org/wiki/ecl_sigslots
+vcs: git
+vcs_uri: https://github.com/stonier/ecl_core.git
+vcs_version: hydro-devel

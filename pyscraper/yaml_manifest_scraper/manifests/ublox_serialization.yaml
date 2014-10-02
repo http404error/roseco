@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ublox_serialization/html
+authors: Johannes Meyer
+brief: ublox_serialization
+bugtracker: ''
+depends:
+- roscpp
+- roscpp_serialization
+depends_on:
+- ublox_msgs
+- ublox_gps
+description: "\n\n     ublox_serialization provides header files for serialization\
+  \ of ROS messages to and from u-blox message format.\n\n  "
+doc_job: doc-hydro-ublox
+license: BSD
+maintainers: ''
+metapackages:
+- ublox
+msgs: []
+package_type: package
+repo_name: ublox
+repo_url: ''
+srvs: []
+timestamp: 1405965318.521716
+url: http://ros.org/wiki/ublox_serialization
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/ublox.git
+vcs_version: null

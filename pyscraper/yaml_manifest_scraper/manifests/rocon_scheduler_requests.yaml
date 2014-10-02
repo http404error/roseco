@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_scheduler_requests/html
+authors: Jack O'Quin
+brief: ''
+bugtracker: https://github.com/utexas-bwi/rocon_scheduler_requests/issues
+depends:
+- catkin
+- scheduler_msgs
+- roslint
+- rocon_app_manager_msgs
+- rostest
+- rospy
+- rosunit
+- unique_id
+depends_on: []
+description: Python and C++ interfaces for managing ROCON scheduler requests.
+doc_job: doc-hydro-rocon_scheduler_requests
+has_changelog_rst: true
+license: BSD
+maintainers: Jack O'Quin <jack.oquin@gmail.com>
+msgs: []
+package_type: package
+repo_name: rocon_scheduler_requests
+repo_url: https://github.com/utexas-bwi/rocon_scheduler_requests.git
+srvs: []
+timestamp: 1396609280.718718
+url: http://wiki.ros.org/rocon_scheduler_requests
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/rocon_scheduler_requests.git
+vcs_version: master

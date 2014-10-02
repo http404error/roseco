@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hlugv_gazebo/html
+authors: stefan
+brief: hlugv_gazebo
+bugtracker: ''
+depends:
+- hector_roll_pitch_stabilizer
+- hector_imu_attitude_to_tf
+- hlugv_description
+- hector_gazebo_plugins
+- gazebo_tools
+- gazebo
+depends_on:
+- hlugv_gazebo_launch
+- hlugv_apps
+description: "\n\n     hlugv_gazebo\n\n  "
+doc_job: doc-hydro-hlugv_common
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: hlugv_common
+repo_url: ''
+srvs: []
+timestamp: 1405973643.08859
+url: http://ros.org/wiki/hlugv_gazebo
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hlugv_common
+vcs_version: HEAD

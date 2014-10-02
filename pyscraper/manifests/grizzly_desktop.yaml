@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/grizzly_desktop/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends: &id001
+- catkin
+- grizzly_msgs
+- grizzly_viz
+- grizzly_teleop
+- rqt_console
+- rqt_robot_monitor
+- roboteq_msgs
+depends_on: []
+description: Metapackage of things you want to visualize and control Grizzly from
+  a desktop.
+devel_jobs:
+- devel-hydro-grizzly_desktop
+doc_job: doc-hydro-grizzly_desktop
+has_changelog_rst: true
+license: BSD
+maintainers: Yan Ma <yanma@clearpathrobotics.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-grizzly-desktop_sourcedeb
+- ros-hydro-grizzly-desktop_binarydeb_precise_amd64
+- ros-hydro-grizzly-desktop_binarydeb_precise_i386
+- ros-hydro-grizzly-desktop_binarydeb_quantal_amd64
+- ros-hydro-grizzly-desktop_binarydeb_quantal_i386
+- ros-hydro-grizzly-desktop_binarydeb_raring_amd64
+- ros-hydro-grizzly-desktop_binarydeb_raring_i386
+repo_name: grizzly_desktop
+repo_url: ''
+srvs: []
+timestamp: 1405770907.654641
+url: ''
+vcs: git
+vcs_uri: https://github.com/g/grizzly_desktop.git
+vcs_version: hydro-devel

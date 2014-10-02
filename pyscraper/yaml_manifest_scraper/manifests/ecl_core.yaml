@@ -1,0 +1,60 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ecl_core/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/stonier/ecl_core/issues
+depends: &id001
+- ecl_statistics
+- catkin
+- ecl_formatters
+- ecl_sigslots
+- ecl_exceptions
+- ecl_eigen
+- ecl_type_traits
+- ecl_command_line
+- ecl_ipc
+- ecl_devices
+- ecl_time
+- ecl_containers
+- ecl_threads
+- ecl_streams
+- ecl_geometry
+- ecl_core_apps
+- ecl_utilities
+- ecl_mpl
+- ecl_concepts
+- ecl_math
+- ecl_converters
+- ecl_linear_algebra
+depends_on:
+- ecl
+description: "A set of tools and interfaces extending the capabilities of c++ to \n\
+  \    provide a lightweight, consistent interface with a focus for control\n    programming."
+devel_jobs:
+- devel-hydro-ecl_core
+doc_job: doc-hydro-ecl_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- ecl
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-ecl-core_sourcedeb
+- ros-hydro-ecl-core_binarydeb_precise_amd64
+- ros-hydro-ecl-core_binarydeb_precise_i386
+- ros-hydro-ecl-core_binarydeb_quantal_amd64
+- ros-hydro-ecl-core_binarydeb_quantal_i386
+- ros-hydro-ecl-core_binarydeb_raring_amd64
+- ros-hydro-ecl-core_binarydeb_raring_i386
+repo_name: ecl_core
+repo_url: https://github.com/stonier/ecl_core
+srvs: []
+timestamp: 1405963140.335036
+url: http://www.ros.org/wiki/ecl_core
+vcs: git
+vcs_uri: https://github.com/stonier/ecl_core.git
+vcs_version: hydro-devel

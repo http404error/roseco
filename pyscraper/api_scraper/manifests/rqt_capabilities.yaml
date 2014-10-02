@@ -1,0 +1,23 @@
+authors: William Woodall <william@osrfoundation.org>
+depends:
+- catkin
+- python-rospkg
+- rqt_graph
+- rospy
+- qt_dotgraph
+- rqt_gui_py
+description: rqt package for visualization and management of capabilities
+license: BSD
+maintainers: William Woodall <william@osrfoundation.org>
+package_type: package
+release_jobs:
+- ros-hydro-rqt-capabilities_sourcedeb
+- ros-hydro-rqt-capabilities_binarydeb_precise_amd64
+- ros-hydro-rqt-capabilities_binarydeb_precise_i386
+- ros-hydro-rqt-capabilities_binarydeb_quantal_amd64
+- ros-hydro-rqt-capabilities_binarydeb_quantal_i386
+- ros-hydro-rqt-capabilities_binarydeb_raring_amd64
+- ros-hydro-rqt-capabilities_binarydeb_raring_i386
+repo_name: rqt_capabilities
+timestamp: 1405956415.047906
+url: http://ros.org/wiki/rqt_capabilities

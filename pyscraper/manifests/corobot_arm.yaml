@@ -1,0 +1,33 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/corobot_arm/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- rosconsole
+- corobot_msgs
+- catkin
+- roscpp
+- xmlrpcpp
+- std_msgs
+depends_on:
+- corobot
+- corobot_teleop
+- corobot_launch
+description: High Level interface to move the arm of the Corobot.
+doc_job: doc-hydro-corobot
+has_changelog_rst: false
+license: BSD
+maintainers: Morgan Cormier <mcormier@coroware.com>
+metapackages:
+- corobot
+msgs: []
+package_type: package
+repo_name: corobot
+repo_url: ''
+srvs: []
+timestamp: 1405962624.190487
+url: http://ros.org/wiki/corobot_arm
+vcs: git
+vcs_uri: https://github.com/morgancormier/corobot.git
+vcs_version: master

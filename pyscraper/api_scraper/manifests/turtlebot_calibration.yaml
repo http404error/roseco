@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtlebot_calibration/html
+authors: Wim Meeussen
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_apps/issues
+depends:
+- nav_msgs
+- catkin
+- std_msgs
+- message_runtime
+- sensor_msgs
+- rospy
+- message_generation
+- geometry_msgs
+- python_orocos_kdl
+- turtlebot_bringup
+depends_on:
+- rosjava_messages
+- turtlebot_apps
+description: turtlebot_calibration
+devel_jobs:
+- devel-hydro-turtlebot_apps
+doc_job: doc-hydro-turtlebot_apps
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: OSRF <turtlebot@osrfoundation.org>
+metapackages:
+- turtlebot_apps
+msgs:
+- ScanAngle
+package_type: package
+release_jobs:
+- ros-hydro-turtlebot-calibration_sourcedeb
+- ros-hydro-turtlebot-calibration_binarydeb_precise_amd64
+- ros-hydro-turtlebot-calibration_binarydeb_precise_i386
+- ros-hydro-turtlebot-calibration_binarydeb_quantal_amd64
+- ros-hydro-turtlebot-calibration_binarydeb_quantal_i386
+- ros-hydro-turtlebot-calibration_binarydeb_raring_amd64
+- ros-hydro-turtlebot-calibration_binarydeb_raring_i386
+repo_name: turtlebot_apps
+repo_url: https://github.com/turtlebot/turtlebot_apps
+srvs: []
+timestamp: 1405965348.889183
+url: http://ros.org/wiki/turtlebot_calibration
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_apps.git
+vcs_version: hydro

@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_3d_mapping_tools/html
+authors: Georg Arbeiter
+brief: ''
+bugtracker: ''
+depends:
+- libvtk
+- cob_3d_fov_segmentation
+- eigen
+- wxwidgets
+- rosbag
+- cob_3d_segmentation
+- catkin
+- cob_3d_features
+- opencv2
+- sensor_msgs
+- cob_3d_mapping_common
+- libpcl-all-dev
+- pcl_conversions
+- boost
+- pcl_ros
+depends_on:
+- cob_environment_perception
+- cob_3d_evaluation_features
+description: Various tools for 3D mapping.
+doc_job: doc-hydro-cob_environment_perception
+has_changelog_rst: false
+license: LGPL
+maintainers: Georg Arbeiter <goa@ipa.fhg.de>
+metapackages:
+- cob_environment_perception
+msgs: []
+package_type: package
+repo_name: cob_environment_perception
+repo_url: ''
+srvs: []
+timestamp: 1405962412.990669
+url: http://wiki.ros.org/cob_3d_mapping_tools
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_environment_perception.git
+vcs_version: hydro_dev

@@ -1,0 +1,92 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_gui_py/html
+authors: Dirk Thomas
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt/issues
+depends:
+- catkin
+- rqt_gui
+- rospy
+- qt_gui
+depends_on:
+- rocon_conductor_graph
+- rqt_pose_view
+- rqt_web
+- rqt_logger_level
+- sr_gui_movement_recorder
+- rqt_msg
+- sr_gui_self_test
+- rocon_gateway_graph
+- rqt_py_console
+- sr_gui_bootloader
+- rqt_top
+- rqt_ez_publisher
+- rqt_plot
+- rqt_shell
+- sr_gui_controller_tuner
+- rqt_launch
+- sr_gui_motor_resetter
+- segbot_gui
+- caddy_ui
+- sr_gui_joint_slider
+- rqt_tf_tree
+- rqt_decision_graph
+- rqt_bag_plugins
+- create_dashboard
+- rqt_robot_monitor
+- rqt_bag
+- ldtravocean
+- sr_gui_muscle_driver_bootloader
+- rqt_console
+- kobuki_qtestsuite
+- rqt_runtime_monitor
+- rqt_pr2_dashboard
+- rqt_srv
+- sr_gui_grasp_controller
+- rqt_reconfigure
+- rqt_dep
+- rqt_robot_steering
+- rqt_publisher
+- rqt_topic
+- rqt_service_caller
+- jsk_rqt_plugins
+- rocon_remocon
+- sr_gui_hand_calibration
+- labust_gui
+- rqt_moveit
+- rqt_graph
+- sr_gui_change_muscle_controllers
+- rqt_robot_dashboard
+- industrial_calibration_gui
+- rqt
+- hrpsys_ros_bridge
+- rqt_nav_view
+- sr_gui_change_controllers
+description: rqt_gui_py enables GUI plugins to use the Python client library for ROS.
+devel_jobs:
+- devel-hydro-rqt
+doc_job: doc-hydro-rqt
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- rqt
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-gui-py_sourcedeb
+- ros-hydro-rqt-gui-py_binarydeb_precise_amd64
+- ros-hydro-rqt-gui-py_binarydeb_precise_i386
+- ros-hydro-rqt-gui-py_binarydeb_quantal_amd64
+- ros-hydro-rqt-gui-py_binarydeb_quantal_i386
+- ros-hydro-rqt-gui-py_binarydeb_raring_amd64
+- ros-hydro-rqt-gui-py_binarydeb_raring_i386
+repo_name: rqt
+repo_url: https://github.com/ros-visualization/rqt
+srvs: []
+timestamp: 1405975188.878277
+url: http://ros.org/wiki/rqt_gui_py
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt.git
+vcs_version: groovy-devel

@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/posedetectiondb/html
+authors: Rosen Diankov (rdiankov@cs.cmu.edu)
+brief: Vision-based Pose Detection Database Scripts
+bugtracker: ''
+depends:
+- cv_bridge
+- std_msgs
+- sensor_msgs
+- libsiftfast
+- opencv2
+- rospy
+- posedetection_msgs
+- tf
+- geometry_msgs
+- openrave
+depends_on: []
+description: "\n  "
+doc_job: doc-hydro-jsk_recognition
+license: The Apache License 2.0
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_recognition
+repo_url: ''
+srvs:
+- SetTemplate
+timestamp: 1405974164.928693
+url: ''
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_recognition.git
+vcs_version: master

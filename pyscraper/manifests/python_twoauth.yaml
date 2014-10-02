@@ -1,0 +1,21 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/python_twoauth/html
+authors: Hirotaka Kawata, ROS package is maintained by k-okada
+brief: python_twoauth
+bugtracker: ''
+depends: ''
+depends_on: []
+description: "\n\n     python_twoauth\n\n  "
+doc_job: doc-hydro-jsk_common
+license: MIT
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771574.619255
+url: http://ros.org/wiki/python_twoauth
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

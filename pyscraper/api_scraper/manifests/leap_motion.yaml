@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/leap_motion/html
+authors: Florian Lier <flier@techfak.uni-bielefeld.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- message_runtime
+- std_msgs
+- geometry_msgs
+- message_generation
+- rospy
+depends_on:
+- rosjava_messages
+- hironx_tutorial
+description: ROS driver for the Leap Motion gesture sensor
+doc_job: doc-hydro-leap_motion
+has_changelog_rst: true
+license: BSD
+maintainers: Florian Lier <flier@techfak.uni-bielefeld.de>, Mirza Shah <mas644@gmail.com>
+msgs:
+- leapros
+- leap
+package_type: package
+release_jobs:
+- ros-hydro-leap-motion_sourcedeb
+- ros-hydro-leap-motion_binarydeb_precise_amd64
+- ros-hydro-leap-motion_binarydeb_precise_i386
+- ros-hydro-leap-motion_binarydeb_quantal_amd64
+- ros-hydro-leap-motion_binarydeb_quantal_i386
+- ros-hydro-leap-motion_binarydeb_raring_amd64
+- ros-hydro-leap-motion_binarydeb_raring_i386
+repo_name: leap_motion
+repo_url: ''
+srvs: []
+timestamp: 1405974228.868621
+url: https://wiki.ros.org/leap_motion
+vcs: git
+vcs_uri: https://github.com/mirzashah/rosleapmotion.git
+vcs_version: master

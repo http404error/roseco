@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/husky_teleop/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- joy
+- sensor_msgs
+- geometry_msgs
+- std_msgs
+- rospy
+depends_on:
+- husky_bringup
+description: Basic node for transforming joystick messages to cmd_vel for Husky.
+doc_job: doc-hydro-husky_teleop
+has_changelog_rst: true
+license: BSD
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-husky-teleop_sourcedeb
+- ros-hydro-husky-teleop_binarydeb_precise_amd64
+- ros-hydro-husky-teleop_binarydeb_precise_i386
+- ros-hydro-husky-teleop_binarydeb_quantal_amd64
+- ros-hydro-husky-teleop_binarydeb_quantal_i386
+- ros-hydro-husky-teleop_binarydeb_raring_amd64
+- ros-hydro-husky-teleop_binarydeb_raring_i386
+repo_name: husky_teleop
+repo_url: ''
+srvs: []
+timestamp: 1405694155.796829
+url: http://ros.org/wiki/husky_teleop
+vcs: git
+vcs_uri: https://github.com/husky/husky_teleop.git
+vcs_version: hydro-devel

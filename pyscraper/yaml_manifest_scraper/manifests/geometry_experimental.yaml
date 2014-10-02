@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/geometry_experimental/html
+authors: Tully Foote, Eitan Marder-Eppstein, Wim Meeussen
+brief: ''
+bugtracker: ''
+depends: &id001
+- tf2_geometry_msgs
+- catkin
+- tf2_kdl
+- tf2_tools
+- tf2_ros
+- tf2
+- tf2_msgs
+- tf2_bullet
+depends_on: []
+description: The second generation Transform Library in ros.  This metapackage is
+  deprecated, but is kept for backwards compatability.
+devel_jobs:
+- devel-hydro-geometry_experimental
+doc_job: doc-hydro-geometry_experimental
+has_changelog_rst: true
+license: BSD, LGPL
+maintainer_status: maintained
+maintainers: Tully Foote <tfoote@osrfoundation.org>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-geometry-experimental_sourcedeb
+- ros-hydro-geometry-experimental_binarydeb_precise_amd64
+- ros-hydro-geometry-experimental_binarydeb_precise_i386
+- ros-hydro-geometry-experimental_binarydeb_quantal_amd64
+- ros-hydro-geometry-experimental_binarydeb_quantal_i386
+- ros-hydro-geometry-experimental_binarydeb_raring_amd64
+- ros-hydro-geometry-experimental_binarydeb_raring_i386
+repo_name: geometry_experimental
+repo_url: ''
+srvs: []
+timestamp: 1405973851.108238
+url: http://www.ros.org/wiki/geometry_experimental
+vcs: git
+vcs_uri: https://github.com/ros/geometry-experimental.git
+vcs_version: hydro-devel

@@ -1,0 +1,53 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosjava_build_tools/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/ros-java/rosjava_build_tools/issues
+depends:
+- ant
+- java
+- python-rosinstall-generator
+- python-rospkg
+- rospy
+- catkin
+depends_on:
+- android_remocons
+- rosjava_messages
+- rosjava
+- android_core
+- turtlebot_android
+- rosjava_bootstrap
+- base_controller
+- android_apps
+- rosjava_extras
+- android_extras
+- rosjava_core
+- zeroconf_jmdns_suite
+description: Simple tools and catkin modules for rosjava development.
+devel_jobs:
+- devel-hydro-rosjava_build_tools
+doc_job: doc-hydro-rosjava_build_tools
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- rosjava
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosjava-build-tools_sourcedeb
+- ros-hydro-rosjava-build-tools_binarydeb_precise_amd64
+- ros-hydro-rosjava-build-tools_binarydeb_precise_i386
+- ros-hydro-rosjava-build-tools_binarydeb_quantal_amd64
+- ros-hydro-rosjava-build-tools_binarydeb_quantal_i386
+- ros-hydro-rosjava-build-tools_binarydeb_raring_amd64
+- ros-hydro-rosjava-build-tools_binarydeb_raring_i386
+repo_name: rosjava_build_tools
+repo_url: https://github.com/ros-java/rosjava_build_tools
+srvs: []
+timestamp: 1405964891.000178
+url: http://ros.org/wiki/rosjava_build_tools
+vcs: git
+vcs_uri: https://github.com/rosjava/rosjava_build_tools.git
+vcs_version: hydro

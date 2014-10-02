@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kobuki_controller_tutorial/html
+authors: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/kobuki/issues
+depends:
+- kobuki_msgs
+- catkin
+- roscpp
+- pluginlib
+- std_msgs
+- yocs_controllers
+- nodelet
+depends_on:
+- kobuki
+description: Code for the Kobuki controller tutorial.
+devel_jobs:
+- devel-hydro-kobuki
+doc_job: doc-hydro-kobuki
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+metapackages:
+- kobuki
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-kobuki-controller-tutorial_sourcedeb
+- ros-hydro-kobuki-controller-tutorial_binarydeb_precise_amd64
+- ros-hydro-kobuki-controller-tutorial_binarydeb_precise_i386
+- ros-hydro-kobuki-controller-tutorial_binarydeb_quantal_amd64
+- ros-hydro-kobuki-controller-tutorial_binarydeb_quantal_i386
+- ros-hydro-kobuki-controller-tutorial_binarydeb_raring_amd64
+- ros-hydro-kobuki-controller-tutorial_binarydeb_raring_i386
+repo_name: kobuki
+repo_url: https://github.com/yujinrobot/kobuki
+srvs: []
+timestamp: 1405974101.96818
+url: http://ros.org/wiki/kobuki_controller_tutorial
+vcs: git
+vcs_uri: https://github.com/yujinrobot/kobuki.git
+vcs_version: hydro

@@ -1,0 +1,58 @@
+<package>
+  <name>ur_description</name>
+  <version>1.0.2</version>
+  <description>
+      URDF description for Universal UR5/10 robot arms
+  </description>
+
+   
+  
+  
+  <maintainer email="kphawkins@gatech.edu">Kelsey Hawkins</maintainer>
+
+
+  
+  
+  
+  <license>BSD</license>
+
+
+  
+  
+  
+  <url type="website">http://ros.org/wiki/ur_description</url>
+
+
+  
+  
+  
+  
+  <author>Wim Meeussen</author>
+  <author email="kphawkins@gatech.edu">Kelsey Hawkins</author>
+  <author>Mathias Ludtke</author>
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>urdf</run_depend>
+
+
+  
+  <export>
+    
+    
+
+    
+
+  </export>
+</package>

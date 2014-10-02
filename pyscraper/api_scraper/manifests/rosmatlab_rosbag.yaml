@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosmatlab_rosbag/html
+authors: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rosmatlab
+- rosbag
+depends_on: []
+description: The rosmatlab_rosbag package
+doc_job: doc-hydro-rosmatlab
+has_changelog_rst: false
+license: BSD
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+msgs: []
+package_type: package
+repo_name: rosmatlab
+repo_url: ''
+srvs: []
+timestamp: 1405975114.50416
+url: http://github.com/tu-darmstadt-ros-pkg/rosmatlab/wiki/rosbag
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/rosmatlab.git
+vcs_version: master

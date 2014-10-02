@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/reemc_simulation/html
+authors: Luca Marchionni <luca.marchionni@pal-robotics.com>
+brief: ''
+bugtracker: ''
+depends: &id001
+- reemc_controller_configuration_gazebo
+- catkin
+- reemc_gazebo
+- reemc_hardware_gazebo
+depends_on: []
+description: "REEM-C-specific simulation components. These include plugins\n     \
+  \          and launch scripts necessary for running REEM-C in simulation."
+doc_job: doc-hydro-reemc_simulation
+has_changelog_rst: false
+license: BSD
+maintainers: Luca Marchionni <luca.marchionni@pal-robotics.com>, Paul Mathieu <paul.mathieu@pal-robotics.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: reemc_simulation
+repo_url: ''
+srvs: []
+timestamp: 1405974938.409893
+url: ''
+vcs: git
+vcs_uri: https://github.com/pal-robotics/reemc_simulation.git
+vcs_version: hydro-devel

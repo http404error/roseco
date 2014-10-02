@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/bwi_common/html
+authors: Piyush Khandelwal <piyushk@gmail.com>
+brief: ''
+bugtracker: ''
+depends: &id001
+- catkin
+- bwi_mapper
+- bwi_planning_common
+- utexas_gdc
+- bwi_tools
+- bwi_gazebo_entities
+- bwi_web
+depends_on:
+- bwi_desktop
+description: "Common Components used in the BWI Project at the University of Texas\
+  \ at\n    Austin"
+devel_jobs:
+- devel-hydro-bwi_common
+doc_job: doc-hydro-bwi_common
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Piyush Khandelwal <piyushk@gmail.com>, Jack O'Quin <jack.oquin@gmail.com>
+metapackages:
+- bwi_desktop
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-bwi-common_sourcedeb
+- ros-hydro-bwi-common_binarydeb_precise_amd64
+- ros-hydro-bwi-common_binarydeb_precise_i386
+- ros-hydro-bwi-common_binarydeb_quantal_amd64
+- ros-hydro-bwi-common_binarydeb_quantal_i386
+- ros-hydro-bwi-common_binarydeb_raring_amd64
+- ros-hydro-bwi-common_binarydeb_raring_i386
+repo_name: bwi_common
+repo_url: ''
+srvs: []
+timestamp: 1405769822.028983
+url: ''
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/bwi_common.git
+vcs_version: master

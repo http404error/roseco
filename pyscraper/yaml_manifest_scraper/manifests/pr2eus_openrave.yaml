@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2eus_openrave/html
+authors: Chen Cheng
+brief: pr2eus_openrave
+bugtracker: ''
+depends:
+- rviz
+- orrosplanning
+- robot_state_publisher
+- sensor_msgs
+- pr2eus
+- topic_tools
+- visualization_msgs
+- jsk_tools
+depends_on: []
+description: "\n\n     pr2eus_openrave\n\n  "
+doc_job: doc-hydro-jsk_pr2eus
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_pr2eus
+repo_url: ''
+srvs: []
+timestamp: 1405771706.751429
+url: http://ros.org/wiki/pr2eus_openrave
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+vcs_version: master

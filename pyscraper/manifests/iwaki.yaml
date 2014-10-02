@@ -1,0 +1,33 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/iwaki/html
+authors: Maxim Makatchev, Reid Simmons
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- message_runtime
+- std_msgs
+- rospy
+- message_generation
+depends_on: []
+description: Iwaki interaction and dialogue manager
+doc_job: doc-hydro-iwaki
+has_changelog_rst: false
+license: GPLv3
+maintainers: Maxim Makatchev <maxi@cmu.edu>
+msgs:
+- ArgSlot
+- AtomMsg
+- ActionMsg
+- ActionStatusMsg
+- VarSlot
+package_type: package
+repo_name: iwaki
+repo_url: ''
+srvs: []
+timestamp: 1405973940.830495
+url: http://ros.org/wiki/iwaki
+vcs: git
+vcs_uri: https://github.com/maxipesfix/iwaki-ros-pkg.git
+vcs_version: master

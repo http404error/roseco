@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kurt_description/html
+authors: "Jochen Sprickerhof, Martin G\xFCnther"
+brief: URDF descriptions of KURT robots
+bugtracker: ''
+depends:
+- urdf
+- xacro
+- gazebo_plugins
+- diffdrive_gazebo_plugin
+depends_on:
+- kurt_bringup
+- kurt_gazebo
+description: "\n\n     This package contains URDF descriptions of the KURT robots.\
+  \ The complete\n     robots are available in the directory &quot;robots/&quot;.\
+  \ Each robot consists of\n     a base and a top (see those two directories). Usually,\
+  \ a top is made up\n     from several parts, such as a laser scanner.\n\n  "
+doc_job: doc-hydro-kurt_driver
+license: BSD
+maintainers: ''
+metapackages:
+- kurt_driver
+msgs: []
+package_type: package
+repo_name: kurt_driver
+repo_url: ''
+srvs: []
+timestamp: 1405974093.609802
+url: http://ros.org/wiki/kurt_description
+vcs: git
+vcs_uri: https://github.com/uos/kurt_driver.git
+vcs_version: hydro

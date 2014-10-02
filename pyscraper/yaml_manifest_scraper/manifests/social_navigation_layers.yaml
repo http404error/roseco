@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/social_navigation_layers/html
+authors: David V. Lu!! <davidvlu@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- costmap_2d
+- people_msgs
+depends_on:
+- people
+description: "Plugin-based layers for the navigation stack that \n  implement various\
+  \ social navigation contraints, like proxemic distance."
+devel_jobs:
+- devel-hydro-people
+doc_job: doc-hydro-people
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>
+metapackages:
+- people
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-social-navigation-layers_sourcedeb
+- ros-hydro-social-navigation-layers_binarydeb_precise_amd64
+- ros-hydro-social-navigation-layers_binarydeb_precise_i386
+- ros-hydro-social-navigation-layers_binarydeb_quantal_amd64
+- ros-hydro-social-navigation-layers_binarydeb_quantal_i386
+- ros-hydro-social-navigation-layers_binarydeb_raring_amd64
+- ros-hydro-social-navigation-layers_binarydeb_raring_i386
+repo_name: people
+repo_url: ''
+srvs: []
+timestamp: 1405974717.952395
+url: http://ros.org/wiki/social_navigation_layers
+vcs: git
+vcs_uri: https://github.com/wg-perception/people.git
+vcs_version: hydro-devel

@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/scriptable_monitoring/html
+authors: Igor Makhtes <igor@cogniteam.com>
+brief: ''
+bugtracker: ''
+depends: &id001
+- scriptable_monitor
+- scriptable_monitor_rqt
+- catkin
+depends_on: []
+description: scriptable_monitoring
+doc_job: doc-hydro-scriptable_monitoring
+has_changelog_rst: false
+license: MIT
+maintainers: Igor Makhtes <igor@cogniteam.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: scriptable_monitoring
+repo_url: ''
+srvs: []
+timestamp: 1405965057.79285
+url: http://www.ros.org/wiki/scriptable_monitoring
+vcs: git
+vcs_uri: https://github.com/cogniteam/scriptable_monitoring.git
+vcs_version: master

@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/bwi_web/html
+authors: Piyush Khandelwal
+brief: ''
+bugtracker: ''
+depends:
+- roslaunch
+- rosbridge_server
+- catkin
+- rosapi
+- mjpeg_server
+depends_on:
+- bwi_common
+description: bwi_web
+devel_jobs:
+- devel-hydro-bwi_common
+doc_job: doc-hydro-bwi_common
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Piyush Khandelwal <piyushk@gmail.com>, Jack O'Quin <jack.oquin@gmail.com>
+metapackages:
+- bwi_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-bwi-web_sourcedeb
+- ros-hydro-bwi-web_binarydeb_precise_amd64
+- ros-hydro-bwi-web_binarydeb_precise_i386
+- ros-hydro-bwi-web_binarydeb_quantal_amd64
+- ros-hydro-bwi-web_binarydeb_quantal_i386
+- ros-hydro-bwi-web_binarydeb_raring_amd64
+- ros-hydro-bwi-web_binarydeb_raring_i386
+repo_name: bwi_common
+repo_url: ''
+srvs: []
+timestamp: 1405769805.950041
+url: ''
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/bwi_common.git
+vcs_version: master

@@ -1,0 +1,17 @@
+<package>
+  <name>eigen_stl_containers</name>
+  <version>0.1.4</version>
+  
+  <description>This package provides a set of typedef's that allow
+  using Eigen datatypes in STL containers</description>
+  <author email="isucan@willowgarage.com">Ioan Sucan</author>
+  <maintainer email="isucan@willowgarage.com">Ioan Sucan</maintainer>
+  <license>BSD</license>
+
+  <url>http://eigen.tuxfamily.org/dox/TopicUnalignedArrayAssert.html</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>eigen</run_depend>
+
+</package>

@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/gpsd_client/html
+authors: Ken Tossell <ken@tossell.net>, Rob Thomson <rob@umd.edu>
+brief: ''
+bugtracker: ''
+depends:
+- gps_common
+- catkin
+- roscpp
+- sensor_msgs
+- libgps
+- pkg-config
+depends_on:
+- gps_umd
+description: "connects to a GPSd server and broadcasts GPS fixes \n   using the NavSatFix\
+  \ message"
+devel_jobs:
+- devel-hydro-gps_umd
+doc_job: doc-hydro-gps_umd
+has_changelog_rst: true
+license: BSD
+maintainers: Timo Roehling <timo.roehling@fkie.fraunhofer.de>
+metapackages:
+- gps_umd
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-gpsd-client_sourcedeb
+- ros-hydro-gpsd-client_binarydeb_precise_amd64
+- ros-hydro-gpsd-client_binarydeb_precise_i386
+- ros-hydro-gpsd-client_binarydeb_quantal_amd64
+- ros-hydro-gpsd-client_binarydeb_quantal_i386
+- ros-hydro-gpsd-client_binarydeb_raring_amd64
+- ros-hydro-gpsd-client_binarydeb_raring_i386
+repo_name: gps_umd
+repo_url: ''
+srvs: []
+timestamp: 1405770769.417045
+url: http://ros.org/wiki/gpsd_client
+vcs: git
+vcs_uri: https://github.com/ktossell/gps_umd.git
+vcs_version: master

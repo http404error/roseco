@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roscreate/html
+authors: Ken Conley <kwc@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends:
+- python-rospkg
+- catkin
+depends_on:
+- ros
+description: "roscreate contains a tool that assists in the creation of ROS filesystem\
+  \ resources.\n     It provides: <tt>roscreate-pkg</tt>, which creates a new package\
+  \ directory,\n     including the appropriate build and manifest files."
+devel_jobs:
+- devel-hydro-ros
+doc_job: doc-hydro-ros
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-roscreate_sourcedeb
+- ros-hydro-roscreate_binarydeb_precise_amd64
+- ros-hydro-roscreate_binarydeb_precise_i386
+- ros-hydro-roscreate_binarydeb_quantal_amd64
+- ros-hydro-roscreate_binarydeb_quantal_i386
+- ros-hydro-roscreate_binarydeb_raring_amd64
+- ros-hydro-roscreate_binarydeb_raring_i386
+repo_name: ros
+repo_url: ''
+srvs: []
+timestamp: 1405974961.859011
+url: http://ros.org/wiki/roscreate
+vcs: git
+vcs_uri: https://github.com/ros/ros.git
+vcs_version: hydro-devel

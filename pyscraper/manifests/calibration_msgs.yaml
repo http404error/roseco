@@ -1,0 +1,62 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/calibration_msgs/html
+authors: Vijay Pradeep
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- std_msgs
+- message_runtime
+- sensor_msgs
+- geometry_msgs
+- message_generation
+depends_on:
+- rosjava_messages
+- rosruby_messages
+- calibration_estimation
+- image_cb_detector
+- settlerlib
+- interval_intersection
+- calibration
+description: "This package defines messages for storing calibration samples\n    \
+  \ to be used in full robot calibration procedures. This package\n     is still unstable.\
+  \ Expect the messages to change."
+devel_jobs:
+- devel-hydro-calibration
+doc_job: doc-hydro-calibration
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+metapackages:
+- calibration
+msgs:
+- DenseLaserObjectFeatures
+- RobotMeasurement
+- IntervalStatus
+- IntervalStamped
+- ChainMeasurement
+- Interval
+- CalibrationPattern
+- DenseLaserPoint
+- JointStateCalibrationPattern
+- CameraMeasurement
+- DenseLaserSnapshot
+- LaserMeasurement
+package_type: package
+release_jobs:
+- ros-hydro-calibration-msgs_sourcedeb
+- ros-hydro-calibration-msgs_binarydeb_precise_amd64
+- ros-hydro-calibration-msgs_binarydeb_precise_i386
+- ros-hydro-calibration-msgs_binarydeb_quantal_amd64
+- ros-hydro-calibration-msgs_binarydeb_quantal_i386
+- ros-hydro-calibration-msgs_binarydeb_raring_amd64
+- ros-hydro-calibration-msgs_binarydeb_raring_i386
+repo_name: calibration
+repo_url: ''
+srvs: []
+timestamp: 1405962099.925203
+url: http://www.ros.org/wiki/calibration_msgs
+vcs: git
+vcs_uri: https://github.com/ros-perception/calibration.git
+vcs_version: hydro

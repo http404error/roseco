@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rotate_recovery/html
+authors: Eitan Marder-Eppstein, contradict@gmail.com
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- costmap_2d
+- pluginlib
+- cmake_modules
+- nav_core
+- tf
+- base_local_planner
+- eigen
+depends_on:
+- navigation
+- turtlebot_navigation
+- move_base
+description: This package provides a recovery behavior for the navigation stack that
+  attempts to clear space by performing a 360 degree rotation of the robot.
+devel_jobs:
+- devel-hydro-navigation
+doc_job: doc-hydro-navigation
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <fergs@unboundedrobotics.com>
+metapackages:
+- navigation
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rotate-recovery_sourcedeb
+- ros-hydro-rotate-recovery_binarydeb_precise_amd64
+- ros-hydro-rotate-recovery_binarydeb_precise_i386
+- ros-hydro-rotate-recovery_binarydeb_quantal_amd64
+- ros-hydro-rotate-recovery_binarydeb_quantal_i386
+- ros-hydro-rotate-recovery_binarydeb_raring_amd64
+- ros-hydro-rotate-recovery_binarydeb_raring_i386
+repo_name: navigation
+repo_url: ''
+srvs: []
+timestamp: 1405974581.706473
+url: http://wiki.ros.org/rotate_recovery
+vcs: git
+vcs_uri: https://github.com/ros-planning/navigation.git
+vcs_version: hydro-devel

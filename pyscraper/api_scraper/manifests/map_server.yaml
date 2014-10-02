@@ -1,0 +1,64 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/map_server/html
+authors: Brian Gerkey, Tony Pratkanis, contradict@gmail.com
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- roscpp
+- sdl-image
+- rostest
+- rospy
+- yaml-cpp
+- tf
+depends_on:
+- costmap_2d
+- erratic_description
+- segbot_navigation
+- navigation
+- multi_map_server
+- cob_navigation_global
+- turtlebot_navigation
+- husky_navigation
+- multinav_concert
+- erratic_navigation_apps
+- amcl
+- segbot_gazebo
+- bwi_mapper
+- stdr_server
+- kobuki_softapps
+- utexas_gdc
+- footstep_planner
+- stdr_gui
+description: map_server provides the <tt>map_server</tt> ROS <a href="http://www.ros.org/wiki/Nodes">Node</a>,
+  which offers map data as a ROS <a href="http://www.ros.org/wiki/Services">Service</a>.
+  It also provides the <tt>map_saver</tt> command-line utility, which allows dynamically
+  generated maps to be saved to file.
+devel_jobs:
+- devel-hydro-navigation
+doc_job: doc-hydro-navigation
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <fergs@unboundedrobotics.com>
+metapackages:
+- navigation
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-map-server_sourcedeb
+- ros-hydro-map-server_binarydeb_precise_amd64
+- ros-hydro-map-server_binarydeb_precise_i386
+- ros-hydro-map-server_binarydeb_quantal_amd64
+- ros-hydro-map-server_binarydeb_quantal_i386
+- ros-hydro-map-server_binarydeb_raring_amd64
+- ros-hydro-map-server_binarydeb_raring_i386
+repo_name: navigation
+repo_url: ''
+srvs: []
+timestamp: 1405974547.189273
+url: http://wiki.ros.org/map_server
+vcs: git
+vcs_uri: https://github.com/ros-planning/navigation.git
+vcs_version: hydro-devel

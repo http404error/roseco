@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nextage_description/html
+authors: Kei Okada, Isaac Isao Saito, Wataru Yasuda <w.yasuda@opensource-robotics.tokyo.jp>
+brief: ''
+bugtracker: https://github.com/tork-a/rtmros_nextage/issues
+depends:
+- urdf
+- catkin
+depends_on:
+- nextage_ros_bridge
+- nextage_moveit_config
+- rtmros_nextage
+description: As a part of rtmros_nextage package that is a ROS interface for <a href="http://nextage.kawada.jp/en/">Nextage</a>
+  dual-armed robot from Kawada Robotics Inc, this package provides its 3D model that
+  can be used in simulation and <a href="http://ros.org/wiki/moveit">MoveIt!</a>-based
+  motion planning tasks.
+devel_jobs:
+- devel-hydro-rtmros_nextage
+doc_job: doc-hydro-rtmros_nextage
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>, Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>
+metapackages:
+- rtmros_nextage
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-nextage-description_sourcedeb
+- ros-hydro-nextage-description_binarydeb_precise_amd64
+- ros-hydro-nextage-description_binarydeb_precise_i386
+- ros-hydro-nextage-description_binarydeb_quantal_amd64
+- ros-hydro-nextage-description_binarydeb_quantal_i386
+- ros-hydro-nextage-description_binarydeb_raring_amd64
+- ros-hydro-nextage-description_binarydeb_raring_i386
+repo_name: rtmros_nextage
+repo_url: https://github.com/tork-a/rtmros_nextage
+srvs: []
+timestamp: 1405773676.607156
+url: http://ros.org/wiki/nextage_description
+vcs: git
+vcs_uri: https://github.com/tork-a/rtmros_nextage.git
+vcs_version: hydro-devel

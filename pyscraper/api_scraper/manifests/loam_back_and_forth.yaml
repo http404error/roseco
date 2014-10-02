@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/loam_back_and_forth/html
+authors: Ji Zhang
+brief: ''
+bugtracker: ''
+depends:
+- sensor_msgs
+- std_msgs
+- roscpp
+- catkin
+- pcl_ros
+depends_on: []
+description: Laser Odometry and Mapping (back and forth spin version)
+doc_job: doc-hydro-loam_back_and_forth
+has_changelog_rst: false
+license: BSD
+maintainers: Ji Zhang <zhangji@cmu.edu>
+msgs: []
+package_type: package
+repo_name: loam_back_and_forth
+repo_url: ''
+srvs: []
+timestamp: 1405771813.419676
+url: http://wiki.ros.org/loam_back_and_forth
+vcs: git
+vcs_uri: https://github.com/jizhang-cmu/loam_back_and_forth.git
+vcs_version: hydro

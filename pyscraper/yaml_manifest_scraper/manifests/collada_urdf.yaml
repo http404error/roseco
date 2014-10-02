@@ -1,0 +1,54 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/collada_urdf/html
+authors: Tim Field, Rosen Diankov
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- collada_parser
+- collada-dom
+- urdf
+- resource_retriever
+- urdfdom_headers
+- assimp
+- cmake_modules
+- urdfdom
+- angles
+- tf
+- geometric_shapes
+depends_on:
+- hironx_moveit_config
+- collada_urdf_jsk_patch
+- robot_model
+- hrpsys_ros_bridge
+description: "This package contains a tool to convert Unified Robot Description Format\
+  \ (URDF) documents into COLLAborative Design Activity (COLLADA) documents.\n\n \
+  \   Implements robot-specific COLLADA extensions as defined by\n    http://openrave.programmingvision.com/index.php/Started:COLLADA"
+devel_jobs:
+- devel-hydro-robot_model
+doc_job: doc-hydro-robot_model
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@gmail.com>
+metapackages:
+- robot_model
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-collada-urdf_sourcedeb
+- ros-hydro-collada-urdf_binarydeb_precise_amd64
+- ros-hydro-collada-urdf_binarydeb_precise_i386
+- ros-hydro-collada-urdf_binarydeb_quantal_amd64
+- ros-hydro-collada-urdf_binarydeb_quantal_i386
+- ros-hydro-collada-urdf_binarydeb_raring_amd64
+- ros-hydro-collada-urdf_binarydeb_raring_i386
+repo_name: robot_model
+repo_url: ''
+srvs: []
+timestamp: 1405974882.17821
+url: http://ros.org/wiki/collada_urdf
+vcs: git
+vcs_uri: https://github.com/ros/robot_model.git
+vcs_version: hydro-devel

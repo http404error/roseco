@@ -1,0 +1,105 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pcl_ros/html
+authors: Open Perception, Julius Kammerl <jkammerl@willowgarage.com>, William Woodall
+  <william@osrfoundation.org>
+brief: ''
+bugtracker: https://github.com/ros-perception/perception_pcl/issues
+depends:
+- dynamic_reconfigure
+- pcl_conversions
+- eigen
+- message_filters
+- pluginlib
+- std_msgs
+- rosbag
+- pcl_msgs
+- sensor_msgs
+- nodelet_topic_tools
+- tf
+- libpcl-all-dev
+- catkin
+- nodelet
+- libpcl-all
+- roscpp
+depends_on:
+- turtlebot_follower
+- costmap_2d
+- ndt_map_builder
+- octomap_ros
+- hector_thermal_self_filter
+- segbot_sensors
+- cob_table_object_cluster
+- cob_3d_segmentation
+- ar_kinect
+- sentis_tof_m100
+- tedusar_box_detection
+- cob_3d_mapping_tools
+- cob_3d_mapping_filters
+- image_view2
+- loam_continuous
+- fovis_ros
+- slam_exporter
+- humanoid_localization
+- demo_rgbd
+- cob_3d_mapping_semantics
+- octomap_server
+- navfn
+- ndt_map
+- handle_detector
+- velodyne_height_map
+- velodyne_pointcloud
+- semantic_point_annotator
+- cob_3d_transform_nodes
+- perception_pcl
+- cob_3d_mapping_geometry_map
+- base_local_planner
+- depth_image_proc
+- cob_3d_mapping_slam
+- cob_3d_registration
+- pointcloud_tools
+- jsk_pcl_ros
+- cob_3d_features
+- pr2_navigation_self_filter
+- object_recognition_clusters
+- pr2_navigation_perception
+- demo_lidar
+- pointcloud_vrml
+- viso2_ros
+- hector_elevation_mapping
+- hector_costmap
+- loam_back_and_forth
+- argos3d_p100
+description: "PCL (Point Cloud Library) ROS interface stack. PCL-ROS is the preferred\n\
+  \  bridge for 3D applications involving n-D Point Clouds and 3D geometry\n  processing\
+  \ in ROS."
+devel_jobs:
+- devel-hydro-perception_pcl
+doc_job: doc-hydro-perception_pcl
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Paul Bovbel <paul@bovbel.com>, Bill Morris <bill@neautomation.com>
+metapackages:
+- perception_pcl
+msgs:
+- PolygonMesh
+- ModelCoefficients
+- Vertices
+- PointIndices
+package_type: package
+release_jobs:
+- ros-hydro-pcl-ros_sourcedeb
+- ros-hydro-pcl-ros_binarydeb_precise_amd64
+- ros-hydro-pcl-ros_binarydeb_precise_i386
+- ros-hydro-pcl-ros_binarydeb_quantal_amd64
+- ros-hydro-pcl-ros_binarydeb_quantal_i386
+- ros-hydro-pcl-ros_binarydeb_raring_amd64
+- ros-hydro-pcl-ros_binarydeb_raring_i386
+repo_name: perception_pcl
+repo_url: https://github.com/ros-perception/perception_pcl
+srvs: []
+timestamp: 1405964471.921004
+url: http://ros.org/wiki/perception_pcl
+vcs: git
+vcs_uri: https://github.com/ros-perception/perception_pcl.git
+vcs_version: hydro-devel

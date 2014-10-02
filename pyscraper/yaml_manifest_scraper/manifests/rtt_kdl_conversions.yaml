@@ -1,0 +1,36 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rtt_kdl_conversions/html
+authors: ruben smits
+brief: ''
+bugtracker: ''
+depends:
+- rtt
+- catkin
+- kdl_conversions
+depends_on: []
+description: This package contains the components of the kdl_conversions package
+devel_jobs:
+- devel-hydro-rtt_ros_integration
+doc_job: doc-hydro-rtt_ros_integration
+has_changelog_rst: false
+license: GPL, gpl
+maintainer_status: developed
+maintainers: ruben smits <ruben.smits@mech.kuleuven.be>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rtt-kdl-conversions_sourcedeb
+- ros-hydro-rtt-kdl-conversions_binarydeb_precise_amd64
+- ros-hydro-rtt-kdl-conversions_binarydeb_precise_i386
+- ros-hydro-rtt-kdl-conversions_binarydeb_quantal_amd64
+- ros-hydro-rtt-kdl-conversions_binarydeb_quantal_i386
+- ros-hydro-rtt-kdl-conversions_binarydeb_raring_amd64
+- ros-hydro-rtt-kdl-conversions_binarydeb_raring_i386
+repo_name: rtt_ros_integration
+repo_url: ''
+srvs: []
+timestamp: 1405975297.523301
+url: ''
+vcs: git
+vcs_uri: https://github.com/orocos/rtt_ros_integration.git
+vcs_version: hydro-devel

@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_console/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_tools/issues
+depends:
+- catkin
+depends_on:
+- rocon_tools
+- rocon_interactions
+- rocon_master_info
+- rocon_python_comms
+- rocon_launch
+description: Command line python console utilities (mostly for colourisation).
+doc_job: doc-hydro-rocon_tools
+has_changelog_rst: true
+license: BSD
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- rocon_tools
+msgs: []
+package_type: package
+repo_name: rocon_tools
+repo_url: https://github.com/robotics-in-concert/rocon_tools
+srvs: []
+timestamp: 1399026938.645349
+url: http://ros.org/wiki/rocon_console
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_tools.git
+vcs_version: hydro-devel

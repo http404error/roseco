@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/tf_publisher_gui/html
+authors: "Martin G\xFCnther"
+brief: GUI for publishing tf transforms
+bugtracker: ''
+depends:
+- tf
+- wxpython
+- rospy
+depends_on: []
+description: "\n\n     This is a simple GUI for publishing a single TF transform.\n\
+  \n  "
+doc_job: doc-hydro-uos_tools
+license: BSD
+maintainers: ''
+metapackages:
+- uos_tools
+msgs: []
+package_type: package
+repo_name: uos_tools
+repo_url: ''
+srvs: []
+timestamp: 1405965467.698536
+url: http://ros.org/wiki/tf_publisher_gui
+vcs: git
+vcs_uri: https://github.com/uos/uos_tools.git
+vcs_version: hydro

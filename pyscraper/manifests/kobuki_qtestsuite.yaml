@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kobuki_qtestsuite/html
+authors: Daniel Stonier
+brief: ''
+bugtracker: https://github.com/yujinrobot/kobuki_desktop/issues
+depends:
+- nav_msgs
+- catkin
+- rqt_gui
+- qt_gui_py_common
+- kobuki_testsuite
+- rqt_plot
+- rospy
+- geometry_msgs
+- rqt_gui_py
+- pyqt4-dev-tools
+- rqt_py_common
+depends_on:
+- kobuki_desktop
+description: An rqt plugin that provides a graphical, interactive testsuite for Kobuki.
+devel_jobs:
+- devel-hydro-kobuki_desktop
+doc_job: doc-hydro-kobuki_desktop
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <stonier@yujinrobot.com>
+metapackages:
+- kobuki_desktop
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-kobuki-qtestsuite_sourcedeb
+- ros-hydro-kobuki-qtestsuite_binarydeb_precise_amd64
+- ros-hydro-kobuki-qtestsuite_binarydeb_precise_i386
+- ros-hydro-kobuki-qtestsuite_binarydeb_quantal_amd64
+- ros-hydro-kobuki-qtestsuite_binarydeb_quantal_i386
+- ros-hydro-kobuki-qtestsuite_binarydeb_raring_amd64
+- ros-hydro-kobuki-qtestsuite_binarydeb_raring_i386
+repo_name: kobuki_desktop
+repo_url: https://github.com/yujinrobot/kobuki_desktop
+srvs: []
+timestamp: 1405963716.436792
+url: http://ros.org/wiki/kobuki_qtestsuite
+vcs: git
+vcs_uri: https://github.com/yujinrobot/kobuki_desktop.git
+vcs_version: hydro

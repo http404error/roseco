@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/reemc_description/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- xacro
+- catkin
+depends_on:
+- reemc_bringup
+- reemc_robot
+- reemc_gazebo
+description: "This package contains the description (mechanical, kinematic, visual,\n\
+  \      etc.) of the REEM-C robot.  The files in this package are parsed and used\
+  \ by\n      a variety of other components.  Most users will not interact directly\n\
+  \      with this package."
+doc_job: doc-hydro-reemc_robot
+has_changelog_rst: true
+license: Creative Commons BY-NC-ND 3.0
+maintainers: Paul Mathieu <paul.mathieu@pal-robotics.com>
+metapackages:
+- reemc_robot
+msgs: []
+package_type: package
+repo_name: reemc_robot
+repo_url: ''
+srvs: []
+timestamp: 1405772832.211632
+url: ''
+vcs: git
+vcs_uri: https://github.com/pal-robotics/reemc_robot.git
+vcs_version: hydro-devel

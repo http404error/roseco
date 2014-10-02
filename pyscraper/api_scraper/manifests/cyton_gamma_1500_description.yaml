@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cyton_gamma_1500_description/html
+authors: Gert Kanter <gert@cs.ttu.ee>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- robot_state_publisher
+- xacro
+- rviz
+- joint_state_publisher
+depends_on: []
+description: URDF description for the Robai Cyton Gamma 1500 robot manipulator
+doc_job: doc-hydro-cyton_gamma_1500_description
+has_changelog_rst: false
+license: BSD
+maintainers: Gert Kanter <gert@cs.ttu.ee>
+msgs: []
+package_type: package
+repo_name: cyton_gamma_1500_description
+repo_url: ''
+srvs: []
+timestamp: 1405973303.065685
+url: http://wiki.ros.org/cyton_gamma_1500_description
+vcs: git
+vcs_uri: https://github.com/GertKanter/cyton_gamma_1500_description.git
+vcs_version: master

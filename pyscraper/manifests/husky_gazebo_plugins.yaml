@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/husky_gazebo_plugins/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- std_msgs
+- gazebo_msgs
+- gazebo_plugins
+- tf
+- gazebo
+- gazebo_ros
+depends_on:
+- husky_simulator
+description: The husky_gazebo_plugins package
+doc_job: doc-hydro-husky_simulator
+has_changelog_rst: true
+license: BSD
+maintainers: Yan Ma <yanma@clearpathrobotics.com>
+metapackages:
+- husky_simulator
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-husky-gazebo-plugins_sourcedeb
+- ros-hydro-husky-gazebo-plugins_binarydeb_precise_amd64
+- ros-hydro-husky-gazebo-plugins_binarydeb_precise_i386
+- ros-hydro-husky-gazebo-plugins_binarydeb_quantal_amd64
+- ros-hydro-husky-gazebo-plugins_binarydeb_quantal_i386
+- ros-hydro-husky-gazebo-plugins_binarydeb_raring_amd64
+- ros-hydro-husky-gazebo-plugins_binarydeb_raring_i386
+repo_name: husky_simulator
+repo_url: ''
+srvs: []
+timestamp: 1405963466.387377
+url: ''
+vcs: git
+vcs_uri: https://github.com/husky/husky_simulator.git
+vcs_version: hydro-devel

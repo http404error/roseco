@@ -1,0 +1,54 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rtt_ros/html
+authors: Ruben Smits
+brief: ''
+bugtracker: https://github.com/orocos/rtt_ros_integration/issues
+depends:
+- rospack
+- ocl
+- libxml2
+- roslib
+- rostime
+- rtt
+- catkin
+depends_on:
+- rtt_roscomm
+- rtt_rosbuild_tests
+- rtt_dynamic_reconfigure_tests
+- rtt_rospack
+- rtt_ros_integration
+- rtt_rosnode
+- rtt_ros_tests
+- rtt_rosparam
+- rtt_actionlib
+- rtt_dynamic_reconfigure
+- rtt_rosdeployment
+description: "This package provides an RTT plugin to add a ROS node to the RTT process,\n\
+  \    as well as several wrapper scripts to enable roslaunching of orocos\n    programs."
+devel_jobs:
+- devel-hydro-rtt_ros_integration
+doc_job: doc-hydro-rtt_ros_integration
+has_changelog_rst: false
+license: BSD
+maintainer_status: developed
+maintainers: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+metapackages:
+- rtt_ros_integration
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rtt-ros_sourcedeb
+- ros-hydro-rtt-ros_binarydeb_precise_amd64
+- ros-hydro-rtt-ros_binarydeb_precise_i386
+- ros-hydro-rtt-ros_binarydeb_quantal_amd64
+- ros-hydro-rtt-ros_binarydeb_quantal_i386
+- ros-hydro-rtt-ros_binarydeb_raring_amd64
+- ros-hydro-rtt-ros_binarydeb_raring_i386
+repo_name: rtt_ros_integration
+repo_url: ''
+srvs: []
+timestamp: 1405975215.462392
+url: http://ros.org/wiki/rtt_ros_integration
+vcs: git
+vcs_uri: https://github.com/orocos/rtt_ros_integration.git
+vcs_version: hydro-devel

@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_gateway_graph/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_multimaster/issues
+depends:
+- rocon_gateway
+- catkin
+- rqt_gui
+- qt_gui_py_common
+- python-rospkg
+- rospy
+- qt_dotgraph
+- rqt_gui_py
+- rocon_utilities
+depends_on:
+- rocon_gateway_tutorials
+- rocon_rqt_plugins
+description: "An rqt plugin that displays the gateway graph across multiple ros masters\
+  \ from\n    the perspective of the master executing the plugin."
+devel_jobs:
+- devel-hydro-rocon_rqt_plugins
+doc_job: doc-hydro-rocon_rqt_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- rocon_rqt_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rocon-gateway-graph_sourcedeb
+- ros-hydro-rocon-gateway-graph_binarydeb_precise_amd64
+- ros-hydro-rocon-gateway-graph_binarydeb_precise_i386
+- ros-hydro-rocon-gateway-graph_binarydeb_quantal_amd64
+- ros-hydro-rocon-gateway-graph_binarydeb_quantal_i386
+- ros-hydro-rocon-gateway-graph_binarydeb_raring_amd64
+- ros-hydro-rocon-gateway-graph_binarydeb_raring_i386
+repo_name: rocon_rqt_plugins
+repo_url: https://github.com/robotics-in-concert/rocon_multimaster
+srvs: []
+timestamp: 1405773030.873976
+url: http://wiki.ros.org/rocon_gateway_graph
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_rqt_plugins.git
+vcs_version: hydro

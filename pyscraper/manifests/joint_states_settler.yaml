@@ -1,0 +1,49 @@
+actions:
+- Config
+api_documentation: http://docs.ros.org/hydro/api/joint_states_settler/html
+authors: Vijay Pradeep, Eitan Marder-Eppstein
+brief: ''
+bugtracker: ''
+depends:
+- rosconsole
+- catkin
+- roscpp
+- actionlib
+- std_msgs
+- roscpp_serialization
+- settlerlib
+- actionlib_msgs
+depends_on:
+- calibration_launch
+- calibration
+description: "Provides a node that reports how long a subset of joints has been\n\
+  \     settled. That is, it calculates how long a set of joints has remained\n  \
+  \   within a specified threshold. This package is experimental and unstable.\n \
+  \    Expect its APIs to change."
+devel_jobs:
+- devel-hydro-calibration
+doc_job: doc-hydro-calibration
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+metapackages:
+- calibration
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-joint-states-settler_sourcedeb
+- ros-hydro-joint-states-settler_binarydeb_precise_amd64
+- ros-hydro-joint-states-settler_binarydeb_precise_i386
+- ros-hydro-joint-states-settler_binarydeb_quantal_amd64
+- ros-hydro-joint-states-settler_binarydeb_quantal_i386
+- ros-hydro-joint-states-settler_binarydeb_raring_amd64
+- ros-hydro-joint-states-settler_binarydeb_raring_i386
+repo_name: calibration
+repo_url: ''
+srvs: []
+timestamp: 1405962109.140633
+url: http://www.ros.org/wiki/joint_states_settler
+vcs: git
+vcs_uri: https://github.com/ros-perception/calibration.git
+vcs_version: hydro

@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pano_py/html
+authors: Ethan Rublee
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_apps/issues
+depends:
+- pano_core
+- catkin
+- roscpp
+- std_msgs
+- image_transport
+- rospy
+- cv_bridge
+depends_on:
+- pano_ros
+- turtlebot_apps
+description: This is a python wraper around the pano_core library (I think)
+devel_jobs:
+- devel-hydro-turtlebot_apps
+doc_job: doc-hydro-turtlebot_apps
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Jihoon Lee <jihoonlee.in@gmail.com>
+metapackages:
+- turtlebot_apps
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-pano-py_sourcedeb
+- ros-hydro-pano-py_binarydeb_precise_amd64
+- ros-hydro-pano-py_binarydeb_precise_i386
+- ros-hydro-pano-py_binarydeb_quantal_amd64
+- ros-hydro-pano-py_binarydeb_quantal_i386
+- ros-hydro-pano-py_binarydeb_raring_amd64
+- ros-hydro-pano-py_binarydeb_raring_i386
+repo_name: turtlebot_apps
+repo_url: https://github.com/turtlebot/turtlebot_apps
+srvs: []
+timestamp: 1405965304.488545
+url: http://ros.org/wiki/pano_py
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_apps.git
+vcs_version: hydro

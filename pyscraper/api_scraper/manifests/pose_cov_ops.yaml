@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pose_cov_ops/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- mrpt_bridge
+- catkin
+- geometry_msgs
+- roscpp
+depends_on: []
+description: The pose_cov_ops package
+doc_job: doc-hydro-mrpt_common
+has_changelog_rst: false
+license: BSD
+maintainers: Jose Luis <jose.luis@todo.todo>, Markus Bader <markus.bader@tuwien.ac.at>
+metapackages:
+- mrpt_common
+msgs: []
+package_type: package
+repo_name: mrpt_common
+repo_url: ''
+srvs: []
+timestamp: 1405964064.500473
+url: ''
+vcs: git
+vcs_uri: https://github.com/mrpt-ros-pkg/mrpt_common.git
+vcs_version: master

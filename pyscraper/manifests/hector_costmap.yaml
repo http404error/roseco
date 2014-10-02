@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_costmap/html
+authors: Thorsten Graber
+brief: hector_costmap provides a 2D occupancy grid map containing all untraversable
+  obstacles.  It fuses 2.5D elevation map (provided by hector_elevation_mapping) with
+  the 2D occupancy grid map (provided by hector_slam) for calculating the 2D costmap
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- hector_map_tools
+- sensor_msgs
+- geometry_msgs
+- hector_elevation_msgs
+- cv_bridge
+- pcl_ros
+depends_on: []
+description: "\n\n     hector_costmap provides a 2D occupancy grid map containing\
+  \ all untraversable obstacles.  It fuses 2.5D elevation map (provided by hector_elevation_mapping)\
+  \ with the 2D occupancy grid map (provided by hector_slam) for calculating the 2D\
+  \ costmap\n\n  "
+doc_job: doc-hydro-hector_navigation
+license: BSD
+maintainers: ''
+metapackages:
+- hector_navigation
+msgs: []
+package_type: package
+repo_name: hector_navigation
+repo_url: ''
+srvs: []
+timestamp: 1405771013.184129
+url: ''
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_navigation.git
+vcs_version: master

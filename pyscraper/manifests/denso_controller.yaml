@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/denso_controller/html
+authors: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: https://github.com/start-jsk/denso/issues
+depends:
+- catkin
+- open_controllers_interface
+- roscpp
+depends_on:
+- denso
+- denso_launch
+- densowave
+description: <p>This packages a common controller functionality for Denso's industrial
+  manipulators based on <a href="http://goo.gl/kL0vnf">ORiN</a> (Open Robot interface
+  for the Network), a unified network interface for industrial robot applications.</p>
+devel_jobs:
+- devel-hydro-denso
+doc_job: doc-hydro-denso
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>, Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>
+metapackages:
+- denso
+- densowave
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-denso-controller_sourcedeb
+- ros-hydro-denso-controller_binarydeb_precise_amd64
+- ros-hydro-denso-controller_binarydeb_precise_i386
+- ros-hydro-denso-controller_binarydeb_quantal_amd64
+- ros-hydro-denso-controller_binarydeb_quantal_i386
+- ros-hydro-denso-controller_binarydeb_raring_amd64
+- ros-hydro-denso-controller_binarydeb_raring_i386
+repo_name: denso
+repo_url: https://github.com/start-jsk/denso
+srvs: []
+timestamp: 1405962995.669628
+url: http://wiki.ros.org/denso_controller
+vcs: git
+vcs_uri: https://github.com/start-jsk/denso.git
+vcs_version: hydro-devel

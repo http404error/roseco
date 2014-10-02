@@ -1,0 +1,32 @@
+<package>
+  <name>carl_teleop</name>
+  <version>0.0.4</version>
+  <description>Control the Movement Devices on CARL</description>
+
+  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  <maintainer email="davidkent@wpi.edu">David Kent</maintainer>
+  <author email="spkordell@wpi.edu">Steven Kordell</author>
+  <author email="rctoris@wpi.edu">Russell Toris</author>
+  <author email="davidkent@wpi.edu">David Kent</author>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/carl_teleop</url>
+  <url type="bugtracker">https://github.com/WPI-RAIL/carl_bot/issues</url>
+  <url type="repository">https://github.com/WPI-RAIL/carl_bot</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>joy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>wpi_jaco_msgs</build_depend>
+
+  <run_depend>joy</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>wpi_jaco_msgs</run_depend>
+  
+</package>

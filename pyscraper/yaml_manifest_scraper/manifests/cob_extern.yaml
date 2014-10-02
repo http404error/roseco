@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_extern/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: http://care-o-bot.org/trac
+depends: &id001
+- libpcan
+- catkin
+- libphidgets
+- libntcan
+depends_on: []
+description: The cob_extern stack contains third party libraries needed for operating
+  Care-O-bot. The packages are downloaded from the manufactorers website and not changed
+  in any way.
+devel_jobs:
+- devel-hydro-cob_extern
+doc_job: doc-hydro-cob_extern
+has_changelog_rst: true
+license: LGPL, proprietary
+maintainer_status: maintained
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-cob-extern_sourcedeb
+- ros-hydro-cob-extern_binarydeb_precise_amd64
+- ros-hydro-cob-extern_binarydeb_precise_i386
+- ros-hydro-cob-extern_binarydeb_quantal_amd64
+- ros-hydro-cob-extern_binarydeb_quantal_i386
+- ros-hydro-cob-extern_binarydeb_raring_amd64
+- ros-hydro-cob-extern_binarydeb_raring_i386
+repo_name: cob_extern
+repo_url: ''
+srvs: []
+timestamp: 1405770010.383511
+url: http://ros.org/wiki/cob_extern
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_extern.git
+vcs_version: hydro_release_candidate

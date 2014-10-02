@@ -1,0 +1,34 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/labust_mission/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- tf2_ros
+- std_msgs
+- sensor_msgs
+- decision_making
+- random_numbers
+- auv_msgs
+- decision_making_parser
+- misc_msgs
+- geometry_msgs
+- snippets
+- roscpp
+depends_on: []
+description: The caddy_state_machine package
+doc_job: doc-hydro-labust_ros_pkg
+has_changelog_rst: false
+license: TODO
+maintainers: filip <filip@todo.todo>
+msgs: []
+package_type: package
+repo_name: labust_ros_pkg
+repo_url: ''
+srvs: []
+timestamp: 1405771668.661176
+url: ''
+vcs: git
+vcs_uri: https://github.com/labust/labust-ros-pkg.git
+vcs_version: master

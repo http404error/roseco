@@ -1,0 +1,36 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/grizzly_simulator/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends: &id001
+- grizzly_gazebo
+- catkin
+- grizzly_gazebo_plugins
+depends_on: []
+description: Metapackage allowing easy installation of Grizzly simulation components.
+devel_jobs:
+- devel-hydro-grizzly_simulator
+doc_job: doc-hydro-grizzly_simulator
+has_changelog_rst: true
+license: BSD
+maintainers: Yan Ma <yanma@clearpathrobotics.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-grizzly-simulator_sourcedeb
+- ros-hydro-grizzly-simulator_binarydeb_precise_amd64
+- ros-hydro-grizzly-simulator_binarydeb_precise_i386
+- ros-hydro-grizzly-simulator_binarydeb_quantal_amd64
+- ros-hydro-grizzly-simulator_binarydeb_quantal_i386
+- ros-hydro-grizzly-simulator_binarydeb_raring_amd64
+- ros-hydro-grizzly-simulator_binarydeb_raring_i386
+repo_name: grizzly_simulator
+repo_url: ''
+srvs: []
+timestamp: 1405770933.856213
+url: ''
+vcs: git
+vcs_uri: https://github.com/g/grizzly_simulator.git
+vcs_version: hydro-devel

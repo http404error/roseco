@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/libuvc_camera/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- camera_info_manager
+- sensor_msgs
+- libuvc
+- image_transport
+- nodelet
+depends_on:
+- calvin_bringup
+- libuvc_ros
+description: USB Video Class camera driver
+devel_jobs:
+- devel-hydro-libuvc_ros
+doc_job: doc-hydro-libuvc_ros
+has_changelog_rst: true
+license: BSD
+maintainers: Ken Tossell <ken@tossell.net>
+metapackages:
+- libuvc_ros
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-libuvc-camera_sourcedeb
+- ros-hydro-libuvc-camera_binarydeb_precise_amd64
+- ros-hydro-libuvc-camera_binarydeb_precise_i386
+- ros-hydro-libuvc-camera_binarydeb_quantal_amd64
+- ros-hydro-libuvc-camera_binarydeb_quantal_i386
+- ros-hydro-libuvc-camera_binarydeb_raring_amd64
+- ros-hydro-libuvc-camera_binarydeb_raring_i386
+repo_name: libuvc_ros
+repo_url: ''
+srvs: []
+timestamp: 1405974275.691018
+url: http://ros.org/wiki/libuvc_camera
+vcs: git
+vcs_uri: https://github.com/ktossell/libuvc_ros.git
+vcs_version: master

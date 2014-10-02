@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kdl_typekit/html
+authors: Steven Bellens, Ruben Smits
+brief: ''
+bugtracker: ''
+depends:
+- rtt
+- orocos_kdl
+- catkin
+- ocl
+depends_on:
+- kdl_lua
+- rtt_geometry
+description: This package contains the KDL RTT bindings
+devel_jobs:
+- devel-hydro-rtt_geometry
+doc_job: doc-hydro-rtt_geometry
+has_changelog_rst: false
+license: LGPL / BSD
+maintainer_status: developed
+maintainers: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+metapackages:
+- rtt_geometry
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-kdl-typekit_sourcedeb
+- ros-hydro-kdl-typekit_binarydeb_precise_amd64
+- ros-hydro-kdl-typekit_binarydeb_precise_i386
+- ros-hydro-kdl-typekit_binarydeb_quantal_amd64
+- ros-hydro-kdl-typekit_binarydeb_quantal_i386
+- ros-hydro-kdl-typekit_binarydeb_raring_amd64
+- ros-hydro-kdl-typekit_binarydeb_raring_i386
+repo_name: rtt_geometry
+repo_url: ''
+srvs: []
+timestamp: 1405975212.114931
+url: http://ros.org/wiki/kdl_typekit
+vcs: git
+vcs_uri: https://github.com/orocos/rtt_geometry.git
+vcs_version: hydro-devel

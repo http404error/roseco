@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/fanuc_driver/html
+authors: G.A. vd. Hoorn (TU Delft Robotics Institute)
+brief: ''
+bugtracker: https://github.com/ros-industrial/fanuc/issues
+depends:
+- roslaunch
+- industrial_robot_client
+- catkin
+depends_on:
+- fanuc_m10ia_support
+- fanuc
+- fanuc_lrmate200id_support
+- fanuc_m16ib_support
+- fanuc_lrmate200ic_support
+- fanuc_m430ia_support
+- fanuc_m20ia_support
+description: "<p>\n     ROS Industrial nodes for interfacing with Fanuc robot controllers.\n\
+  \   </p>\n   <p>\n     This package is part of the ROS Industrial program and contains\
+  \ nodes \n     for interfacing with Fanuc industrial robot controllers that support\
+  \ \n     the KAREL programming environment.\n   </p>"
+devel_jobs:
+- devel-hydro-fanuc
+doc_job: doc-hydro-fanuc
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+metapackages:
+- fanuc
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-fanuc-driver_sourcedeb
+- ros-hydro-fanuc-driver_binarydeb_precise_amd64
+- ros-hydro-fanuc-driver_binarydeb_precise_i386
+- ros-hydro-fanuc-driver_binarydeb_quantal_amd64
+- ros-hydro-fanuc-driver_binarydeb_quantal_i386
+- ros-hydro-fanuc-driver_binarydeb_raring_amd64
+- ros-hydro-fanuc-driver_binarydeb_raring_i386
+repo_name: fanuc
+repo_url: https://github.com/ros-industrial/fanuc
+srvs: []
+timestamp: 1405963161.52402
+url: http://ros.org/wiki/fanuc_driver
+vcs: git
+vcs_uri: https://github.com/ros-industrial/fanuc.git
+vcs_version: hydro-devel

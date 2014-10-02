@@ -1,0 +1,18 @@
+authors: Allied Vision Technologies.
+depends:
+- catkin
+description: AVT GigE SDK version 1.26 for ROS
+license: Commercial
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-prosilica-gige-sdk_sourcedeb
+- ros-hydro-prosilica-gige-sdk_binarydeb_precise_amd64
+- ros-hydro-prosilica-gige-sdk_binarydeb_precise_i386
+- ros-hydro-prosilica-gige-sdk_binarydeb_quantal_amd64
+- ros-hydro-prosilica-gige-sdk_binarydeb_quantal_i386
+- ros-hydro-prosilica-gige-sdk_binarydeb_raring_amd64
+- ros-hydro-prosilica-gige-sdk_binarydeb_raring_i386
+repo_name: prosilica_gige_sdk
+timestamp: 1405956414.996068
+url: http://www.ros.org/wiki/prosilica_gige_sdk

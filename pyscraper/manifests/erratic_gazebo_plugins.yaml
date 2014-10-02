@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/erratic_gazebo_plugins/html
+authors: Daniel Hewlett, Antons Rebguns
+brief: erratic_gazebo_plugins
+bugtracker: ''
+depends:
+- gazebo
+- roscpp
+- gazebo_plugins
+depends_on:
+- erratic_description
+description: "\n        Contains a differential drive plugin that works with the erratic\
+  \ robot model provided\n        in the erratic_description package. The plugin may\
+  \ also work for other differential drive \n        robots. The purpose of this custom\
+  \ plugin is to build the ROS functionality directly into a \n        proper Gazebo\
+  \ plugin, rather than a node that communicates with Gazebo. \n    "
+doc_job: doc-hydro-erratic_robot
+license: BSD
+maintainers: ''
+metapackages:
+- erratic_robot
+msgs: []
+package_type: package
+repo_name: erratic_robot
+repo_url: ''
+srvs: []
+timestamp: 1405963227.475153
+url: http://ros.org/wiki/erratic_gazebo_plugins
+vcs: git
+vcs_uri: https://github.com/arebgun/erratic_robot.git
+vcs_version: master

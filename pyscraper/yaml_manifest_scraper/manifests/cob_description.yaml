@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_description/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- gtest
+- catkin
+- gazebo_ros
+- urdfdom
+depends_on:
+- cob_gazebo
+- desire_description
+- raw_description
+- cob_common
+- cob_gazebo_objects
+- cob_hardware_config
+description: "This package contains the description (mechanical, kinematic, visual,\n\
+  \  etc.) of the Care-O-bot robot. The files in this package are parsed and used\
+  \ by\n  a variety of other components. Most users will not interact directly\n \
+  \ with this package."
+devel_jobs:
+- devel-hydro-cob_common
+doc_job: doc-hydro-cob_common
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+metapackages:
+- cob_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-description_sourcedeb
+- ros-hydro-cob-description_binarydeb_precise_amd64
+- ros-hydro-cob-description_binarydeb_precise_i386
+- ros-hydro-cob-description_binarydeb_quantal_amd64
+- ros-hydro-cob-description_binarydeb_quantal_i386
+- ros-hydro-cob-description_binarydeb_raring_amd64
+- ros-hydro-cob-description_binarydeb_raring_i386
+repo_name: cob_common
+repo_url: ''
+srvs: []
+timestamp: 1405973069.08416
+url: http://ros.org/wiki/cob_description
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_common.git
+vcs_version: hydro_release_candidate

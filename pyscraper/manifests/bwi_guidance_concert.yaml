@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/bwi_guidance_concert/html
+authors: Piyush Khandelwal <piyushk@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- roslaunch
+- rocon_apps
+- concert_scheduler_requests
+- catkin
+- concert_service_admin
+- rospy
+- concert_service_segbot_gazebo
+- zeroconf_msgs
+- concert_master
+- zeroconf_avahi
+- rocon_app_manager
+- concert_msgs
+- rocon_python_comms
+- concert_service_gazebo
+- rocon_python_utils
+- bwi_guidance_solver
+- rocon_uri
+depends_on: []
+description: "Wraps a Human-Robot Interaction Experiment conducted at the\n    University\
+  \ of Texas At Austin to use the Robotics in Concert Framework. The\n    results\
+  \ from this experiment were reported in the following symposium\n    paper: Piyush\
+  \ Khandelwal and Peter Stone. Multi-robot Human Guidance using\n    Topological\
+  \ Graphs. In AAAI Spring 2014 Symposium on Qualitative\n    Representations for\
+  \ Robots (AAAI-SSS), March 2014."
+doc_job: doc-hydro-segbot_rocon
+has_changelog_rst: false
+license: BSD
+maintainers: Piyush Khandelwal <piyushk@gmail.com>
+msgs: []
+package_type: package
+repo_name: segbot_rocon
+repo_url: ''
+srvs: []
+timestamp: 1405965107.386213
+url: ''
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/segbot_rocon.git
+vcs_version: master

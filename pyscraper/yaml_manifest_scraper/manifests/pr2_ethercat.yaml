@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_ethercat/html
+authors: Rob Wheeler <wheeler@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends:
+- pr2_controller_manager
+- std_srvs
+- roscpp
+- ethercat_hardware
+- realtime_tools
+- diagnostic_updater
+- catkin
+- diagnostic_msgs
+depends_on:
+- sr_edc_launch
+- pr2_robot
+- pr2_bringup
+description: Main loop that runs the robot.
+doc_job: doc-hydro-pr2_robot
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+metapackages:
+- pr2_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-pr2-ethercat_sourcedeb
+- ros-hydro-pr2-ethercat_binarydeb_precise_amd64
+- ros-hydro-pr2-ethercat_binarydeb_precise_i386
+- ros-hydro-pr2-ethercat_binarydeb_quantal_amd64
+- ros-hydro-pr2-ethercat_binarydeb_quantal_i386
+- ros-hydro-pr2-ethercat_binarydeb_raring_amd64
+- ros-hydro-pr2-ethercat_binarydeb_raring_i386
+repo_name: pr2_robot
+repo_url: ''
+srvs: []
+timestamp: 1405974811.974418
+url: http://pr.willowgarage.com
+vcs: git
+vcs_uri: https://github.com/PR2/pr2_robot.git
+vcs_version: hydro-devel

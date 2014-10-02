@@ -1,0 +1,22 @@
+<package>
+  <name>rmp_msgs</name>
+  <version>0.0.1</version>
+  <description>ROS Messages for the Segway RMP</description>
+
+  <author email="cmdunkers@wpi.edu">Chris Dunkers</author>
+  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  
+  <url type="website">http://ros.org/wiki/rmp_msgs</url>
+  <url type="bugtracker">https://github.com/WPI-RAIL/rmp_msgs/issues</url>
+  <url type="repository">https://github.com/WPI-RAIL/rmp_msgs</url>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  
+  <run_depend>std_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+</package>

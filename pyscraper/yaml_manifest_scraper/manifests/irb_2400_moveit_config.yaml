@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/irb_2400_moveit_config/html
+authors: MoveIt Setup Assistant <assistant@moveit.ros.org>
+brief: ''
+bugtracker: https://github.com/ros-planning/moveit_setup_assistant/issues
+depends:
+- moveit_simple_controller_manager
+- catkin
+- abb_common
+- moveit_ros_move_group
+- industrial_robot_simulator
+depends_on:
+- abb
+description: An automatically generated package with all the configuration and launch
+  files for using the irb_2400 with the MoveIt Motion Planning Framework
+devel_jobs:
+- devel-hydro-abb
+doc_job: doc-hydro-abb
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: MoveIt Setup Assistant <assistant@moveit.ros.org>
+metapackages:
+- abb
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-irb-2400-moveit-config_sourcedeb
+- ros-hydro-irb-2400-moveit-config_binarydeb_precise_amd64
+- ros-hydro-irb-2400-moveit-config_binarydeb_precise_i386
+- ros-hydro-irb-2400-moveit-config_binarydeb_quantal_amd64
+- ros-hydro-irb-2400-moveit-config_binarydeb_quantal_i386
+- ros-hydro-irb-2400-moveit-config_binarydeb_raring_amd64
+- ros-hydro-irb-2400-moveit-config_binarydeb_raring_i386
+repo_name: abb
+repo_url: https://github.com/ros-planning/moveit_setup_assistant
+srvs: []
+timestamp: 1405972361.25562
+url: http://moveit.ros.org/
+vcs: git
+vcs_uri: https://github.com/ros-industrial/abb.git
+vcs_version: hydro

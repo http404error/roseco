@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/lms1xx/html
+authors: Konrad Banachowicz
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- sensor_msgs
+- roscpp
+- roscpp_serialization
+depends_on: []
+description: The lms1xx package contains a basic ROS driver for the SICK LMS1xx line
+  of LIDARs.
+devel_jobs:
+- devel-hydro-lms1xx
+doc_job: doc-hydro-lms1xx
+has_changelog_rst: true
+license: LGPL
+maintainer_status: maintained
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-lms1xx_sourcedeb
+- ros-hydro-lms1xx_binarydeb_precise_amd64
+- ros-hydro-lms1xx_binarydeb_precise_i386
+- ros-hydro-lms1xx_binarydeb_quantal_amd64
+- ros-hydro-lms1xx_binarydeb_quantal_i386
+- ros-hydro-lms1xx_binarydeb_raring_amd64
+- ros-hydro-lms1xx_binarydeb_raring_i386
+repo_name: lms1xx
+repo_url: ''
+srvs: []
+timestamp: 1405974282.436244
+url: ''
+vcs: git
+vcs_uri: https://github.com/clearpathrobotics/LMS1xx.git
+vcs_version: master

@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/maxwell_moveit_config/html
+authors: MoveIt Setup Assistant <assistant@moveit.ros.org>
+brief: ''
+bugtracker: https://github.com/ros-planning/moveit-setup-assistant/issues
+depends:
+- catkin
+- moveit_ros_move_group
+depends_on:
+- maxwell
+description: maxwell_moveit_config
+doc_job: doc-hydro-maxwell
+has_changelog_rst: false
+license: BSD
+maintainers: MoveIt Setup Assistant <assistant@moveit.ros.org>
+metapackages:
+- maxwell
+msgs: []
+package_type: package
+repo_name: maxwell
+repo_url: https://github.com/ros-planning/moveit-setup-assistant
+srvs: []
+timestamp: 1405963900.436391
+url: http://moveit.ros.org
+vcs: git
+vcs_uri: https://github.com/mikeferguson/maxwell.git
+vcs_version: sixdof

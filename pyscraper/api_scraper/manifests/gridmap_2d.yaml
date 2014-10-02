@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/gridmap_2d/html
+authors: Armin Hornung
+brief: 2D gridmap data structure and API based in OpenCV's cv::Mat
+bugtracker: ''
+depends:
+- nav_msgs
+- opencv2
+depends_on:
+- humanoid_planner_2d
+- footstep_planner
+description: "\n\n     gridmap_2d - a simple 2D gridmap structure, based on OpenCV's\
+  \ cv::Mat\n\n  "
+doc_job: doc-hydro-humanoid_navigation
+license: BSD
+maintainers: ''
+metapackages:
+- humanoid_navigation
+msgs: []
+package_type: package
+repo_name: humanoid_navigation
+repo_url: ''
+srvs: []
+timestamp: 1405963425.484101
+url: http://ros.org/wiki/gridmap_2d
+vcs: git
+vcs_uri: https://github.com/ahornung/humanoid_navigation.git
+vcs_version: master

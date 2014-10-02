@@ -1,0 +1,27 @@
+<package>
+  <name>concert_service_gazebo</name>
+  <version>0.1.0</version>
+  <description>
+      Sets up the gazebo robot manager as a service to assist in spawning/killing robots as concert clients.
+  </description>
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <maintainer email="piyushk@gmail.com">Piyush Khandelwal</maintainer>
+
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/concert_service_gazebo</url>
+  <url type="repository">https://github.com/robotics-in-concert/concert_services</url>
+  <url type="bugtracker">https://github.com/robotics-in-concert/concert_services/issues</url>
+
+  <author>Daniel Stonier</author>
+  <author>Piyush Khandelwal</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gateway_msgs</run_depend>
+  <run_depend>rocon_console</run_depend>
+  <run_depend>rocon_gateway_utils</run_depend>
+  <run_depend>rocon_launch</run_depend>
+  <run_depend>rocon_python_utils</run_depend>
+  <run_depend>rospy</run_depend>
+
+</package>

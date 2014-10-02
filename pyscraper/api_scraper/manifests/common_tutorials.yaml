@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/common_tutorials/html
+authors: ''
+brief: ''
+bugtracker: https://github.com/ros/common_tutorials/issues
+depends: &id001
+- turtle_actionlib
+- actionlib_tutorials
+- catkin
+- nodelet_tutorial_math
+- pluginlib_tutorials
+depends_on: []
+description: Metapackage that contains common tutorials
+doc_job: doc-hydro-common_tutorials
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-common-tutorials_sourcedeb
+- ros-hydro-common-tutorials_binarydeb_precise_amd64
+- ros-hydro-common-tutorials_binarydeb_precise_i386
+- ros-hydro-common-tutorials_binarydeb_quantal_amd64
+- ros-hydro-common-tutorials_binarydeb_quantal_i386
+- ros-hydro-common-tutorials_binarydeb_raring_amd64
+- ros-hydro-common-tutorials_binarydeb_raring_i386
+repo_name: common_tutorials
+repo_url: https://github.com/ros/common_tutorials
+srvs: []
+timestamp: 1405973205.53456
+url: http://ros.org/wiki/common_tutorials
+vcs: git
+vcs_uri: https://github.com/ros/common_tutorials.git
+vcs_version: hydro-devel

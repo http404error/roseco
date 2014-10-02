@@ -1,0 +1,24 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosrtw/html
+authors: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- rosmatlab
+- catkin
+depends_on: []
+description: rosrtw
+doc_job: doc-hydro-rosmatlab
+has_changelog_rst: false
+license: BSD
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+msgs: []
+package_type: package
+repo_name: rosmatlab
+repo_url: ''
+srvs: []
+timestamp: 1405975116.261223
+url: http://github.com/tu-darmstadt-ros-pkg/rosmatlab/wiki/rtw
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/rosmatlab.git
+vcs_version: master

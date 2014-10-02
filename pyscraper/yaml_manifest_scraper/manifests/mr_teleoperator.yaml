@@ -1,0 +1,34 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/mr_teleoperator/html
+authors: Igor Makhtes <igor@cogniteam.com>
+brief: ''
+bugtracker: ''
+depends: &id001
+- mr_tools
+- catkin
+- mr_rqt
+depends_on: []
+description: Multi-robot teleoperation package collection
+doc_job: doc-hydro-mr_teleoperator
+has_changelog_rst: true
+license: MIT
+maintainers: Igor Makhtes <igor@cogniteam.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-mr-teleoperator_sourcedeb
+- ros-hydro-mr-teleoperator_binarydeb_precise_amd64
+- ros-hydro-mr-teleoperator_binarydeb_precise_i386
+- ros-hydro-mr-teleoperator_binarydeb_quantal_amd64
+- ros-hydro-mr-teleoperator_binarydeb_quantal_i386
+- ros-hydro-mr-teleoperator_binarydeb_raring_amd64
+- ros-hydro-mr-teleoperator_binarydeb_raring_i386
+repo_name: mr_teleoperator
+repo_url: ''
+srvs: []
+timestamp: 1405771946.31638
+url: http://www.ros.org/wiki/mr_teleoperator
+vcs: git
+vcs_uri: https://github.com/cogniteam/mr_teleoperator.git
+vcs_version: master

@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/orbit_pantilt/html
+authors: k-okada
+brief: orbit_pantilt
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- sensor_msgs
+- std_srvs
+- roscpp
+- uvcdynctrl
+depends_on: []
+description: "\n\n     orbit_pantilt\n\n  "
+doc_job: doc-hydro-jsk_recognition
+license: BSD
+maintainers: ''
+msgs:
+- JointCommand
+package_type: package
+repo_name: jsk_recognition
+repo_url: ''
+srvs: []
+timestamp: 1405974168.854118
+url: http://ros.org/wiki/orbit_pantilt
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_recognition.git
+vcs_version: master

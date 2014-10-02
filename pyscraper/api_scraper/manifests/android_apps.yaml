@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/android_apps/html
+authors: Daniel Stonier <d.stonier@gmail.com>, Kazuto Murase <kattyokaccho3616@gmail.com>
+brief: ''
+bugtracker: https://github.com/rosjava/android_apps/issues
+depends:
+- rosjava_bootstrap
+- android_extras
+- catkin
+- zeroconf_jmdns_suite
+- rosjava_build_tools
+- android_core
+depends_on:
+- android_remocons
+- turtlebot_android
+description: Applications for robot-android pairing..
+doc_job: doc-hydro-android_apps
+has_changelog_rst: true
+license: Apache 2.0
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+msgs: []
+package_type: package
+repo_name: android_apps
+repo_url: https://github.com/rosjava/android_apps
+srvs: []
+timestamp: 1405769385.276313
+url: http://ros.org/wiki/android_apps
+vcs: git
+vcs_uri: https://github.com/rosjava/android_apps.git
+vcs_version: hydro

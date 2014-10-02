@@ -1,0 +1,51 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_phidgets/html
+authors: Florian Weisshardt
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- std_msgs
+- message_runtime
+- sensor_msgs
+- rospy
+- libphidgets
+- message_generation
+depends_on:
+- rosjava_messages
+- cob_driver
+- cob_controller_configuration_gazebo
+description: cob_phidgets
+devel_jobs:
+- devel-hydro-cob_driver
+doc_job: doc-hydro-cob_driver
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+metapackages:
+- cob_driver
+msgs:
+- DigitalSensor
+- AnalogSensor
+package_type: package
+release_jobs:
+- ros-hydro-cob-phidgets_sourcedeb
+- ros-hydro-cob-phidgets_binarydeb_precise_amd64
+- ros-hydro-cob-phidgets_binarydeb_precise_i386
+- ros-hydro-cob-phidgets_binarydeb_quantal_amd64
+- ros-hydro-cob-phidgets_binarydeb_quantal_i386
+- ros-hydro-cob-phidgets_binarydeb_raring_amd64
+- ros-hydro-cob-phidgets_binarydeb_raring_i386
+repo_name: cob_driver
+repo_url: ''
+srvs:
+- SetTriggerValue
+- SetDataRate
+- SetDigitalSensor
+timestamp: 1405973103.097999
+url: http://ros.org/wiki/cob_phidgets
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_driver.git
+vcs_version: hydro_release_candidate

@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/camera1394stereo/html
+authors: Joan Pau Beltran
+brief: ''
+bugtracker: https://github.com/srv/camera1394stereo/issues
+depends:
+- dynamic_reconfigure
+- catkin
+- camera_info_manager
+- image_transport
+- driver_base
+- libdc1394-dev
+- tf
+- nodelet
+depends_on: []
+description: "This is a modified version of the ROS driver for devices supporting\
+  \ the IEEE \n    1394 Digital Camera (IIDC) protocol in package camera1394. \n \
+  \   It adds support for reading from stereo pairs."
+doc_job: doc-hydro-camera1394stereo
+has_changelog_rst: true
+license: LGPL
+maintainers: Miquel Massot <miquel.massot@uib.es>
+msgs: []
+package_type: package
+repo_name: camera1394stereo
+repo_url: ''
+srvs: []
+timestamp: 1405972781.149234
+url: http://ros.org/wiki/camera1394stereo
+vcs: git
+vcs_uri: https://github.com/srv/camera1394stereo.git
+vcs_version: hydro

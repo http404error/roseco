@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_common/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends: &id001
+- catkin
+- cob_srvs
+- raw_description
+- brics_actuator
+- cob_description
+- desire_description
+depends_on: []
+description: The cob_common stack hosts common packages that are used within the Care-O-bot
+  repository. E.g. utility packages or common message and service definitions etc.
+  Also the urdf desciption of the robot is located in this stack.
+devel_jobs:
+- devel-hydro-cob_common
+doc_job: doc-hydro-cob_common
+has_changelog_rst: true
+license: BSD, LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-cob-common_sourcedeb
+- ros-hydro-cob-common_binarydeb_precise_amd64
+- ros-hydro-cob-common_binarydeb_precise_i386
+- ros-hydro-cob-common_binarydeb_quantal_amd64
+- ros-hydro-cob-common_binarydeb_quantal_i386
+- ros-hydro-cob-common_binarydeb_raring_amd64
+- ros-hydro-cob-common_binarydeb_raring_i386
+repo_name: cob_common
+repo_url: ''
+srvs: []
+timestamp: 1405973076.924143
+url: http://ros.org/wiki/cob_common
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_common.git
+vcs_version: hydro_release_candidate

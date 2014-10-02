@@ -1,0 +1,25 @@
+<package>
+  <name>hector_models</name>
+  <version>0.3.2</version>
+  <description>hector_models contains (urdf) models of robots, sensors etc.</description>
+  <maintainer email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/hector_models</url>
+  
+
+  <author email="kohlbrecher@sim.tu-darmstadt.de">Stefan Kohlbrecher</author>
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  
+  <run_depend>hector_sensors_description</run_depend>
+  <run_depend>hector_xacro_tools</run_depend>
+
+  <export>
+    <metapackage />
+  </export>
+
+</package>

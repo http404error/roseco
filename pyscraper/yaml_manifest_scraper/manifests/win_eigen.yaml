@@ -1,0 +1,23 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/win_eigen/html
+authors: Daniel Stonier
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on: []
+description: Helpers for an eigen install into the rosdeps bundle.
+doc_job: doc-hydro-win_ros
+has_changelog_rst: false
+license: BSD
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+msgs: []
+package_type: package
+repo_name: win_ros
+repo_url: ''
+srvs: []
+timestamp: 1405976048.780956
+url: http://ros.org/wiki/win_eigen
+vcs: git
+vcs_uri: https://github.com/ros-windows/win_ros.git
+vcs_version: hydro-devel

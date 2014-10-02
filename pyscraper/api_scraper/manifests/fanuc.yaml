@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/fanuc/html
+authors: G.A. vd. Hoorn (TU Delft Robotics Institute)
+brief: ''
+bugtracker: https://github.com/ros-industrial/fanuc/issues
+depends: &id001
+- catkin
+- fanuc_m430ia_support
+- fanuc_driver
+- fanuc_assets
+- fanuc_m10ia_support
+- fanuc_m16ib_support
+- fanuc_resources
+depends_on: []
+description: ROS Industrial support for Fanuc manipulators (metapackage).
+devel_jobs:
+- devel-hydro-fanuc
+doc_job: doc-hydro-fanuc
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-fanuc_sourcedeb
+- ros-hydro-fanuc_binarydeb_precise_amd64
+- ros-hydro-fanuc_binarydeb_precise_i386
+- ros-hydro-fanuc_binarydeb_quantal_amd64
+- ros-hydro-fanuc_binarydeb_quantal_i386
+- ros-hydro-fanuc_binarydeb_raring_amd64
+- ros-hydro-fanuc_binarydeb_raring_i386
+repo_name: fanuc
+repo_url: https://github.com/ros-industrial/fanuc
+srvs: []
+timestamp: 1405963176.383665
+url: http://ros.org/wiki/fanuc
+vcs: git
+vcs_uri: https://github.com/ros-industrial/fanuc.git
+vcs_version: hydro-devel

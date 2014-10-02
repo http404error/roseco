@@ -1,0 +1,34 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/corobot_state_tf/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- dynamic_reconfigure
+- corobot_msgs
+- catkin
+- roscpp
+- geometry_msgs
+- tf
+depends_on:
+- corobot
+- corobot_launch
+description: corobot_state_tf register 2 topics, sending the odometry in the form
+  of a nav_msgs::Odometry message and the Transform.
+doc_job: doc-hydro-corobot
+has_changelog_rst: false
+license: BSD
+maintainers: Morgan Cormier <mcormier@coroware.com>
+metapackages:
+- corobot
+msgs: []
+package_type: package
+repo_name: corobot
+repo_url: ''
+srvs: []
+timestamp: 1405962613.163974
+url: http://ros.org/wiki/corobot_state_tf
+vcs: git
+vcs_uri: https://github.com/morgancormier/corobot.git
+vcs_version: master

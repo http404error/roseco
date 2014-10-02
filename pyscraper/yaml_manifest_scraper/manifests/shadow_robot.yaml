@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/shadow_robot/html
+authors: Ugo Cupcic
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ros-interface/issues
+depends: &id001
+- sr_hand
+- catkin
+- sr_mechanism_model
+- sr_example
+- sr_self_test
+- sr_robot_msgs
+- sr_mechanism_controllers
+- sr_gazebo_plugins
+- sr_hardware_interface
+- sr_movements
+- sr_tactile_sensors
+- sr_description
+- sr_utilities
+- sr_moveit_config
+depends_on: []
+description: "This stack regroups the different ros interfaces developped for Shadow\
+  \ Robot's\n  Hardware. It provides an interface to both simulated and real hardware."
+devel_jobs:
+- devel-hydro-shadow_robot
+doc_job: doc-hydro-shadow_robot
+has_changelog_rst: true
+license: BSD, GPL
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-shadow-robot_sourcedeb
+- ros-hydro-shadow-robot_binarydeb_precise_amd64
+- ros-hydro-shadow-robot_binarydeb_precise_i386
+- ros-hydro-shadow-robot_binarydeb_quantal_amd64
+- ros-hydro-shadow-robot_binarydeb_quantal_i386
+- ros-hydro-shadow-robot_binarydeb_raring_amd64
+- ros-hydro-shadow-robot_binarydeb_raring_i386
+repo_name: shadow_robot
+repo_url: https://github.com/shadow-robot/sr-ros-interface
+srvs: []
+timestamp: 1405773902.081608
+url: http://ros.org/wiki/shadow_robot
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ros-interface.git
+vcs_version: hydro-devel

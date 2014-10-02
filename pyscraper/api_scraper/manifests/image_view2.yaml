@@ -1,0 +1,55 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/image_view2/html
+authors: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: ''
+depends:
+- image_geometry
+- catkin
+- roscpp
+- message_filters
+- image_view
+- sensor_msgs
+- message_runtime
+- std_msgs
+- image_transport
+- opencv2
+- message_generation
+- geometry_msgs
+- tf
+- cv_bridge
+- pcl_ros
+depends_on:
+- rosjava_messages
+- jsk_common
+- jsk_pcl_ros
+description: A simple viewer for ROS image topics with draw-on features
+devel_jobs:
+- devel-hydro-jsk_common
+doc_job: doc-hydro-jsk_common
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+metapackages:
+- jsk_common
+msgs:
+- PointArrayStamped
+- ImageMarker2
+package_type: package
+release_jobs:
+- ros-hydro-image-view2_sourcedeb
+- ros-hydro-image-view2_binarydeb_precise_amd64
+- ros-hydro-image-view2_binarydeb_precise_i386
+- ros-hydro-image-view2_binarydeb_quantal_amd64
+- ros-hydro-image-view2_binarydeb_quantal_i386
+- ros-hydro-image-view2_binarydeb_raring_amd64
+- ros-hydro-image-view2_binarydeb_raring_i386
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771512.87025
+url: http://ros.org/wiki/image_view2
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

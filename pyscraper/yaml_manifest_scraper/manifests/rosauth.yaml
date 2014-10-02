@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosauth/html
+authors: Russell Toris <rctoris@wpi.edu>
+brief: ''
+bugtracker: https://github.com/WPI-RAIL/rosauth/issues
+depends:
+- message_generation
+- message_runtime
+- rostest
+- catkin
+- roscpp
+depends_on:
+- rosjava_messages
+- rosbridge_server
+description: Server side tools for authorization and authentication of ROS clients.
+devel_jobs:
+- devel-hydro-rosauth
+doc_job: doc-hydro-rosauth
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Russell Toris <rctoris@wpi.edu>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosauth_sourcedeb
+- ros-hydro-rosauth_binarydeb_precise_amd64
+- ros-hydro-rosauth_binarydeb_precise_i386
+- ros-hydro-rosauth_binarydeb_quantal_amd64
+- ros-hydro-rosauth_binarydeb_quantal_i386
+- ros-hydro-rosauth_binarydeb_raring_amd64
+- ros-hydro-rosauth_binarydeb_raring_i386
+repo_name: rosauth
+repo_url: https://github.com/WPI-RAIL/rosauth
+srvs:
+- Authentication
+timestamp: 1405964776.662866
+url: http://ros.org/wiki/rosauth
+vcs: git
+vcs_uri: https://github.com/WPI-RAIL/rosauth.git
+vcs_version: master

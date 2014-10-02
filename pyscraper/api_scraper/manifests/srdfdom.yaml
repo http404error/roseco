@@ -1,0 +1,23 @@
+authors: Ioan Sucan <isucan@willowgarage.edu>
+depends:
+- catkin
+- urdfdom_headers
+- console_bridge
+- tinyxml
+- boost
+- pkg-config
+description: Parser for Semantic Robot Description Format (SRDF).
+license: BSD
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-srdfdom_sourcedeb
+- ros-hydro-srdfdom_binarydeb_precise_amd64
+- ros-hydro-srdfdom_binarydeb_precise_i386
+- ros-hydro-srdfdom_binarydeb_quantal_amd64
+- ros-hydro-srdfdom_binarydeb_quantal_i386
+- ros-hydro-srdfdom_binarydeb_raring_amd64
+- ros-hydro-srdfdom_binarydeb_raring_i386
+repo_name: srdfdom
+timestamp: 1405956415.100346
+url: http://ros.org/wiki/srdf

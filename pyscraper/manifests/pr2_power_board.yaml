@@ -1,0 +1,49 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_power_board/html
+authors: Curt Meyers, Blaise Gassend
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- message_runtime
+- diagnostic_updater
+- rospy
+- pr2_msgs
+- message_generation
+- diagnostic_msgs
+- log4cxx
+depends_on:
+- pr2_power_drivers
+- rosjava_messages
+- rqt_pr2_dashboard
+- pr2_run_stop_auto_restart
+- pr2_bringup
+description: This provides a ROS node for the PR2 Power Board.
+doc_job: doc-hydro-pr2_power_drivers
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+metapackages:
+- pr2_power_drivers
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-pr2-power-board_sourcedeb
+- ros-hydro-pr2-power-board_binarydeb_precise_amd64
+- ros-hydro-pr2-power-board_binarydeb_precise_i386
+- ros-hydro-pr2-power-board_binarydeb_quantal_amd64
+- ros-hydro-pr2-power-board_binarydeb_quantal_i386
+- ros-hydro-pr2-power-board_binarydeb_raring_amd64
+- ros-hydro-pr2-power-board_binarydeb_raring_i386
+repo_name: pr2_power_drivers
+repo_url: ''
+srvs:
+- PowerBoardCommand
+- PowerBoardCommand2
+timestamp: 1405964565.872857
+url: http://www.ros.org/wiki/pr2_power_board
+vcs: git
+vcs_uri: https://github.com/PR2/pr2_power_drivers.git
+vcs_version: hydro-devel

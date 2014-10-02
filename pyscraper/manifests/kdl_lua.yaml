@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kdl_lua/html
+authors: Nick Vanthienen, Markus Klotzbucher
+brief: ''
+bugtracker: ''
+depends:
+- rtt
+- catkin
+- ocl
+- kdl_typekit
+depends_on: []
+description: kdl_lua, contains the kdl pretty printing lua module kdlpp.lua
+devel_jobs:
+- devel-hydro-rtt_geometry
+doc_job: doc-hydro-rtt_geometry
+has_changelog_rst: false
+license: BSD
+maintainers: Nick Vanthienen <first.last@mech.kuleuven.be>, Markus Klotzbucher <first.last@mech.kuleuven.be>
+msgs: []
+package_type: package
+repo_name: rtt_geometry
+repo_url: ''
+srvs: []
+timestamp: 1394107716.339383
+url: http://www.orocos.org/wiki/orocos/toolchain/orocostoolchainluacookbook#toc52
+vcs: git
+vcs_uri: https://github.com/orocos/rtt_geometry.git
+vcs_version: hydro-devel

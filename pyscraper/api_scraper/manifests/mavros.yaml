@@ -1,0 +1,73 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/mavros/html
+authors: Vladimir Ermakov <vooon341@gmail.com>
+brief: ''
+bugtracker: https://github.com/vooon/mavros/issues
+depends:
+- libev-dev
+- catkin
+- roscpp
+- pluginlib
+- std_msgs
+- message_runtime
+- sensor_msgs
+- diagnostic_updater
+- gtest
+- mavlink
+- rospy
+- angles
+- tf
+- message_generation
+- geometry_msgs
+- boost
+- diagnostic_msgs
+depends_on: []
+description: "MAVROS -- MAVLink extendable communication node for ROS\n    with UDP\
+  \ proxy for Ground Control Station."
+devel_jobs:
+- devel-hydro-mavros
+doc_job: doc-hydro-mavros
+has_changelog_rst: true
+license: GPLv3
+maintainer_status: developed
+maintainers: Vladimir Ermakov <vooon341@gmail.com>
+msgs:
+- Mavlink
+- Waypoint
+- State
+- RCIn
+- RCOut
+- WaypointList
+- BatteryStatus
+package_type: package
+release_jobs:
+- ros-hydro-mavros_sourcedeb
+- ros-hydro-mavros_binarydeb_precise_amd64
+- ros-hydro-mavros_binarydeb_precise_i386
+- ros-hydro-mavros_binarydeb_quantal_amd64
+- ros-hydro-mavros_binarydeb_quantal_i386
+- ros-hydro-mavros_binarydeb_raring_amd64
+- ros-hydro-mavros_binarydeb_raring_i386
+repo_name: mavros
+repo_url: https://github.com/vooon/mavros.git
+srvs:
+- ParamPush
+- WaypointSetCurrent
+- ParamGet
+- CommandHome
+- ParamSet
+- OverrideRCIn
+- CommandLong
+- ParamPull
+- WaypointPush
+- CommandBool
+- WaypointPull
+- CommandMode
+- WaypointGOTO
+- WaypointClear
+- StreamRate
+timestamp: 1405963843.37275
+url: http://wiki.ros.org/mavros
+vcs: git
+vcs_uri: https://github.com/vooon/mavros.git
+vcs_version: master

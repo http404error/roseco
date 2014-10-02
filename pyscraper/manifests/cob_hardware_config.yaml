@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_hardware_config/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- raw_description
+- schunk_description
+- cob_description
+- ur_description
+- cob_calibration_data
+depends_on:
+- cob_gazebo
+- cob_robots
+- cob_bringup
+- cob_moveit_config
+description: This package contains configuration for each robot instance (e.g. cob3-1,
+  cob3-2,...). There is a directory for each robot with configuration about urdf and
+  hardware/device configurations.
+devel_jobs:
+- devel-hydro-cob_robots
+doc_job: doc-hydro-cob_robots
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+metapackages:
+- cob_robots
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-hardware-config_sourcedeb
+- ros-hydro-cob-hardware-config_binarydeb_precise_amd64
+- ros-hydro-cob-hardware-config_binarydeb_precise_i386
+- ros-hydro-cob-hardware-config_binarydeb_quantal_amd64
+- ros-hydro-cob-hardware-config_binarydeb_quantal_i386
+- ros-hydro-cob-hardware-config_binarydeb_raring_amd64
+- ros-hydro-cob-hardware-config_binarydeb_raring_i386
+repo_name: cob_robots
+repo_url: ''
+srvs: []
+timestamp: 1405973105.47883
+url: http://ros.org/wiki/cob_hardware_config
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_robots.git
+vcs_version: hydro_release_candidate

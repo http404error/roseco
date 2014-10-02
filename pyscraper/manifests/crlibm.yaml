@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/crlibm/html
+authors: Jean Michel Muller, Florent de Dinechin, Christoph Lauter, ROS package maintained
+  by Rosen Diankov
+brief: Correctly Rounded Mathematical Library v1.0beta4
+bugtracker: ''
+depends: ''
+depends_on: []
+description: "\n    CRlibm, an efficient and proven correctly-rounded mathematical\
+  \ library (similar to libm) which provides:\n\n    * implementations of the double-precision\
+  \ C99 standard elementary functions,\n\n    * correctly rounded in the four IEEE-754\
+  \ rounding modes,\n\n    * with a comprehensive proof of both the algorithms used\
+  \ and their implementation,\n\n    * sufficiently efficient in average time, worst-case\
+  \ time, and memory consumption to replace existing libms transparently\n  "
+doc_job: doc-hydro-jsk_common
+license: LGPL
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771481.777083
+url: http://lipforge.ens-lyon.fr/www/crlibm/
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

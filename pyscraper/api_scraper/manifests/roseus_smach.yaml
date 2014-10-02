@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roseus_smach/html
+authors: Manabu Saito
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roseus
+- executive_smach
+- euslisp
+depends_on:
+- task_compiler
+description: "roseus_smach\n\n     * Euslisp state machine class. it will be moved.\n\
+  \     * Message publisher for visualizing current state by smach_viewer.\n     *\
+  \ Simple pickle dump script for debugging state machine.\n     * Execute state machine\
+  \ as a action server."
+devel_jobs:
+- devel-hydro-jsk_roseus
+doc_job: doc-hydro-jsk_roseus
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-roseus-smach_sourcedeb
+- ros-hydro-roseus-smach_binarydeb_precise_amd64
+- ros-hydro-roseus-smach_binarydeb_precise_i386
+- ros-hydro-roseus-smach_binarydeb_quantal_amd64
+- ros-hydro-roseus-smach_binarydeb_quantal_i386
+- ros-hydro-roseus-smach_binarydeb_raring_amd64
+- ros-hydro-roseus-smach_binarydeb_raring_i386
+repo_name: jsk_roseus
+repo_url: ''
+srvs: []
+timestamp: 1405771455.959783
+url: http://ros.org/wiki/roseus_smach
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_roseus.git
+vcs_version: master

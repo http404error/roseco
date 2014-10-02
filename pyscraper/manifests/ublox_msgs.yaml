@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ublox_msgs/html
+authors: Johannes Meyer
+brief: ublox_msgs
+bugtracker: ''
+depends:
+- ublox_serialization
+depends_on:
+- ublox_gps
+description: "\n\n     ublox_msgs contains raw messages used by GNSS receiver modules\
+  \ of the company u-blox AG.\n\n  "
+doc_job: doc-hydro-ublox
+license: BSD
+maintainers: ''
+metapackages:
+- ublox
+msgs:
+- CfgANT
+- NavTIMEUTC
+- CfgMSG
+- RxmRAW
+- NavCLOCK
+- NavTIMEGPS
+- NavDOP
+- CfgSBAS
+- NavPOSECEF
+- NavPOSLLH
+- NavSOL
+- AidEPH
+- CfgNAV5
+- NavSTATUS
+- NavDGPS_SV
+- AidALM
+- NavVELECEF
+- NavSBAS
+- NavDGPS
+- CfgRATE
+- NavSVINFO_SV
+- NavSBAS_SV
+- AidHUI
+- RxmEPH
+- NavVELNED
+- RxmSVSI
+- CfgCFG
+- CfgPRT
+- NavSVINFO
+- RxmSFRB
+- RxmSVSI_SV
+- RxmALM
+- RxmRAW_SV
+package_type: package
+repo_name: ublox
+repo_url: ''
+srvs: []
+timestamp: 1405965330.724077
+url: http://ros.org/wiki/ublox_msgs
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/ublox.git
+vcs_version: null

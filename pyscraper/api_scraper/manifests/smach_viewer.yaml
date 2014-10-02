@@ -1,0 +1,25 @@
+authors: Jonathan Bohren <jbo@jhu.edu>
+depends:
+- smach_ros
+- xdot
+- catkin
+- smach_msgs
+description: "The smach viewer is a GUI that shows the state of hierarchical\n   \
+  \ SMACH state machines. It can visualize the possible transitions\n    between states,\
+  \ as well as the currently active state and the\n    values of user data that is\
+  \ passed around between states. The\n    smach viewer uses the SMACH debugging interface\
+  \ based on\n    the"
+license: BSD
+maintainers: Jonathan Bohren <jbo@jhu.edu>
+package_type: package
+release_jobs:
+- ros-hydro-smach-viewer_sourcedeb
+- ros-hydro-smach-viewer_binarydeb_precise_amd64
+- ros-hydro-smach-viewer_binarydeb_precise_i386
+- ros-hydro-smach-viewer_binarydeb_quantal_amd64
+- ros-hydro-smach-viewer_binarydeb_quantal_i386
+- ros-hydro-smach-viewer_binarydeb_raring_amd64
+- ros-hydro-smach-viewer_binarydeb_raring_i386
+repo_name: executive_smach_visualization
+timestamp: 1405956415.093724
+url: http://ros.org/wiki/smach_viewer

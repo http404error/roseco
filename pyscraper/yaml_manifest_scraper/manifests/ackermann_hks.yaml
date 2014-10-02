@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ackermann_hks/html
+authors: Jack O'Quin, Joshua Bennett
+brief: Ackermann steering HKS tele-operation
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- joy
+- sensor_msgs
+- rospy
+- ackermann_msgs
+depends_on: []
+description: "\n\n     HKS game controller tele-operation interface for driving a\n\
+  \     vehicle with Ackermann steering under human control.\n\n  "
+doc_job: doc-hydro-ackermann_teleop
+license: BSD
+maintainers: ''
+metapackages:
+- ackermann_teleop
+msgs: []
+package_type: package
+repo_name: ackermann_teleop
+repo_url: ''
+srvs: []
+timestamp: 1405961917.588413
+url: http://www.ros.org/wiki/ackermann_hks
+vcs: git
+vcs_uri: https://github.com/jack-oquin/ackermann_teleop.git
+vcs_version: master

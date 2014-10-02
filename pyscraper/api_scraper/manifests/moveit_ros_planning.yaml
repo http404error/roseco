@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/moveit_ros_planning/html
+authors: Ioan Sucan <isucan@google.com>, Sachin Chitta <robot.moveit@gmail.com>
+brief: ''
+bugtracker: https://github.com/ros-planning/moveit_ros/issues
+depends:
+- dynamic_reconfigure
+- moveit_core
+- moveit_ros_perception
+- pluginlib
+- actionlib
+- cmake_modules
+- angles
+- catkin
+depends_on:
+- moveit_planners_ompl
+- pr2_moveit_tests
+- moveit_ros_robot_interaction
+- moveit_ros_warehouse
+- moveit_ros_benchmarks_gui
+- vs060
+- moveit_ros_planning_interface
+- force_torque_sensor_calib
+- moveit_ros
+- moveit_simple_grasps
+- moveit_commander
+- moveit_ros_move_group
+- moveit_setup_assistant
+- moveit_ros_benchmarks
+- industrial_trajectory_filters
+- moveit_ros_manipulation
+description: Planning components of MoveIt that use ROS
+devel_jobs:
+- devel-hydro-moveit_ros
+doc_job: doc-hydro-moveit_ros
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Sachin Chitta <robot.moveit@gmail.com>, Ioan Sucan <isucan@google.com>
+metapackages:
+- moveit_ros
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-moveit-ros-planning_sourcedeb
+- ros-hydro-moveit-ros-planning_binarydeb_precise_amd64
+- ros-hydro-moveit-ros-planning_binarydeb_precise_i386
+- ros-hydro-moveit-ros-planning_binarydeb_quantal_amd64
+- ros-hydro-moveit-ros-planning_binarydeb_quantal_i386
+- ros-hydro-moveit-ros-planning_binarydeb_raring_amd64
+- ros-hydro-moveit-ros-planning_binarydeb_raring_i386
+repo_name: moveit_ros
+repo_url: https://github.com/ros-planning/moveit_ros
+srvs: []
+timestamp: 1405964116.249282
+url: http://moveit.ros.org
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_ros.git
+vcs_version: hydro-devel

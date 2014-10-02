@@ -1,0 +1,33 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/corobot_ssc32/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- corobot_msgs
+- catkin
+- roscpp
+- std_msgs
+- diagnostic_updater
+- corobot_diagnostics
+depends_on:
+- corobot
+- corobot_launch
+description: "A package that interfaces the SSC32 hardware board specific to the Corobot.\n\
+  \     It uses the SSC32_core package made by Steven bellens: steven.bellens@mech.kuleuven.be"
+doc_job: doc-hydro-corobot
+has_changelog_rst: false
+license: GPL
+maintainers: Morgan Cormier <mcormier@coroware.com>
+metapackages:
+- corobot
+msgs: []
+package_type: package
+repo_name: corobot
+repo_url: ''
+srvs: []
+timestamp: 1405962610.938959
+url: http://ros.org/wiki/corobot_ssc32
+vcs: git
+vcs_uri: https://github.com/morgancormier/corobot.git
+vcs_version: master

@@ -1,0 +1,21 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_lc_arm_description/html
+authors: stefan
+brief: hector_lc_arm_description
+bugtracker: ''
+depends: ''
+depends_on: []
+description: "\n\n     hector_lc_arm_description\n\n  "
+doc_job: doc-hydro-hlugv_common
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: hlugv_common
+repo_url: ''
+srvs: []
+timestamp: 1405973648.251249
+url: http://ros.org/wiki/hector_lc_arm_description
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hlugv_common
+vcs_version: HEAD

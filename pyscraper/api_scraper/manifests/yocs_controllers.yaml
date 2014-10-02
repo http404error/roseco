@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/yocs_controllers/html
+authors: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/yujin_ocs/issues
+depends:
+- catkin
+- roscpp
+depends_on:
+- kobuki_controller_tutorial
+- yocs_diff_drive_pose_controller
+- kobuki_safety_controller
+- yujin_ocs
+- kobuki_random_walker
+description: Library for various controller types and algorithms
+devel_jobs:
+- devel-hydro-yujin_ocs
+doc_job: doc-hydro-yujin_ocs
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+metapackages:
+- yujin_ocs
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-yocs-controllers_sourcedeb
+- ros-hydro-yocs-controllers_binarydeb_precise_amd64
+- ros-hydro-yocs-controllers_binarydeb_precise_i386
+- ros-hydro-yocs-controllers_binarydeb_quantal_amd64
+- ros-hydro-yocs-controllers_binarydeb_quantal_i386
+- ros-hydro-yocs-controllers_binarydeb_raring_amd64
+- ros-hydro-yocs-controllers_binarydeb_raring_i386
+repo_name: yujin_ocs
+repo_url: https://github.com/yujinrobot/yujin_ocs
+srvs: []
+timestamp: 1405774559.651893
+url: http://ros.org/wiki/yocs_controllers
+vcs: git
+vcs_uri: https://github.com/yujinrobot/yujin_ocs.git
+vcs_version: hydro

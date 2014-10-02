@@ -1,0 +1,23 @@
+api_documentation: http://docs.ros.org/hydro/api/ackermann_teleop/html
+authors: Maintained by Jack O'Quin
+brief: ackermann
+depends:
+- ackermann_msgs
+- ros
+depends_on: []
+description: "\n    ROS tele-operation packages for robots using Ackermann steering.\n\
+  \  "
+doc_job: doc-hydro-ackermann_teleop
+license: BSD
+msgs: []
+package_type: stack
+packages:
+- ackermann_hks
+- ackermann_qt
+repo_name: ackermann_teleop
+srvs: []
+timestamp: 1405961890.312746
+url: http://ros.org/wiki/ackermann_teleop
+vcs: git
+vcs_uri: https://github.com/jack-oquin/ackermann_teleop.git
+vcs_version: master

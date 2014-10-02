@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/multi_level_map_msgs/html
+authors: Piyush Khandelwal
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- nav_msgs
+- message_runtime
+- geometry_msgs
+- catkin
+depends_on:
+- multi_level_map_server
+- multi_level_map
+description: multi_level_map_msgs
+doc_job: doc-hydro-multi_level_map
+has_changelog_rst: false
+license: BSD
+maintainers: Piyush Khandelwal <piyushk@gmail.com>, Jack O'Quin <jack.oquin@gmail.com>
+metapackages:
+- multi_level_map
+msgs:
+- MultiLevelMapPoint
+- MultiLevelMapData
+- LevelMetaData
+- MultiLevelMapLink
+package_type: package
+repo_name: multi_level_map
+repo_url: ''
+srvs: []
+timestamp: 1405772058.485196
+url: http://ros.org/wiki/multi_level_map_msgs
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/multi_level_map.git
+vcs_version: master

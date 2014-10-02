@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/asctec_mav_framework/html
+authors: Maintained by Markus Achtelik
+brief: ''
+bugtracker: https://github.com/ethz-asl/asctec_mav_framework/issues
+depends: &id001
+- asctec_hl_gps
+- asctec_hl_comm
+- asctec_hl_firmware
+- catkin
+- asctec_hl_interface
+depends_on: []
+description: Framework for data aquisition and position control to be used with the
+  highlevel processor of Ascending Technologies helicopters
+doc_job: doc-hydro-asctec_mav_framework
+has_changelog_rst: false
+license: ', BSD'
+maintainers: Maintained by Markus Achtelik <markus.achtelik_devel@mavt.ethz.ch>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: asctec_mav_framework
+repo_url: ''
+srvs: []
+timestamp: 1404948423.541264
+url: http://ros.org/wiki/asctec_mav_framework
+vcs: git
+vcs_uri: https://github.com/ethz-asl/asctec_mav_framework.git
+vcs_version: master

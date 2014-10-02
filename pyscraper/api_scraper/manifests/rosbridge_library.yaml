@@ -1,0 +1,74 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosbridge_library/html
+authors: Jonathan Mace <jonathan.c.mace@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- stereo_msgs
+- std_srvs
+- actionlib_msgs
+- message_runtime
+- sensor_msgs
+- python-imaging
+- rospy_tutorials
+- rosservice
+- rospy
+- rostopic
+- message_generation
+- geometry_msgs
+depends_on:
+- rosjava_messages
+- rosbridge_suite
+- rosbridge_server
+- rosapi
+description: "The core rosbridge package, repsonsible for interpreting JSON andperforming\n\
+  \    the appropriate ROS action, like subscribe, publish, call service, and\n  \
+  \  interact with params."
+devel_jobs:
+- devel-hydro-rosbridge_suite
+doc_job: doc-hydro-rosbridge_suite
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Brandon Alexander <baalexander@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+metapackages:
+- rosbridge_suite
+msgs:
+- TestHeaderTwo
+- TestUInt8
+- Num
+- TestDurationArray
+- TestChar
+- TestUInt8FixedSizeArray16
+- TestHeader
+- TestHeaderArray
+- TestTimeArray
+package_type: package
+release_jobs:
+- ros-hydro-rosbridge-library_sourcedeb
+- ros-hydro-rosbridge-library_binarydeb_precise_amd64
+- ros-hydro-rosbridge-library_binarydeb_precise_i386
+- ros-hydro-rosbridge-library_binarydeb_quantal_amd64
+- ros-hydro-rosbridge-library_binarydeb_quantal_i386
+- ros-hydro-rosbridge-library_binarydeb_raring_amd64
+- ros-hydro-rosbridge-library_binarydeb_raring_i386
+repo_name: rosbridge_suite
+repo_url: ''
+srvs:
+- TestMultipleRequestFields
+- TestRequestOnly
+- TestRequestAndResponse
+- AddTwoInts
+- TestEmpty
+- TestNestedService
+- SendBytes
+- TestArrayRequest
+- TestMultipleResponseFields
+- TestResponseOnly
+timestamp: 1405975010.424097
+url: https://github.com/RobotWebTools/rosbridge_suite
+vcs: git
+vcs_uri: https://github.com/RobotWebTools/rosbridge_suite.git
+vcs_version: master

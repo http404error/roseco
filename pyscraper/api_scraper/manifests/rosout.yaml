@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosout/html
+authors: Josh Faust
+brief: ''
+bugtracker: ''
+depends:
+- rosgraph_msgs
+- catkin
+- roscpp
+depends_on:
+- roshlaunch
+- roslaunch
+- msvc_runtime
+- ros_comm
+description: System-wide logging mechanism for messages sent to the /rosout topic.
+devel_jobs:
+- devel-hydro-ros_comm
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros_comm
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosout_sourcedeb
+- ros-hydro-rosout_binarydeb_precise_amd64
+- ros-hydro-rosout_binarydeb_precise_i386
+- ros-hydro-rosout_binarydeb_quantal_amd64
+- ros-hydro-rosout_binarydeb_quantal_i386
+- ros-hydro-rosout_binarydeb_raring_amd64
+- ros-hydro-rosout_binarydeb_raring_i386
+repo_name: ros_comm
+repo_url: ''
+srvs: []
+timestamp: 1405773141.586598
+url: http://ros.org/wiki/rosout
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

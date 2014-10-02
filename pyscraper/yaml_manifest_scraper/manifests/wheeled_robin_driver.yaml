@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/wheeled_robin_driver/html
+authors: Johannes Mayr <joh.mayr@jku.at>, Klemens Springer <klemens.springer@jku.at>
+brief: ''
+bugtracker: https://github.com/robinJKU/wheeled_robin/issues
+depends:
+- catkin
+depends_on:
+- wheeled_robin_node
+- wheeled_robin
+description: Driver for WheeledRobin
+doc_job: doc-hydro-wheeled_robin
+has_changelog_rst: false
+license: MIT
+maintainers: Johannes Mayr <joh.mayr@jku.at>
+metapackages:
+- wheeled_robin
+msgs: []
+package_type: package
+repo_name: wheeled_robin
+repo_url: https://github.com/robinJKU/wheeled_robin
+srvs: []
+timestamp: 1405774465.228018
+url: http://ros.org/wiki/wheeled_robin_driver
+vcs: git
+vcs_uri: https://github.com/robinJKU/wheeled_robin.git
+vcs_version: hydro-devel

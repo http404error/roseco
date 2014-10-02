@@ -1,0 +1,50 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_camera_synchronizer/html
+authors: Blaise Gassend
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- wge100_camera
+- ethercat_trigger_controllers
+- rostest
+- rospy
+- diagnostic_msgs
+depends_on:
+- pr2_robot
+- pr2_bringup
+description: "<p>\n    The PR2 is equipped with a texture projector that can be used\
+  \ to\n    project a texture onto featureless surfaces, allowing their\n    three-dimensional\
+  \ structure to be determined using stereoscopy. The\n    projector operates in a\
+  \ pulsed mode, producing brief (2ms) pulses of\n    light. Cameras that want to\
+  \ see the texture must expose during the\n    projector pulse; other cameras should\
+  \ be expose while the projector is\n    off.\n    </p>\n\n    <p>\n      This package\
+  \ contains the pr2_projector_synchronizer node. Based on its dynamically reconfigurable\
+  \ parameters, this node controls the projector pulsing, and sets up triggering of\
+  \ the WGE100 cameras.\n    </p>"
+doc_job: doc-hydro-pr2_robot
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+metapackages:
+- pr2_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-pr2-camera-synchronizer_sourcedeb
+- ros-hydro-pr2-camera-synchronizer_binarydeb_precise_amd64
+- ros-hydro-pr2-camera-synchronizer_binarydeb_precise_i386
+- ros-hydro-pr2-camera-synchronizer_binarydeb_quantal_amd64
+- ros-hydro-pr2-camera-synchronizer_binarydeb_quantal_i386
+- ros-hydro-pr2-camera-synchronizer_binarydeb_raring_amd64
+- ros-hydro-pr2-camera-synchronizer_binarydeb_raring_i386
+repo_name: pr2_robot
+repo_url: ''
+srvs: []
+timestamp: 1405974823.069432
+url: http://pr.willowgarage.com/wiki/pr2_camera_synchronizer
+vcs: git
+vcs_uri: https://github.com/PR2/pr2_robot.git
+vcs_version: hydro-devel

@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_models/html
+authors: Stefan Kohlbrecher <kohlbrecher@sim.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends: &id001
+- catkin
+- hector_xacro_tools
+- hector_sensors_description
+depends_on: []
+description: hector_models contains (urdf) models of robots, sensors etc.
+doc_job: doc-hydro-hector_models
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-hector-models_sourcedeb
+- ros-hydro-hector-models_binarydeb_precise_amd64
+- ros-hydro-hector-models_binarydeb_precise_i386
+- ros-hydro-hector-models_binarydeb_quantal_amd64
+- ros-hydro-hector-models_binarydeb_quantal_i386
+- ros-hydro-hector-models_binarydeb_raring_amd64
+- ros-hydro-hector-models_binarydeb_raring_i386
+repo_name: hector_models
+repo_url: ''
+srvs: []
+timestamp: 1405963264.213857
+url: http://ros.org/wiki/hector_models
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
+vcs_version: hydro-devel

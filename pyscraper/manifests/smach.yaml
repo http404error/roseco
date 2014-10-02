@@ -1,0 +1,21 @@
+authors: Jonathan Bohren
+depends:
+- catkin
+description: "SMACH is a task-level architecture for rapidly creating complex robot\n\
+  \    behavior. At its core, SMACH is a ROS-independent Python library to build\n\
+  \    hierarchical state machines. SMACH is a new library that takes advantage of\n\
+  \    very old concepts in order to quickly create robust robot behavior with\n \
+  \   maintainable and modular code."
+license: BSD
+maintainers: Jonathan Bohren <jbo@jhu.edu>
+package_type: package
+release_jobs:
+- ros-hydro-smach_sourcedeb
+- ros-hydro-smach_binarydeb_precise_amd64
+- ros-hydro-smach_binarydeb_precise_i386
+- ros-hydro-smach_binarydeb_quantal_amd64
+- ros-hydro-smach_binarydeb_quantal_i386
+- ros-hydro-smach_binarydeb_raring_amd64
+- ros-hydro-smach_binarydeb_raring_i386
+repo_name: executive_smach
+timestamp: 1405956415.083183

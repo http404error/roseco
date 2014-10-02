@@ -1,0 +1,72 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/tf2_ros/html
+authors: Eitan Marder-Eppstein, Wim Meeussen
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- message_filters
+- std_msgs
+- actionlib
+- tf2_py
+- rosgraph
+- tf2_msgs
+- rostest
+- geometry_msgs
+- rospy
+- actionlib_msgs
+- tf2
+depends_on:
+- ur_bringup
+- segbot_sensors
+- pr2_gazebo
+- geometry_experimental
+- labust_uvapp
+- rqt_tf_tree
+- test_tf2
+- image_rotate
+- cob_sick_s300
+- gazebo_plugins
+- tf
+- labust_control
+- tf2_geometry_msgs
+- tf2_tools
+- labust_navigation
+- labust_mission
+- jsk_pcl_ros
+- pr2_bringup
+- labust_primitives
+- tf2_web_republisher
+- tf2_kdl
+- labust_sim
+- roseus
+description: This package contains the ROS bindings for the tf2 library, for both
+  Python and C++.
+devel_jobs:
+- devel-hydro-geometry_experimental
+doc_job: doc-hydro-geometry_experimental
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Tully Foote <tfoote@osrfoundation.org>
+metapackages:
+- geometry_experimental
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-tf2-ros_sourcedeb
+- ros-hydro-tf2-ros_binarydeb_precise_amd64
+- ros-hydro-tf2-ros_binarydeb_precise_i386
+- ros-hydro-tf2-ros_binarydeb_quantal_amd64
+- ros-hydro-tf2-ros_binarydeb_quantal_i386
+- ros-hydro-tf2-ros_binarydeb_raring_amd64
+- ros-hydro-tf2-ros_binarydeb_raring_i386
+repo_name: geometry_experimental
+repo_url: ''
+srvs: []
+timestamp: 1405973838.420761
+url: http://www.ros.org/wiki/tf2_ros
+vcs: git
+vcs_uri: https://github.com/ros/geometry-experimental.git
+vcs_version: hydro-devel

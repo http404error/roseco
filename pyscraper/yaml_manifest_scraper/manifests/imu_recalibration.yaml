@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/imu_recalibration/html
+authors: "Jochen Sprickerhof, Martin G\xFCnther"
+brief: imu_recalibration
+bugtracker: ''
+depends:
+- tf
+- sensor_msgs
+- nav_msgs
+- rospy
+- geometry_msgs
+depends_on: []
+description: "\n\n     imu_recalibration\n\n  "
+doc_job: doc-hydro-kurt_driver
+license: BSD
+maintainers: ''
+metapackages:
+- kurt_driver
+msgs: []
+package_type: package
+repo_name: kurt_driver
+repo_url: ''
+srvs: []
+timestamp: 1405974099.750833
+url: http://ros.org/wiki/imu_recalibration
+vcs: git
+vcs_uri: https://github.com/uos/kurt_driver.git
+vcs_version: hydro

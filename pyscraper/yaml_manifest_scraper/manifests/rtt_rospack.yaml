@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rtt_rospack/html
+authors: Ruben Smits <ruben.smits@mech.kuleuven.be>
+brief: ''
+bugtracker: https://github.com/orocos/rtt_ros_integration/issues
+depends:
+- rtt_ros
+- roslib
+- catkin
+depends_on:
+- rtt_roscomm
+- rtt_ros_integration
+- rtt_rospack_tests
+- rtt_ros_tests
+description: rtt_rospack provides an RTT plugin to use rospack to find packages in
+  your ROS_PACKAGE_PATH
+devel_jobs:
+- devel-hydro-rtt_ros_integration
+doc_job: doc-hydro-rtt_ros_integration
+has_changelog_rst: false
+license: BSD
+maintainer_status: developed
+maintainers: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+metapackages:
+- rtt_ros_integration
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rtt-rospack_sourcedeb
+- ros-hydro-rtt-rospack_binarydeb_precise_amd64
+- ros-hydro-rtt-rospack_binarydeb_precise_i386
+- ros-hydro-rtt-rospack_binarydeb_quantal_amd64
+- ros-hydro-rtt-rospack_binarydeb_quantal_i386
+- ros-hydro-rtt-rospack_binarydeb_raring_amd64
+- ros-hydro-rtt-rospack_binarydeb_raring_i386
+repo_name: rtt_ros_integration
+repo_url: ''
+srvs: []
+timestamp: 1405975219.517175
+url: http://ros.org/wiki/rtt_ros_integration
+vcs: git
+vcs_uri: https://github.com/orocos/rtt_ros_integration.git
+vcs_version: hydro-devel

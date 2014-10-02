@@ -1,0 +1,24 @@
+authors: David V. Lu!!
+depends:
+- nav_msgs
+- catkin
+- std_msgs
+- sensor_msgs
+- rospy
+- tf
+description: Filters a laser scan to remove points that are in the current static
+  map
+license: BSD
+maintainers: David V. Lu!! <davidvlu@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-map-laser_sourcedeb
+- ros-hydro-map-laser_binarydeb_precise_amd64
+- ros-hydro-map-laser_binarydeb_precise_i386
+- ros-hydro-map-laser_binarydeb_quantal_amd64
+- ros-hydro-map-laser_binarydeb_quantal_i386
+- ros-hydro-map-laser_binarydeb_raring_amd64
+- ros-hydro-map-laser_binarydeb_raring_i386
+repo_name: laser_filtering
+timestamp: 1405956414.870693
+url: http://wiki.ros.org/map_laser

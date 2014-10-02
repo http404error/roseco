@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/grizzly_gazebo_plugins/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- grizzly_msgs
+- std_msgs
+- gazebo_msgs
+- gazebo_plugins
+- tf
+- gazebo
+- gazebo_ros
+depends_on:
+- grizzly_simulator
+- grizzly_gazebo
+description: Gazebo plugin to provide simulated Grizzly dynamics.
+devel_jobs:
+- devel-hydro-grizzly_simulator
+doc_job: doc-hydro-grizzly_simulator
+has_changelog_rst: true
+license: BSD
+maintainers: Yan Ma <yanma@clearpathrobotics.com>
+metapackages:
+- grizzly_simulator
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-grizzly-gazebo-plugins_sourcedeb
+- ros-hydro-grizzly-gazebo-plugins_binarydeb_precise_amd64
+- ros-hydro-grizzly-gazebo-plugins_binarydeb_precise_i386
+- ros-hydro-grizzly-gazebo-plugins_binarydeb_quantal_amd64
+- ros-hydro-grizzly-gazebo-plugins_binarydeb_quantal_i386
+- ros-hydro-grizzly-gazebo-plugins_binarydeb_raring_amd64
+- ros-hydro-grizzly-gazebo-plugins_binarydeb_raring_i386
+repo_name: grizzly_simulator
+repo_url: ''
+srvs: []
+timestamp: 1405770927.931987
+url: ''
+vcs: git
+vcs_uri: https://github.com/g/grizzly_simulator.git
+vcs_version: hydro-devel

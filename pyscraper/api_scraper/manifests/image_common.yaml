@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/image_common/html
+authors: Patrick Mihelich, James Bowman
+brief: ''
+bugtracker: https://github.com/ros-perception/image_common/issues
+depends: &id001
+- polled_camera
+- camera_info_manager
+- catkin
+- image_transport
+- camera_calibration_parsers
+depends_on:
+- ar_tools
+description: Common code for working with images in ROS.
+devel_jobs:
+- devel-hydro-image_common
+doc_job: doc-hydro-image_common
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Jack O'Quin <jack.oquin@gmail.com>, Vincent Rabaud <vincent.rabaud@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-image-common_sourcedeb
+- ros-hydro-image-common_binarydeb_precise_amd64
+- ros-hydro-image-common_binarydeb_precise_i386
+- ros-hydro-image-common_binarydeb_quantal_amd64
+- ros-hydro-image-common_binarydeb_quantal_i386
+- ros-hydro-image-common_binarydeb_raring_amd64
+- ros-hydro-image-common_binarydeb_raring_i386
+repo_name: image_common
+repo_url: https://github.com/ros-perception/image_common
+srvs: []
+timestamp: 1405973914.805797
+url: http://www.ros.org/wiki/image_common
+vcs: git
+vcs_uri: https://github.com/ros-perception/image_common.git
+vcs_version: hydro-devel

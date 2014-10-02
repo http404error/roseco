@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/labust_imu/html
+authors: Gyula Nagy <dula.nad@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- tf
+- catkin
+- sensor_msgs
+- roscpp
+- snippets
+depends_on: []
+description: The labust_imu package contains the ROS drivers for the in-house developed
+  GPS aided inertial unit.
+doc_job: doc-hydro-labust_ros_pkg
+has_changelog_rst: false
+license: BSD
+maintainers: Gyula Nagy <dula.nad@gmail.com>
+msgs: []
+package_type: package
+repo_name: labust_ros_pkg
+repo_url: ''
+srvs: []
+timestamp: 1404988458.349949
+url: ''
+vcs: git
+vcs_uri: https://github.com/labust/labust-ros-pkg.git
+vcs_version: hydro-devel

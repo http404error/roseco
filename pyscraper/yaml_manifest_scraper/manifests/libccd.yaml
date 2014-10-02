@@ -1,0 +1,18 @@
+authors: Daniel Fiser <danfis@danfis.cz>
+depends:
+- cmake
+description: libccd is library for collision detection between two convex shapes.
+license: BSD
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-libccd_sourcedeb
+- ros-hydro-libccd_binarydeb_precise_amd64
+- ros-hydro-libccd_binarydeb_precise_i386
+- ros-hydro-libccd_binarydeb_quantal_amd64
+- ros-hydro-libccd_binarydeb_quantal_i386
+- ros-hydro-libccd_binarydeb_raring_amd64
+- ros-hydro-libccd_binarydeb_raring_i386
+repo_name: libccd
+timestamp: 1405956414.845199
+url: http://libccd.danfis.cz/

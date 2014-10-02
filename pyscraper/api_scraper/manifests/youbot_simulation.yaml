@@ -1,0 +1,21 @@
+authors: Frederik Hegger <frederik.hegger@h-brs.de>
+depends:
+- youbot_gazebo_worlds
+- catkin
+- youbot_gazebo_control
+- youbot_gazebo_robot
+description: Packages to run the KUKA youBot in the Gazebo simulation with ROS
+license: GPLv3
+maintainers: Walter Nowak <nowak@locomotec.com>, Sebastian Blumenthal <blumenthal@locomotec.com>
+package_type: package
+release_jobs:
+- ros-hydro-youbot-simulation_sourcedeb
+- ros-hydro-youbot-simulation_binarydeb_precise_amd64
+- ros-hydro-youbot-simulation_binarydeb_precise_i386
+- ros-hydro-youbot-simulation_binarydeb_quantal_amd64
+- ros-hydro-youbot-simulation_binarydeb_quantal_i386
+- ros-hydro-youbot-simulation_binarydeb_raring_amd64
+- ros-hydro-youbot-simulation_binarydeb_raring_i386
+repo_name: youbot_simulation
+timestamp: 1405956415.209927
+url: http://github.com/mas-group/youbot_simulation

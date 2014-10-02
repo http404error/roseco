@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/gazebo2rviz/html
+authors: Andreas Bihlmaier <andreas.bihlmaier@gmx.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rospy
+- pysdf
+depends_on: []
+description: This package contains nodes to automatically import all entities simulated
+  in a ROS-enabled Gazebo instance into rviz through the TF and Marker plugin.
+doc_job: doc-hydro-gazebo2rviz
+has_changelog_rst: false
+license: MIT
+maintainers: Andreas Bihlmaier <andreas.bihlmaier@gmx.de>
+msgs: []
+package_type: package
+repo_name: gazebo2rviz
+repo_url: ''
+srvs: []
+timestamp: 1405770550.768184
+url: http://wiki.ros.org/gazebo2rviz
+vcs: git
+vcs_uri: https://github.com/andreasBihlmaier/gazebo2rviz.git
+vcs_version: master

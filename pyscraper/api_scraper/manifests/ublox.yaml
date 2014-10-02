@@ -1,0 +1,24 @@
+api_documentation: http://docs.ros.org/hydro/api/ublox/html
+authors: Johannes Meyer
+brief: ublox
+depends:
+- ros
+- ros_comm
+depends_on: []
+description: "\n    Provides a ublox_gps node for uBlox GPS receivers and message\
+  \ and serialization packages for the binary UBX protocol.\n  "
+doc_job: doc-hydro-ublox
+license: BSD
+msgs: []
+package_type: stack
+packages:
+- ublox_serialization
+- ublox_msgs
+- ublox_gps
+repo_name: ublox
+srvs: []
+timestamp: 1405965271.862654
+url: http://ros.org/wiki/ublox
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/ublox.git
+vcs_version: null

@@ -1,0 +1,49 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/bwi_desktop/html
+authors: Jack O'Quin, Piyush Khandelwal
+brief: ''
+bugtracker: https://github.com/utexas-bwi/bwi/issues
+depends: &id001
+- bwi_planning
+- catkin
+- segbot
+- bwi_common
+- bwi_launch
+- segbot_apps
+- segbot_simulator
+- clasp
+depends_on:
+- bwi_desktop_full
+- bwi
+description: "ROS desktop metapackage for the Building-Wide Intelligence (BWI)\n \
+  \   project of the University of Texas at Austin.  It depends on all\n    released\
+  \ BWI packages.  These packages include GUI components."
+devel_jobs:
+- devel-hydro-bwi
+doc_job: doc-hydro-bwi
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Jack O'Quin <jack.oquin@gmail.com>, Piyush Khandelwal <piyushk@gmail.com>
+metapackages:
+- bwi
+- bwi_desktop_full
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-bwi-desktop_sourcedeb
+- ros-hydro-bwi-desktop_binarydeb_precise_amd64
+- ros-hydro-bwi-desktop_binarydeb_precise_i386
+- ros-hydro-bwi-desktop_binarydeb_quantal_amd64
+- ros-hydro-bwi-desktop_binarydeb_quantal_i386
+- ros-hydro-bwi-desktop_binarydeb_raring_amd64
+- ros-hydro-bwi-desktop_binarydeb_raring_i386
+repo_name: bwi
+repo_url: https://github.com/utexas-bwi/bwi
+srvs: []
+timestamp: 1405962143.758505
+url: http://ros.org/wiki/bwi_desktop
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/bwi.git
+vcs_version: master

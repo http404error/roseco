@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/lizi_description/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- std_msgs
+- rospy
+- roscpp
+- catkin
+depends_on:
+- dm_lizi
+- cogniteam_models
+description: The lizi_urdf package
+doc_job: doc-hydro-cogniteam_models
+has_changelog_rst: false
+license: TODO
+maintainers: amir <amir@todo.todo>
+metapackages:
+- cogniteam_models
+msgs: []
+package_type: package
+repo_name: cogniteam_models
+repo_url: ''
+srvs: []
+timestamp: 1405973177.949453
+url: ''
+vcs: git
+vcs_uri: https://github.com/cogniteam/cogniteam_models.git
+vcs_version: master

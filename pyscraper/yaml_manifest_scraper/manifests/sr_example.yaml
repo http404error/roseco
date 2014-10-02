@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_example/html
+authors: Ugo Cupcic
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ros-interface/issues
+depends:
+- catkin
+- roscpp
+- sensor_msgs
+- sr_robot_msgs
+- std_msgs
+- rospy
+- pr2_controllers_msgs
+depends_on:
+- shadow_robot
+description: sr_example is an example of a real package interfaced with our robot.
+  Please refer to the tutorial Creating a package to interact with our robots.
+devel_jobs:
+- devel-hydro-shadow_robot
+doc_job: doc-hydro-shadow_robot
+has_changelog_rst: true
+license: GPL
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- shadow_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sr-example_sourcedeb
+- ros-hydro-sr-example_binarydeb_precise_amd64
+- ros-hydro-sr-example_binarydeb_precise_i386
+- ros-hydro-sr-example_binarydeb_quantal_amd64
+- ros-hydro-sr-example_binarydeb_quantal_i386
+- ros-hydro-sr-example_binarydeb_raring_amd64
+- ros-hydro-sr-example_binarydeb_raring_i386
+repo_name: shadow_robot
+repo_url: https://github.com/shadow-robot/sr-ros-interface
+srvs: []
+timestamp: 1405773839.36286
+url: http://ros.org/wiki/sr_example
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ros-interface.git
+vcs_version: hydro-devel

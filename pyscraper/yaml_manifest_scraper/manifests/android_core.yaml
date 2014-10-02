@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/android_core/html
+authors: Damon Kohler <damonkohler@google.com>
+brief: ''
+bugtracker: https://github.com/rosjava/android_core/issues
+depends:
+- catkin
+- rosjava_core
+- rosjava_build_tools
+depends_on:
+- android_remocons
+- turtlebot_android
+- base_controller
+- android_apps
+- android_extras
+description: Android support packages for rosjava.
+doc_job: doc-hydro-android_core
+has_changelog_rst: false
+license: Apache 2.0
+maintainers: Daniel Stonier <d.stonier@gmail.com>, Damon Kohler <damonkohler@google.com>
+msgs: []
+package_type: package
+repo_name: android_core
+repo_url: https://github.com/rosjava/android_core
+srvs: []
+timestamp: 1405972506.661058
+url: http://ros.org/wiki/android_core
+vcs: git
+vcs_uri: https://github.com/rosjava/android_core.git
+vcs_version: hydro

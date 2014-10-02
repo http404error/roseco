@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/moveit_planners/html
+authors: Ioan Sucan <isucan@willowgarage.com>, Sachin Chitta <sachinc@willowgarage.com>
+brief: ''
+bugtracker: https://github.com/ros-planning/moveit_planners/issues
+depends: &id001
+- moveit_planners_ompl
+- catkin
+depends_on:
+- hironx_moveit_config
+- nextage_moveit_config
+description: Metapacakge that installs all available planners for MoveIt
+devel_jobs:
+- devel-hydro-moveit_planners
+doc_job: doc-hydro-moveit_planners
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-moveit-planners_sourcedeb
+- ros-hydro-moveit-planners_binarydeb_precise_amd64
+- ros-hydro-moveit-planners_binarydeb_precise_i386
+- ros-hydro-moveit-planners_binarydeb_quantal_amd64
+- ros-hydro-moveit-planners_binarydeb_quantal_i386
+- ros-hydro-moveit-planners_binarydeb_raring_amd64
+- ros-hydro-moveit-planners_binarydeb_raring_i386
+repo_name: moveit_planners
+repo_url: https://github.com/ros-planning/moveit_planners
+srvs: []
+timestamp: 1405974510.560149
+url: http://moveit.ros.org
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_planners.git
+vcs_version: hydro-devel

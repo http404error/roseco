@@ -1,0 +1,51 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_pose_estimation_core/html
+authors: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- rosconsole
+- catkin
+- roscpp
+- rostime
+- sensor_msgs
+- cmake_modules
+- geometry_msgs
+- tf
+- eigen
+depends_on:
+- hector_pose_estimation
+- hector_localization
+- rtt_hector_pose_estimation
+description: "hector_pose_estimation_core is the core package of the hector_localization\
+  \ stack. It contains the Extended Kalman Filter (EKF)\n    that estimates the 6DOF\
+  \ pose of the robot. hector_pose_estimation can be used either as a library, as\
+  \ a nodelet or as a standalone node."
+devel_jobs:
+- devel-hydro-hector_localization
+doc_job: doc-hydro-hector_localization
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+metapackages:
+- hector_localization
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hector-pose-estimation-core_sourcedeb
+- ros-hydro-hector-pose-estimation-core_binarydeb_precise_amd64
+- ros-hydro-hector-pose-estimation-core_binarydeb_precise_i386
+- ros-hydro-hector-pose-estimation-core_binarydeb_quantal_amd64
+- ros-hydro-hector-pose-estimation-core_binarydeb_quantal_i386
+- ros-hydro-hector-pose-estimation-core_binarydeb_raring_amd64
+- ros-hydro-hector-pose-estimation-core_binarydeb_raring_i386
+repo_name: hector_localization
+repo_url: ''
+srvs: []
+timestamp: 1405770973.852833
+url: http://ros.org/wiki/hector_pose_estimation_core
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_localization.git
+vcs_version: catkin

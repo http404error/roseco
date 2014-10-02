@@ -1,0 +1,50 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/graft/html
+authors: Chad Rockey <chadrockey@willowgarage.com>
+brief: ''
+bugtracker: https://github.com/ros-perception/graft/issues
+depends:
+- nav_msgs
+- rosconsole
+- catkin
+- eigen
+- message_runtime
+- sensor_msgs
+- tf
+- cmake_modules
+- geometry_msgs
+- dynamic_reconfigure
+- message_generation
+- roscpp
+depends_on: []
+description: "Graft is not yet finished. It's intended to be a full replacement to\n\
+  \    robot_pose_ekf, including native absolute references, and arbitrary\n    topic\
+  \ configuration.\n\n    If you try to use Graft now, please note that not all parameters\
+  \ are\n    configured and you will not always see a change in behavior by\n    modifying\
+  \ the parameters."
+doc_job: doc-hydro-graft
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Chad Rockey <chadrockey@gmail.com>, Michael Ferguson <fergs@unboundedrobotics.com>
+msgs:
+- GraftState
+- GraftSensorResidual
+- GraftControl
+package_type: package
+release_jobs:
+- ros-hydro-graft_sourcedeb
+- ros-hydro-graft_binarydeb_precise_amd64
+- ros-hydro-graft_binarydeb_precise_i386
+- ros-hydro-graft_binarydeb_quantal_amd64
+- ros-hydro-graft_binarydeb_quantal_i386
+- ros-hydro-graft_binarydeb_raring_amd64
+- ros-hydro-graft_binarydeb_raring_i386
+repo_name: graft
+repo_url: https://github.com/ros-perception/graft
+srvs: []
+timestamp: 1405770784.395678
+url: http://ros.org/wiki/graft
+vcs: git
+vcs_uri: https://github.com/ros-perception/graft.git
+vcs_version: hydro-devel

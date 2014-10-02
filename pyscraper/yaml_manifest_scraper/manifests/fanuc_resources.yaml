@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/fanuc_resources/html
+authors: G.A. vd. Hoorn (TU Delft Robotics Institute)
+brief: ''
+bugtracker: https://github.com/ros-industrial/fanuc/issues
+depends:
+- catkin
+depends_on:
+- fanuc_m10ia_support
+- fanuc
+- fanuc_lrmate200id_support
+- fanuc_m16ib_support
+- fanuc_lrmate200ic_support
+- fanuc_m430ia_support
+- fanuc_m20ia_support
+description: "<p>\n      Shared configuration data, 3D models and launch files for\
+  \ Fanuc \n      manipulators.\n    </p>\n    <p>\n      This package contains configuration\
+  \ data, 3D models and launch files \n      that are shared between different Fanuc\
+  \ robot support packages \n      within the ROS Industrial program.\n\n      This\
+  \ package also contains common URDF / XACRO resources used by \n      other Fanuc\
+  \ related packages.\n    </p>"
+devel_jobs:
+- devel-hydro-fanuc
+doc_job: doc-hydro-fanuc
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+metapackages:
+- fanuc
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-fanuc-resources_sourcedeb
+- ros-hydro-fanuc-resources_binarydeb_precise_amd64
+- ros-hydro-fanuc-resources_binarydeb_precise_i386
+- ros-hydro-fanuc-resources_binarydeb_quantal_amd64
+- ros-hydro-fanuc-resources_binarydeb_quantal_i386
+- ros-hydro-fanuc-resources_binarydeb_raring_amd64
+- ros-hydro-fanuc-resources_binarydeb_raring_i386
+repo_name: fanuc
+repo_url: https://github.com/ros-industrial/fanuc
+srvs: []
+timestamp: 1405963158.22601
+url: http://ros.org/wiki/fanuc_resources
+vcs: git
+vcs_uri: https://github.com/ros-industrial/fanuc.git
+vcs_version: hydro-devel

@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/speech_database/html
+authors: Alexander Reiter <alexander.reiter@me.com>
+brief: ''
+bugtracker: ''
+depends:
+- libcurl4-openssl-dev
+- catkin
+- roscpp
+- std_msgs
+- jansson
+- sound_play
+depends_on:
+- hmi_robin
+description: "The speech_database package performs text-to-speech conversion by using\
+  \ Google's speech synthesiser. \n\t  It also provides a storage solution for synthesised\
+  \ speech.\n\t  Speech can be accessed by publishing a text string at the /speech\
+  \ topic. If no entry exists, the text will by synthesised and stored locally in\
+  \ an mp3 file. \n\t  After an entry that corresponds to the text was found or created,\
+  \ a request to play the audio file is published at the /robotsound topic to be processed\
+  \ by the soundplay_node.py of the sound_play package."
+doc_job: doc-hydro-hmi_robin
+has_changelog_rst: false
+license: BSD
+maintainers: Alexander Reiter <alexander.reiter@me.com>
+metapackages:
+- hmi_robin
+msgs: []
+package_type: package
+repo_name: hmi_robin
+repo_url: ''
+srvs: []
+timestamp: 1405771144.113998
+url: http://ros.org/wiki/speech_database
+vcs: git
+vcs_uri: https://github.com/robinJKU/hmi_robin.git
+vcs_version: hydro-devel

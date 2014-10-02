@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/libnabo/html
+authors: "St\xE9phane Magnenat <stephane.magnenat@mavt.ethz.ch>"
+brief: ''
+bugtracker: ''
+depends:
+- cmake
+- boost
+- eigen
+- catkin
+depends_on:
+- libpointmatcher
+description: libnabo is a fast K Nearest Neighbour library for low-dimensional spaces.
+devel_jobs:
+- devel-hydro-libnabo
+doc_job: doc-hydro-libnabo
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: "St\xE9phane Magnenat <stephane.magnenat@mavt.ethz.ch>"
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-libnabo_sourcedeb
+- ros-hydro-libnabo_binarydeb_precise_amd64
+- ros-hydro-libnabo_binarydeb_precise_i386
+- ros-hydro-libnabo_binarydeb_quantal_amd64
+- ros-hydro-libnabo_binarydeb_quantal_i386
+- ros-hydro-libnabo_binarydeb_raring_amd64
+- ros-hydro-libnabo_binarydeb_raring_i386
+repo_name: libnabo
+repo_url: https://github.com/ethz-asl/libnabo
+srvs: []
+timestamp: 1405771716.381912
+url: ''
+vcs: git
+vcs_uri: https://github.com/ethz-asl/libnabo.git
+vcs_version: master

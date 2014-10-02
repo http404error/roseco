@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jsk_data/html
+authors: ryohei ueda
+brief: jsk_data
+bugtracker: ''
+depends:
+- rxtools
+- message_filters
+- image_view
+- sensor_msgs
+- geometry_msgs
+- rostopic
+- hrp2_controllers_msgs
+- rosbag
+- jsk_sensor_msgs
+depends_on: []
+description: "\n\n     jsk_data\n\n  "
+doc_job: doc-hydro-jsk_common
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771571.684298
+url: http://ros.org/wiki/jsk_data
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

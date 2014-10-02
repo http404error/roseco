@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/abb/html
+authors: Shaun Edwards <shaun.edwards@gmail.com>
+brief: ''
+bugtracker: https://github.com/ros-industrial/abb/issues
+depends: &id001
+- irb_2400_moveit_config
+- catkin
+- abb_common
+- irb_6640_moveit_config
+- abb_moveit_plugins
+depends_on: []
+description: abb
+devel_jobs:
+- devel-hydro-abb
+doc_job: doc-hydro-abb
+has_changelog_rst: true
+license: BSD, Apache 2.0
+maintainer_status: developed
+maintainers: Shaun Edwards <shaun.edwards@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-abb_sourcedeb
+- ros-hydro-abb_binarydeb_precise_amd64
+- ros-hydro-abb_binarydeb_precise_i386
+- ros-hydro-abb_binarydeb_quantal_amd64
+- ros-hydro-abb_binarydeb_quantal_i386
+- ros-hydro-abb_binarydeb_raring_amd64
+- ros-hydro-abb_binarydeb_raring_i386
+repo_name: abb
+repo_url: https://github.com/ros-industrial/abb
+srvs: []
+timestamp: 1405972374.48185
+url: http://ros.org/wiki/abb
+vcs: git
+vcs_uri: https://github.com/ros-industrial/abb.git
+vcs_version: hydro

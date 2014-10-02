@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/segbot_firmware/html
+authors: Jose Bigio, Jack O'Quin, Tim Eckel (NewPing library)
+brief: ''
+bugtracker: https://github.com/utexas-bwi/segbot/issues
+depends:
+- catkin
+depends_on:
+- segbot
+description: Arduino firmware for BWI segbot sensor array.
+devel_jobs:
+- devel-hydro-segbot
+doc_job: doc-hydro-segbot
+has_changelog_rst: true
+license: BSD, GPLv3
+maintainer_status: developed
+maintainers: Jack O'Quin <jack.oquin@gmail.com>, Piyush Khandelwal <piyushk@gmail.com>
+metapackages:
+- segbot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-segbot-firmware_sourcedeb
+- ros-hydro-segbot-firmware_binarydeb_precise_amd64
+- ros-hydro-segbot-firmware_binarydeb_precise_i386
+- ros-hydro-segbot-firmware_binarydeb_quantal_amd64
+- ros-hydro-segbot-firmware_binarydeb_quantal_i386
+- ros-hydro-segbot-firmware_binarydeb_raring_amd64
+- ros-hydro-segbot-firmware_binarydeb_raring_i386
+repo_name: segbot
+repo_url: https://github.com/utexas-bwi/segbot.git
+srvs: []
+timestamp: 1405773654.171435
+url: http://ros.org/wiki/segbot_firmware
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/segbot.git
+vcs_version: master

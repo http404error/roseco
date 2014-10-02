@@ -1,0 +1,21 @@
+authors: Hunter Allen <hunter.allen@Vanderbilt.edu>, David Feil-Seifer <dfseifer@usc.edu>,
+  Brian Gerkey, Kasper Stoy, Richard Vaughan, Andrew Howard, Tucker Hermans, ActivMedia
+  Robotics LLC, MobileRobots Inc.
+depends:
+- catkin
+description: This package contains launch and config files designed for use with the
+  p2os stack.
+license: BSD
+maintainers: Hunter Allen <hunter.allen@vanderbilt.edu>
+package_type: package
+release_jobs:
+- ros-hydro-p2os-launch_sourcedeb
+- ros-hydro-p2os-launch_binarydeb_precise_amd64
+- ros-hydro-p2os-launch_binarydeb_precise_i386
+- ros-hydro-p2os-launch_binarydeb_quantal_amd64
+- ros-hydro-p2os-launch_binarydeb_quantal_i386
+- ros-hydro-p2os-launch_binarydeb_raring_amd64
+- ros-hydro-p2os-launch_binarydeb_raring_i386
+repo_name: p2os
+timestamp: 1405956414.970801
+url: http://ros.org/wiki/p2os-vanderbilt

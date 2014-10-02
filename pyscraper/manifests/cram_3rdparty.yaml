@@ -1,0 +1,51 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cram_3rdparty/html
+authors: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+brief: ''
+bugtracker: https://github.com/cram-code/cram_3rdparty/issues
+depends: &id001
+- yason
+- cl_store
+- catkin
+- babel
+- cffi
+- lisp_unit
+- fiveam
+- gsll
+- alexandria
+- gsd
+- cl_utilities
+- trivial_features
+- trivial_garbage
+- trivial_gray_streams
+- split_sequence
+- synchronization_tools
+depends_on: []
+description: Various 3rd party Common LISP packages for the CRAM framework.
+devel_jobs:
+- devel-hydro-cram_3rdparty
+doc_job: doc-hydro-cram_3rdparty
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Georg Bartels <georg.bartels@cs.uni-bremen.de>, Lorenz Moesenlechner
+  <moesenle@cs.tum.edu>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-cram-3rdparty_sourcedeb
+- ros-hydro-cram-3rdparty_binarydeb_precise_amd64
+- ros-hydro-cram-3rdparty_binarydeb_precise_i386
+- ros-hydro-cram-3rdparty_binarydeb_quantal_amd64
+- ros-hydro-cram-3rdparty_binarydeb_quantal_i386
+- ros-hydro-cram-3rdparty_binarydeb_raring_amd64
+- ros-hydro-cram-3rdparty_binarydeb_raring_i386
+repo_name: cram_3rdparty
+repo_url: https://github.com/cram-code/cram_3rdparty
+srvs: []
+timestamp: 1405770049.525322
+url: http://ros.org/wiki/cram_3rdparty
+vcs: git
+vcs_uri: https://github.com/cram-code/cram_3rdparty.git
+vcs_version: master

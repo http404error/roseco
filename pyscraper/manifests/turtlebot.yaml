@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtlebot/html
+authors: Tully Foote, Michael Ferguson, Melonee Wise
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot/issues
+depends: &id001
+- turtlebot_description
+- catkin
+- turtlebot_bringup
+- linux_hardware
+depends_on: []
+description: The turtlebot meta package provides all the basic drivers for running
+  and using a TurtleBot.
+devel_jobs:
+- devel-hydro-turtlebot
+doc_job: doc-hydro-turtlebot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <stonier@rnd.yujinrobot.com>, Tully Foote <tfoote@osrfoundation.org>,
+  Michael Ferguson <mferguson@willowgarage.com>, Melonee Wise <mwise@willowgarage.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-turtlebot_sourcedeb
+- ros-hydro-turtlebot_binarydeb_precise_amd64
+- ros-hydro-turtlebot_binarydeb_precise_i386
+- ros-hydro-turtlebot_binarydeb_quantal_amd64
+- ros-hydro-turtlebot_binarydeb_quantal_i386
+- ros-hydro-turtlebot_binarydeb_raring_amd64
+- ros-hydro-turtlebot_binarydeb_raring_i386
+repo_name: turtlebot
+repo_url: https://github.com/turtlebot/turtlebot
+srvs: []
+timestamp: 1405774185.26031
+url: http://ros.org/wiki/turtlebot
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot.git
+vcs_version: hydro

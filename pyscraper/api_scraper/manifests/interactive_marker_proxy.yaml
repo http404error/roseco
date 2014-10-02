@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/interactive_marker_proxy/html
+authors: David Gossow <dgossow@willowgarage.com>
+brief: ''
+bugtracker: https://github.com/RobotWebTools/interactive_marker_proxy/issues
+depends:
+- interactive_markers
+- catkin
+- roscpp
+- message_runtime
+- visualization_msgs
+- message_generation
+depends_on: []
+description: A Proxy Server for Interactive Markers
+devel_jobs:
+- devel-hydro-interactive_marker_proxy
+doc_job: doc-hydro-interactive_marker_proxy
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Russell Toris <rctoris@wpi.edu>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-interactive-marker-proxy_sourcedeb
+- ros-hydro-interactive-marker-proxy_binarydeb_precise_amd64
+- ros-hydro-interactive-marker-proxy_binarydeb_precise_i386
+- ros-hydro-interactive-marker-proxy_binarydeb_quantal_amd64
+- ros-hydro-interactive-marker-proxy_binarydeb_quantal_i386
+- ros-hydro-interactive-marker-proxy_binarydeb_raring_amd64
+- ros-hydro-interactive-marker-proxy_binarydeb_raring_i386
+repo_name: interactive_marker_proxy
+repo_url: https://github.com/RobotWebTools/interactive_marker_proxy
+srvs:
+- GetInit
+timestamp: 1405973919.762113
+url: http://wiki.ros.org/interactive_marker_proxy
+vcs: git
+vcs_uri: https://github.com/RobotWebTools/interactive_marker_proxy.git
+vcs_version: master

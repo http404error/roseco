@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_teleop/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- brics_actuator
+- std_msgs
+- trajectory_msgs
+- sensor_msgs
+- cob_srvs
+- geometry_msgs
+depends_on:
+- cob_bringup
+- cob_command_tools
+description: This Package enables remote controll of Care-O-bot via a joystick or
+  keyboard. Currently tray, torso, arm and base are supported.
+devel_jobs:
+- devel-hydro-cob_command_tools
+doc_job: doc-hydro-cob_command_tools
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+metapackages:
+- cob_command_tools
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-teleop_sourcedeb
+- ros-hydro-cob-teleop_binarydeb_precise_amd64
+- ros-hydro-cob-teleop_binarydeb_precise_i386
+- ros-hydro-cob-teleop_binarydeb_quantal_amd64
+- ros-hydro-cob-teleop_binarydeb_quantal_i386
+- ros-hydro-cob-teleop_binarydeb_raring_amd64
+- ros-hydro-cob-teleop_binarydeb_raring_i386
+repo_name: cob_command_tools
+repo_url: ''
+srvs: []
+timestamp: 1405973040.403509
+url: http://www.ros.org/wiki/cob_teleop
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_command_tools.git
+vcs_version: hydro_release_candidate

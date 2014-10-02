@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/wheeled_robin_core_apps/html
+authors: Johannes Mayr <joh.mayr@jku.at>, Klemens Springer <klemens.springer@jku.at>
+brief: ''
+bugtracker: https://github.com/robinJKU/wheeled_robin_apps/issues
+depends:
+- wheeled_robin_bringup
+- video_player
+- catkin
+- wheeled_robin_teleop
+depends_on:
+- wheeled_robin_apps
+description: The core set of wheeled_robin 'app manager' apps are defined in this
+  package.
+doc_job: doc-hydro-wheeled_robin_apps
+has_changelog_rst: false
+license: BSD
+maintainers: Johannes Mayr <joh.mayr@jku.at>
+metapackages:
+- wheeled_robin_apps
+msgs: []
+package_type: package
+repo_name: wheeled_robin_apps
+repo_url: https://github.com/robinJKU/wheeled_robin_apps
+srvs: []
+timestamp: 1405774530.271486
+url: http://ros.org/wiki/wheeled_robin_core_apps
+vcs: git
+vcs_uri: https://github.com/robinJKU/wheeled_robin_apps.git
+vcs_version: hydro-devel

@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kurt_2dnav/html
+authors: Jochen Sprickerhof
+brief: Global navigation for the Kurt robot.
+bugtracker: ''
+depends:
+- move_base
+depends_on: []
+description: "\n     This application allows the Kurt robot to navigate autonomously\
+  \ with a\n     pre-specified static map. This package is modeled after pr2_2dnav.\n\
+  \  "
+doc_job: doc-hydro-kurt_navigation
+license: BSD
+maintainers: ''
+metapackages:
+- kurt_apps
+- kurt_navigation
+msgs: []
+package_type: package
+repo_name: kurt_navigation
+repo_url: ''
+srvs: []
+timestamp: 1405771602.053581
+url: http://ros.org/wiki/kurt_2dnav
+vcs: git
+vcs_uri: https://github.com/uos/kurt_navigation.git
+vcs_version: hydro

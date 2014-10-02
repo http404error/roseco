@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_exploration_planner/html
+authors: Mark Sollweck, Stefan Kohlbrecher, Florian Berz
+brief: hector_exploration_planner is a planner that can both plan paths to goal points
+  and generate goals to explore unknown environments
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- nav_msgs
+- rosconsole
+- roscpp
+- costmap_2d
+- pluginlib
+- hector_nav_msgs
+- cmake_modules
+- nav_core
+- geometry_msgs
+- rospy
+- eigen
+depends_on:
+- hector_exploration_node
+description: "\n\n     hector_exploration_planner is a planner that can both plan\
+  \ paths to goal points and generate goals to explore unknown environments\n\n  "
+doc_job: doc-hydro-hector_navigation
+license: BSD
+maintainers: ''
+metapackages:
+- hector_navigation
+msgs: []
+package_type: package
+repo_name: hector_navigation
+repo_url: ''
+srvs: []
+timestamp: 1405771006.562056
+url: http://ros.org/wiki/hector_exploration_planner
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_navigation.git
+vcs_version: master

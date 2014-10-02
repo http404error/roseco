@@ -1,0 +1,94 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/message_filters/html
+authors: Josh Faust, Vijay Pradeep
+brief: ''
+bugtracker: ''
+depends:
+- rosconsole
+- catkin
+- roscpp
+- xmlrpcpp
+- rostest
+- rosunit
+- boost
+depends_on:
+- cob_unified_scan_publisher
+- costmap_2d
+- rviz
+- laser_filters
+- hector_mapping
+- depthcloud_encoder
+- gps_common
+- jsk_data
+- image_view2
+- fovis_ros
+- simple_approximate_time_synchronizer
+- ndt_mcl
+- hector_pose_estimation
+- cob_sick_s300
+- camera_calibration
+- laser_assembler
+- humanoid_localization
+- moveit_ros_perception
+- nodelet_topic_tools
+- cr_capture
+- nao_description
+- image_view
+- amcl
+- tf
+- people_tracking_filter
+- pcl_ros
+- image_transport
+- stereo_slam
+- depth_image_proc
+- image_cb_detector
+- visp_auto_tracker
+- test_nodelet_topic_tools
+- imu_filter_madgwick
+- stereo_image_proc
+- tf2_ros
+- robot_mechanism_controllers
+- cr_calibration
+- segbot_logical_translator
+- pr2_head_action
+- laser_cb_detector
+- kobuki_auto_docking
+- asctec_hl_gps
+- bag_tools
+- pr2_navigation_perception
+- fake_localization
+- jsk_interactive_marker
+- cob_interactive_teleop
+- ros_comm
+- viso2_ros
+- cob_camera_sensors
+- cob_cam3d_throttle
+description: A set of message filters which take in messages and may output those
+  messages at a later time, based on the conditions that filter needs met.
+devel_jobs:
+- devel-hydro-ros_comm
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros_comm
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-message-filters_sourcedeb
+- ros-hydro-message-filters_binarydeb_precise_amd64
+- ros-hydro-message-filters_binarydeb_precise_i386
+- ros-hydro-message-filters_binarydeb_quantal_amd64
+- ros-hydro-message-filters_binarydeb_quantal_i386
+- ros-hydro-message-filters_binarydeb_raring_amd64
+- ros-hydro-message-filters_binarydeb_raring_i386
+repo_name: ros_comm
+repo_url: ''
+srvs: []
+timestamp: 1405773168.670119
+url: http://ros.org/wiki/message_filters
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

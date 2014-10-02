@@ -1,0 +1,21 @@
+authors: Eitan Marder-Eppstein
+depends:
+- tf
+- catkin
+- geometry_msgs
+- roscpp
+description: The robot_setup_tf_tutorial package
+license: BSD
+maintainers: William Woodall <william@osrfoundation.org>
+package_type: package
+release_jobs:
+- ros-hydro-robot-setup-tf-tutorial_sourcedeb
+- ros-hydro-robot-setup-tf-tutorial_binarydeb_precise_amd64
+- ros-hydro-robot-setup-tf-tutorial_binarydeb_precise_i386
+- ros-hydro-robot-setup-tf-tutorial_binarydeb_quantal_amd64
+- ros-hydro-robot-setup-tf-tutorial_binarydeb_quantal_i386
+- ros-hydro-robot-setup-tf-tutorial_binarydeb_raring_amd64
+- ros-hydro-robot-setup-tf-tutorial_binarydeb_raring_i386
+repo_name: navigation_tutorials
+timestamp: 1405956415.025329
+url: http://ros.org/wiki/robot_setup_tf_tutorial

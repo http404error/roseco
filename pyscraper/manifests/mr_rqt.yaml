@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/mr_rqt/html
+authors: Igor Makhtes <igor@cogniteam.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- pluginlib
+- rqt_gui_cpp
+- rqt_gui
+- std_msgs
+- geometry_msgs
+depends_on:
+- mr_teleoperator
+description: Multi-robot teleoperation package collection
+doc_job: doc-hydro-mr_teleoperator
+has_changelog_rst: true
+license: MIT
+maintainers: Igor Makhtes <igor@cogniteam.com>
+metapackages:
+- mr_teleoperator
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-mr-rqt_sourcedeb
+- ros-hydro-mr-rqt_binarydeb_precise_amd64
+- ros-hydro-mr-rqt_binarydeb_precise_i386
+- ros-hydro-mr-rqt_binarydeb_quantal_amd64
+- ros-hydro-mr-rqt_binarydeb_quantal_i386
+- ros-hydro-mr-rqt_binarydeb_raring_amd64
+- ros-hydro-mr-rqt_binarydeb_raring_i386
+repo_name: mr_teleoperator
+repo_url: ''
+srvs: []
+timestamp: 1405771944.678705
+url: http://www.ros.org/wiki/mr_rqt
+vcs: git
+vcs_uri: https://github.com/cogniteam/mr_teleoperator.git
+vcs_version: master

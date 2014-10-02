@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/volksbot_driver/html
+authors: Jochen Sprickerhof
+brief: volksbot
+bugtracker: ''
+depends:
+- nav_msgs
+- roscpp
+- sensor_msgs
+- libepos2-dev
+- geometry_msgs
+- tf
+depends_on:
+- calvin_bringup
+- calvin_gazebo
+description: "\n\n     Driver for the Volksbot robot. Depends on libepos2.\n\n  "
+doc_job: doc-hydro-volksbot_driver
+license: BSD
+maintainers: ''
+metapackages:
+- volksbot_driver
+msgs: []
+package_type: package
+repo_name: volksbot_driver
+repo_url: ''
+srvs: []
+timestamp: 1405774456.388758
+url: http://ros.org/wiki/volksbot
+vcs: git
+vcs_uri: https://github.com/uos/volksbot_driver.git
+vcs_version: hydro

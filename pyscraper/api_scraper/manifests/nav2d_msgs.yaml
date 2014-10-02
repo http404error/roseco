@@ -1,0 +1,51 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nav2d_msgs/html
+authors: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- std_msgs
+- message_runtime
+- sensor_msgs
+- geometry_msgs
+- message_generation
+depends_on:
+- nav2d_tutorials
+- robot_navigator
+- nav2d_karto
+- rosjava_messages
+- nav2d
+- graph_slam
+- slam_karto
+- nav2d_navigator
+description: Messages used for 2D-Navigation.
+devel_jobs:
+- devel-hydro-navigation_2d
+doc_job: doc-hydro-navigation_2d
+has_changelog_rst: false
+license: GPLv3
+maintainer_status: developed
+maintainers: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+metapackages:
+- nav2d
+msgs:
+- LocalizedScan
+- RobotPose
+package_type: package
+release_jobs:
+- ros-hydro-nav2d-msgs_sourcedeb
+- ros-hydro-nav2d-msgs_binarydeb_precise_amd64
+- ros-hydro-nav2d-msgs_binarydeb_precise_i386
+- ros-hydro-nav2d-msgs_binarydeb_quantal_amd64
+- ros-hydro-nav2d-msgs_binarydeb_quantal_i386
+- ros-hydro-nav2d-msgs_binarydeb_raring_amd64
+- ros-hydro-nav2d-msgs_binarydeb_raring_i386
+repo_name: navigation_2d
+repo_url: ''
+srvs: []
+timestamp: 1405974504.923586
+url: http://wiki.ros.org/nav2d_msgs
+vcs: git
+vcs_uri: https://github.com/skasperski/navigation_2d.git
+vcs_version: hydro

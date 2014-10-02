@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/gscam/html
+authors: Jonathan Bohren <jbo@jhu.edu>, Graylin Trevor Jay <tjay@cs.brown.edu>, Christopher
+  Crick <chriscrick@cs.brown.edu>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- libgstreamer-plugins-base0.10-dev
+- camera_info_manager
+- sensor_msgs
+- image_transport
+- opencv2
+- libgstreamer0.10-dev
+- camera_calibration_parsers
+- nodelet
+depends_on:
+- video_player
+- rovio_av
+description: "A ROS camera driver that uses gstreamer to connect to\n    devices such\
+  \ as webcams."
+devel_jobs:
+- devel-hydro-gscam
+doc_job: doc-hydro-gscam
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Jonathan Bohren <jbo@jhu.edu>, Russell Toris <rctoris@wpi.edu>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-gscam_sourcedeb
+- ros-hydro-gscam_binarydeb_precise_amd64
+- ros-hydro-gscam_binarydeb_precise_i386
+- ros-hydro-gscam_binarydeb_quantal_amd64
+- ros-hydro-gscam_binarydeb_quantal_i386
+- ros-hydro-gscam_binarydeb_raring_amd64
+- ros-hydro-gscam_binarydeb_raring_i386
+repo_name: gscam
+repo_url: ''
+srvs: []
+timestamp: 1405963234.112973
+url: ''
+vcs: git
+vcs_uri: https://github.com/ros-drivers/gscam.git
+vcs_version: master

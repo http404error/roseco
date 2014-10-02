@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/vrep_ros_plugin/html
+authors: Riccardo Spica <riccardo.spica@inria.fr>, Giovanni Claudio <giovanni.claudio@inria.fr>
+brief: ''
+bugtracker: ''
+depends:
+- cmake_modules
+- catkin
+- roscpp
+- pluginlib
+depends_on:
+- manipulator_handler
+- camera_handler
+- rigid_body_handler
+- vrep_ros_bridge
+- force_sensor_handler
+- quadrotor_handler
+- imu_handler
+description: The vrep_ros_plugin package
+doc_job: doc-hydro-vrep_ros_bridge
+has_changelog_rst: false
+license: BSD
+maintainers: Giovanni Claudio <giovanni.claudio@inria.fr>
+metapackages:
+- vrep_ros_bridge
+msgs: []
+package_type: package
+repo_name: vrep_ros_bridge
+repo_url: git://github.com/lagadic/vrep_ros_bridge.git
+srvs: []
+timestamp: 1405975682.657155
+url: ''
+vcs: git
+vcs_uri: https://github.com/lagadic/vrep_ros_bridge.git
+vcs_version: master

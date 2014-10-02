@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/maxwell/html
+authors: Michael Ferguson
+brief: ''
+bugtracker: ''
+depends: &id001
+- maxwell_calibration
+- catkin
+- simple_moveit_plugins
+- maxwell_moveit_config
+- maxwell_defs
+- maxwell_navigation
+depends_on: []
+description: Maxwell is a custom mobile manipulator. The Maxwell stack contains configuration,
+  launch, and demo applications for the Maxwell robot.
+doc_job: doc-hydro-maxwell
+has_changelog_rst: false
+license: BSD
+maintainers: Michael Ferguson <mike@vanadiumlabs.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: maxwell
+repo_url: ''
+srvs: []
+timestamp: 1405963906.441704
+url: http://ros.org/wiki/maxwell
+vcs: git
+vcs_uri: https://github.com/mikeferguson/maxwell.git
+vcs_version: sixdof

@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_action/html
+authors: Isaac Isao Saito
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt_common_plugins/issues
+depends:
+- rqt_msg
+- rospy
+- catkin
+- rqt_py_common
+depends_on:
+- rqt_common_plugins
+description: "rqt_action provides a feature to introspect all available ROS \n  action\
+  \ (from actionlib) types. By utilizing rqt_msg, the output format is\n  unified\
+  \ with it and rqt_srv. Note that the actions shown on this plugin\n  is the ones\
+  \ that are stored on your machine, not on the ROS core your rqt\n  instance connects\
+  \ to."
+doc_job: doc-hydro-rqt_common_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Isaac Isao Saito <130s@2000.jukuin.keio.ac.jp>
+metapackages:
+- rqt_common_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-action_sourcedeb
+- ros-hydro-rqt-action_binarydeb_precise_amd64
+- ros-hydro-rqt-action_binarydeb_precise_i386
+- ros-hydro-rqt-action_binarydeb_quantal_amd64
+- ros-hydro-rqt-action_binarydeb_quantal_i386
+- ros-hydro-rqt-action_binarydeb_raring_amd64
+- ros-hydro-rqt-action_binarydeb_raring_i386
+repo_name: rqt_common_plugins
+repo_url: https://github.com/ros-visualization/rqt_common_plugins/rqt_action
+srvs: []
+timestamp: 1405975245.633081
+url: http://ros.org/wiki/rqt_action
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt_common_plugins.git
+vcs_version: groovy-devel

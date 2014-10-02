@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sql_database/html
+authors: Matei Ciocarlie and Lorenz Mosenlechner
+brief: ''
+bugtracker: ''
+depends:
+- yaml-cpp
+- pkg-config
+- catkin
+- roscpp
+- libpq-dev
+depends_on:
+- household_objects_database
+description: "Provides an easy to use and general interface between a SQL\n    database\
+  \ and object-oriented C++ code, making it easy to\n    encapsulate the conceptual\
+  \ &quot;objects&quot; contained in the database as\n    C++ classes."
+doc_job: doc-hydro-sql_database
+has_changelog_rst: false
+license: BSD
+maintainers: Matei Ciocarlie <matei.ciocarlie@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sql-database_sourcedeb
+- ros-hydro-sql-database_binarydeb_precise_amd64
+- ros-hydro-sql-database_binarydeb_precise_i386
+- ros-hydro-sql-database_binarydeb_quantal_amd64
+- ros-hydro-sql-database_binarydeb_quantal_i386
+- ros-hydro-sql-database_binarydeb_raring_amd64
+- ros-hydro-sql-database_binarydeb_raring_i386
+repo_name: sql_database
+repo_url: ''
+srvs: []
+timestamp: 1405773807.021734
+url: http://ros.org/wiki/database_interface
+vcs: git
+vcs_uri: https://github.com/ros-interactive-manipulation/sql_database.git
+vcs_version: hydro-devel

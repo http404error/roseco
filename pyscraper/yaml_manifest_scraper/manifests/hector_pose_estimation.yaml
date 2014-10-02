@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_pose_estimation/html
+authors: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- message_filters
+- sensor_msgs
+- geometry_msgs
+- hector_pose_estimation_core
+- tf
+- nodelet
+depends_on:
+- hector_quadrotor_pose_estimation
+- hector_localization
+description: hector_pose_estimation provides the hector_pose_estimation node and the
+  hector_pose_estimation nodelet.
+devel_jobs:
+- devel-hydro-hector_localization
+doc_job: doc-hydro-hector_localization
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+metapackages:
+- hector_localization
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hector-pose-estimation_sourcedeb
+- ros-hydro-hector-pose-estimation_binarydeb_precise_amd64
+- ros-hydro-hector-pose-estimation_binarydeb_precise_i386
+- ros-hydro-hector-pose-estimation_binarydeb_quantal_amd64
+- ros-hydro-hector-pose-estimation_binarydeb_quantal_i386
+- ros-hydro-hector-pose-estimation_binarydeb_raring_amd64
+- ros-hydro-hector-pose-estimation_binarydeb_raring_i386
+repo_name: hector_localization
+repo_url: ''
+srvs: []
+timestamp: 1405770976.54824
+url: http://ros.org/wiki/hector_pose_estimation
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_localization.git
+vcs_version: catkin

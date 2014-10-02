@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hokuyo_node/html
+authors: Brian P. Gerkey, Jeremy Leibs, Blaise Gassend
+brief: ''
+bugtracker: https://github.com/ros-drivers/hokuyo_node/issues
+depends:
+- self_test
+- rosconsole
+- catkin
+- roscpp
+- driver_base
+- sensor_msgs
+- diagnostic_updater
+- dynamic_reconfigure
+- log4cxx
+depends_on:
+- segbot_sensors
+- cob_hokuyo
+- cob_bringup
+- nav2_bringup
+- maxwell_navigation
+- pr2_bringup
+description: A ROS node to provide access to SCIP 2.0-compliant Hokuyo laser range
+  finders (including 04LX).
+doc_job: doc-hydro-hokuyo_node
+has_changelog_rst: true
+license: LGPL
+maintainer_status: maintained
+maintainers: Chad Rockey <chadrockey@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hokuyo-node_sourcedeb
+- ros-hydro-hokuyo-node_binarydeb_precise_amd64
+- ros-hydro-hokuyo-node_binarydeb_precise_i386
+- ros-hydro-hokuyo-node_binarydeb_quantal_amd64
+- ros-hydro-hokuyo-node_binarydeb_quantal_i386
+- ros-hydro-hokuyo-node_binarydeb_raring_amd64
+- ros-hydro-hokuyo-node_binarydeb_raring_i386
+repo_name: hokuyo_node
+repo_url: https://github.com/ros-drivers/hokuyo_node
+srvs: []
+timestamp: 1405963351.276562
+url: http://www.ros.org/wiki/hokuyo_node
+vcs: git
+vcs_uri: https://github.com/ros-drivers/hokuyo_node.git
+vcs_version: hydro-devel

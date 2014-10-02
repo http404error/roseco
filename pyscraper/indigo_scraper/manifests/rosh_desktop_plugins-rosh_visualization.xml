@@ -1,0 +1,27 @@
+<package>
+  <name>rosh_visualization</name>
+  <version>1.0.2</version>
+  <description>ROSH plugin for the visualization stack.</description>
+  <maintainer email="dan@lazewatsky.com">Dan Lazewatsky</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/rosh_visualization</url>
+  <url type="bugtracker">https://github.com/OSUrobotics/rosh_desktop_plugins/issues</url>
+
+  <author>Ken Conley</author>
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  
+  <run_depend>roslib</run_depend>
+  <run_depend>rosh</run_depend>
+  <run_depend>rviz</run_depend>
+
+  
+  
+  
+  
+
+</package>

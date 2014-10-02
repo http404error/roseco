@@ -1,0 +1,33 @@
+authors: Blaise Gassend, Patrick Mihelich, Eric MacIntosh, David Palchak
+depends:
+- self_test
+- dynamic_reconfigure
+- timestamp_tools
+- catkin
+- roscpp
+- diagnostic_updater
+- std_msgs
+- message_runtime
+- sensor_msgs
+- image_transport
+- driver_base
+- rostest
+- rospy
+- camera_calibration_parsers
+- message_generation
+description: "A ROS node and assorted tools to provide access to the WGE100\n    camera\
+  \ used in the forearms and the stereo cameras of the PR2\n    robot."
+license: GPL because of list.h; other files released under BSD
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-wge100-camera_sourcedeb
+- ros-hydro-wge100-camera_binarydeb_precise_amd64
+- ros-hydro-wge100-camera_binarydeb_precise_i386
+- ros-hydro-wge100-camera_binarydeb_quantal_amd64
+- ros-hydro-wge100-camera_binarydeb_quantal_i386
+- ros-hydro-wge100-camera_binarydeb_raring_amd64
+- ros-hydro-wge100-camera_binarydeb_raring_i386
+repo_name: wge100_driver
+timestamp: 1405956415.16119
+url: http://www.ros.org/wiki/wge100_camera

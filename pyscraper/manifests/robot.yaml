@@ -1,0 +1,33 @@
+authors: ''
+depends:
+- dynamic_reconfigure
+- ros_base
+- nodelet_core
+- catkin
+- robot_model
+- bond_core
+- pluginlib
+- geometry
+- actionlib
+- control_msgs
+- filters
+- diagnostics
+- xacro
+- driver_common
+- executive_smach
+- robot_state_publisher
+- common_msgs
+description: A metapackage to aggregate several packages.
+license: BSD
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+package_type: package
+release_jobs:
+- ros-hydro-robot_sourcedeb
+- ros-hydro-robot_binarydeb_precise_amd64
+- ros-hydro-robot_binarydeb_precise_i386
+- ros-hydro-robot_binarydeb_quantal_amd64
+- ros-hydro-robot_binarydeb_quantal_i386
+- ros-hydro-robot_binarydeb_raring_amd64
+- ros-hydro-robot_binarydeb_raring_i386
+repo_name: metapackages
+timestamp: 1405956415.021088

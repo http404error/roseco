@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_test_collision_distance_field/html
+authors: E. Gil Jones
+brief: pr2_test_collision_distance_field
+bugtracker: ''
+depends:
+- collision_detection_fcl
+- collision_distance_field_ros
+- collision_distance_field
+- planning_scene_monitor
+- robot_model_loader
+depends_on: []
+description: "\n\n     pr2_test_collision_distance_field\n\n  "
+doc_job: doc-hydro-moveit_pr2
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: moveit_pr2
+repo_url: ''
+srvs: []
+timestamp: 1405964124.643487
+url: http://ros.org/wiki/pr2_test_collision_distance_field
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_pr2.git
+vcs_version: hydro-devel

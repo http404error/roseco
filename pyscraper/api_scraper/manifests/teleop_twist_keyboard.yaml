@@ -1,0 +1,34 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/teleop_twist_keyboard/html
+authors: Graylin Trevor Jay
+brief: ''
+bugtracker: ''
+depends:
+- geometry_msgs
+- catkin
+- rospy
+depends_on: []
+description: The teleop_twist_keyboard package
+doc_job: doc-hydro-teleop_twist_keyboard
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <namniart@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-teleop-twist-keyboard_sourcedeb
+- ros-hydro-teleop-twist-keyboard_binarydeb_precise_amd64
+- ros-hydro-teleop-twist-keyboard_binarydeb_precise_i386
+- ros-hydro-teleop-twist-keyboard_binarydeb_quantal_amd64
+- ros-hydro-teleop-twist-keyboard_binarydeb_quantal_i386
+- ros-hydro-teleop-twist-keyboard_binarydeb_raring_amd64
+- ros-hydro-teleop-twist-keyboard_binarydeb_raring_i386
+repo_name: teleop_twist_keyboard
+repo_url: ''
+srvs: []
+timestamp: 1405965234.949253
+url: http://wiki.ros.org/teleop_twist_keyboard
+vcs: git
+vcs_uri: https://github.com/trainman419/teleop_twist_keyboard.git
+vcs_version: master

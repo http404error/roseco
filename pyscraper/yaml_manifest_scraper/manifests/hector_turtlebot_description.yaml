@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_turtlebot_description/html
+authors: Stefan Kohlbrecher
+brief: hector_turtlebot_description provides a modified turtlebot model with a Hokuyo
+  UTM-30LX LIDAR mounted below the Kinect
+bugtracker: ''
+depends:
+- hector_sensors_description
+- turtlebot_description
+depends_on:
+- hector_turtlebot_gazebo
+description: "\n\n     hector_turtlebot_description provides a modified turtlebot\
+  \ model with a Hokuyo UTM-30LX LIDAR mounted below the Kinect\n\n  "
+doc_job: doc-hydro-hector_turtlebot
+license: BSD
+maintainers: ''
+metapackages:
+- hector_turtlebot
+msgs: []
+package_type: package
+repo_name: hector_turtlebot
+repo_url: ''
+srvs: []
+timestamp: 1405963375.821007
+url: http://ros.org/wiki/hector_turtlebot_description
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hector_turtlebot
+vcs_version: HEAD

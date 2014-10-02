@@ -1,0 +1,82 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosbag/html
+authors: Tim Field, Jeremy Leibs, James Bowman
+brief: ''
+bugtracker: ''
+depends:
+- rosconsole
+- genpy
+- genmsg
+- catkin
+- roscpp
+- xmlrpcpp
+- roslib
+- roscpp_serialization
+- python-rospkg
+- python-imaging
+- topic_tools
+- rospy
+- cpp_common
+- boost
+- rosbag_storage
+depends_on:
+- rgbd_rosbag_tools
+- costmap_2d
+- rviz
+- cob_3d_segmentation
+- rosmatlab_rosbag
+- cob_3d_mapping_pipeline
+- cob_3d_mapping_tools
+- jsk_data
+- robot_pose_ekf
+- rosmsg
+- ndt_mcl
+- rqt_bag_plugins
+- cob_3d_mapping_semantics
+- rosR
+- rqt_bag
+- multisense_ros
+- amcl
+- biotac_log_parser
+- pcl_ros
+- cob_3d_mapping_geometry_map
+- rqt_py_common
+- rostopic
+- test_rosbag
+- face_detector
+- pr2_bringup
+- theora_image_transport
+- bag_tools
+- joy
+- diagnostic_analysis
+- ros_comm
+description: "This is a set of tools for recording from and playing back to ROS\n\
+  \    topics.  It is intended to be high performance and avoids\n    deserialization\
+  \ and reserialization of the messages."
+devel_jobs:
+- devel-hydro-ros_comm
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros_comm
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosbag_sourcedeb
+- ros-hydro-rosbag_binarydeb_precise_amd64
+- ros-hydro-rosbag_binarydeb_precise_i386
+- ros-hydro-rosbag_binarydeb_quantal_amd64
+- ros-hydro-rosbag_binarydeb_quantal_i386
+- ros-hydro-rosbag_binarydeb_raring_amd64
+- ros-hydro-rosbag_binarydeb_raring_i386
+repo_name: ros_comm
+repo_url: ''
+srvs: []
+timestamp: 1405773157.396923
+url: http://ros.org/wiki/rosbag
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

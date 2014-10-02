@@ -1,0 +1,23 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2eus_armnavigation/html
+authors: Yohei Kakiuchi
+brief: pr2eus_armnavigation
+bugtracker: ''
+depends:
+- ompl_ros_interface
+- pr2eus
+depends_on: []
+description: "\n\n     pr2eus_armnavigation\n\n  "
+doc_job: doc-hydro-jsk_pr2eus
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_pr2eus
+repo_url: ''
+srvs: []
+timestamp: 1405771688.393537
+url: http://ros.org/wiki/pr2eus_armnavigation
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+vcs_version: master

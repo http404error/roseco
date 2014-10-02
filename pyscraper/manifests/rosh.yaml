@@ -1,0 +1,54 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosh/html
+authors: Ken Conley
+brief: ''
+bugtracker: https://github.com/OSUrobotics/rosh_core/issues
+depends:
+- rosparam
+- catkin
+- roshlaunch
+- rosgraph
+- rosunit
+- rosservice
+- rospy
+- rostopic
+- ipython
+- rosnode
+- rosmsg
+depends_on:
+- rosh_visualization
+- rosh_common
+- rosh_robot
+- rosh_core
+- rosh_desktop
+- rosh_geometry
+description: rosh is a Python-based scripting and runtime environment for ROS.  Through
+  rosh and its various plugins, you can interact with ROS APIs in an introspectable
+  and unified approach.
+devel_jobs:
+- devel-hydro-rosh_core
+doc_job: doc-hydro-rosh_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dan Lazewatsky <dan@lazewatsky.com>
+metapackages:
+- rosh_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosh_sourcedeb
+- ros-hydro-rosh_binarydeb_precise_amd64
+- ros-hydro-rosh_binarydeb_precise_i386
+- ros-hydro-rosh_binarydeb_quantal_amd64
+- ros-hydro-rosh_binarydeb_quantal_i386
+- ros-hydro-rosh_binarydeb_raring_amd64
+- ros-hydro-rosh_binarydeb_raring_i386
+repo_name: rosh_core
+repo_url: ''
+srvs: []
+timestamp: 1405964775.307534
+url: http://ros.org/wiki/rosh
+vcs: git
+vcs_uri: https://github.com/OSUrobotics/rosh_core.git
+vcs_version: hydro-devel

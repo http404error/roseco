@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/saphari_msgs/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- catkin
+- message_runtime
+- geometry_msgs
+depends_on:
+- rosjava_messages
+- iai_common_msgs
+description: Message definitions for manipulation and perception related tasks within
+  the SAPHARI project
+devel_jobs:
+- devel-hydro-iai_common_msgs
+doc_job: doc-hydro-iai_common_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: jworch <jworch@todo.todo>
+metapackages:
+- iai_common_msgs
+msgs:
+- Human
+- BodyPart
+- PerceivedEquipment
+- Equipment
+package_type: package
+release_jobs:
+- ros-hydro-saphari-msgs_sourcedeb
+- ros-hydro-saphari-msgs_binarydeb_precise_amd64
+- ros-hydro-saphari-msgs_binarydeb_precise_i386
+- ros-hydro-saphari-msgs_binarydeb_quantal_amd64
+- ros-hydro-saphari-msgs_binarydeb_quantal_i386
+- ros-hydro-saphari-msgs_binarydeb_raring_amd64
+- ros-hydro-saphari-msgs_binarydeb_raring_i386
+repo_name: iai_common_msgs
+repo_url: ''
+srvs:
+- PerceiveEquipment
+timestamp: 1405963489.374172
+url: ''
+vcs: git
+vcs_uri: https://github.com/code-iai/iai_common_msgs.git
+vcs_version: master

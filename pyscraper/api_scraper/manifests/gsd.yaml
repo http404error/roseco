@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/gsd/html
+authors: Liam Healy
+brief: ''
+bugtracker: https://github.com/cram-code/cram_core/issues
+depends:
+- catkin
+- split_sequence
+- sbcl
+depends_on:
+- cram_3rdparty
+- gsll
+description: '3rd party library: GSD'
+devel_jobs:
+- devel-hydro-cram_3rdparty
+doc_job: doc-hydro-cram_3rdparty
+has_changelog_rst: false
+license: GPL
+maintainer_status: maintained
+maintainers: Lorenz Moesenlechner <moesenle@cs.tum.edu>, Georg Bartels <georg.bartels@cs.uni-bremen.de>
+metapackages:
+- cram_3rdparty
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-gsd_sourcedeb
+- ros-hydro-gsd_binarydeb_precise_amd64
+- ros-hydro-gsd_binarydeb_precise_i386
+- ros-hydro-gsd_binarydeb_quantal_amd64
+- ros-hydro-gsd_binarydeb_quantal_i386
+- ros-hydro-gsd_binarydeb_raring_amd64
+- ros-hydro-gsd_binarydeb_raring_i386
+repo_name: cram_3rdparty
+repo_url: https://github.com/cram-code/cram_core
+srvs: []
+timestamp: 1405770047.36422
+url: http://repo.or.cz/w/gsd.git
+vcs: git
+vcs_uri: https://github.com/cram-code/cram_3rdparty.git
+vcs_version: master

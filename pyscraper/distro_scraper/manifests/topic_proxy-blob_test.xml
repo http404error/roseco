@@ -1,0 +1,56 @@
+<package>
+  <name>blob_test</name>
+  <version>0.1.0</version>
+  <description>The blob_test package</description>
+
+   
+  
+  
+  <maintainer email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</maintainer>
+
+
+  
+  
+  
+  <license>BSD</license>
+
+
+  
+  
+  
+  <url type="website">http://github.com/tu-darmstadt-ros-pkg/blob_tools</url> --&gt;
+
+
+  
+  
+  
+  <author email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</author>
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>blob</build_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>blob</run_depend>
+  <run_depend>roscpp</run_depend>
+
+
+  
+  <export>
+    
+    
+
+    
+
+  </export>
+</package>

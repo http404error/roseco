@@ -1,0 +1,100 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_robot_msgs/html
+authors: Ugo Cupcic
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ros-interface/issues
+depends:
+- roslib
+- catkin
+- std_msgs
+- message_runtime
+- sensor_msgs
+- message_generation
+depends_on:
+- sr_example
+- shadow_robot
+- sr_gui_self_test
+- rosjava_messages
+- sr_gui_bootloader
+- sr_gui_controller_tuner
+- sr_edc_ethercat_drivers
+- sr_gui_joint_slider
+- sr_movements
+- sr_gui_muscle_driver_bootloader
+- sr_standalone
+- sr_gui_hand_calibration
+- sr_mechanism_controllers
+- sr_hand
+- sr_gui_change_muscle_controllers
+- sr_tactile_sensors
+- sr_gui_change_controllers
+- sr_self_test
+- sr_robot_lib
+- sr_utilities
+description: sr_robot_msgs contains some messages used in the shadow_robot stack.
+devel_jobs:
+- devel-hydro-shadow_robot
+doc_job: doc-hydro-shadow_robot
+has_changelog_rst: true
+license: GPL
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- shadow_robot
+msgs:
+- JointMuscleValveControllerState
+- BiotacAll
+- FromMotorDataType
+- reverseKinematics
+- joints_data
+- joint
+- config
+- MotorSystemControls
+- UBI0
+- ControlType
+- UBI0All
+- MidProxData
+- JointMusclePositionControllerState
+- TactileArray
+- ShadowPST
+- cartesian_position
+- AuxSpiData
+- JointMuscleValveControllerCommand
+- EthercatDebug
+- JointControllerState
+- contrlr
+- sendupdate
+- command
+- MidProxDataAll
+- Tactile
+- Biotac
+- cartesian_data
+package_type: package
+release_jobs:
+- ros-hydro-sr-robot-msgs_sourcedeb
+- ros-hydro-sr-robot-msgs_binarydeb_precise_amd64
+- ros-hydro-sr-robot-msgs_binarydeb_precise_i386
+- ros-hydro-sr-robot-msgs_binarydeb_quantal_amd64
+- ros-hydro-sr-robot-msgs_binarydeb_quantal_i386
+- ros-hydro-sr-robot-msgs_binarydeb_raring_amd64
+- ros-hydro-sr-robot-msgs_binarydeb_raring_i386
+repo_name: shadow_robot
+repo_url: https://github.com/shadow-robot/sr-ros-interface
+srvs:
+- SetEffortControllerGains
+- which_fingers_are_touching
+- SimpleMotorFlasher
+- ForceController
+- GetSegmentedLine
+- ManualSelfTest
+- ChangeControlType
+- SetPidGains
+- is_hand_occupied
+- NullifyDemand
+- ChangeMotorSystemControls
+- SetMixedPositionVelocityPidGains
+- SetDebugData
+timestamp: 1405773802.753799
+url: http://ros.org/wiki/sr_robot_msgs
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ros-interface.git
+vcs_version: hydro-devel

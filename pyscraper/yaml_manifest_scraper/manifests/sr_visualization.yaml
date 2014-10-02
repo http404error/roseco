@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_visualization/html
+authors: Maintained by Ugo Cupcic <software@shadowrobot.com>
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-visualization/issues
+depends: &id001
+- sr_gui_motor_resetter
+- catkin
+- sr_gui_change_controllers
+- sr_gui_bootloader
+- sr_gui_self_test
+- sr_gui_controller_tuner
+- sr_gui_muscle_driver_bootloader
+- sr_gui_movement_recorder
+- sr_gui_grasp_controller
+- sr_gui_change_muscle_controllers
+- sr_visualization_icons
+- sr_gui_joint_slider
+- sr_gui_hand_calibration
+depends_on: []
+description: This stack contains the different gui plugins used with the shadow robot
+  stacks.
+devel_jobs:
+- devel-hydro-sr_visualization
+doc_job: doc-hydro-sr_visualization
+has_changelog_rst: true
+license: GPL, BSD
+maintainer_status: maintained
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-sr-visualization_sourcedeb
+- ros-hydro-sr-visualization_binarydeb_precise_amd64
+- ros-hydro-sr-visualization_binarydeb_precise_i386
+- ros-hydro-sr-visualization_binarydeb_quantal_amd64
+- ros-hydro-sr-visualization_binarydeb_quantal_i386
+- ros-hydro-sr-visualization_binarydeb_raring_amd64
+- ros-hydro-sr-visualization_binarydeb_raring_i386
+repo_name: sr_visualization
+repo_url: https://github.com/shadow-robot/sr-visualization
+srvs: []
+timestamp: 1405774015.76765
+url: http://ros.org/wiki/sr_visualization
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-visualization.git
+vcs_version: hydro-devel

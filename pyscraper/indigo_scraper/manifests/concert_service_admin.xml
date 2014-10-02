@@ -1,0 +1,21 @@
+<?xml version="1.0" ?><package>
+  <name>concert_service_admin</name>
+  <version>0.1.0</version>
+  <description>
+      A general purpose admin service (mostly configures rocon interactions).
+  </description>
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/concert_service_admin</url>
+  <url type="repository">https://github.com/robotics-in-concert/concert_services</url>
+  <url type="bugtracker">https://github.com/robotics-in-concert/concert_services/issues</url>
+  <author>Daniel Stonier</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>rospy</run_depend>
+
+  <export>
+    <concert_service>services/admin/admin.service</concert_service>
+  </export>
+</package>

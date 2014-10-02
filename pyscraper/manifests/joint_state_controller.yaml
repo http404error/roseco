@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/joint_state_controller/html
+authors: Wim Meeussen
+brief: ''
+bugtracker: https://github.com/ros-controls/ros_controllers/issues
+depends:
+- hardware_interface
+- controller_interface
+- roscpp
+- pluginlib
+- sensor_msgs
+- realtime_tools
+- catkin
+depends_on:
+- ros_ethercat_model
+- ros_controllers
+- play_motion
+- reemc_controller_configuration
+- cob_controller_configuration_gazebo
+- reemc_controller_configuration_gazebo
+description: Controller to publish joint state
+devel_jobs:
+- devel-hydro-ros_controllers
+doc_job: doc-hydro-ros_controllers
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Wim Meeussen <wim@hidof.com>
+metapackages:
+- ros_controllers
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-joint-state-controller_sourcedeb
+- ros-hydro-joint-state-controller_binarydeb_precise_amd64
+- ros-hydro-joint-state-controller_binarydeb_precise_i386
+- ros-hydro-joint-state-controller_binarydeb_quantal_amd64
+- ros-hydro-joint-state-controller_binarydeb_quantal_i386
+- ros-hydro-joint-state-controller_binarydeb_raring_amd64
+- ros-hydro-joint-state-controller_binarydeb_raring_i386
+repo_name: ros_controllers
+repo_url: https://github.com/ros-controls/ros_controllers
+srvs: []
+timestamp: 1405773420.855836
+url: https://github.com/ros-controls/ros_controllers/wiki
+vcs: git
+vcs_uri: https://github.com/ros-controls/ros_controllers.git
+vcs_version: hydro-devel

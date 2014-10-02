@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hironx_tutorial/html
+authors: Isaac IY Saito <iisaito@opensource-robotics.tokyo.jp>
+brief: ''
+bugtracker: https://github.com/tork-a/hironx_tutorial/issues
+depends:
+- leap_motion
+- nextage_ros_bridge
+- moveit_commander
+- catkin
+- hironx_ros_bridge
+- rospy
+- tf
+- geometry_msgs
+depends_on: []
+description: "Sample / demo / tutorial programs for <a href=\"http://wiki.ros.org/hironx_ros_bridge\"\
+  >Hiro</a> and \n   <a href=\"http://wiki.ros.org/rtmros_nextage\">NEXTAGE OPEN (NXO)</a>\
+  \ robot by Kawada Industries.\n   All sample code that works on Hiro robot should\
+  \ work also on NEXTAGE OPEN. \n   The opposite is, however, not always true (e.g.\
+  \ gripper operation is different in NXO)."
+devel_jobs:
+- devel-hydro-hironx_tutorial
+doc_job: doc-hydro-hironx_tutorial
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Isaac Saito <dev@opensource-robotics.tokyo.jp>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hironx-tutorial_sourcedeb
+- ros-hydro-hironx-tutorial_binarydeb_precise_amd64
+- ros-hydro-hironx-tutorial_binarydeb_precise_i386
+- ros-hydro-hironx-tutorial_binarydeb_quantal_amd64
+- ros-hydro-hironx-tutorial_binarydeb_quantal_i386
+- ros-hydro-hironx-tutorial_binarydeb_raring_amd64
+- ros-hydro-hironx-tutorial_binarydeb_raring_i386
+repo_name: hironx_tutorial
+repo_url: https://github.com/tork-a/hironx_tutorial
+srvs: []
+timestamp: 1405771118.873744
+url: http://wiki.ros.org/hironx_tutorial
+vcs: git
+vcs_uri: https://github.com/tork-a/hironx_tutorial.git
+vcs_version: master

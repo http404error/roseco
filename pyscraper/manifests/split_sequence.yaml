@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/split_sequence/html
+authors: James Bielman
+brief: ''
+bugtracker: https://github.com/cram-code/cram_core/issues
+depends:
+- catkin
+- sbcl
+depends_on:
+- cram_3rdparty
+- gsd
+description: '3rd party library: split-sequence'
+devel_jobs:
+- devel-hydro-cram_3rdparty
+doc_job: doc-hydro-cram_3rdparty
+has_changelog_rst: false
+license: Public Domain
+maintainer_status: maintained
+maintainers: Lorenz Moesenlechner <moesenle@cs.tum.edu>, Georg Bartels <georg.bartels@cs.uni-bremen.de>
+metapackages:
+- cram_3rdparty
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-split-sequence_sourcedeb
+- ros-hydro-split-sequence_binarydeb_precise_amd64
+- ros-hydro-split-sequence_binarydeb_precise_i386
+- ros-hydro-split-sequence_binarydeb_quantal_amd64
+- ros-hydro-split-sequence_binarydeb_quantal_i386
+- ros-hydro-split-sequence_binarydeb_raring_amd64
+- ros-hydro-split-sequence_binarydeb_raring_i386
+repo_name: cram_3rdparty
+repo_url: https://github.com/cram-code/cram_core
+srvs: []
+timestamp: 1405770046.128461
+url: http://www.cliki.net/SPLIT-SEQUENCE
+vcs: git
+vcs_uri: https://github.com/cram-code/cram_3rdparty.git
+vcs_version: master

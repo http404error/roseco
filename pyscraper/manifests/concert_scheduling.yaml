@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/concert_scheduling/html
+authors: Jack O'Quin
+brief: ''
+bugtracker: https://github.com/utexas-bwi/concert_scheduling/issues
+depends: &id001
+- concert_scheduler_requests
+- catkin
+- concert_simple_scheduler
+- concert_resource_pool
+depends_on: []
+description: ROCON scheduler support packages.
+doc_job: doc-hydro-concert_scheduling
+has_changelog_rst: true
+license: BSD
+maintainers: Jack O'Quin <jack.oquin@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: concert_scheduling
+repo_url: https://github.com/utexas-bwi/concert_scheduling
+srvs: []
+timestamp: 1405770044.195961
+url: http://www.ros.org/wiki/concert_scheduling
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/concert_scheduling.git
+vcs_version: master

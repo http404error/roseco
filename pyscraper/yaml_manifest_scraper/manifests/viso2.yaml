@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/viso2/html
+authors: Stephan Wirth <stephan.wirth@uib.es>
+brief: ''
+bugtracker: https://github.com/srv/viso2/issues
+depends: &id001
+- libviso2
+- catkin
+- viso2_ros
+depends_on: []
+description: "A ROS-Wrapper for libviso2, a library for visual odometry, \n    maintained\
+  \ by the Systems, Robotics and Vision group of the \n    University of the Balearic\
+  \ Islands, Spain. http://srv.uib.es"
+doc_job: doc-hydro-viso2
+has_changelog_rst: false
+license: GPL
+maintainers: Stephan Wirth <stephan.wirth@uib.es>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: viso2
+repo_url: ''
+srvs: []
+timestamp: 1405774437.222737
+url: http://ros.org/wiki/viso2
+vcs: git
+vcs_uri: https://github.com/srv/viso2.git
+vcs_version: hydro

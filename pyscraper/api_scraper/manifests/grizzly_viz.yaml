@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/grizzly_viz/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- roslaunch
+- catkin
+- grizzly_description
+- interactive_marker_twist_server
+- joint_state_publisher
+- robot_state_publisher
+- rviz
+depends_on:
+- grizzly_desktop
+description: Visualization and rviz helpers for Grizzly
+devel_jobs:
+- devel-hydro-grizzly_desktop
+doc_job: doc-hydro-grizzly_desktop
+has_changelog_rst: true
+license: BSD
+maintainers: Yan Ma <yanma@clearpathrobotics.com>
+metapackages:
+- grizzly_desktop
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-grizzly-viz_sourcedeb
+- ros-hydro-grizzly-viz_binarydeb_precise_amd64
+- ros-hydro-grizzly-viz_binarydeb_precise_i386
+- ros-hydro-grizzly-viz_binarydeb_quantal_amd64
+- ros-hydro-grizzly-viz_binarydeb_quantal_i386
+- ros-hydro-grizzly-viz_binarydeb_raring_amd64
+- ros-hydro-grizzly-viz_binarydeb_raring_i386
+repo_name: grizzly_desktop
+repo_url: ''
+srvs: []
+timestamp: 1405770904.647553
+url: ''
+vcs: git
+vcs_uri: https://github.com/g/grizzly_desktop.git
+vcs_version: hydro-devel

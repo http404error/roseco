@@ -1,0 +1,22 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_ompl_planning_tests/html
+authors: Ioan Sucan
+brief: pr2_ompl_planning_tests
+bugtracker: ''
+depends:
+- ompl_interface_ros
+depends_on: []
+description: "\n\n     pr2_ompl_planning_tests\n\n  "
+doc_job: doc-hydro-moveit_pr2
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: moveit_pr2
+repo_url: ''
+srvs: []
+timestamp: 1405964082.657852
+url: http://ros.org/wiki/pr2_ompl_planning_tests
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_pr2.git
+vcs_version: hydro-devel

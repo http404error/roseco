@@ -1,0 +1,20 @@
+authors: ''
+depends:
+- catkin
+- glut
+- libxext
+- cmake
+description: The bullet library. See https://code.google.com/p/bullet
+license: Check author's website
+maintainers: Mario Prats <marioprats@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-uwsim-bullet_sourcedeb
+- ros-hydro-uwsim-bullet_binarydeb_precise_amd64
+- ros-hydro-uwsim-bullet_binarydeb_precise_i386
+- ros-hydro-uwsim-bullet_binarydeb_quantal_amd64
+- ros-hydro-uwsim-bullet_binarydeb_quantal_i386
+- ros-hydro-uwsim-bullet_binarydeb_raring_amd64
+- ros-hydro-uwsim-bullet_binarydeb_raring_i386
+repo_name: uwsim_bullet
+timestamp: 1405956415.133679

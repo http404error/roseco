@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/v4r_uvc/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- message_runtime
+- catkin
+- roscpp
+- camera_info_manager
+- image_transport
+- rospy
+- message_generation
+depends_on: []
+description: The v4r_uvc package is a USB-Camera driver with a dynamic reconfigure
+  interface optimized for logitech cameras.
+doc_job: doc-hydro-v4r_ros
+has_changelog_rst: false
+license: TODO
+maintainers: max <max@todo.todo>
+msgs:
+- Sphere
+package_type: package
+repo_name: v4r_ros
+repo_url: ''
+srvs: []
+timestamp: 1405965420.493539
+url: ''
+vcs: git
+vcs_uri: https://github.com/moresun/v4r_ros.git
+vcs_version: hydro-devel

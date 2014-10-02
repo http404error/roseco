@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_ronex_controllers/html
+authors: Ugo Cupcic, Toni Oliver, Mark Pitchless
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ronex/issues
+depends:
+- std_srvs
+- roscpp
+- pluginlib
+- sr_ronex_drivers
+- controller_manager_msgs
+- sr_ronex_utilities
+- std_msgs
+- catkin
+- sr_ronex_msgs
+- ros_ethercat_model
+- controller_interface
+- sr_ronex_hardware_interface
+depends_on:
+- sr_ronex
+description: Contains different useful controllers to use with the RoNeX.
+devel_jobs:
+- devel-hydro-sr_ronex
+doc_job: doc-hydro-sr_ronex
+has_changelog_rst: true
+license: LGPLv3
+maintainer_status: developed
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- sr_ronex
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sr-ronex-controllers_sourcedeb
+- ros-hydro-sr-ronex-controllers_binarydeb_precise_amd64
+- ros-hydro-sr-ronex-controllers_binarydeb_precise_i386
+- ros-hydro-sr-ronex-controllers_binarydeb_quantal_amd64
+- ros-hydro-sr-ronex-controllers_binarydeb_quantal_i386
+- ros-hydro-sr-ronex-controllers_binarydeb_raring_amd64
+- ros-hydro-sr-ronex-controllers_binarydeb_raring_i386
+repo_name: sr_ronex
+repo_url: https://github.com/shadow-robot/sr-ronex
+srvs: []
+timestamp: 1405773936.59817
+url: http://www.shadowrobot.com/products/ronex
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ronex.git
+vcs_version: hydro-devel

@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ur_bringup/html
+authors: Wim Meeussen
+brief: ''
+bugtracker: ''
+depends:
+- ur_description
+- ur_driver
+- catkin
+- tf2_ros
+depends_on:
+- universal_robot
+description: The ur_bringup package
+devel_jobs:
+- devel-hydro-universal_robot
+doc_job: doc-hydro-universal_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Shaun Edwards <sedwards@swri.org>
+metapackages:
+- universal_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ur-bringup_sourcedeb
+- ros-hydro-ur-bringup_binarydeb_precise_amd64
+- ros-hydro-ur-bringup_binarydeb_precise_i386
+- ros-hydro-ur-bringup_binarydeb_quantal_amd64
+- ros-hydro-ur-bringup_binarydeb_quantal_i386
+- ros-hydro-ur-bringup_binarydeb_raring_amd64
+- ros-hydro-ur-bringup_binarydeb_raring_i386
+repo_name: universal_robot
+repo_url: ''
+srvs: []
+timestamp: 1405774314.608849
+url: ''
+vcs: git
+vcs_uri: https://github.com/ros-industrial/universal_robot.git
+vcs_version: hydro

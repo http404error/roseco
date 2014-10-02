@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosclean/html
+authors: Ken Conley
+brief: ''
+bugtracker: ''
+depends:
+- python-rospkg
+- catkin
+depends_on:
+- roshlaunch
+- ros
+- roslaunch
+description: 'rosclean: cleanup filesystem resources (e.g. log files).'
+devel_jobs:
+- devel-hydro-ros
+doc_job: doc-hydro-ros
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosclean_sourcedeb
+- ros-hydro-rosclean_binarydeb_precise_amd64
+- ros-hydro-rosclean_binarydeb_precise_i386
+- ros-hydro-rosclean_binarydeb_quantal_amd64
+- ros-hydro-rosclean_binarydeb_quantal_i386
+- ros-hydro-rosclean_binarydeb_raring_amd64
+- ros-hydro-rosclean_binarydeb_raring_i386
+repo_name: ros
+repo_url: ''
+srvs: []
+timestamp: 1405974959.930642
+url: http://ros.org/wiki/rosclean
+vcs: git
+vcs_uri: https://github.com/ros/ros.git
+vcs_version: hydro-devel

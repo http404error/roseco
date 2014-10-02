@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_monitoring/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- cob_relayboard
+- catkin
+- cob_script_server
+depends_on:
+- cob_robots
+- cob_bringup
+description: cob_monitoring
+devel_jobs:
+- devel-hydro-cob_robots
+doc_job: doc-hydro-cob_robots
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+metapackages:
+- cob_robots
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-monitoring_sourcedeb
+- ros-hydro-cob-monitoring_binarydeb_precise_amd64
+- ros-hydro-cob-monitoring_binarydeb_precise_i386
+- ros-hydro-cob-monitoring_binarydeb_quantal_amd64
+- ros-hydro-cob-monitoring_binarydeb_quantal_i386
+- ros-hydro-cob-monitoring_binarydeb_raring_amd64
+- ros-hydro-cob-monitoring_binarydeb_raring_i386
+repo_name: cob_robots
+repo_url: ''
+srvs: []
+timestamp: 1405973115.744181
+url: http://ros.org/wiki/cob_monitoring
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_robots.git
+vcs_version: hydro_release_candidate

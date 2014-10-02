@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_ebnf/html
+authors: LParis
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_tools/issues
+depends:
+- catkin
+- rosunit
+depends_on:
+- rocon_tools
+description: "Internal packaging of the 0.91 version of the simple python\n    <a\
+  \ href=\"http://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_Form\">EBNF</a>\n\
+  \    parser written by LParis."
+doc_job: doc-hydro-rocon_tools
+has_changelog_rst: true
+license: GPL
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- rocon_tools
+msgs: []
+package_type: package
+repo_name: rocon_tools
+repo_url: https://github.com/robotics-in-concert/rocon_tools
+srvs: []
+timestamp: 1399026948.72766
+url: http://lparis45.free.fr/rp.html
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_tools.git
+vcs_version: hydro-devel

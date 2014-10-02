@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jaco_ros/html
+authors: Ilia Baranov (Clearpath) <ibaranov@clearpathrobotics.com>, Jeff Schmidt (Clearpath)
+  <jschmidt@clearpathrobotics.com>, Alex Bencz (Clearpath) <abencz@clearpathrobotics.com>,
+  Braden Stenning <braden@stenning.com>
+brief: ''
+bugtracker: ''
+depends: &id001
+- jaco_demo
+- jaco_msgs
+- catkin
+- jaco_model
+- jaco_driver
+depends_on: []
+description: "The ROS JACO Arm metapackage provides a ROS interface for the Kinova\n\
+  \    Robotics JACO robotic manipulator arm. This metapackage provides access to\n\
+  \    the Kinova JACO C++ hardware API through ROS."
+doc_job: doc-hydro-jaco_ros
+has_changelog_rst: false
+license: BSD
+maintainers: Ilia Baranov (Clearpath) <ibaranov@clearpathrobotics.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: jaco_ros
+repo_url: ''
+srvs: []
+timestamp: 1405963523.987595
+url: http://wiki.ros.org/jaco_ros
+vcs: git
+vcs_uri: https://github.com/Kinovarobotics/jaco-ros.git
+vcs_version: hydro-devel

@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/underwater_sensor_msgs/html
+authors: Mario Prats <marioprats@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- catkin
+- message_runtime
+- std_msgs
+- roscpp
+depends_on:
+- rosjava_messages
+- rosruby_messages
+- uwsim
+description: Common messages for underwater robotics
+devel_jobs:
+- devel-hydro-underwater_simulation
+doc_job: doc-hydro-underwater_simulation
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Mario Prats <marioprats@gmail.com>, Javier Perez <perezsolerj@gmail.com>
+msgs:
+- Pressure
+- DVL
+package_type: package
+release_jobs:
+- ros-hydro-underwater-sensor-msgs_sourcedeb
+- ros-hydro-underwater-sensor-msgs_binarydeb_precise_amd64
+- ros-hydro-underwater-sensor-msgs_binarydeb_precise_i386
+- ros-hydro-underwater-sensor-msgs_binarydeb_quantal_amd64
+- ros-hydro-underwater-sensor-msgs_binarydeb_quantal_i386
+- ros-hydro-underwater-sensor-msgs_binarydeb_raring_amd64
+- ros-hydro-underwater-sensor-msgs_binarydeb_raring_i386
+repo_name: underwater_simulation
+repo_url: ''
+srvs: []
+timestamp: 1405521918.624864
+url: ''
+vcs: git
+vcs_uri: https://github.com/uji-ros-pkg/underwater_simulation.git
+vcs_version: hydro-devel

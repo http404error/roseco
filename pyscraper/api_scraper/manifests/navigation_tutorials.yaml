@@ -1,0 +1,25 @@
+authors: ''
+depends:
+- navigation_stage
+- catkin
+- roomba_stage
+- odometry_publisher_tutorial
+- point_cloud_publisher_tutorial
+- robot_setup_tf_tutorial
+- laser_scan_publisher_tutorial
+- simple_navigation_goals_tutorial
+description: Navigation related tutorials.
+license: BSD
+maintainers: William Woodall <william@osrfoundation.org>
+package_type: package
+release_jobs:
+- ros-hydro-navigation-tutorials_sourcedeb
+- ros-hydro-navigation-tutorials_binarydeb_precise_amd64
+- ros-hydro-navigation-tutorials_binarydeb_precise_i386
+- ros-hydro-navigation-tutorials_binarydeb_quantal_amd64
+- ros-hydro-navigation-tutorials_binarydeb_quantal_i386
+- ros-hydro-navigation-tutorials_binarydeb_raring_amd64
+- ros-hydro-navigation-tutorials_binarydeb_raring_i386
+repo_name: navigation_tutorials
+timestamp: 1405956414.894901
+url: http://www.ros.org/wiki/navigation_tutorials

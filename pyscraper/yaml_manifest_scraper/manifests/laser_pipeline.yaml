@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/laser_pipeline/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends: &id001
+- laser_filters
+- laser_assembler
+- laser_geometry
+- catkin
+depends_on:
+- erratic_robot
+- kurt_driver
+- pr2_navigation
+description: "Meta-package of libraries for processing laser data, including converting\
+  \ laser data\n      into 3D representations."
+doc_job: doc-hydro-laser_pipeline
+has_changelog_rst: false
+license: BSD
+maintainers: David Gossow <dgossow@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-laser-pipeline_sourcedeb
+- ros-hydro-laser-pipeline_binarydeb_precise_amd64
+- ros-hydro-laser-pipeline_binarydeb_precise_i386
+- ros-hydro-laser-pipeline_binarydeb_quantal_amd64
+- ros-hydro-laser-pipeline_binarydeb_quantal_i386
+- ros-hydro-laser-pipeline_binarydeb_raring_amd64
+- ros-hydro-laser-pipeline_binarydeb_raring_i386
+repo_name: laser_pipeline
+repo_url: ''
+srvs: []
+timestamp: 1405771706.683785
+url: http://www.ros.org/wiki/laser_pipeline
+vcs: git
+vcs_uri: https://github.com/ros-perception/laser_pipeline.git
+vcs_version: hydro-devel

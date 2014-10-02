@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtlebot_create_desktop/html
+authors: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_create_desktop/issues
+depends: &id001
+- catkin
+- create_dashboard
+- create_gazebo_plugins
+depends_on: []
+description: Catkin meta-package for turtlebot_create_desktop
+devel_jobs:
+- devel-hydro-turtlebot_create_desktop
+doc_job: doc-hydro-turtlebot_create_desktop
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-turtlebot-create-desktop_sourcedeb
+- ros-hydro-turtlebot-create-desktop_binarydeb_precise_amd64
+- ros-hydro-turtlebot-create-desktop_binarydeb_precise_i386
+- ros-hydro-turtlebot-create-desktop_binarydeb_quantal_amd64
+- ros-hydro-turtlebot-create-desktop_binarydeb_quantal_i386
+- ros-hydro-turtlebot-create-desktop_binarydeb_raring_amd64
+- ros-hydro-turtlebot-create-desktop_binarydeb_raring_i386
+repo_name: turtlebot_create_desktop
+repo_url: https://github.com/turtlebot/turtlebot_create_desktop
+srvs: []
+timestamp: 1405975526.287777
+url: http://ros.org/wiki/turtlebot_create_desktop
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_create_desktop.git
+vcs_version: hydro

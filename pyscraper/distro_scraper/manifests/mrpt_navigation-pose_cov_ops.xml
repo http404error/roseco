@@ -1,0 +1,36 @@
+<package>
+  <name>pose_cov_ops</name>
+  <version>0.1.0</version>
+  <description>The pose_cov_ops package</description>
+
+   
+  
+  
+  <maintainer email="jlblanco@ual.es">Jose-Luis Blanco-Claraco</maintainer>
+  <maintainer email="markus.bader@tuwien.ac.at">Markus Bader</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/pose_cov_ops</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>mrpt_bridge</build_depend>
+  <build_depend>mrpt</build_depend>   
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>mrpt_bridge</run_depend>
+  <run_depend>mrpt</run_depend> 
+
+  
+  <export>
+    
+    
+
+    
+
+  </export>
+</package>

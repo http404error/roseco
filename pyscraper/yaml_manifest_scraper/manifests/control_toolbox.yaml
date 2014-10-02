@@ -1,0 +1,61 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/control_toolbox/html
+authors: Melonee Wise, Sachin Chitta, John Hsu
+brief: ''
+bugtracker: https://github.com/ros-controls/control_toolbox/issues
+depends:
+- dynamic_reconfigure
+- rosconsole
+- tinyxml
+- roscpp
+- message_runtime
+- realtime_tools
+- message_generation
+- angles
+- tf
+- catkin
+depends_on:
+- steered_wheel_base_controller
+- pr2_mechanism_controllers
+- rosjava_messages
+- gazebo_ros_control
+- joint_trajectory_controller
+- controller_manager_tests
+- gripper_action_controller
+- effort_controllers
+- tedusar_cartesian_controller
+- robot_mechanism_controllers
+- sr_mechanism_controllers
+- pr2_controllers
+- reemc_hardware_gazebo
+- ros_control
+description: The control toolbox contains modules that are useful across all controllers.
+devel_jobs:
+- devel-hydro-control_toolbox
+doc_job: doc-hydro-control_toolbox
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Sachin Chitta <sachinc@willowgarage.com>
+metapackages:
+- pr2_controllers
+- ros_control
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-control-toolbox_sourcedeb
+- ros-hydro-control-toolbox_binarydeb_precise_amd64
+- ros-hydro-control-toolbox_binarydeb_precise_i386
+- ros-hydro-control-toolbox_binarydeb_quantal_amd64
+- ros-hydro-control-toolbox_binarydeb_quantal_i386
+- ros-hydro-control-toolbox_binarydeb_raring_amd64
+- ros-hydro-control-toolbox_binarydeb_raring_i386
+repo_name: control_toolbox
+repo_url: https://github.com/ros-controls/control_toolbox/
+srvs:
+- SetPidGains
+timestamp: 1405962487.945324
+url: http://ros.org/wiki/control_toolbox
+vcs: git
+vcs_uri: https://github.com/ros-controls/control_toolbox.git
+vcs_version: hydro-devel

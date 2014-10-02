@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cv_camera/html
+authors: Takashi Ogura <t.ogura@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- nodelet
+- camera_info_manager
+- sensor_msgs
+- image_transport
+- opencv2
+- rostest
+- cv_bridge
+depends_on: []
+description: "cv_camera uses OpenCV capture object to capture camera image.\n  This\
+  \ supports camera_image and nodelet."
+devel_jobs:
+- devel-hydro-cv_camera
+doc_job: doc-hydro-cv_camera
+has_changelog_rst: true
+license: BSD
+maintainers: Takashi Ogura <t.ogura@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cv-camera_sourcedeb
+- ros-hydro-cv-camera_binarydeb_precise_amd64
+- ros-hydro-cv-camera_binarydeb_precise_i386
+- ros-hydro-cv-camera_binarydeb_quantal_amd64
+- ros-hydro-cv-camera_binarydeb_quantal_i386
+- ros-hydro-cv-camera_binarydeb_raring_amd64
+- ros-hydro-cv-camera_binarydeb_raring_i386
+repo_name: cv_camera
+repo_url: ''
+srvs: []
+timestamp: 1405962809.639596
+url: http://wiki.ros.org/cv_camera
+vcs: git
+vcs_uri: https://github.com/OTL/cv_camera.git
+vcs_version: master

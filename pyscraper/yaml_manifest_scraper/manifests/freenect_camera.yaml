@@ -1,0 +1,49 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/freenect_camera/html
+authors: Patrick Mihelich, Suat Gedikli, Radu Bogdan Rusu (original openni_camera
+  driver)., Piyush Khandelwal (libfreenect port).
+brief: ''
+bugtracker: https://github.com/ros-drivers/freenect_stack/issues
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- pluginlib
+- camera_info_manager
+- sensor_msgs
+- image_transport
+- diagnostic_updater
+- libfreenect
+- nodelet
+- log4cxx
+depends_on:
+- freenect_launch
+- freenect_stack
+description: "A libfreenect-based ROS driver for the Microsoft Kinect.  This is\n\
+  \    a port of the OpenNI driver that uses libfreenect instead, because\n    on\
+  \ some systems with some devices it works better."
+devel_jobs:
+- devel-hydro-freenect_stack
+doc_job: doc-hydro-freenect_stack
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Jack O'Quin <jack.oquin@gmail.com>, Piyush Khandelwal <piyushk@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-freenect-camera_sourcedeb
+- ros-hydro-freenect-camera_binarydeb_precise_amd64
+- ros-hydro-freenect-camera_binarydeb_precise_i386
+- ros-hydro-freenect-camera_binarydeb_quantal_amd64
+- ros-hydro-freenect-camera_binarydeb_quantal_i386
+- ros-hydro-freenect-camera_binarydeb_raring_amd64
+- ros-hydro-freenect-camera_binarydeb_raring_i386
+repo_name: freenect_stack
+repo_url: https://github.com/ros-drivers/freenect_stack.git
+srvs: []
+timestamp: 1405770430.804556
+url: http://ros.org/wiki/freenect_camera
+vcs: git
+vcs_uri: https://github.com/ros-drivers/freenect_stack.git
+vcs_version: master

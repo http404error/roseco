@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/declination/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- std_msgs
+- sensor_msgs
+- rospy
+- tf
+- geometry_msgs
+depends_on: []
+description: "Computes magnetic compass offset from NavSatFix, and provides\n    \
+  \           nodes to apply this offset to various standard messages."
+doc_job: doc-hydro-declination
+has_changelog_rst: true
+license: BSD
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-declination_sourcedeb
+- ros-hydro-declination_binarydeb_precise_amd64
+- ros-hydro-declination_binarydeb_precise_i386
+- ros-hydro-declination_binarydeb_quantal_amd64
+- ros-hydro-declination_binarydeb_quantal_i386
+- ros-hydro-declination_binarydeb_raring_amd64
+- ros-hydro-declination_binarydeb_raring_i386
+repo_name: declination
+repo_url: ''
+srvs: []
+timestamp: 1405770089.466712
+url: ''
+vcs: git
+vcs_uri: https://github.com/clearpathrobotics/declination.git
+vcs_version: master

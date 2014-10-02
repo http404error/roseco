@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/wheeled_robin_teleop/html
+authors: Johannes Mayr <joh.mayr@jku.at>, Klemens Springer <klemens.springer@jku.at>
+brief: ''
+bugtracker: https://github.com/robinJKU/wheeled_robin_apps/issues
+depends:
+- joy
+- catkin
+depends_on:
+- wheeled_robin_apps
+- wheeled_robin_core_apps
+description: The wheeled_robin_teleop package provides nodes and launch files for
+  teleoperating WheeledRobin
+doc_job: doc-hydro-wheeled_robin_apps
+has_changelog_rst: false
+license: BSD
+maintainers: Johannes Mayr <joh.mayr@jku.at>
+metapackages:
+- wheeled_robin_apps
+msgs: []
+package_type: package
+repo_name: wheeled_robin_apps
+repo_url: https://github.com/robinJKU/wheeled_robin_apps
+srvs: []
+timestamp: 1405774525.128805
+url: http://ros.org/wiki/wheeled_robin_teleop
+vcs: git
+vcs_uri: https://github.com/robinJKU/wheeled_robin_apps.git
+vcs_version: hydro-devel

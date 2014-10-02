@@ -1,0 +1,34 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/reemc_controller_configuration/html
+authors: Adolfo Rodriguez Tsouroukdissian <adolfo.rodriguez@pal-robotics.com>
+brief: ''
+bugtracker: ''
+depends:
+- joint_trajectory_controller
+- catkin
+- diff_drive_controller
+- controller_manager
+- joint_state_controller
+depends_on:
+- reemc_bringup
+- reemc_robot
+- reemc_gazebo
+description: "Launch files and scripts needed to configure\n    the controllers of\
+  \ the REEM-C robot."
+doc_job: doc-hydro-reemc_robot
+has_changelog_rst: true
+license: Modified BSD
+maintainers: Adolfo Rodriguez Tsouroukdissian <adolfo.rodriguez@pal-robotics.com>,
+  Paul Mathieu <paul.mathieu@pal-robotics.com>
+metapackages:
+- reemc_robot
+msgs: []
+package_type: package
+repo_name: reemc_robot
+repo_url: ''
+srvs: []
+timestamp: 1405772835.669296
+url: ''
+vcs: git
+vcs_uri: https://github.com/pal-robotics/reemc_robot.git
+vcs_version: hydro-devel

@@ -1,0 +1,51 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/test_rospy/html
+authors: Ken Conley
+brief: ''
+bugtracker: ''
+depends:
+- genmsg
+- catkin
+- test_rosmaster
+- std_msgs
+- python-numpy
+- rosgraph
+- rosbuild
+- rostest
+- rospy
+depends_on: []
+description: rospy unit and integration test framework.
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: false
+license: BSD
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+msgs:
+- TestFixedArray
+- EmbedTest
+- TestConstants
+- HeaderHeaderVal
+- ArrayVal
+- TransitiveMsg2
+- HeaderVal
+- Floats
+- TransitiveImport
+- Val
+- PythonKeyword
+- TransitiveMsg1
+package_type: package
+repo_name: ros_comm
+repo_url: ''
+srvs:
+- EmptyRespSrv
+- ListReturn
+- MultipleAddTwoInts
+- EmptyReqSrv
+- TransitiveSrv
+- StringString
+- ConstantsMultiplex
+- EmptySrv
+timestamp: 1405773158.942731
+url: http://ros.org/wiki/rospy
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

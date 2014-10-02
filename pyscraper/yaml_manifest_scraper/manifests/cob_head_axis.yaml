@@ -1,0 +1,50 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_head_axis/html
+authors: Ulrich Reiser
+brief: ''
+bugtracker: ''
+depends:
+- cob_canopen_motor
+- catkin
+- roscpp
+- cob_utilities
+- actionlib
+- urdf
+- sensor_msgs
+- cob_srvs
+- rostest
+- control_msgs
+- cob_generic_can
+- diagnostic_msgs
+- libntcan
+depends_on:
+- cob_bringup
+- cob_driver
+description: cob_head_axis
+devel_jobs:
+- devel-hydro-cob_driver
+doc_job: doc-hydro-cob_driver
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Matthias Gruhler <mig@ipa.fhg.de>
+metapackages:
+- cob_driver
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-head-axis_sourcedeb
+- ros-hydro-cob-head-axis_binarydeb_precise_amd64
+- ros-hydro-cob-head-axis_binarydeb_precise_i386
+- ros-hydro-cob-head-axis_binarydeb_quantal_amd64
+- ros-hydro-cob-head-axis_binarydeb_quantal_i386
+- ros-hydro-cob-head-axis_binarydeb_raring_amd64
+- ros-hydro-cob-head-axis_binarydeb_raring_i386
+repo_name: cob_driver
+repo_url: ''
+srvs: []
+timestamp: 1405973130.772152
+url: http://ros.org/wiki/cob_head_axis
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_driver.git
+vcs_version: hydro_release_candidate

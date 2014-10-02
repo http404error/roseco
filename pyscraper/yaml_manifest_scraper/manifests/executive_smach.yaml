@@ -1,0 +1,22 @@
+authors: Jonathan Bohren, Wim Meeussen
+depends:
+- smach_ros
+- smach
+- catkin
+- smach_msgs
+description: "This metapackage depends on the SMACH library and ROS SMACH integration\n\
+  \    packages."
+license: BSD
+maintainers: Jonathan Bohren <jbo@jhu.edu>
+package_type: package
+release_jobs:
+- ros-hydro-executive-smach_sourcedeb
+- ros-hydro-executive-smach_binarydeb_precise_amd64
+- ros-hydro-executive-smach_binarydeb_precise_i386
+- ros-hydro-executive-smach_binarydeb_quantal_amd64
+- ros-hydro-executive-smach_binarydeb_quantal_i386
+- ros-hydro-executive-smach_binarydeb_raring_amd64
+- ros-hydro-executive-smach_binarydeb_raring_i386
+repo_name: executive_smach
+timestamp: 1405956414.782601
+url: http://ros.org/wiki/smach

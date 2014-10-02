@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/phidget_stepper/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- corobot_msgs
+- catkin
+- roscpp
+- std_msgs
+- diagnostic_updater
+- corobot_diagnostics
+depends_on:
+- corobot
+description: "Node interfacing the Phidget Stepper Controller. \n\tThis package depends\
+  \ on the Phidget client library being installed manually:\n\t\thttp://www.phidgets.com/drivers.php"
+doc_job: doc-hydro-corobot
+has_changelog_rst: false
+license: BSD
+maintainers: Morgan Cormier <mcormier@coroware.com>
+metapackages:
+- corobot
+msgs: []
+package_type: package
+repo_name: corobot
+repo_url: ''
+srvs: []
+timestamp: 1405962643.084181
+url: http://ros.org/wiki/phidget_stepper
+vcs: git
+vcs_uri: https://github.com/morgancormier/corobot.git
+vcs_version: master

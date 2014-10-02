@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/opt_camera/html
+authors: Kei Okada
+brief: ''
+bugtracker: http://sourceforge.net/tracker/?group_id=324828
+depends:
+- dynamic_reconfigure
+- image_proc
+- compressed_image_transport
+- sensor_msgs
+- catkin
+- driver_base
+- camera_calibration_parsers
+- rospack
+- roslang
+- cv_bridge
+depends_on:
+- jsk_common
+description: opt_camera
+devel_jobs:
+- devel-hydro-jsk_common
+doc_job: doc-hydro-jsk_common
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+metapackages:
+- jsk_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-opt-camera_sourcedeb
+- ros-hydro-opt-camera_binarydeb_precise_amd64
+- ros-hydro-opt-camera_binarydeb_precise_i386
+- ros-hydro-opt-camera_binarydeb_quantal_amd64
+- ros-hydro-opt-camera_binarydeb_quantal_i386
+- ros-hydro-opt-camera_binarydeb_raring_amd64
+- ros-hydro-opt-camera_binarydeb_raring_i386
+repo_name: jsk_common
+repo_url: https://jsk-ros-pkg.svn.sourceforge.net/svnroot/jsk-ros-pkg
+srvs: []
+timestamp: 1405771529.556493
+url: http://ros.org/wiki/opt_camera
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

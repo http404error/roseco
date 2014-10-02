@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_planning_interface_tests/html
+authors: Brian Gerkey
+brief: pr2_planning_interface_tests
+bugtracker: ''
+depends:
+- tf
+- planning_interface
+- planning_scene_monitor
+- pluginlib
+depends_on: []
+description: "\n\n     pr2_planning_interface_tests\n\n  "
+doc_job: doc-hydro-moveit_pr2
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: moveit_pr2
+repo_url: ''
+srvs: []
+timestamp: 1405964102.513359
+url: http://ros.org/wiki/pr2_planning_interface_tests
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_pr2.git
+vcs_version: hydro-devel

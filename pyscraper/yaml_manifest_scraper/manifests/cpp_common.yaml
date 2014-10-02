@@ -1,0 +1,54 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cpp_common/html
+authors: John Faust
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- console_bridge
+depends_on:
+- rosconsole
+- roscpp_serialization
+- roscpp_traits
+- topic_tools
+- rosbag_storage
+- xmlrpcpp
+- roscpp
+- test_rosbag
+- message_runtime
+- test_roscpp
+- rostime
+- roscpp_core
+- rosbag
+description: "cpp_common contains C++ code for doing things that are not necessarily\
+  \ ROS\n    related, but are useful for multiple packages. This includes things like\n\
+  \    the ROS_DEPRECATED and ROS_FORCE_INLINE macros, as well as code for getting\n\
+  \    backtraces.\n\n    This package is a component of <a href=\"http://www.ros.org/wiki/roscpp\"\
+  >roscpp</a>."
+devel_jobs:
+- devel-hydro-roscpp_core
+doc_job: doc-hydro-roscpp_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- roscpp_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cpp-common_sourcedeb
+- ros-hydro-cpp-common_binarydeb_precise_amd64
+- ros-hydro-cpp-common_binarydeb_precise_i386
+- ros-hydro-cpp-common_binarydeb_quantal_amd64
+- ros-hydro-cpp-common_binarydeb_quantal_i386
+- ros-hydro-cpp-common_binarydeb_raring_amd64
+- ros-hydro-cpp-common_binarydeb_raring_i386
+repo_name: roscpp_core
+repo_url: ''
+srvs: []
+timestamp: 1405773295.645086
+url: http://www.ros.org/wiki/cpp_common
+vcs: git
+vcs_uri: https://github.com/ros/roscpp_core.git
+vcs_version: hydro-devel

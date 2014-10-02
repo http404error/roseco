@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_turtlebot_gazebo/html
+authors: Stefan Kohlbrecher
+brief: hector_turtlebot_gazebo provides launch files and dependencies for using the
+  hector_turtlebot in gazebo
+bugtracker: ''
+depends:
+- hector_turtlebot_description
+- hector_turtlebot_scan_filter
+- pointcloud_to_laserscan
+- turtlebot_gazebo
+- turtlebot_gazebo_plugins
+depends_on: []
+description: "\n\n     hector_turtlebot_gazebo provides launch files and dependencies\
+  \ for using the hector_turtlebot in gazebo\n\n  "
+doc_job: doc-hydro-hector_turtlebot
+license: BSD
+maintainers: ''
+metapackages:
+- hector_turtlebot
+msgs: []
+package_type: package
+repo_name: hector_turtlebot
+repo_url: ''
+srvs: []
+timestamp: 1405963390.393523
+url: http://ros.org/wiki/hector_turtlebot_gazebo
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hector_turtlebot
+vcs_version: HEAD

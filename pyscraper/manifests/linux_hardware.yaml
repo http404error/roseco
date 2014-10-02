@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/linux_hardware/html
+authors: Daniel Stonier
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot/issues
+depends:
+- catkin
+- message_runtime
+- std_msgs
+- rospy
+- message_generation
+- diagnostic_msgs
+depends_on:
+- rosjava_messages
+- wheeled_robin_bringup
+- turtlebot_bringup
+- turtlebot
+description: "Simple scripts which help utilise, monitor, interact with computer\n\
+  \     hardware abstracted by a linux OS."
+devel_jobs:
+- devel-hydro-turtlebot
+doc_job: doc-hydro-turtlebot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- turtlebot
+msgs:
+- LaptopChargeStatus
+package_type: package
+release_jobs:
+- ros-hydro-linux-hardware_sourcedeb
+- ros-hydro-linux-hardware_binarydeb_precise_amd64
+- ros-hydro-linux-hardware_binarydeb_precise_i386
+- ros-hydro-linux-hardware_binarydeb_quantal_amd64
+- ros-hydro-linux-hardware_binarydeb_quantal_i386
+- ros-hydro-linux-hardware_binarydeb_raring_amd64
+- ros-hydro-linux-hardware_binarydeb_raring_i386
+repo_name: turtlebot
+repo_url: https://github.com/turtlebot/turtlebot
+srvs: []
+timestamp: 1405774171.663816
+url: http://ros.org/wiki/linux_hardware
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot.git
+vcs_version: hydro

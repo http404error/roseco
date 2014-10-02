@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/joy_teleop/html
+authors: Paul Mathieu <paul.mathieu@pal-robotics.com>
+brief: ''
+bugtracker: ''
+depends:
+- sensor_msgs
+- actionlib
+- catkin
+- rostopic
+- rospy
+depends_on:
+- reemc_bringup
+- teleop_tools
+description: A (to be) generic joystick interface to control a robot
+doc_job: doc-hydro-joy_teleop
+has_changelog_rst: true
+license: BSD
+maintainers: Paul Mathieu <paul.mathieu@pal-robotics.com>
+metapackages:
+- teleop_tools
+msgs: []
+package_type: package
+repo_name: joy_teleop
+repo_url: ''
+srvs: []
+timestamp: 1405973975.749598
+url: ''
+vcs: git
+vcs_uri: https://github.com/pal-robotics/joy_teleop.git
+vcs_version: hydro-devel

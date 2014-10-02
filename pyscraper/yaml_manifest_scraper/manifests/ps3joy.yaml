@@ -1,0 +1,49 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ps3joy/html
+authors: Blaise Gassend, pascal@pabr.org, Melonee Wise
+brief: ''
+bugtracker: https://github.com/ros-drivers/joystick_drivers/issues
+depends:
+- catkin
+- libusb-dev
+- rosgraph
+- sensor_msgs
+- bluez
+- rospy
+- joystick
+- python-bluez
+- diagnostic_msgs
+depends_on:
+- pr2_teleop_general_jsk_patch
+- joystick_drivers
+description: "Playstation 3 SIXAXIS or DUAL SHOCK 3 joystick driver.\n    Driver for\
+  \ the Sony PlayStation 3 SIXAXIS or DUAL SHOCK 3\n    joysticks. In its current\
+  \ state, this driver is not compatible\n    with the use of other Bluetooth HID\
+  \ devices. The driver listens\n    for a connection on the HID ports, starts the\
+  \ joystick\n    streaming data, and passes the data to the Linux uinput device\n\
+  \    so that it shows up as a normal joystick."
+doc_job: doc-hydro-joystick_drivers
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Jonathan Bohren <jbo@jhu.edu>
+metapackages:
+- joystick_drivers
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ps3joy_sourcedeb
+- ros-hydro-ps3joy_binarydeb_precise_amd64
+- ros-hydro-ps3joy_binarydeb_precise_i386
+- ros-hydro-ps3joy_binarydeb_quantal_amd64
+- ros-hydro-ps3joy_binarydeb_quantal_i386
+- ros-hydro-ps3joy_binarydeb_raring_amd64
+- ros-hydro-ps3joy_binarydeb_raring_i386
+repo_name: joystick_drivers
+repo_url: ''
+srvs: []
+timestamp: 1405974006.712787
+url: http://www.ros.org/wiki/ps3joy
+vcs: git
+vcs_uri: https://github.com/ros-drivers/joystick_drivers.git
+vcs_version: hydro-devel

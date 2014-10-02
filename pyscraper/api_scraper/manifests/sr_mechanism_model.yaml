@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_mechanism_model/html
+authors: Ugo Cupcic
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ros-interface/issues
+depends:
+- catkin
+- roscpp
+- cmake_modules
+- sr_hardware_interface
+- tinyxml
+- pr2_mechanism_model
+depends_on:
+- shadow_robot
+description: "sr_mechanism_model contains the transmissions used in the robot model.\
+  \ We needed specific\n    transmission as we're using our own actuator. We also\
+  \ needed to take care of the joint 0s\n    which combine the distal and middle phalanges."
+devel_jobs:
+- devel-hydro-shadow_robot
+doc_job: doc-hydro-shadow_robot
+has_changelog_rst: true
+license: GPL
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- shadow_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sr-mechanism-model_sourcedeb
+- ros-hydro-sr-mechanism-model_binarydeb_precise_amd64
+- ros-hydro-sr-mechanism-model_binarydeb_precise_i386
+- ros-hydro-sr-mechanism-model_binarydeb_quantal_amd64
+- ros-hydro-sr-mechanism-model_binarydeb_quantal_i386
+- ros-hydro-sr-mechanism-model_binarydeb_raring_amd64
+- ros-hydro-sr-mechanism-model_binarydeb_raring_i386
+repo_name: shadow_robot
+repo_url: https://github.com/shadow-robot/sr-ros-interface
+srvs: []
+timestamp: 1405773834.081364
+url: http://ros.org/wiki/sr_mechanism_model
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ros-interface.git
+vcs_version: hydro-devel

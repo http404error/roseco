@@ -1,0 +1,65 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jsk_interactive_marker/html
+authors: furuta <furuta@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- urdf
+- dynamic_tf_publisher
+- cmake_modules
+- roscpp
+- actionlib
+- roslib
+- eigen_conversions
+- rosbuild
+- jsk_footstep_msgs
+- visualization_msgs
+- tf
+- interactive_markers
+- message_filters
+- jsk_pcl_ros
+- sensor_msgs
+- tinyxml
+- tf_conversions
+- roseus
+- geometry
+- mk
+- geometry_msgs
+depends_on:
+- jsk_interactive
+- jsk_interactive_test
+description: jsk interactive markers
+devel_jobs:
+- devel-hydro-jsk_visualization
+doc_job: doc-hydro-jsk_visualization
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: furuta <furuta@jsk.t.u-tokyo.ac.jp>
+metapackages:
+- jsk_interactive_markers
+msgs:
+- MoveObject
+- MarkerPose
+- MarkerMenu
+package_type: package
+release_jobs:
+- ros-hydro-jsk-interactive-marker_sourcedeb
+- ros-hydro-jsk-interactive-marker_binarydeb_precise_amd64
+- ros-hydro-jsk-interactive-marker_binarydeb_precise_i386
+- ros-hydro-jsk-interactive-marker_binarydeb_quantal_amd64
+- ros-hydro-jsk-interactive-marker_binarydeb_quantal_i386
+- ros-hydro-jsk-interactive-marker_binarydeb_raring_amd64
+- ros-hydro-jsk-interactive-marker_binarydeb_raring_i386
+repo_name: jsk_visualization
+repo_url: ''
+srvs:
+- SetPose
+- MarkerSetPose
+- GetJointState
+timestamp: 1405963685.279185
+url: http://ros.org/wiki/interactive_marker
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_visualization.git
+vcs_version: master

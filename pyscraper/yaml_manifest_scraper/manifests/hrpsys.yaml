@@ -1,0 +1,64 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hrpsys/html
+authors: AIST, Fumio Kanehiro
+brief: ''
+bugtracker: https://code.google.com/p/rtm-ros-robotics/issues/list
+depends:
+- python-tk
+- doxygen
+- catkin
+- libglew-dev
+- libxml2
+- glut
+- libqhull
+- mk
+- libirrlicht-dev
+- rosbuild
+- rostest
+- openhrp3
+- sdl
+- git
+- roslang
+- cv_bridge
+- libxmu-dev
+- rosbash
+depends_on:
+- hironx_ros_bridge
+- hrpsys_tools
+- hrpsys_ros_bridge
+description: "<p>An <a href=\"http://www.openrtm.org/pub/OpenRTM-aist/\">OpenRTM-aist</a>-based\
+  \ robot controller. This package is the most tailored for humanoid (dual-arm and/or\
+  \ biped) robots for historical reason.</p>\n   <p>hrpsys package does not only wraps\
+  \ but build and installs the code from its mainstream repository (<a href=\"https://code.google.com/p/hrpsys-base/source/browse/#svn%2Ftrunk\"\
+  >code.google.com/p/hrpsys-base</a>).</p>\n   <p>The package version number is synchronized\
+  \ to that of mainstream, based on <a href=\"http://code.google.com/p/rtm-ros-robotics/issues/detail?id=165#c5\"\
+  >this decision</a>. Its semantics:<br/>\n    <ul>\n     <li><b>MAJOR</b>: Synchronized\
+  \ with <a href=\"http://wiki.ros.org/openhrp3\">OpenHRP3</a></li>\n     <li><b>MINOR</b>:\
+  \ Indicate IDL compatibility (packages with different version numbers in this section\
+  \ are NOT compatible)</li>\n     <li><b>PATCH</b>: Packages with different version\
+  \ numbers in this section ARE compatible.</li>\n    </ul>\n   </p>"
+devel_jobs:
+- devel-hydro-hrpsys
+doc_job: doc-hydro-hrpsys
+has_changelog_rst: true
+license: EPL
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>, Isaac Isao Saito <iisaito@kinugarage.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hrpsys_sourcedeb
+- ros-hydro-hrpsys_binarydeb_precise_amd64
+- ros-hydro-hrpsys_binarydeb_precise_i386
+- ros-hydro-hrpsys_binarydeb_quantal_amd64
+- ros-hydro-hrpsys_binarydeb_quantal_i386
+- ros-hydro-hrpsys_binarydeb_raring_amd64
+- ros-hydro-hrpsys_binarydeb_raring_i386
+repo_name: hrpsys
+repo_url: https://code.google.com/p/rtm-ros-robotics
+srvs: []
+timestamp: 1405963386.703646
+url: http://ros.org/wiki/hrpsys
+vcs: git
+vcs_uri: https://github.com/start-jsk/hrpsys.git
+vcs_version: master

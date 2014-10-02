@@ -1,0 +1,54 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/image_view/html
+authors: Patrick Mihelich
+brief: ''
+bugtracker: ''
+depends:
+- rosconsole
+- std_srvs
+- roscpp
+- message_filters
+- cv_bridge
+- sensor_msgs
+- image_transport
+- opencv2
+- stereo_msgs
+- rostest
+- gtk2
+- camera_calibration_parsers
+- catkin
+- nodelet
+depends_on:
+- image_view_jsk_patch
+- jsk_data
+- image_view2
+- image_pipeline
+description: "A simple viewer for ROS image topics. Includes a specialized viewer\n\
+  \  for stereo + disparity images."
+devel_jobs:
+- devel-hydro-image_pipeline
+doc_job: doc-hydro-image_pipeline
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+metapackages:
+- image_pipeline
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-image-view_sourcedeb
+- ros-hydro-image-view_binarydeb_precise_amd64
+- ros-hydro-image-view_binarydeb_precise_i386
+- ros-hydro-image-view_binarydeb_quantal_amd64
+- ros-hydro-image-view_binarydeb_quantal_i386
+- ros-hydro-image-view_binarydeb_raring_amd64
+- ros-hydro-image-view_binarydeb_raring_i386
+repo_name: image_pipeline
+repo_url: ''
+srvs: []
+timestamp: 1405963499.792657
+url: http://www.ros.org/wiki/image_view
+vcs: git
+vcs_uri: https://github.com/ros-perception/image_pipeline.git
+vcs_version: hydro-devel

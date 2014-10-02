@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/moveit_controller_manager_example/html
+authors: Ioan Sucan <isucan@gmail.com>
+brief: ''
+bugtracker: https://github.com/ros-planning/moveit_plugins/issues
+depends:
+- moveit_core
+- catkin
+- roscpp
+- pluginlib
+depends_on: []
+description: An example controller manager plugin for MoveIt. This is not functional
+  code.
+doc_job: doc-hydro-moveit_plugins
+has_changelog_rst: true
+license: BSD
+maintainers: Ioan Sucan <isucan@gmail.com>
+msgs: []
+package_type: package
+repo_name: moveit_plugins
+repo_url: https://github.com/ros-planning/moveit_plugins
+srvs: []
+timestamp: 1405963926.883607
+url: http://moveit.ros.org
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_plugins.git
+vcs_version: hydro-devel

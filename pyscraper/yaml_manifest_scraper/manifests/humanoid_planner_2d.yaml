@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/humanoid_planner_2d/html
+authors: Armin Hornung
+brief: Simple 2D path planner using SBPL
+bugtracker: ''
+depends:
+- sbpl
+- geometry_msgs
+- roscpp
+- gridmap_2d
+depends_on: []
+description: "\n\n     humanoid_planner_2d - provides a simple 2D path planner as\
+  \ wrapper around\n     SBPL (ARA*, AD*, R*).\n\n  "
+doc_job: doc-hydro-humanoid_navigation
+license: BSD
+maintainers: ''
+metapackages:
+- humanoid_navigation
+msgs: []
+package_type: package
+repo_name: humanoid_navigation
+repo_url: ''
+srvs: []
+timestamp: 1405963437.29645
+url: http://ros.org/wiki/humanoid_planner_2d
+vcs: git
+vcs_uri: https://github.com/ahornung/humanoid_navigation.git
+vcs_version: master

@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kurt_gazebo/html
+authors: "Martin G\xFCnther"
+brief: launch files for starting up Kurt in Gazebo
+bugtracker: ''
+depends:
+- uos_gazebo_worlds
+- gazebo_ros_control
+- controller_manager
+- kurt_description
+depends_on: []
+description: "\n\n     This package contains launch files for starting up Kurt in\
+  \ the Gazebo simulator.\n\n  "
+doc_job: doc-hydro-kurt_driver
+license: BSD
+maintainers: ''
+metapackages:
+- kurt_driver
+msgs: []
+package_type: package
+repo_name: kurt_driver
+repo_url: ''
+srvs: []
+timestamp: 1405974096.656884
+url: http://ros.org/wiki/kurt_gazebo
+vcs: git
+vcs_uri: https://github.com/uos/kurt_driver.git
+vcs_version: hydro

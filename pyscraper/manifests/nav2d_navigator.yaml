@@ -1,0 +1,60 @@
+actions:
+- GetFirstMap
+- Explore
+- Localize
+- MoveToPosition2D
+api_documentation: http://docs.ros.org/hydro/api/nav2d_navigator/html
+authors: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+brief: ''
+bugtracker: ''
+depends:
+- nav2d_operator
+- catkin
+- roscpp
+- pluginlib
+- actionlib
+- message_runtime
+- tf
+- geometry_msgs
+- message_generation
+- nav2d_msgs
+- actionlib_msgs
+depends_on:
+- nav2d_tutorials
+- rosjava_messages
+- nav2d_remote
+- nav2d
+- nav2d_exploration
+description: "This package provides a node for higher level navigation of a mobile\n\
+  \    robot in a planar environment. It needs a map and the robot's position\n  \
+  \  within this map to create a plan for navigation. When used together with\n  \
+  \  a SLAM module it can also be used to perform autonomous exploration of\n    the\
+  \ robot's workspace."
+devel_jobs:
+- devel-hydro-navigation_2d
+doc_job: doc-hydro-navigation_2d
+has_changelog_rst: false
+license: GPLv3
+maintainer_status: developed
+maintainers: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+metapackages:
+- nav2d
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-nav2d-navigator_sourcedeb
+- ros-hydro-nav2d-navigator_binarydeb_precise_amd64
+- ros-hydro-nav2d-navigator_binarydeb_precise_i386
+- ros-hydro-nav2d-navigator_binarydeb_quantal_amd64
+- ros-hydro-nav2d-navigator_binarydeb_quantal_i386
+- ros-hydro-nav2d-navigator_binarydeb_raring_amd64
+- ros-hydro-nav2d-navigator_binarydeb_raring_i386
+repo_name: navigation_2d
+repo_url: ''
+srvs:
+- SendCommand
+timestamp: 1405974511.057368
+url: http://wiki.ros.org/robot_operator
+vcs: git
+vcs_uri: https://github.com/skasperski/navigation_2d.git
+vcs_version: hydro

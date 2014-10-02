@@ -1,0 +1,27 @@
+authors: Nate Koenig
+depends:
+- catkin
+- fltk
+- std_msgs
+- message_runtime
+- sensor_msgs
+- opencv2
+- wxwidgets
+- message_generation
+- cv_bridge
+- roscpp
+description: Node for the Color Machine Vision Project, used for fast color blob detection
+license: LGPL
+maintainers: Piyush Khandelwal <piyushk@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-cmvision_sourcedeb
+- ros-hydro-cmvision_binarydeb_precise_amd64
+- ros-hydro-cmvision_binarydeb_precise_i386
+- ros-hydro-cmvision_binarydeb_quantal_amd64
+- ros-hydro-cmvision_binarydeb_quantal_i386
+- ros-hydro-cmvision_binarydeb_raring_amd64
+- ros-hydro-cmvision_binarydeb_raring_i386
+repo_name: cmvision
+timestamp: 1405956414.715145
+url: http://ros.org/wiki/cmvision

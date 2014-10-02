@@ -1,0 +1,23 @@
+<package>
+  <name>concert_services</name>
+  <version>0.1.0</version>
+  <description>
+    Officially supported rocon services for the concert framework.
+  </description>
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <license>BSD</license>
+  <url type="website">http://www.ros.org/wiki/concert_services</url>
+  <url type="repository">https://github.com/robotics-in-concert/concert_services</url>
+  <url type="bugtracker">https://github.com/robotics-in-concert/concert_services/issues</url>
+  <author>Daniel Stonier</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>concert_service_admin</run_depend>
+  <run_depend>concert_service_gazebo</run_depend>
+  <run_depend>concert_service_teleop</run_depend>
+  <run_depend>concert_service_turtlesim</run_depend>
+
+  <export>
+    <metapackage />
+  </export>
+</package>

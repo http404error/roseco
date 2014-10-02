@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/industrial_msgs/html
+authors: Shaun M. Edwards
+brief: ''
+bugtracker: ''
+depends:
+- genmsg
+- catkin
+- trajectory_msgs
+- message_runtime
+- std_msgs
+- message_generation
+depends_on:
+- simple_message
+- motoman_driver
+- rosjava_messages
+- industrial_robot_client
+- industrial_core
+description: "The industrial message package containes industrial specific messages\
+  \ \n\tdefinitions. This package is part of the ROS-Industrial program."
+devel_jobs:
+- devel-hydro-industrial_core
+doc_job: doc-hydro-industrial_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Shaun Edwards <sedwards@swri.org>
+metapackages:
+- industrial_core
+msgs:
+- RobotMode
+- DebugLevel
+- TriState
+- ServiceReturnCode
+- RobotStatus
+- DeviceInfo
+package_type: package
+release_jobs:
+- ros-hydro-industrial-msgs_sourcedeb
+- ros-hydro-industrial-msgs_binarydeb_precise_amd64
+- ros-hydro-industrial-msgs_binarydeb_precise_i386
+- ros-hydro-industrial-msgs_binarydeb_quantal_amd64
+- ros-hydro-industrial-msgs_binarydeb_quantal_i386
+- ros-hydro-industrial-msgs_binarydeb_raring_amd64
+- ros-hydro-industrial-msgs_binarydeb_raring_i386
+repo_name: industrial_core
+repo_url: ''
+srvs:
+- StopMotion
+- StartMotion
+- SetDrivePower
+- CmdJointTrajectory
+- GetRobotInfo
+- SetRemoteLoggerLevel
+timestamp: 1405771361.622404
+url: http://ros.org/wiki/industrial_msg
+vcs: git
+vcs_uri: https://github.com/ros-industrial/industrial_core.git
+vcs_version: hydro

@@ -1,0 +1,43 @@
+actions:
+- scanning_table
+api_documentation: http://docs.ros.org/hydro/api/scanning_table_msgs/html
+authors: Alexis Maldonado, Ferenc Balint-Benczedi(catkinization)
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- std_msgs
+- actionlib_msgs
+- message_runtime
+- catkin
+depends_on:
+- rosjava_messages
+- iai_common_msgs
+description: catkinized common interface for turn table
+devel_jobs:
+- devel-hydro-iai_common_msgs
+doc_job: doc-hydro-iai_common_msgs
+has_changelog_rst: true
+license: GPLv3+
+maintainer_status: developed
+maintainers: TODO <todo@todo.com>
+metapackages:
+- iai_common_msgs
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-scanning-table-msgs_sourcedeb
+- ros-hydro-scanning-table-msgs_binarydeb_precise_amd64
+- ros-hydro-scanning-table-msgs_binarydeb_precise_i386
+- ros-hydro-scanning-table-msgs_binarydeb_quantal_amd64
+- ros-hydro-scanning-table-msgs_binarydeb_quantal_i386
+- ros-hydro-scanning-table-msgs_binarydeb_raring_amd64
+- ros-hydro-scanning-table-msgs_binarydeb_raring_i386
+repo_name: iai_common_msgs
+repo_url: ''
+srvs: []
+timestamp: 1405963491.27058
+url: ''
+vcs: git
+vcs_uri: https://github.com/code-iai/iai_common_msgs.git
+vcs_version: master

@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/statistics_msgs/html
+authors: Chad Rockey
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- message_runtime
+- catkin
+depends_on:
+- rosjava_messages
+- image_exposure_msgs
+description: Messages related to the Point Grey camera driver.
+devel_jobs:
+- devel-hydro-pointgrey_camera_driver
+doc_job: doc-hydro-pointgrey_camera_driver
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs:
+- Stats1D
+package_type: package
+release_jobs:
+- ros-hydro-statistics-msgs_sourcedeb
+- ros-hydro-statistics-msgs_binarydeb_precise_amd64
+- ros-hydro-statistics-msgs_binarydeb_precise_i386
+- ros-hydro-statistics-msgs_binarydeb_quantal_amd64
+- ros-hydro-statistics-msgs_binarydeb_quantal_i386
+- ros-hydro-statistics-msgs_binarydeb_raring_amd64
+- ros-hydro-statistics-msgs_binarydeb_raring_i386
+repo_name: pointgrey_camera_driver
+repo_url: ''
+srvs: []
+timestamp: 1405964458.454372
+url: http://ros.org/wiki/pointgrey_camera_driver
+vcs: git
+vcs_uri: https://github.com/ros-drivers/pointgrey_camera_driver.git
+vcs_version: master

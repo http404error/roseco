@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/map_to_jpeg/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- roscpp
+- sensor_msgs
+- image_transport
+- geometry_msgs
+- tf
+- cv_bridge
+- eigen
+depends_on:
+- corobot
+description: Package based on the package hector_compressed_map_transport and improved
+  upon. It provides means for transporting compressed map data through the use of
+  image_transport. The difference with hector_compressed_map_transport is that the
+  position and orientation of the robot is displayed on the map. It also adds a mean
+  to convert the jpeg representation of the map back to a map.
+doc_job: doc-hydro-corobot
+has_changelog_rst: false
+license: BSD
+maintainers: Morgan Cormier <mcormier@coroware.com>
+metapackages:
+- corobot
+msgs: []
+package_type: package
+repo_name: corobot
+repo_url: ''
+srvs: []
+timestamp: 1405962639.131945
+url: http://ros.org/wiki/map_to_jpeg
+vcs: git
+vcs_uri: https://github.com/morgancormier/corobot.git
+vcs_version: master

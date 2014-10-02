@@ -1,0 +1,68 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rostopic/html
+authors: Ken Conley
+brief: ''
+bugtracker: ''
+depends:
+- rosbag
+- rostest
+- catkin
+- rospy
+depends_on:
+- rqt_pose_view
+- rocon_gateway
+- rosnode
+- jsk_data
+- rqt_plot
+- jsk_topic_tools
+- joy_teleop
+- rqt_decision_graph
+- rosh
+- rosh_common
+- rosnode_rtc
+- rqt_py_common
+- calvin_gazebo
+- cob_controller_configuration_gazebo
+- rqt_robot_steering
+- rocon_python_comms
+- rqt_topic
+- rqt_moveit
+- rqt_graph
+- ros_comm
+- rosbridge_library
+- roseus
+description: "rostopic contains the rostopic command-line tool for displaying\n  \
+  \  debug information about\n    ROS <a href=\"http://www.ros.org/wiki/Topics\">Topics</a>,\
+  \ including\n    publishers, subscribers, publishing rate,\n    and ROS <a href=\"\
+  http://www.ros.org/wiki/Messages\">Messages</a>. It also\n    contains an experimental\
+  \ Python library for getting information about\n    and interacting with topics\
+  \ dynamically. This library is for\n    internal-use only as the code API may change,\
+  \ though it does provide\n    examples of how to implement dynamic subscription\
+  \ and publication\n    behaviors in ROS."
+devel_jobs:
+- devel-hydro-ros_comm
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros_comm
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rostopic_sourcedeb
+- ros-hydro-rostopic_binarydeb_precise_amd64
+- ros-hydro-rostopic_binarydeb_precise_i386
+- ros-hydro-rostopic_binarydeb_quantal_amd64
+- ros-hydro-rostopic_binarydeb_quantal_i386
+- ros-hydro-rostopic_binarydeb_raring_amd64
+- ros-hydro-rostopic_binarydeb_raring_i386
+repo_name: ros_comm
+repo_url: ''
+srvs: []
+timestamp: 1405773157.81379
+url: http://ros.org/wiki/rostopic
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_qrcode_detection/html
+authors: Johannes Meyer
+brief: hector_qrcode_detection
+bugtracker: ''
+depends:
+- tf
+- cv_bridge
+- hector_worldmodel_msgs
+- image_transport
+- nodelet
+depends_on: []
+description: "\n\n     hector_qrcode_detection searches for QR codes in images using\
+  \ the <a href=\"http://zbar.sourceforge.net/\">zbar</a> library.\n     The qrcode_detection\
+  \ node/nodelet publishes hector_worldmodel_msgs/ImagePercept messages and serves\
+  \ as\n     an source of input for the <a href=\"http://ros.org/wiki/hector_object_tracker\"\
+  >hector_object_tracker</a>.\n\n  "
+doc_job: doc-hydro-hector_vision
+license: LGPL
+maintainers: ''
+metapackages:
+- hector_vision
+msgs: []
+package_type: package
+repo_name: hector_vision
+repo_url: ''
+srvs: []
+timestamp: 1405771047.784429
+url: http://ros.org/wiki/hector_qrcode_detection
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_vision.git
+vcs_version: master

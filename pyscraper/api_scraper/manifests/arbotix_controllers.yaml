@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/arbotix_controllers/html
+authors: Michael Ferguson
+brief: ''
+bugtracker: ''
+depends:
+- tf
+- arbotix_python
+- trajectory_msgs
+- catkin
+depends_on:
+- arbotix
+description: Extends the arbotix_python package with a number of more sophisticated
+  ROS wrappers for common devices.
+doc_job: doc-hydro-arbotix
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Michael Ferguson <mike@vanadiumlabs.com>
+metapackages:
+- arbotix
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-arbotix-controllers_sourcedeb
+- ros-hydro-arbotix-controllers_binarydeb_precise_amd64
+- ros-hydro-arbotix-controllers_binarydeb_precise_i386
+- ros-hydro-arbotix-controllers_binarydeb_quantal_amd64
+- ros-hydro-arbotix-controllers_binarydeb_quantal_i386
+- ros-hydro-arbotix-controllers_binarydeb_raring_amd64
+- ros-hydro-arbotix-controllers_binarydeb_raring_i386
+repo_name: arbotix
+repo_url: ''
+srvs: []
+timestamp: 1405961948.935165
+url: http://ros.org/wiki/arbotix_controllers
+vcs: git
+vcs_uri: https://github.com/vanadiumlabs/arbotix_ros.git
+vcs_version: hydro-devel

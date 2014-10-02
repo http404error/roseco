@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/qt_create/html
+authors: Daniel Stonier
+brief: ''
+bugtracker: https://github.com/stonier/qt_ros/issues
+depends:
+- catkin
+depends_on:
+- qt_ros
+description: "Provides templates and scripts for creating qt-ros packages\n     (similar\
+  \ to roscreate-pkg)."
+devel_jobs:
+- devel-hydro-qt_ros
+doc_job: doc-hydro-qt_ros
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- qt_ros
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-qt-create_sourcedeb
+- ros-hydro-qt-create_binarydeb_precise_amd64
+- ros-hydro-qt-create_binarydeb_precise_i386
+- ros-hydro-qt-create_binarydeb_quantal_amd64
+- ros-hydro-qt-create_binarydeb_quantal_i386
+- ros-hydro-qt-create_binarydeb_raring_amd64
+- ros-hydro-qt-create_binarydeb_raring_i386
+repo_name: qt_ros
+repo_url: https://github.com/stonier/qt_ros
+srvs: []
+timestamp: 1405772797.365611
+url: ''
+vcs: git
+vcs_uri: https://github.com/stonier/qt_ros.git
+vcs_version: hydro

@@ -1,0 +1,49 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ros_ethercat_hardware/html
+authors: Rob Wheeler <wheeler@willowgarage.com>, Derek King <dking@willowgarage.com>,
+  Manos Nikolaidis <software@shadowrobot.com>
+brief: ''
+bugtracker: https://github.com/shadow-robot/ros_ethercat/issues
+depends:
+- hardware_interface
+- catkin
+- roscpp
+- pluginlib
+- realtime_tools
+- ros_ethercat_eml
+- diagnostic_updater
+- diagnostic_msgs
+depends_on:
+- sr_ronex_hardware_interface
+- ros_ethercat_loop
+- sr_ronex_drivers
+- ros_ethercat
+description: Package for creating a hardware interface to the robot using the EtherCAT
+  motor controller/driver
+devel_jobs:
+- devel-hydro-ros_ethercat
+doc_job: doc-hydro-ros_ethercat
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- ros_ethercat
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ros-ethercat-hardware_sourcedeb
+- ros-hydro-ros-ethercat-hardware_binarydeb_precise_amd64
+- ros-hydro-ros-ethercat-hardware_binarydeb_precise_i386
+- ros-hydro-ros-ethercat-hardware_binarydeb_quantal_amd64
+- ros-hydro-ros-ethercat-hardware_binarydeb_quantal_i386
+- ros-hydro-ros-ethercat-hardware_binarydeb_raring_amd64
+- ros-hydro-ros-ethercat-hardware_binarydeb_raring_i386
+repo_name: ros_ethercat
+repo_url: https://github.com/shadow-robot/ros_ethercat
+srvs: []
+timestamp: 1405974961.921276
+url: http://ros.org/wiki/ros_ethercat_hardware
+vcs: git
+vcs_uri: https://github.com/shadow-robot/ros_ethercat.git
+vcs_version: hydro-devel

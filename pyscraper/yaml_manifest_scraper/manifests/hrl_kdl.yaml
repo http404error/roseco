@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hrl_kdl/html
+authors: Kelsey Hawkins <kphawkins@gatech.edu>
+brief: ''
+bugtracker: ''
+depends: &id001
+- hrl_geom
+- catkin
+- pykdl_utils
+depends_on: []
+description: "hrl_kdl contains wrappers for interfacing with KDL and other utilities\n\
+  \        for dealing with kinematics."
+doc_job: doc-hydro-hrl_kdl
+has_changelog_rst: false
+license: BSD
+maintainers: Kelsey Hawkins <kphawkins@gatech.edu>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: hrl_kdl
+repo_url: ''
+srvs: []
+timestamp: 1405771128.098033
+url: http://ros.org/wiki/hrl_kdl
+vcs: git
+vcs_uri: https://github.com/gt-ros-pkg/hrl-kdl.git
+vcs_version: hydro

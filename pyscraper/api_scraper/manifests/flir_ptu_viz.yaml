@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/flir_ptu_viz/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- roslaunch
+- flir_ptu_description
+- catkin
+- rviz
+- robot_state_publisher
+- joint_state_publisher
+depends_on: []
+description: Launchfiles and rviz configs to assist with visualizing the FLIR PTUs.
+devel_jobs:
+- devel-hydro-flir_ptu
+doc_job: doc-hydro-flir_ptu
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-flir-ptu-viz_sourcedeb
+- ros-hydro-flir-ptu-viz_binarydeb_precise_amd64
+- ros-hydro-flir-ptu-viz_binarydeb_precise_i386
+- ros-hydro-flir-ptu-viz_binarydeb_quantal_amd64
+- ros-hydro-flir-ptu-viz_binarydeb_quantal_i386
+- ros-hydro-flir-ptu-viz_binarydeb_raring_amd64
+- ros-hydro-flir-ptu-viz_binarydeb_raring_i386
+repo_name: flir_ptu
+repo_url: ''
+srvs: []
+timestamp: 1405770430.657935
+url: http://wiki.ros.org/flir_ptu_driver
+vcs: git
+vcs_uri: https://github.com/ros-drivers/flir_ptu.git
+vcs_version: master

@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/mrpt_msgs/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- geometry_msgs
+- message_runtime
+- std_msgs
+- catkin
+depends_on:
+- mrpt_ekf_slam_3d
+- mrpt_ekf_slam_2d
+- mrpt_ro_slam
+- mrpt_bridge
+description: mrpt_msgs
+doc_job: doc-hydro-mrpt_common
+has_changelog_rst: false
+license: BSD
+maintainers: Jose Luis <jose.luis@todo.todo>, Markus Bader <markus.bader@tuwien.ac.at>
+metapackages:
+- mrpt_common
+msgs:
+- SingleRangeBearingObservation
+- ObservationRangeBearing
+package_type: package
+repo_name: mrpt_common
+repo_url: ''
+srvs: []
+timestamp: 1405964061.187198
+url: ''
+vcs: git
+vcs_uri: https://github.com/mrpt-ros-pkg/mrpt_common.git
+vcs_version: master

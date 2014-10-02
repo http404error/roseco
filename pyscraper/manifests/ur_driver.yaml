@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ur_driver/html
+authors: Stuart Glaser
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- python-beautifulsoup
+- actionlib
+- trajectory_msgs
+- sensor_msgs
+- control_msgs
+- rospy
+depends_on:
+- universal_robot
+- ur_bringup
+- cob_bringup
+description: Driver for the UR5/10 arm based on the Polyscope control scheme.
+devel_jobs:
+- devel-hydro-universal_robot
+doc_job: doc-hydro-universal_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Shaun Edwards <sedwards@swri.org>
+metapackages:
+- universal_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ur-driver_sourcedeb
+- ros-hydro-ur-driver_binarydeb_precise_amd64
+- ros-hydro-ur-driver_binarydeb_precise_i386
+- ros-hydro-ur-driver_binarydeb_quantal_amd64
+- ros-hydro-ur-driver_binarydeb_quantal_i386
+- ros-hydro-ur-driver_binarydeb_raring_amd64
+- ros-hydro-ur-driver_binarydeb_raring_i386
+repo_name: universal_robot
+repo_url: ''
+srvs: []
+timestamp: 1405774310.60347
+url: ''
+vcs: git
+vcs_uri: https://github.com/ros-industrial/universal_robot.git
+vcs_version: hydro

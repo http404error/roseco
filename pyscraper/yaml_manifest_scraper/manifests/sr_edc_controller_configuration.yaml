@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_edc_controller_configuration/html
+authors: Ugo Cupcic, Toni Oliver
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ros-interface-ethercat/issues
+depends:
+- sr_ethercat_hand_config
+- pr2_controller_manager
+- catkin
+- robot_mechanism_controllers
+depends_on:
+- shadow_robot_ethercat
+description: contains the different launch files for Shadow Robot hand controllers.
+  The actual configuration files are stored in the sr_config stack.
+devel_jobs:
+- devel-hydro-shadow_robot_ethercat
+doc_job: doc-hydro-shadow_robot_ethercat
+has_changelog_rst: true
+license: GPL
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- shadow_robot_ethercat
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sr-edc-controller-configuration_sourcedeb
+- ros-hydro-sr-edc-controller-configuration_binarydeb_precise_amd64
+- ros-hydro-sr-edc-controller-configuration_binarydeb_precise_i386
+- ros-hydro-sr-edc-controller-configuration_binarydeb_quantal_amd64
+- ros-hydro-sr-edc-controller-configuration_binarydeb_quantal_i386
+- ros-hydro-sr-edc-controller-configuration_binarydeb_raring_amd64
+- ros-hydro-sr-edc-controller-configuration_binarydeb_raring_i386
+repo_name: shadow_robot_ethercat
+repo_url: https://github.com/shadow-robot/sr-ros-interface-ethercat
+srvs: []
+timestamp: 1405975385.985705
+url: http://ros.org/wiki/sr_edc_controller_configuration
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ros-interface-ethercat.git
+vcs_version: hydro-devel

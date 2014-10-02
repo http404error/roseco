@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/moveit_pr2/html
+authors: Ioan Sucan <isucan@willowgarage.com>, Sachin Chitta <sachinc@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends: &id001
+- pr2_moveit_plugins
+- pr2_moveit_config
+- catkin
+- pr2_moveit_tutorials
+depends_on: []
+description: All PR2-specific packages for MoveIt
+devel_jobs:
+- devel-hydro-moveit_pr2
+doc_job: doc-hydro-moveit_pr2
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-moveit-pr2_sourcedeb
+- ros-hydro-moveit-pr2_binarydeb_precise_amd64
+- ros-hydro-moveit-pr2_binarydeb_precise_i386
+- ros-hydro-moveit-pr2_binarydeb_quantal_amd64
+- ros-hydro-moveit-pr2_binarydeb_quantal_i386
+- ros-hydro-moveit-pr2_binarydeb_raring_amd64
+- ros-hydro-moveit-pr2_binarydeb_raring_i386
+repo_name: moveit_pr2
+repo_url: ''
+srvs: []
+timestamp: 1405964127.79047
+url: http://moveit.ros.org
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_pr2.git
+vcs_version: hydro-devel

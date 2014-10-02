@@ -1,0 +1,49 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/dynamic_tf_publisher/html
+authors: Manabu Saito <saito@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- message_runtime
+- tf
+- rospy
+- message_generation
+- geometry_msgs
+depends_on:
+- rosjava_messages
+- jsk_interactive
+- jsk_common
+- jsk_interactive_marker
+description: dynamically set the tf trensformation
+devel_jobs:
+- devel-hydro-jsk_common
+doc_job: doc-hydro-jsk_common
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Ryohei Ueda <garaemon@gmail.com>
+metapackages:
+- jsk_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-dynamic-tf-publisher_sourcedeb
+- ros-hydro-dynamic-tf-publisher_binarydeb_precise_amd64
+- ros-hydro-dynamic-tf-publisher_binarydeb_precise_i386
+- ros-hydro-dynamic-tf-publisher_binarydeb_quantal_amd64
+- ros-hydro-dynamic-tf-publisher_binarydeb_quantal_i386
+- ros-hydro-dynamic-tf-publisher_binarydeb_raring_amd64
+- ros-hydro-dynamic-tf-publisher_binarydeb_raring_i386
+repo_name: jsk_common
+repo_url: ''
+srvs:
+- DissocTF
+- SetDynamicTF
+- DeleteTF
+- AssocTF
+timestamp: 1405771492.624814
+url: http://ros.org/wiki/dynamic_tf_publisher
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

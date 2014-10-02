@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rtt_actionlib/html
+authors: Jonathan Bohren
+brief: ''
+bugtracker: https://github.com/orocos/rtt_ros_integration/issues
+depends:
+- rtt_roscomm
+- catkin
+- roscpp
+- rtt_ros
+- actionlib
+- rtt_actionlib_msgs
+- rtt_rosclock
+- actionlib_msgs
+depends_on:
+- rtt_ros_integration
+description: The rtt_actionlib package
+devel_jobs:
+- devel-hydro-rtt_ros_integration
+doc_job: doc-hydro-rtt_ros_integration
+has_changelog_rst: false
+license: BSD
+maintainer_status: developed
+maintainers: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+metapackages:
+- rtt_ros_integration
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rtt-actionlib_sourcedeb
+- ros-hydro-rtt-actionlib_binarydeb_precise_amd64
+- ros-hydro-rtt-actionlib_binarydeb_precise_i386
+- ros-hydro-rtt-actionlib_binarydeb_quantal_amd64
+- ros-hydro-rtt-actionlib_binarydeb_quantal_i386
+- ros-hydro-rtt-actionlib_binarydeb_raring_amd64
+- ros-hydro-rtt-actionlib_binarydeb_raring_i386
+repo_name: rtt_ros_integration
+repo_url: ''
+srvs: []
+timestamp: 1405975341.009952
+url: http://ros.org/wiki/rtt_ros_integration
+vcs: git
+vcs_uri: https://github.com/orocos/rtt_ros_integration.git
+vcs_version: hydro-devel

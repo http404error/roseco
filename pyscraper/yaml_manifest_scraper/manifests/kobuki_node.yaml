@@ -1,0 +1,63 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kobuki_node/html
+authors: Daniel Stonier <stonier@yujinrobot.com>, Younghun Ju <yhju@yujinrobot.com>,
+  Jorge Santos Simon <jorge@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/kobuki/issues
+depends:
+- catkin
+- diagnostic_updater
+- kobuki_ftdi
+- ecl_sigslots
+- ecl_exceptions
+- nav_msgs
+- roscpp
+- kobuki_safety_controller
+- ecl_threads
+- tf
+- kobuki_keyop
+- nodelet
+- kobuki_driver
+- kobuki_msgs
+- diagnostic_aggregator
+- sensor_msgs
+- std_msgs
+- ecl_streams
+- rospy
+- angles
+- diagnostic_msgs
+- rviz
+- pluginlib
+- geometry_msgs
+depends_on:
+- kobuki_testsuite
+- turtlebot_bringup
+- kobuki
+description: 'ROS nodelet for Kobuki: ROS wrapper for the Kobuki driver.'
+devel_jobs:
+- devel-hydro-kobuki
+doc_job: doc-hydro-kobuki
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <stonier@yujinrobot.com>
+metapackages:
+- kobuki
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-kobuki-node_sourcedeb
+- ros-hydro-kobuki-node_binarydeb_precise_amd64
+- ros-hydro-kobuki-node_binarydeb_precise_i386
+- ros-hydro-kobuki-node_binarydeb_quantal_amd64
+- ros-hydro-kobuki-node_binarydeb_quantal_i386
+- ros-hydro-kobuki-node_binarydeb_raring_amd64
+- ros-hydro-kobuki-node_binarydeb_raring_i386
+repo_name: kobuki
+repo_url: https://github.com/yujinrobot/kobuki
+srvs: []
+timestamp: 1405974097.802687
+url: http://ros.org/wiki/kobuki_node
+vcs: git
+vcs_uri: https://github.com/yujinrobot/kobuki.git
+vcs_version: hydro

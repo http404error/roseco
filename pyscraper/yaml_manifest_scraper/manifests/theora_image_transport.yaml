@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/theora_image_transport/html
+authors: Patrick Mihelich, Ethan Dreyfuss
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- pluginlib
+- rosbag
+- message_runtime
+- image_transport
+- tf
+- libogg
+- message_generation
+- cv_bridge
+- libtheora
+depends_on:
+- rosjava_messages
+- image_transport_plugins
+description: "Theora_image_transport provides a plugin to image_transport for\n  \
+  \  transparently sending an image stream encoded with the Theora codec."
+doc_job: doc-hydro-image_transport_plugins
+has_changelog_rst: false
+license: BSD
+maintainers: Julius Kammerl <jkammerl@willowgarage.com>
+metapackages:
+- image_transport_plugins
+msgs:
+- Packet
+package_type: package
+release_jobs:
+- ros-hydro-theora-image-transport_sourcedeb
+- ros-hydro-theora-image-transport_binarydeb_precise_amd64
+- ros-hydro-theora-image-transport_binarydeb_precise_i386
+- ros-hydro-theora-image-transport_binarydeb_quantal_amd64
+- ros-hydro-theora-image-transport_binarydeb_quantal_i386
+- ros-hydro-theora-image-transport_binarydeb_raring_amd64
+- ros-hydro-theora-image-transport_binarydeb_raring_i386
+repo_name: image_transport_plugins
+repo_url: ''
+srvs: []
+timestamp: 1405771251.49484
+url: http://www.ros.org/wiki/image_transport_plugins
+vcs: git
+vcs_uri: https://github.com/ros-perception/image_transport_plugins.git
+vcs_version: hydro-devel

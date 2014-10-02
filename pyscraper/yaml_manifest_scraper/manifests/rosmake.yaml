@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosmake/html
+authors: Tully Foote <tfoote@osrfoundation.org>
+brief: ''
+bugtracker: ''
+depends:
+- python-rospkg
+- catkin
+depends_on:
+- ros
+- multi_map_server
+description: "rosmake is a ros dependency aware build tool which can be used to\n\
+  \     build all dependencies in the correct order."
+devel_jobs:
+- devel-hydro-ros
+doc_job: doc-hydro-ros
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosmake_sourcedeb
+- ros-hydro-rosmake_binarydeb_precise_amd64
+- ros-hydro-rosmake_binarydeb_precise_i386
+- ros-hydro-rosmake_binarydeb_quantal_amd64
+- ros-hydro-rosmake_binarydeb_quantal_i386
+- ros-hydro-rosmake_binarydeb_raring_amd64
+- ros-hydro-rosmake_binarydeb_raring_i386
+repo_name: ros
+repo_url: ''
+srvs: []
+timestamp: 1405974953.688181
+url: http://ros.org/wiki/rosmake
+vcs: git
+vcs_uri: https://github.com/ros/ros.git
+vcs_version: hydro-devel

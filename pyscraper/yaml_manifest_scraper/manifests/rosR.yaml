@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosR/html
+authors: "Andr\xE9 Dietrich, Sebastian Zug"
+brief: rosR
+bugtracker: ''
+depends:
+- r-cran-rcpp
+- roscpp
+- topic_tools
+- rospy
+- rosbag
+- swig2.0
+depends_on:
+- rosR_demos
+description: "\n\n     rosR\n\n  "
+doc_job: doc-hydro-rosR
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: rosR
+repo_url: ''
+srvs: []
+timestamp: 1405773404.276219
+url: http://ros.org/wiki/rosR
+vcs: svn
+vcs_uri: http://svn.code.sf.net/p/ivs-ros-pkg/code/trunk/rosR
+vcs_version: HEAD

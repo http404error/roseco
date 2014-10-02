@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/husky_interactive_markers/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- interactive_markers
+- catkin
+- roscpp
+- visualization_msgs
+depends_on:
+- husky_viz
+description: Interactive markers for controlling Husky from inside rviz.
+doc_job: doc-hydro-husky_interactive_markers
+has_changelog_rst: true
+license: BSD
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-husky-interactive-markers_sourcedeb
+- ros-hydro-husky-interactive-markers_binarydeb_precise_amd64
+- ros-hydro-husky-interactive-markers_binarydeb_precise_i386
+- ros-hydro-husky-interactive-markers_binarydeb_quantal_amd64
+- ros-hydro-husky-interactive-markers_binarydeb_quantal_i386
+- ros-hydro-husky-interactive-markers_binarydeb_raring_amd64
+- ros-hydro-husky-interactive-markers_binarydeb_raring_i386
+repo_name: husky_interactive_markers
+repo_url: ''
+srvs: []
+timestamp: 1405973785.129336
+url: ''
+vcs: git
+vcs_uri: https://github.com/husky/husky_interactive_markers.git
+vcs_version: hydro-devel

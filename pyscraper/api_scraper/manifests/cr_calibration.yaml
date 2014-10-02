@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cr_calibration/html
+authors: youhei kakiuchi, JSK
+brief: cr_calibration
+bugtracker: ''
+depends:
+- kdl
+- message_filters
+- stereo_synchronizer
+- sensor_msgs
+- opencv2
+- rospy
+- tf
+- geometry_msgs
+- cv_bridge
+- tf_conversions
+depends_on: []
+description: "\n\n     cr_calibration\n\n  "
+doc_job: doc-hydro-jsk_recognition
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_recognition
+repo_url: ''
+srvs: []
+timestamp: 1405974171.627394
+url: http://ros.org/wiki/cr_calibration
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_recognition.git
+vcs_version: master

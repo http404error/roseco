@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/industrial_robot_simulator/html
+authors: Shaun Edwards
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- industrial_robot_client
+- trajectory_msgs
+- sensor_msgs
+- control_msgs
+- std_msgs
+depends_on:
+- fanuc_lrmate200ic5l_moveit_config
+- fanuc_m10ia_moveit_config
+- fanuc_lrmate200ic_moveit_config
+- irb_6640_moveit_config
+- industrial_core
+- fanuc_lrmate200id_moveit_config
+- irb_2400_moveit_config
+- fanuc_m20ia_moveit_config
+- fanuc_m20ia10l_moveit_config
+- fanuc_m16ib20_arm_navigation
+- fanuc_m430ia2f_moveit_config
+- fanuc_lrmate200ic5h_moveit_config
+- fanuc_m10ia_arm_navigation
+- fanuc_m430ia2f_arm_navigation
+- fanuc_m16ib20_moveit_config
+- fanuc_m430ia2p_moveit_config
+description: The industrial robot simulator is a stand in for industrial robot driver
+  node(s).  It adheres to the driver specification for industrial robot controllers.
+devel_jobs:
+- devel-hydro-industrial_core
+doc_job: doc-hydro-industrial_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Shaun Edwards <sedwards@swri.org>
+metapackages:
+- industrial_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-industrial-robot-simulator_sourcedeb
+- ros-hydro-industrial-robot-simulator_binarydeb_precise_amd64
+- ros-hydro-industrial-robot-simulator_binarydeb_precise_i386
+- ros-hydro-industrial-robot-simulator_binarydeb_quantal_amd64
+- ros-hydro-industrial-robot-simulator_binarydeb_quantal_i386
+- ros-hydro-industrial-robot-simulator_binarydeb_raring_amd64
+- ros-hydro-industrial-robot-simulator_binarydeb_raring_i386
+repo_name: industrial_core
+repo_url: ''
+srvs: []
+timestamp: 1405771384.913651
+url: http://ros.org/wiki/industrial_robot_client
+vcs: git
+vcs_uri: https://github.com/ros-industrial/industrial_core.git
+vcs_version: hydro

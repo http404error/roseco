@@ -1,0 +1,33 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hlugv_apps/html
+authors: Stefan Kohlbrecher
+brief: hlugv_apps provides launch files to start high level modules like mapping,
+  exploration etc. for the hlugv system
+bugtracker: ''
+depends:
+- object_tracker
+- worldmodel_geotiff_plugins
+- hector_exploration_controller
+- hlugv_gazebo
+- hector_trajectory_server
+- hector_geotiff
+- hector_exploration_node
+- hector_map_server
+- hector_mapping
+depends_on:
+- hlugv_gazebo_launch
+description: "\n\n     hlugv_apps provides launch files to start high level modules\
+  \ like mapping, exploration etc. for the hlugv system\n\n  "
+doc_job: doc-hydro-hlugv_common
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: hlugv_common
+repo_url: ''
+srvs: []
+timestamp: 1405973645.638454
+url: http://ros.org/wiki/hlugv_apps
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hlugv_common
+vcs_version: HEAD

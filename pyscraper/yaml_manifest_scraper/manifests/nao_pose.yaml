@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nao_pose/html
+authors: Armin Hornung, Severin Lemaignan
+brief: ''
+bugtracker: https://github.com/ros-nao/nao_robot/issues
+depends:
+- nao_msgs
+- catkin
+- std_msgs
+- actionlib
+- trajectory_msgs
+- sensor_msgs
+- rospy
+- std_srvs
+- actionlib_msgs
+depends_on:
+- nao_bringup
+- nao_robot
+description: "<p>\n          This package contains nodes for managing Nao's poses.\n\
+  \    </p>"
+devel_jobs:
+- devel-hydro-nao_robot
+doc_job: doc-hydro-nao_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Severin Lemaignan <severin.lemaignan@epfl.ch>
+metapackages:
+- nao_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-nao-pose_sourcedeb
+- ros-hydro-nao-pose_binarydeb_precise_amd64
+- ros-hydro-nao-pose_binarydeb_precise_i386
+- ros-hydro-nao-pose_binarydeb_quantal_amd64
+- ros-hydro-nao-pose_binarydeb_quantal_i386
+- ros-hydro-nao-pose_binarydeb_raring_amd64
+- ros-hydro-nao-pose_binarydeb_raring_i386
+repo_name: nao_robot
+repo_url: https://github.com/ros-nao/nao_robot
+srvs: []
+timestamp: 1405974441.36625
+url: http://ros.org/wiki/nao_pose
+vcs: git
+vcs_uri: https://github.com/ros-nao/nao_robot.git
+vcs_version: master

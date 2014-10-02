@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nmea_gps_driver/html
+authors: Eric Perko <eric@ericperko.com>, Steven Martin
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- nmea_navsat_driver
+- message_runtime
+- sensor_msgs
+- python-serial
+- geometry_msgs
+- rospy
+depends_on: []
+deprecated: This package will be removed in ROS Indigo. The nmea_navsat_driver package
+  replaces this package. The nmea_serial_driver node contained in that package should
+  be a dropin replacement for nmea_gps_driver.py .
+description: Package to parse NMEA strings and publish a very simple GPS messgae.
+  Does not require the GPSD deamon.
+doc_job: doc-hydro-nmea_gps_driver
+has_changelog_rst: true
+license: BSD
+maintainer_status: end-of-life
+maintainer_status_description: Replaced by the nmea_navsat_driver package. Scheduled
+  to be removed in Indigo.
+maintainers: Eric Perko <eric@ericperko.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-nmea-gps-driver_sourcedeb
+- ros-hydro-nmea-gps-driver_binarydeb_precise_amd64
+- ros-hydro-nmea-gps-driver_binarydeb_precise_i386
+- ros-hydro-nmea-gps-driver_binarydeb_quantal_amd64
+- ros-hydro-nmea-gps-driver_binarydeb_quantal_i386
+- ros-hydro-nmea-gps-driver_binarydeb_raring_amd64
+- ros-hydro-nmea-gps-driver_binarydeb_raring_i386
+repo_name: nmea_gps_driver
+repo_url: ''
+srvs: []
+timestamp: 1405974500.773206
+url: http://ros.org/wiki/nmea_gps_driver
+vcs: git
+vcs_uri: https://github.com/ros-drivers/nmea_gps_driver.git
+vcs_version: hydro-devel

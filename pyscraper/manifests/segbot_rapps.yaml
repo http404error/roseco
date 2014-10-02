@@ -1,0 +1,23 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/segbot_rapps/html
+authors: Piyush Khandelwal <piyushk@gmail.com>
+brief: ''
+bugtracker: https://github.com/utexas-bwi/segbot_rocon/issues
+depends:
+- catkin
+depends_on: []
+description: Common rapps used by Segbots
+doc_job: doc-hydro-segbot_rocon
+has_changelog_rst: false
+license: BSD
+maintainers: Piyush Khandelwal <piyushk@gmail.com>
+msgs: []
+package_type: package
+repo_name: segbot_rocon
+repo_url: https://github.com/utexas-bwi/segbot_rocon.git
+srvs: []
+timestamp: 1405965111.538956
+url: http://ros.org/wiki/segbot_rapps
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/segbot_rocon.git
+vcs_version: master

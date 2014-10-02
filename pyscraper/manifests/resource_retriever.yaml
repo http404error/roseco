@@ -1,0 +1,54 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/resource_retriever/html
+authors: Josh Faust <jfaust@willowgarage.com>
+brief: ''
+bugtracker: https://github.com/ros/robot_model/issues
+depends:
+- rosconsole
+- curl
+- roslib
+- catkin
+depends_on:
+- visp_tracker
+- rviz
+- geometric_shapes
+- ar_pose
+- collada_urdf
+- uwsim
+- collada_urdf_jsk_patch
+- robot_model
+- visp_auto_tracker
+- pr2_navigation_self_filter
+description: "This package retrieves data from url-format files such as http://,\n\
+  \   ftp://, package:// file://, etc., and loads the data into memory.\n   The package://\
+  \ url for ros packages is translated into a local\n   file:// url.  The resourse\
+  \ retriever was initially designed to load\n   mesh files into memory, but it can\
+  \ be used for any type of\n   data. The resource retriever is based on the the libcurl\
+  \ library."
+devel_jobs:
+- devel-hydro-robot_model
+doc_job: doc-hydro-robot_model
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@gmail.com>
+metapackages:
+- robot_model
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-resource-retriever_sourcedeb
+- ros-hydro-resource-retriever_binarydeb_precise_amd64
+- ros-hydro-resource-retriever_binarydeb_precise_i386
+- ros-hydro-resource-retriever_binarydeb_quantal_amd64
+- ros-hydro-resource-retriever_binarydeb_quantal_i386
+- ros-hydro-resource-retriever_binarydeb_raring_amd64
+- ros-hydro-resource-retriever_binarydeb_raring_i386
+repo_name: robot_model
+repo_url: https://github.com/ros/robot_model
+srvs: []
+timestamp: 1405974877.182745
+url: http://ros.org/wiki/resource_retriever
+vcs: git
+vcs_uri: https://github.com/ros/robot_model.git
+vcs_version: hydro-devel

@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtlebot_msgs/html
+authors: Jorge Santos <jorge@rnd.yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_msgs/issues
+depends:
+- std_srvs
+- std_msgs
+- message_runtime
+- sensor_msgs
+- message_generation
+- catkin
+depends_on:
+- turtlebot_follower
+- rosjava_messages
+- rosruby_messages
+- turtlebot_panorama
+description: Turtlebot messages, services and actions
+devel_jobs:
+- devel-hydro-turtlebot_msgs
+doc_job: doc-hydro-turtlebot_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Jorge Santos <jorge@rnd.yujinrobot.com>
+msgs:
+- PanoramaImg
+package_type: package
+release_jobs:
+- ros-hydro-turtlebot-msgs_sourcedeb
+- ros-hydro-turtlebot-msgs_binarydeb_precise_amd64
+- ros-hydro-turtlebot-msgs_binarydeb_precise_i386
+- ros-hydro-turtlebot-msgs_binarydeb_quantal_amd64
+- ros-hydro-turtlebot-msgs_binarydeb_quantal_i386
+- ros-hydro-turtlebot-msgs_binarydeb_raring_amd64
+- ros-hydro-turtlebot-msgs_binarydeb_raring_i386
+repo_name: turtlebot_msgs
+repo_url: https://github.com/turtlebot/turtlebot_msgs
+srvs:
+- TakePanorama
+- SetFollowState
+timestamp: 1405965279.203723
+url: http://ros.org/wiki/turtlebot_msgs
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_msgs.git
+vcs_version: hydro

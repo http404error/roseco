@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/parallel_util/html
+authors: Ryohei Ueda (ueda@jsk.t.u-tokyo.ac.jp) and Rosen Diankov (rosen.diankov@gmail.com)
+brief: parallel_util
+bugtracker: ''
+depends:
+- roslaunch
+- rosgraph
+- rospy
+- python-paramiko
+- python-meminfo-total
+depends_on: []
+description: "\n    parallel_util is a collection of the utility scripts for parallel\
+  \ processing.\n  "
+doc_job: doc-hydro-jsk_common
+license: Apache License, Version 2.0
+maintainers: ''
+msgs:
+- CPUInfo
+package_type: package
+repo_name: jsk_common
+repo_url: ''
+srvs:
+- PickledService
+timestamp: 1405771562.806231
+url: http://ros.org/wiki/parallel_util
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

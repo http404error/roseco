@@ -1,0 +1,27 @@
+authors: Kurt Konolige, Ethan Rublee <erublee@willowgarage.com>
+depends:
+- ecto_ros
+- catkin
+- opencv_candidate
+- eigen
+- ecto_opencv
+- cmake_modules
+- ecto
+- boost
+- pcl_ros
+description: Common tools for image based pipelines. Includes stereo and mono camera
+  drivers, rectification, image sinks, calibration, etc..
+license: BSD
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-ecto-image-pipeline_sourcedeb
+- ros-hydro-ecto-image-pipeline_binarydeb_precise_amd64
+- ros-hydro-ecto-image-pipeline_binarydeb_precise_i386
+- ros-hydro-ecto-image-pipeline_binarydeb_quantal_amd64
+- ros-hydro-ecto-image-pipeline_binarydeb_quantal_i386
+- ros-hydro-ecto-image-pipeline_binarydeb_raring_amd64
+- ros-hydro-ecto-image-pipeline_binarydeb_raring_i386
+repo_name: ecto_image_pipeline
+timestamp: 1405956414.761646
+url: http://plasmodic.github.io/ecto_image_pipeline/

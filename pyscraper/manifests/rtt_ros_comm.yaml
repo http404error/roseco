@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rtt_ros_comm/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends: &id001
+- rtt_rosgraph_msgs
+- catkin
+- rtt_std_msgs
+- rtt_std_srvs
+depends_on: []
+description: The rtt_ros_comm package
+devel_jobs:
+- devel-hydro-rtt_ros_integration
+doc_job: doc-hydro-rtt_ros_integration
+has_changelog_rst: false
+license: BSD
+maintainer_status: developed
+maintainers: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-rtt-ros-comm_sourcedeb
+- ros-hydro-rtt-ros-comm_binarydeb_precise_amd64
+- ros-hydro-rtt-ros-comm_binarydeb_precise_i386
+- ros-hydro-rtt-ros-comm_binarydeb_quantal_amd64
+- ros-hydro-rtt-ros-comm_binarydeb_quantal_i386
+- ros-hydro-rtt-ros-comm_binarydeb_raring_amd64
+- ros-hydro-rtt-ros-comm_binarydeb_raring_i386
+repo_name: rtt_ros_integration
+repo_url: ''
+srvs: []
+timestamp: 1405975287.571794
+url: ''
+vcs: git
+vcs_uri: https://github.com/orocos/rtt_ros_integration.git
+vcs_version: hydro-devel

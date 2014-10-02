@@ -1,0 +1,54 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/leg_detector/html
+authors: Caroline Pantofaru
+brief: ''
+bugtracker: ''
+depends:
+- image_geometry
+- dynamic_reconfigure
+- laser_geometry
+- map_laser
+- std_srvs
+- roscpp
+- people_tracking_filter
+- std_msgs
+- sensor_msgs
+- bfl
+- laser_filters
+- geometry_msgs
+- people_msgs
+- visualization_msgs
+- tf
+- catkin
+depends_on:
+- people_velocity_tracker
+- people
+description: Leg Detector using a machine learning approach to find leg-like patterns
+  of laser scanner readings.
+devel_jobs:
+- devel-hydro-people
+doc_job: doc-hydro-people
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>
+metapackages:
+- people
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-leg-detector_sourcedeb
+- ros-hydro-leg-detector_binarydeb_precise_amd64
+- ros-hydro-leg-detector_binarydeb_precise_i386
+- ros-hydro-leg-detector_binarydeb_quantal_amd64
+- ros-hydro-leg-detector_binarydeb_quantal_i386
+- ros-hydro-leg-detector_binarydeb_raring_amd64
+- ros-hydro-leg-detector_binarydeb_raring_i386
+repo_name: people
+repo_url: ''
+srvs: []
+timestamp: 1405974721.258663
+url: http://ros.org/wiki/leg_detector
+vcs: git
+vcs_uri: https://github.com/wg-perception/people.git
+vcs_version: hydro-devel

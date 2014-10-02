@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/qt_gui_app/html
+authors: Dirk Thomas
+brief: ''
+bugtracker: https://github.com/ros-visualization/qt_gui_app/issues
+depends:
+- catkin
+- qt_gui
+depends_on:
+- qt_gui_core
+description: qt_gui_app provides the main to start an instance of the integrated graphical
+  user interface provided by qt_gui.
+devel_jobs:
+- devel-hydro-qt_gui_core
+doc_job: doc-hydro-qt_gui_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- qt_gui_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-qt-gui-app_sourcedeb
+- ros-hydro-qt-gui-app_binarydeb_precise_amd64
+- ros-hydro-qt-gui-app_binarydeb_precise_i386
+- ros-hydro-qt-gui-app_binarydeb_quantal_amd64
+- ros-hydro-qt-gui-app_binarydeb_quantal_i386
+- ros-hydro-qt-gui-app_binarydeb_raring_amd64
+- ros-hydro-qt-gui-app_binarydeb_raring_i386
+repo_name: qt_gui_core
+repo_url: https://github.com/ros-visualization/qt_gui_app
+srvs: []
+timestamp: 1405772675.661787
+url: http://ros.org/wiki/qt_gui_app
+vcs: git
+vcs_uri: https://github.com/ros-visualization/qt_gui_core.git
+vcs_version: groovy-devel

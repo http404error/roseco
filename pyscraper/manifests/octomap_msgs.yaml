@@ -1,0 +1,52 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/octomap_msgs/html
+authors: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+brief: ''
+bugtracker: https://github.com/OctoMap/octomap_msgs/issues
+depends:
+- message_generation
+- std_msgs
+- message_runtime
+- geometry_msgs
+- catkin
+depends_on:
+- moveit_msgs
+- octomap_ros
+- rosjava_messages
+- octomap_rviz_plugins
+- moveit_core
+- humanoid_localization
+- octomap_server
+- rosruby_messages
+- humanoid_navigation
+description: This package provides messages and serializations / conversion for the
+  <a href="http://octomap.github.com">OctoMap library</a>.
+devel_jobs:
+- devel-hydro-octomap_msgs
+doc_job: doc-hydro-octomap_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+msgs:
+- Octomap
+- OctomapWithPose
+package_type: package
+release_jobs:
+- ros-hydro-octomap-msgs_sourcedeb
+- ros-hydro-octomap-msgs_binarydeb_precise_amd64
+- ros-hydro-octomap-msgs_binarydeb_precise_i386
+- ros-hydro-octomap-msgs_binarydeb_quantal_amd64
+- ros-hydro-octomap-msgs_binarydeb_quantal_i386
+- ros-hydro-octomap-msgs_binarydeb_raring_amd64
+- ros-hydro-octomap-msgs_binarydeb_raring_i386
+repo_name: octomap_msgs
+repo_url: ''
+srvs:
+- BoundingBoxQuery
+- GetOctomap
+timestamp: 1405772353.132927
+url: http://ros.org/wiki/octomap_msgs
+vcs: git
+vcs_uri: https://github.com/OctoMap/octomap_msgs.git
+vcs_version: hydro-devel

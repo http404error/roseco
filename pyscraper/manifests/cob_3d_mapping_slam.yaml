@@ -1,0 +1,33 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_3d_mapping_slam/html
+authors: Joshua Hampp
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- roscpp
+- cgal
+- tf
+- cob_3d_mapping_msgs
+- tf_conversions
+- pcl_ros
+depends_on:
+- cob_environment_perception
+description: 3D SLAM algorithms.
+doc_job: doc-hydro-cob_environment_perception
+has_changelog_rst: false
+license: LGPL
+maintainers: Joshua Hampp <josh@ipa.fhg.de>
+metapackages:
+- cob_environment_perception
+msgs: []
+package_type: package
+repo_name: cob_environment_perception
+repo_url: ''
+srvs: []
+timestamp: 1405962432.790355
+url: http://wiki.ros.org/cob_3d_mapping_slam
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_environment_perception.git
+vcs_version: hydro_dev

@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_dashboard/html
+authors: Alexander Bubeck <aub@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rqt_gui_cpp
+- rqt_gui
+- roslib
+- rospy
+- pr2_msgs
+- rqt_pr2_dashboard
+- std_srvs
+depends_on:
+- cob_bringup
+- cob_command_tools
+description: cob_dashboard is a modified version of [[pr2_dashboard]].
+devel_jobs:
+- devel-hydro-cob_command_tools
+doc_job: doc-hydro-cob_command_tools
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Alexander Bubeck <aub@ipa.fhg.de>
+metapackages:
+- cob_command_tools
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-dashboard_sourcedeb
+- ros-hydro-cob-dashboard_binarydeb_precise_amd64
+- ros-hydro-cob-dashboard_binarydeb_precise_i386
+- ros-hydro-cob-dashboard_binarydeb_quantal_amd64
+- ros-hydro-cob-dashboard_binarydeb_quantal_i386
+- ros-hydro-cob-dashboard_binarydeb_raring_amd64
+- ros-hydro-cob-dashboard_binarydeb_raring_i386
+repo_name: cob_command_tools
+repo_url: ''
+srvs: []
+timestamp: 1405973051.184693
+url: http://ros.org/wiki/cob_dashboard
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_command_tools.git
+vcs_version: hydro_release_candidate

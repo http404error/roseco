@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_rqt_plugins/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_rqt_plugins/issues
+depends: &id001
+- rocon_gateway_graph
+- catkin
+depends_on:
+- rocon
+description: Rqt plugins for monitoring and interacting with the rocon framework.
+devel_jobs:
+- devel-hydro-rocon_rqt_plugins
+doc_job: doc-hydro-rocon_rqt_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- rocon
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-rocon-rqt-plugins_sourcedeb
+- ros-hydro-rocon-rqt-plugins_binarydeb_precise_amd64
+- ros-hydro-rocon-rqt-plugins_binarydeb_precise_i386
+- ros-hydro-rocon-rqt-plugins_binarydeb_quantal_amd64
+- ros-hydro-rocon-rqt-plugins_binarydeb_quantal_i386
+- ros-hydro-rocon-rqt-plugins_binarydeb_raring_amd64
+- ros-hydro-rocon-rqt-plugins_binarydeb_raring_i386
+repo_name: rocon_rqt_plugins
+repo_url: https://github.com/robotics-in-concert/rocon_rqt_plugins
+srvs: []
+timestamp: 1405773032.348573
+url: http://www.ros.org/wiki/rocon_rqt_plugins
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_rqt_plugins.git
+vcs_version: hydro

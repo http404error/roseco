@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nao_driver/html
+authors: Armin Hornung, Stefan Osswald, Daniel Maier, Miguel Sarabia, Severin Lemaignan
+brief: ''
+bugtracker: https://github.com/ros-nao/nao_robot/issues
+depends:
+- dynamic_reconfigure
+- nav_msgs
+- nao_msgs
+- catkin
+- roscpp
+- std_srvs
+- std_msgs
+- actionlib
+- sensor_msgs
+- camera_info_manager_py
+- geometry_msgs
+- roslaunch
+- humanoid_nav_msgs
+- tf
+- rospy
+- boost
+- diagnostic_msgs
+depends_on:
+- nao_bringup
+- nao_robot
+description: "<p>\n      Driver package for the Nao robot, providing access to walking\
+  \ commands,\n      joint angles, and sensor data (odometry, IMU, camera, ...). The\n\
+  \      most-current version is compatible with the Nao API version 1.12 or newer,\n\
+  \      connecting to a real or simulated Nao by wrapping Aldebaran Robotics'\n \
+  \     NaoQI API in Python. This requires the &quot;lib&quot; directory of the Aldebaran\n\
+  \      Python SDK to be in your PYTHONPATH environment variable.\n    </p>"
+devel_jobs:
+- devel-hydro-nao_robot
+doc_job: doc-hydro-nao_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+metapackages:
+- nao_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-nao-driver_sourcedeb
+- ros-hydro-nao-driver_binarydeb_precise_amd64
+- ros-hydro-nao-driver_binarydeb_precise_i386
+- ros-hydro-nao-driver_binarydeb_quantal_amd64
+- ros-hydro-nao-driver_binarydeb_quantal_i386
+- ros-hydro-nao-driver_binarydeb_raring_amd64
+- ros-hydro-nao-driver_binarydeb_raring_i386
+repo_name: nao_robot
+repo_url: https://github.com/ros-nao/nao_robot
+srvs: []
+timestamp: 1405974436.068247
+url: http://ros.org/wiki/nao_driver
+vcs: git
+vcs_uri: https://github.com/ros-nao/nao_robot.git
+vcs_version: master

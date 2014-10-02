@@ -1,0 +1,86 @@
+actions:
+- SpawnRobot
+- DeleteRobot
+- RegisterRobot
+api_documentation: http://docs.ros.org/hydro/api/stdr_msgs/html
+authors: Chris Zalidis
+brief: ''
+bugtracker: https://github.com/stdr-simulator-ros-pkg/stdr_simulator/issues
+depends:
+- nav_msgs
+- catkin
+- actionlib_msgs
+- message_runtime
+- std_msgs
+- geometry_msgs
+- message_generation
+depends_on:
+- rosjava_messages
+- stdr_samples
+- stdr_simulator
+- stdr_robot
+- stdr_parser
+- stdr_server
+- stdr_gui
+description: Provides msgs, services and actions for STDR Simulator.
+doc_job: doc-hydro-stdr_simulator
+has_changelog_rst: true
+license: GPLv3
+maintainer_status: maintained
+maintainers: Chris Zalidis <zalidis@gmail.com>
+metapackages:
+- stdr_simulator
+msgs:
+- SoundSensorMsg
+- ThermalSourceVector
+- RfidSensorMsg
+- ThermalSensorMeasurementMsg
+- SoundSource
+- SoundSourceVector
+- CO2SensorMsg
+- RfidTagVector
+- CO2SourceVector
+- ThermalSource
+- CO2SensorMeasurementMsg
+- FootprintMsg
+- CO2Source
+- Noise
+- SoundSensorMeasurementMsg
+- RobotMsg
+- RobotIndexedVectorMsg
+- RfidSensorMeasurementMsg
+- RfidTag
+- RobotIndexedMsg
+- KinematicMsg
+- LaserSensorMsg
+- SonarSensorMsg
+- ThermalSensorMsg
+package_type: package
+release_jobs:
+- ros-hydro-stdr-msgs_sourcedeb
+- ros-hydro-stdr-msgs_binarydeb_precise_amd64
+- ros-hydro-stdr-msgs_binarydeb_precise_i386
+- ros-hydro-stdr-msgs_binarydeb_quantal_amd64
+- ros-hydro-stdr-msgs_binarydeb_quantal_i386
+- ros-hydro-stdr-msgs_binarydeb_raring_amd64
+- ros-hydro-stdr-msgs_binarydeb_raring_i386
+repo_name: stdr_simulator
+repo_url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator
+srvs:
+- RegisterGui
+- AddThermalSource
+- LoadMap
+- AddSoundSource
+- AddRfidTag
+- MoveRobot
+- DeleteThermalSource
+- DeleteSoundSource
+- DeleteCO2Source
+- AddCO2Source
+- DeleteRfidTag
+- LoadExternalMap
+timestamp: 1405773961.750696
+url: http://stdr-simulator-ros-pkg.github.io
+vcs: git
+vcs_uri: https://github.com/stdr-simulator-ros-pkg/stdr_simulator.git
+vcs_version: hydro-devel

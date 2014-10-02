@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_sensors_gazebo/html
+authors: Stefan Kohlbrecher <kohlbrecher@sim.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- hector_gazebo_plugins
+- catkin
+- gazebo_plugins
+- hector_sensors_description
+depends_on:
+- hector_quadrotor_gazebo
+description: hector_sensors_gazebo depends on the necessary plugins for using the
+  sensors from the hector_models repository.
+doc_job: doc-hydro-hector_gazebo
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hector-sensors-gazebo_sourcedeb
+- ros-hydro-hector-sensors-gazebo_binarydeb_precise_amd64
+- ros-hydro-hector-sensors-gazebo_binarydeb_precise_i386
+- ros-hydro-hector-sensors-gazebo_binarydeb_quantal_amd64
+- ros-hydro-hector-sensors-gazebo_binarydeb_quantal_i386
+- ros-hydro-hector-sensors-gazebo_binarydeb_raring_amd64
+- ros-hydro-hector-sensors-gazebo_binarydeb_raring_i386
+repo_name: hector_gazebo
+repo_url: ''
+srvs: []
+timestamp: 1405963328.223098
+url: http://ros.org/wiki/hector_sensors_gazebo
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git
+vcs_version: hydro-devel

@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/asctec_hl_gps/html
+authors: Markus Achtelik
+brief: ''
+bugtracker: https://github.com/ethz-asl/asctec_mav_framework/issues
+depends:
+- catkin
+- roscpp
+- message_filters
+- asctec_hl_comm
+- sensor_msgs
+- std_srvs
+depends_on:
+- asctec_mav_framework
+description: mission_control
+doc_job: doc-hydro-asctec_mav_framework
+has_changelog_rst: false
+license: BSD
+maintainers: Markus Achtelik <markus.achtelik_devel@mavt.ethz.ch>
+metapackages:
+- asctec_mav_framework
+msgs: []
+package_type: package
+repo_name: asctec_mav_framework
+repo_url: ''
+srvs: []
+timestamp: 1404948418.366619
+url: http://ros.org/wiki/mission_control
+vcs: git
+vcs_uri: https://github.com/ethz-asl/asctec_mav_framework.git
+vcs_version: master

@@ -1,0 +1,24 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_ugv_gazebo/html
+authors: Stefan Kohlbrecher
+brief: hector_ugv_gazebo
+bugtracker: ''
+depends:
+- hector_ugv_description
+depends_on: []
+description: "\n\n     hector_ugv_gazebo\n\n  "
+doc_job: doc-hydro-hector_ugv_common
+license: BSD
+maintainers: ''
+metapackages:
+- hector_ugv_common
+msgs: []
+package_type: package
+repo_name: hector_ugv_common
+repo_url: ''
+srvs: []
+timestamp: 1405973576.453512
+url: http://ros.org/wiki/hector_ugv_gazebo
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hector_ugv_common
+vcs_version: HEAD

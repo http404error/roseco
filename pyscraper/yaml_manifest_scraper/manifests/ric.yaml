@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ric/html
+authors: RoboTiCan <support@robotican.net>
+brief: ''
+bugtracker: ''
+depends: &id001
+- ric_mc
+- catkin
+- ric_description
+- ric_robot
+- ric_base_station
+depends_on: []
+description: ric package collection
+doc_job: doc-hydro-ric
+has_changelog_rst: false
+license: BSD
+maintainers: RoboTiCan <support@robotican.net>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: ric
+repo_url: ''
+srvs: []
+timestamp: 1405696492.446032
+url: http://www.ros.org/wiki/ric
+vcs: git
+vcs_uri: https://github.com/robotican/ric.git
+vcs_version: master

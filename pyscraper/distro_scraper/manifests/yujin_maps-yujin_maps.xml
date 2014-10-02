@@ -1,0 +1,13 @@
+<package>
+  <name>yujin_maps</name>
+  <version>0.2.2</version>
+  <description>The yujin_maps package</description>
+
+  <maintainer email="jihoonl@yujinrobot.com">Jihoon Lee</maintainer>
+  <author email="jihoonl@yujinrobot.com">Jihoon Lee</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

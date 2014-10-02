@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cogniteam_models/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends: &id001
+- lizi_description
+- bobcat_description
+- catkin
+depends_on: []
+description: Gazebo robot models
+doc_job: doc-hydro-cogniteam_models
+has_changelog_rst: false
+license: MIT
+maintainers: Igor Makhtes <igor@cogniteam.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: cogniteam_models
+repo_url: ''
+srvs: []
+timestamp: 1405973179.596698
+url: ''
+vcs: git
+vcs_uri: https://github.com/cogniteam/cogniteam_models.git
+vcs_version: master

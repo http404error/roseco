@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/multisense/html
+authors: Maintained by CarnegieRobotics LLC
+brief: ''
+bugtracker: ''
+depends: &id001
+- catkin
+- multisense_ros
+- multisense_cal_check
+- multisense_lib
+- multisense_description
+- multisense_bringup
+depends_on: []
+description: mulisense catkin driver
+devel_jobs:
+- devel-hydro-multisense_ros
+doc_job: doc-hydro-multisense_ros
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Maintained by Carnegie Robotics LLC <support@carnegierobotics.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-multisense_sourcedeb
+- ros-hydro-multisense_binarydeb_precise_amd64
+- ros-hydro-multisense_binarydeb_precise_i386
+- ros-hydro-multisense_binarydeb_quantal_amd64
+- ros-hydro-multisense_binarydeb_quantal_i386
+- ros-hydro-multisense_binarydeb_raring_amd64
+- ros-hydro-multisense_binarydeb_raring_i386
+repo_name: multisense_ros
+repo_url: ''
+srvs: []
+timestamp: 1405974447.700348
+url: http://ros.org/wiki/multisense
+vcs: hg
+vcs_uri: https://bitbucket.org/osrf/multisense_ros
+vcs_version: 1.0.0

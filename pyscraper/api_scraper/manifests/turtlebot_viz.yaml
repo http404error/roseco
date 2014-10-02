@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtlebot_viz/html
+authors: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_viz/issues
+depends: &id001
+- turtlebot_interactive_markers
+- turtlebot_dashboard
+- catkin
+- turtlebot_rviz_launchers
+depends_on: []
+description: Catkin meta-package for turtlebot_viz
+devel_jobs:
+- devel-hydro-turtlebot_viz
+doc_job: doc-hydro-turtlebot_viz
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-turtlebot-viz_sourcedeb
+- ros-hydro-turtlebot-viz_binarydeb_precise_amd64
+- ros-hydro-turtlebot-viz_binarydeb_precise_i386
+- ros-hydro-turtlebot-viz_binarydeb_quantal_amd64
+- ros-hydro-turtlebot-viz_binarydeb_quantal_i386
+- ros-hydro-turtlebot-viz_binarydeb_raring_amd64
+- ros-hydro-turtlebot-viz_binarydeb_raring_i386
+repo_name: turtlebot_viz
+repo_url: https://github.com/turtlebot/turtlebot_viz
+srvs: []
+timestamp: 1405774283.973418
+url: http://ros.org/wiki/turtlebot_viz
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_viz.git
+vcs_version: hydro

@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/artoolkit/html
+authors: Gautier Dumonteil
+brief: artoolkit
+bugtracker: ''
+depends: ''
+depends_on:
+- ar_kinect
+- ar_pose
+description: "\n\t     Artoolkit Library\n\t"
+doc_job: doc-hydro-ar_tools
+license: GPL
+maintainers: ''
+metapackages:
+- ar_tools
+msgs: []
+package_type: package
+repo_name: ar_tools
+repo_url: ''
+srvs: []
+timestamp: 1405972601.194906
+url: http://www.ros.org/wiki/artoolkit
+vcs: git
+vcs_uri: https://github.com/LucidOne/ar_tools.git
+vcs_version: master

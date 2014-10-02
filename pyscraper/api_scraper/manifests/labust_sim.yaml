@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/labust_sim/html
+authors: Gyula Nagy <dula.nad@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- rospy
+- auv_msgs
+- tf2_ros
+- snippets
+depends_on: []
+description: "The vehicle and sensor simulation package. The package\n\t\tcontains\
+  \ the 6DOF vehicle model,transform frame publishing \n\t\tand basic sensor simulations\
+  \ (imu, gps, dvl, etc.)."
+doc_job: doc-hydro-labust_ros_pkg
+has_changelog_rst: false
+license: BSD
+maintainers: Gyula Nagy <dula.nad@gmail.com>
+msgs: []
+package_type: package
+repo_name: labust_ros_pkg
+repo_url: ''
+srvs: []
+timestamp: 1405771613.850588
+url: ''
+vcs: git
+vcs_uri: https://github.com/labust/labust-ros-pkg.git
+vcs_version: master

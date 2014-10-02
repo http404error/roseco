@@ -1,0 +1,52 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ecl_containers/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/stonier/ecl_core/issues
+depends:
+- ecl_utilities
+- ecl_mpl
+- catkin
+- ecl_type_traits
+- ecl_license
+- ecl_formatters
+- ecl_converters
+- ecl_config
+- ecl_errors
+- ecl_exceptions
+depends_on:
+- ecl_geometry
+- ecl_core
+- ecl_core_apps
+- ecl_devices
+description: "The containers included here are intended to extend the stl containers.\n\
+  \    In all cases, these implementations are designed to implement\n    c++ conveniences\
+  \ and safety where speed is not sacrificed. \n\n    Also includes techniques for\
+  \ memory debugging of common problems such\n    as buffer overruns."
+devel_jobs:
+- devel-hydro-ecl_core
+doc_job: doc-hydro-ecl_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- ecl_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ecl-containers_sourcedeb
+- ros-hydro-ecl-containers_binarydeb_precise_amd64
+- ros-hydro-ecl-containers_binarydeb_precise_i386
+- ros-hydro-ecl-containers_binarydeb_quantal_amd64
+- ros-hydro-ecl-containers_binarydeb_quantal_i386
+- ros-hydro-ecl-containers_binarydeb_raring_amd64
+- ros-hydro-ecl-containers_binarydeb_raring_i386
+repo_name: ecl_core
+repo_url: https://github.com/stonier/ecl_core
+srvs: []
+timestamp: 1405963117.54829
+url: http://wiki.ros.org/ecl_containers
+vcs: git
+vcs_uri: https://github.com/stonier/ecl_core.git
+vcs_version: hydro-devel

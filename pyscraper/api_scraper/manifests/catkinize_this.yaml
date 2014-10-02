@@ -1,0 +1,20 @@
+authors: David V. Lu!!
+depends:
+- rospy
+- rospack
+- catkin
+description: catkinize_this
+license: BSD
+maintainers: David V. Lu!! <davidvlu@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-catkinize-this_sourcedeb
+- ros-hydro-catkinize-this_binarydeb_precise_amd64
+- ros-hydro-catkinize-this_binarydeb_precise_i386
+- ros-hydro-catkinize-this_binarydeb_quantal_amd64
+- ros-hydro-catkinize-this_binarydeb_quantal_i386
+- ros-hydro-catkinize-this_binarydeb_raring_amd64
+- ros-hydro-catkinize-this_binarydeb_raring_i386
+repo_name: wu_ros_tools
+timestamp: 1405956414.707886
+url: http://ros.org/wiki/catkinize_this

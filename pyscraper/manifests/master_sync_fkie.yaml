@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/master_sync_fkie/html
+authors: Alexander Tiderko
+brief: ''
+bugtracker: ''
+depends:
+- roslib
+- catkin
+- multimaster_msgs_fkie
+- rosgraph
+- rospy
+- master_discovery_fkie
+depends_on:
+- node_manager_fkie
+- multimaster_fkie
+description: "Synchronize the local ROS master to the remote masters \n     discovered\
+  \ by master_discovery_fkie node. The registration\n     of topics and services is\
+  \ only perform by local ROS master."
+devel_jobs:
+- devel-hydro-multimaster_fkie
+doc_job: doc-hydro-multimaster_fkie
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Alexander Tiderko <alexander.tiderko@gmail.com>
+metapackages:
+- multimaster_fkie
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-master-sync-fkie_sourcedeb
+- ros-hydro-master-sync-fkie_binarydeb_precise_amd64
+- ros-hydro-master-sync-fkie_binarydeb_precise_i386
+- ros-hydro-master-sync-fkie_binarydeb_quantal_amd64
+- ros-hydro-master-sync-fkie_binarydeb_quantal_i386
+- ros-hydro-master-sync-fkie_binarydeb_raring_amd64
+- ros-hydro-master-sync-fkie_binarydeb_raring_i386
+repo_name: multimaster_fkie
+repo_url: ''
+srvs: []
+timestamp: 1405772090.057907
+url: http://ros.org/wiki/master_sync_fkie
+vcs: git
+vcs_uri: https://github.com/fkie/multimaster_fkie.git
+vcs_version: hydro-devel

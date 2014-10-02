@@ -1,0 +1,18 @@
+authors: Search-Based Planning Lab
+depends:
+- cmake
+description: Search-based planning library (SBPL).
+license: BSD
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-sbpl_sourcedeb
+- ros-hydro-sbpl_binarydeb_precise_amd64
+- ros-hydro-sbpl_binarydeb_precise_i386
+- ros-hydro-sbpl_binarydeb_quantal_amd64
+- ros-hydro-sbpl_binarydeb_quantal_i386
+- ros-hydro-sbpl_binarydeb_raring_amd64
+- ros-hydro-sbpl_binarydeb_raring_i386
+repo_name: sbpl
+timestamp: 1405956415.060221
+url: http://http://sbpl.net

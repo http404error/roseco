@@ -1,0 +1,27 @@
+api_documentation: http://docs.ros.org/hydro/api/ar_tools/html
+authors: Maintained by Gautier Dumonteil, Ivan Dryanovski, William Morris et al.
+brief: CCNY Computer Vision
+depends:
+- common_msgs
+- geometry
+- image_common
+- robot_model
+- ros
+- vision_opencv
+- visualization_common
+depends_on: []
+description: CCNY Computer Vision Stack
+doc_job: doc-hydro-ar_tools
+license: GPL
+msgs: []
+package_type: stack
+packages:
+- ar_pose
+- artoolkit
+repo_name: ar_tools
+srvs: []
+timestamp: 1405972576.394081
+url: http://ros.org/wiki/ccny_vision
+vcs: git
+vcs_uri: https://github.com/LucidOne/ar_tools.git
+vcs_version: master

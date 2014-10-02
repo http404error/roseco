@@ -1,0 +1,49 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jsk_rviz_plugins/html
+authors: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>, Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>,
+  Shohei Fujii <s-fujii@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rviz
+- jsk_pcl_ros
+- std_msgs
+- mk
+- diagnostic_msgs
+- rosbuild
+- jsk_footstep_msgs
+- message_generation
+- cv_bridge
+- jsk_hark_msgs
+- wxwidgets
+depends_on:
+- rosjava_messages
+description: The jsk_rviz_plugins package
+devel_jobs:
+- devel-hydro-jsk_visualization
+doc_job: doc-hydro-jsk_visualization
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+msgs:
+- OverlayMenu
+- OverlayText
+package_type: package
+release_jobs:
+- ros-hydro-jsk-rviz-plugins_sourcedeb
+- ros-hydro-jsk-rviz-plugins_binarydeb_precise_amd64
+- ros-hydro-jsk-rviz-plugins_binarydeb_precise_i386
+- ros-hydro-jsk-rviz-plugins_binarydeb_quantal_amd64
+- ros-hydro-jsk-rviz-plugins_binarydeb_quantal_i386
+- ros-hydro-jsk-rviz-plugins_binarydeb_raring_amd64
+- ros-hydro-jsk-rviz-plugins_binarydeb_raring_i386
+repo_name: jsk_visualization
+repo_url: ''
+srvs: []
+timestamp: 1405963705.893963
+url: ''
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_visualization.git
+vcs_version: master

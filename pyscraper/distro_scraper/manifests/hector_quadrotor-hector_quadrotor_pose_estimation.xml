@@ -1,0 +1,33 @@
+<package>
+  <name>hector_quadrotor_pose_estimation</name>
+  <version>0.3.3</version>
+  <description>
+    hector_quadrotor_pose_estimation provides a <a href="http://wiki.ros.org/hector_pose_estimation">hector_pose_estimation</a> node and nodelet specialized for hector_quadrotor.
+  </description>
+  <maintainer email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/hector_quadrotor_pose_estimation</url>
+
+  <author email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</author>
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  
+  <build_depend>hector_pose_estimation</build_depend>
+  <build_depend>hector_uav_msgs</build_depend>
+
+  
+  <run_depend>hector_pose_estimation</run_depend>
+  <run_depend>hector_uav_msgs</run_depend>
+  <run_depend>nodelet</run_depend>
+
+  
+
+  <export>
+    <nodelet plugin="${prefix}/hector_quadrotor_pose_estimation_nodelets.xml" />
+  </export>
+
+</package>

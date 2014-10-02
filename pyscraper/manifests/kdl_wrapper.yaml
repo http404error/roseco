@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kdl_wrapper/html
+authors: Francisco Vina <fevb@kth.se>
+brief: ''
+bugtracker: ''
+depends:
+- kdl_parser
+- urdf
+- catkin
+- roscpp
+- kdl_acc_solver
+depends_on: []
+description: C++ wrapper for easily using KDL kinematic solvers with robots defined
+  in ROS through URDF files. Wraps the kdl and kdl_parser packages for generating
+  KDL kinematic chains from URDF by just taking as inputs the IDs of the root and
+  tip of the kinematic chain of a robot manipulator.
+doc_job: doc-hydro-kdl_wrapper
+has_changelog_rst: false
+license: BSD
+maintainers: Francisco Vina <fevb@kth.se>, Francisco Vina <fevb@kth.se>
+msgs: []
+package_type: package
+repo_name: kdl_wrapper
+repo_url: ''
+srvs: []
+timestamp: 1405963626.063984
+url: http://wiki.ros.org/kdl_wrapper
+vcs: git
+vcs_uri: https://github.com/kth-ros-pkg/kdl_wrapper.git
+vcs_version: hydro

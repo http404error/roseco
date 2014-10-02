@@ -1,0 +1,49 @@
+actions:
+- ObjectWatch
+api_documentation: http://docs.ros.org/hydro/api/cob_3d_segmentation/html
+authors: Georg Arbeiter
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- opencv2
+- catkin
+- roscpp
+- polypartition
+- cob_3d_mapping_msgs
+- nodelet
+- actionlib
+- message_runtime
+- rosbag
+- cob_3d_features
+- libvtk
+- message_generation
+- cob_3d_mapping_common
+- cob_3d_mapping_filters
+- geometry_msgs
+- libpcl-all-dev
+- boost
+- actionlib_msgs
+- pcl_ros
+depends_on:
+- cob_3d_mapping_pipeline
+- cob_3d_mapping_tools
+- cob_environment_perception
+- cob_3d_meshing
+description: Segmentation algorithms.
+doc_job: doc-hydro-cob_environment_perception
+has_changelog_rst: false
+license: LGPL
+maintainers: Georg Arbeiter <goa@ipa.fhg.de>
+metapackages:
+- cob_environment_perception
+msgs: []
+package_type: package
+repo_name: cob_environment_perception
+repo_url: ''
+srvs: []
+timestamp: 1405962359.781644
+url: http://wiki.ros.org/cob_3d_segmentation
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_environment_perception.git
+vcs_version: hydro_dev

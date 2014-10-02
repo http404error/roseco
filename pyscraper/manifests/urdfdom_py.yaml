@@ -1,0 +1,20 @@
+authors: Thomas Moulard, David Lu, Kelsey Hawkins, Antonio El Khoury, Eric Cousineau
+depends:
+- python
+- python-catkin-pkg
+- catkin
+description: A library to access URDFs using the DOM model.
+license: BSD
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-urdfdom-py_sourcedeb
+- ros-hydro-urdfdom-py_binarydeb_precise_amd64
+- ros-hydro-urdfdom-py_binarydeb_precise_i386
+- ros-hydro-urdfdom-py_binarydeb_quantal_amd64
+- ros-hydro-urdfdom-py_binarydeb_quantal_i386
+- ros-hydro-urdfdom-py_binarydeb_raring_amd64
+- ros-hydro-urdfdom-py_binarydeb_raring_i386
+repo_name: urdfdom_py
+timestamp: 1405956415.124977
+url: http://ros.org/wiki/urdf

@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/flir_ptu_driver/html
+authors: Erik Karulf <erik@cse.wustl.edu>, David V. Lu <davidlu@wustl.edu>, Nick Hawes
+  <n.a.hawes@cs.bham.ac.uk>
+brief: ''
+bugtracker: https://github.com/ros-drivers/flir_ptu/issues
+depends:
+- roslaunch
+- flir_ptu_description
+- catkin
+- roscpp
+- actionlib
+- sensor_msgs
+- roslint
+- diagnostic_updater
+- rospy
+- tf
+- serial
+- boost
+- robot_state_publisher
+depends_on: []
+description: Driver for the FLIR pan/tilt units.
+devel_jobs:
+- devel-hydro-flir_ptu
+doc_job: doc-hydro-flir_ptu
+has_changelog_rst: true
+license: GPL
+maintainer_status: developed
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-flir-ptu-driver_sourcedeb
+- ros-hydro-flir-ptu-driver_binarydeb_precise_amd64
+- ros-hydro-flir-ptu-driver_binarydeb_precise_i386
+- ros-hydro-flir-ptu-driver_binarydeb_quantal_amd64
+- ros-hydro-flir-ptu-driver_binarydeb_quantal_i386
+- ros-hydro-flir-ptu-driver_binarydeb_raring_amd64
+- ros-hydro-flir-ptu-driver_binarydeb_raring_i386
+repo_name: flir_ptu
+repo_url: https://github.com/ros-drivers/flir_ptu.git
+srvs: []
+timestamp: 1405770433.714274
+url: http://wiki.ros.org/flir_ptu_driver
+vcs: git
+vcs_uri: https://github.com/ros-drivers/flir_ptu.git
+vcs_version: master

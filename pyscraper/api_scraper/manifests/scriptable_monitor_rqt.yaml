@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/scriptable_monitor_rqt/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- scriptable_analyzer
+- pluginlib
+- rqt_gui_cpp
+- rqt_gui
+- roscpp
+depends_on:
+- scriptable_monitoring
+description: The scriptable_monitor_rqt package
+doc_job: doc-hydro-scriptable_monitoring
+has_changelog_rst: false
+license: MIT License
+maintainers: blackpc <blackpc@todo.todo>
+metapackages:
+- scriptable_monitoring
+msgs: []
+package_type: package
+repo_name: scriptable_monitoring
+repo_url: ''
+srvs: []
+timestamp: 1405965056.691446
+url: ''
+vcs: git
+vcs_uri: https://github.com/cogniteam/scriptable_monitoring.git
+vcs_version: master

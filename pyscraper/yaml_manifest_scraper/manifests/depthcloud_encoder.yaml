@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/depthcloud_encoder/html
+authors: Julius Kammer <jkammerl@willowgarage.com>
+brief: ''
+bugtracker: https://github.com/RobotWebTools/depthcloud_encoder/issues
+depends:
+- catkin
+- roscpp
+- message_filters
+- sensor_msgs
+- image_transport
+- cv_bridge
+depends_on: []
+description: Point Cloud Encoder for Web-Based Streaming
+devel_jobs:
+- devel-hydro-depthcloud_encoder
+doc_job: doc-hydro-depthcloud_encoder
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Russell Toris <rctoris@wpi.edu>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-depthcloud-encoder_sourcedeb
+- ros-hydro-depthcloud-encoder_binarydeb_precise_amd64
+- ros-hydro-depthcloud-encoder_binarydeb_precise_i386
+- ros-hydro-depthcloud-encoder_binarydeb_quantal_amd64
+- ros-hydro-depthcloud-encoder_binarydeb_quantal_i386
+- ros-hydro-depthcloud-encoder_binarydeb_raring_amd64
+- ros-hydro-depthcloud-encoder_binarydeb_raring_i386
+repo_name: depthcloud_encoder
+repo_url: https://github.com/RobotWebTools/depthcloud_encoder
+srvs: []
+timestamp: 1405770162.638844
+url: http://ros.org/wiki/depthcloud_encoder
+vcs: git
+vcs_uri: https://github.com/RobotWebTools/depthcloud_encoder.git
+vcs_version: master

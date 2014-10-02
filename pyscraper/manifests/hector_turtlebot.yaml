@@ -1,0 +1,24 @@
+api_documentation: http://docs.ros.org/hydro/api/hector_turtlebot/html
+authors: Stefan Kohlbrecher
+brief: hector_turtlebot
+depends:
+- ros
+depends_on: []
+description: hector_turtlebot contains a slightly modified turtlebot model as used
+  at TU Darmstadt
+doc_job: doc-hydro-hector_turtlebot
+license: BSD
+msgs: []
+package_type: stack
+packages:
+- hector_turtlebot_description
+- hector_turtlebot_scan_filter
+- hector_turtlebot_gazebo
+- hector_turtlebot_apps
+repo_name: hector_turtlebot
+srvs: []
+timestamp: 1405963309.47743
+url: http://ros.org/wiki/hector_turtlebot
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hector_turtlebot
+vcs_version: HEAD

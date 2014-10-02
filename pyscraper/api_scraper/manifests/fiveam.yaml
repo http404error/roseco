@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/fiveam/html
+authors: Many
+brief: ''
+bugtracker: https://github.com/cram-code/cram_core/issues
+depends:
+- alexandria
+- catkin
+- sbcl
+depends_on:
+- cram_3rdparty
+- cram_test_utilities
+description: '3rd party library: FiveAM'
+devel_jobs:
+- devel-hydro-cram_3rdparty
+doc_job: doc-hydro-cram_3rdparty
+has_changelog_rst: false
+license: Public domain
+maintainer_status: maintained
+maintainers: Lorenz Moesenlechner <moesenle@cs.tum.edu>, Georg Bartels <georg.bartels@cs.uni-bremen.de>
+metapackages:
+- cram_3rdparty
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-fiveam_sourcedeb
+- ros-hydro-fiveam_binarydeb_precise_amd64
+- ros-hydro-fiveam_binarydeb_precise_i386
+- ros-hydro-fiveam_binarydeb_quantal_amd64
+- ros-hydro-fiveam_binarydeb_quantal_i386
+- ros-hydro-fiveam_binarydeb_raring_amd64
+- ros-hydro-fiveam_binarydeb_raring_i386
+repo_name: cram_3rdparty
+repo_url: https://github.com/cram-code/cram_core
+srvs: []
+timestamp: 1405770046.943835
+url: http://common-lisp.net/project/fiveam/
+vcs: git
+vcs_uri: https://github.com/cram-code/cram_3rdparty.git
+vcs_version: master

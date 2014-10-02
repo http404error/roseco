@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/industrial_trajectory_filters/html
+authors: Shaun Edwards <sedwards@swri.org>, Jorge Nicho <jnicho@swri.org>
+brief: ''
+bugtracker: https://github.com/ros-industrial/industrial_core/issues
+depends:
+- moveit_core
+- catkin
+- pluginlib
+- trajectory_msgs
+- moveit_ros_planning
+- orocos_kdl
+depends_on:
+- industrial_core
+description: "<p>\n     ROS Industrial libraries/plugins for filtering trajectories.\n\
+  \   </p>\n   <p>\n     This package is part of the ROS Industrial program and contains\
+  \ libraries\n     and moveit plugins for filtering robot trajectories.\n   </p>"
+devel_jobs:
+- devel-hydro-industrial_core
+doc_job: doc-hydro-industrial_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Shaun Edwards <sedwards@swri.org>
+metapackages:
+- industrial_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-industrial-trajectory-filters_sourcedeb
+- ros-hydro-industrial-trajectory-filters_binarydeb_precise_amd64
+- ros-hydro-industrial-trajectory-filters_binarydeb_precise_i386
+- ros-hydro-industrial-trajectory-filters_binarydeb_quantal_amd64
+- ros-hydro-industrial-trajectory-filters_binarydeb_quantal_i386
+- ros-hydro-industrial-trajectory-filters_binarydeb_raring_amd64
+- ros-hydro-industrial-trajectory-filters_binarydeb_raring_i386
+repo_name: industrial_core
+repo_url: https://github.com/ros-industrial/industrial_core
+srvs: []
+timestamp: 1405771358.724901
+url: http://ros.org/wiki/industrial_trajectory_filters
+vcs: git
+vcs_uri: https://github.com/ros-industrial/industrial_core.git
+vcs_version: hydro

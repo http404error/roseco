@@ -1,0 +1,52 @@
+actions:
+- LookupTransform
+api_documentation: http://docs.ros.org/hydro/api/tf2_msgs/html
+authors: Eitan Marder-Eppstein
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- catkin
+- actionlib_msgs
+- geometry_msgs
+depends_on:
+- rosjava_messages
+- geometry_experimental
+- rqt_ez_publisher
+- rqt_tf_tree
+- test_tf2
+- rosruby_messages
+- tf2
+- tf2_tools
+- tf2_ros
+description: tf2_msgs
+devel_jobs:
+- devel-hydro-geometry_experimental
+doc_job: doc-hydro-geometry_experimental
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Tully Foote <tfoote@osrfoundation.org>
+metapackages:
+- geometry_experimental
+msgs:
+- TFMessage
+- TF2Error
+package_type: package
+release_jobs:
+- ros-hydro-tf2-msgs_sourcedeb
+- ros-hydro-tf2-msgs_binarydeb_precise_amd64
+- ros-hydro-tf2-msgs_binarydeb_precise_i386
+- ros-hydro-tf2-msgs_binarydeb_quantal_amd64
+- ros-hydro-tf2-msgs_binarydeb_quantal_i386
+- ros-hydro-tf2-msgs_binarydeb_raring_amd64
+- ros-hydro-tf2-msgs_binarydeb_raring_i386
+repo_name: geometry_experimental
+repo_url: ''
+srvs:
+- FrameGraph
+timestamp: 1405973457.180499
+url: http://www.ros.org/wiki/tf2_msgs
+vcs: git
+vcs_uri: https://github.com/ros/geometry-experimental.git
+vcs_version: hydro-devel

@@ -1,0 +1,49 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nav2d_karto/html
+authors: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- roscpp
+- nav2d_localizer
+- nav2d_msgs
+- suitesparse
+- visualization_msgs
+- tf
+- geometry_msgs
+- tbb
+- eigen
+depends_on:
+- nav2d_tutorials
+- nav2d
+description: "Graph-based Simultaneous Localization and Mapping module.\n    Includes\
+  \ OpenKarto GraphSLAM library by &quot;SRI International&quot;."
+devel_jobs:
+- devel-hydro-navigation_2d
+doc_job: doc-hydro-navigation_2d
+has_changelog_rst: false
+license: GPLv3
+maintainer_status: developed
+maintainers: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+metapackages:
+- nav2d
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-nav2d-karto_sourcedeb
+- ros-hydro-nav2d-karto_binarydeb_precise_amd64
+- ros-hydro-nav2d-karto_binarydeb_precise_i386
+- ros-hydro-nav2d-karto_binarydeb_quantal_amd64
+- ros-hydro-nav2d-karto_binarydeb_quantal_i386
+- ros-hydro-nav2d-karto_binarydeb_raring_amd64
+- ros-hydro-nav2d-karto_binarydeb_raring_i386
+repo_name: navigation_2d
+repo_url: ''
+srvs: []
+timestamp: 1405974536.668216
+url: http://wiki.ros.org/robot_operator
+vcs: git
+vcs_uri: https://github.com/skasperski/navigation_2d.git
+vcs_version: hydro

@@ -1,0 +1,36 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/freenect_stack/html
+authors: Piyush Khandelwal
+brief: ''
+bugtracker: https://github.com/ros-drivers/freenect_stack/issues
+depends:
+- catkin
+- freenect_camera
+- freenect_launch
+depends_on: []
+description: A libfreenect-based ROS driver for the Microsoft Kinect
+devel_jobs:
+- devel-hydro-freenect_stack
+doc_job: doc-hydro-freenect_stack
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Jack O'Quin <jack.oquin@gmail.com>, Piyush Khandelwal <piyushk@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-freenect-stack_sourcedeb
+- ros-hydro-freenect-stack_binarydeb_precise_amd64
+- ros-hydro-freenect-stack_binarydeb_precise_i386
+- ros-hydro-freenect-stack_binarydeb_quantal_amd64
+- ros-hydro-freenect-stack_binarydeb_quantal_i386
+- ros-hydro-freenect-stack_binarydeb_raring_amd64
+- ros-hydro-freenect-stack_binarydeb_raring_i386
+repo_name: freenect_stack
+repo_url: https://github.com/ros-drivers/freenect_stack.git
+srvs: []
+timestamp: 1405770434.440794
+url: http://ros.org/wiki/freenect_stack
+vcs: git
+vcs_uri: https://github.com/ros-drivers/freenect_stack.git
+vcs_version: master

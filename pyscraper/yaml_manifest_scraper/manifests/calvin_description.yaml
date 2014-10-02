@@ -1,0 +1,33 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/calvin_description/html
+authors: Michael Stypa
+brief: URDF descriptions of VDDBEN
+bugtracker: ''
+depends:
+- xacro
+- urdf
+- uos_common_urdf
+depends_on:
+- calvin_bringup
+- calvin_gazebo
+- calvin_moveit_config
+description: "\n\n     This package contains URDF descriptions of the VDDBEN robot.\
+  \ The complete\n     robots are available in the directory &quot;robots/&quot;.\
+  \ Each robot consists of\n     a base and a top (see those two directories). Usually,\
+  \ a top is made up\n     from several parts (see directory &quot;parts/&quot;),\
+  \ such as a laser scanner.\n\n  "
+doc_job: doc-hydro-calvin_robot
+license: BSD
+maintainers: ''
+metapackages:
+- calvin_robot
+msgs: []
+package_type: package
+repo_name: calvin_robot
+repo_url: ''
+srvs: []
+timestamp: 1405972837.646206
+url: http://ros.org/wiki/calvin_description
+vcs: git
+vcs_uri: https://github.com/uos/calvin_robot.git
+vcs_version: hydro

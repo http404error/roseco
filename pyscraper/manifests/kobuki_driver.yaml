@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kobuki_driver/html
+authors: Daniel Stonier <stonier@yujinrobot.com>, Younghun Ju <yhju@yujinrobot.com>,
+  Jorge Santos Simon <jorge@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/kobuki_core/issues
+depends:
+- catkin
+- ecl_command_line
+- ecl_devices
+- ecl_mobile_robot
+- ecl_converters
+- ecl_time
+- ecl_geometry
+- ecl_sigslots
+depends_on:
+- kobuki_core
+- kobuki_node
+description: "C++ driver library for Kobuki:\n    Pure C++ driver library for Kobuki.\
+  \ This is for those who do not wish to use ROS on their systems."
+devel_jobs:
+- devel-hydro-kobuki_core
+doc_job: doc-hydro-kobuki_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <stonier@yujinrobot.com>
+metapackages:
+- kobuki_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-kobuki-driver_sourcedeb
+- ros-hydro-kobuki-driver_binarydeb_precise_amd64
+- ros-hydro-kobuki-driver_binarydeb_precise_i386
+- ros-hydro-kobuki-driver_binarydeb_quantal_amd64
+- ros-hydro-kobuki-driver_binarydeb_quantal_i386
+- ros-hydro-kobuki-driver_binarydeb_raring_amd64
+- ros-hydro-kobuki-driver_binarydeb_raring_i386
+repo_name: kobuki_core
+repo_url: https://github.com/yujinrobot/kobuki_core
+srvs: []
+timestamp: 1405974046.467347
+url: http://ros.org/wiki/kobuki_driver
+vcs: git
+vcs_uri: https://github.com/yujinrobot/kobuki_core.git
+vcs_version: hydro

@@ -1,0 +1,19 @@
+authors: Ethan Rublee <erublee@willowgarage.com>, Vincent Rabaud <vrabud@willowgarage.com>
+depends:
+- catkin
+- cv_bridge
+description: Experimental OpenCV functions
+license: BSD
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-opencv-candidate_sourcedeb
+- ros-hydro-opencv-candidate_binarydeb_precise_amd64
+- ros-hydro-opencv-candidate_binarydeb_precise_i386
+- ros-hydro-opencv-candidate_binarydeb_quantal_amd64
+- ros-hydro-opencv-candidate_binarydeb_quantal_i386
+- ros-hydro-opencv-candidate_binarydeb_raring_amd64
+- ros-hydro-opencv-candidate_binarydeb_raring_i386
+repo_name: opencv_candidate
+timestamp: 1405956414.956521
+url: https://github.com/wg-perception/opencv_candidate

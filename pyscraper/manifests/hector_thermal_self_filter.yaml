@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_thermal_self_filter/html
+authors: Stefan Kohlbrecher
+brief: hector_thermal_self_filter
+bugtracker: ''
+depends:
+- pcl_ros
+- hector_worldmodel_msgs
+- robot_self_filter
+depends_on: []
+description: "\n\n     hector_thermal_self_filter provides a hector_worldmodel_msgs/VerifyPercept\
+  \ service server for the\n     <a href=\"http://ros.org/wiki/hector_object_tracker\"\
+  >hector_object_tracker</a> package, which\n     filters out heat percepts that are\
+  \ likely caused by parts of the robot itself.\n\n  "
+doc_job: doc-hydro-hector_vision
+license: BSD
+maintainers: ''
+metapackages:
+- hector_vision
+msgs: []
+package_type: package
+repo_name: hector_vision
+repo_url: ''
+srvs: []
+timestamp: 1405771043.041691
+url: http://ros.org/wiki/hector_thermal_self_filter
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_vision.git
+vcs_version: master

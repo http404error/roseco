@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/move_base_straight/html
+authors: Thorsten Gedicke
+brief: move_base_straight
+bugtracker: ''
+depends:
+- actionlib
+- std_msgs
+- move_base_msgs
+- rospy
+- tf
+- actionlib_msgs
+depends_on: []
+description: "\n\n     move_base_straight\n\n  "
+doc_job: doc-hydro-uos_tools
+license: BSD
+maintainers: ''
+metapackages:
+- uos_tools
+msgs: []
+package_type: package
+repo_name: uos_tools
+repo_url: ''
+srvs: []
+timestamp: 1405965469.798874
+url: http://ros.org/wiki/move_base_straight
+vcs: git
+vcs_uri: https://github.com/uos/uos_tools.git
+vcs_version: hydro

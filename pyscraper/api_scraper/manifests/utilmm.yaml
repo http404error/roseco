@@ -1,0 +1,19 @@
+authors: Sylvain Joyeux/sylvain.joyeux@m4x.org
+depends:
+- cmake
+- boost
+- catkin
+description: This library is a collection of useful C++ classes
+license: CeCILL-B (BSD-like)
+maintainers: OCL Development Team <orocos-dev@lists.mech.kuleuven.be>
+package_type: package
+release_jobs:
+- ros-hydro-utilmm_sourcedeb
+- ros-hydro-utilmm_binarydeb_precise_amd64
+- ros-hydro-utilmm_binarydeb_precise_i386
+- ros-hydro-utilmm_binarydeb_quantal_amd64
+- ros-hydro-utilmm_binarydeb_quantal_i386
+- ros-hydro-utilmm_binarydeb_raring_amd64
+- ros-hydro-utilmm_binarydeb_raring_i386
+repo_name: utilmm
+timestamp: 1405956415.127687

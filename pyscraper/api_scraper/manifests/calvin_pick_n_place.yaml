@@ -1,0 +1,33 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/calvin_pick_n_place/html
+authors: pdc
+brief: calvin_pick_n_place
+bugtracker: ''
+depends:
+- shape_msgs
+- roscpp
+- actionlib
+- object_recognition_msgs
+- geometry_msgs
+- visualization_msgs
+- tf
+- control_msgs
+- moveit_msgs
+- moveit_ros_planning_interface
+depends_on: []
+description: "\n\n     calvin_pick_n_place\n\n  "
+doc_job: doc-hydro-calvin_robot
+license: BSD
+maintainers: ''
+metapackages:
+- calvin_robot
+msgs: []
+package_type: package
+repo_name: calvin_robot
+repo_url: ''
+srvs: []
+timestamp: 1405972854.416241
+url: http://ros.org/wiki/calvin_pick_n_place
+vcs: git
+vcs_uri: https://github.com/uos/calvin_robot.git
+vcs_version: hydro

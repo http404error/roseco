@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_map_server/html
+authors: Stefan Kohlbrecher <kohlbrecher@sim.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- hector_map_tools
+- roscpp
+- hector_nav_msgs
+- hector_marker_drawing
+- tf
+- catkin
+depends_on:
+- hlugv_apps
+- hector_slam_launch
+- hector_slam
+description: "hector_map_server provides a service for retrieving the map, as well\
+  \ as for raycasting based obstacle queries (finds next obstacle in the map, given\
+  \ start and endpoint\n    in any tf coordinate frame)."
+doc_job: doc-hydro-hector_slam
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+metapackages:
+- hector_slam
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hector-map-server_sourcedeb
+- ros-hydro-hector-map-server_binarydeb_precise_amd64
+- ros-hydro-hector-map-server_binarydeb_precise_i386
+- ros-hydro-hector-map-server_binarydeb_quantal_amd64
+- ros-hydro-hector-map-server_binarydeb_quantal_i386
+- ros-hydro-hector-map-server_binarydeb_raring_amd64
+- ros-hydro-hector-map-server_binarydeb_raring_i386
+repo_name: hector_slam
+repo_url: ''
+srvs: []
+timestamp: 1405963323.494529
+url: http://ros.org/wiki/hector_map_server
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+vcs_version: catkin

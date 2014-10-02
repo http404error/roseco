@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_default_env_config/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- roslaunch
+- catkin
+depends_on:
+- cob_bringup_sim
+- cob_bringup
+- cob_environments
+- cob_navigation_global
+description: This package contains configuration files for the default environments
+  for Care-O-bot supported by IPA.
+devel_jobs:
+- devel-hydro-cob_environments
+doc_job: doc-hydro-cob_environments
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+metapackages:
+- cob_environments
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-default-env-config_sourcedeb
+- ros-hydro-cob-default-env-config_binarydeb_precise_amd64
+- ros-hydro-cob-default-env-config_binarydeb_precise_i386
+- ros-hydro-cob-default-env-config_binarydeb_quantal_amd64
+- ros-hydro-cob-default-env-config_binarydeb_quantal_i386
+- ros-hydro-cob-default-env-config_binarydeb_raring_amd64
+- ros-hydro-cob-default-env-config_binarydeb_raring_i386
+repo_name: cob_environments
+repo_url: ''
+srvs: []
+timestamp: 1405769982.681079
+url: http://ros.org/wiki/cob_default_env_config
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_environments.git
+vcs_version: hydro_release_candidate

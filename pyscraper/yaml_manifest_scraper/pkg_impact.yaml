@@ -1,0 +1,6 @@
+impact:
+ - metric: discounted_depended_orders
+   include: True
+   weights: 
+    weight: 1.0 # given to first order (direct) dependencies and subsequently discounted
+    discount: 0.5

@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/v4r_artoolkitplus/html
+authors: Markus Bader <markus.bader@tuwien.ac.at>
+brief: ''
+bugtracker: ''
+depends:
+- image_geometry
+- dynamic_reconfigure
+- catkin
+- roscpp
+- message_runtime
+- std_msgs
+- image_transport
+- message_generation
+- rospy
+- tf
+- geometry_msgs
+- cv_bridge
+depends_on: []
+description: "The v4r_artoolkitplus package is a wrapper around the ARToolKitPlus\
+  \ software library for ROS.\n  The ARToolKitPlus is a extended version of ARToolKit's\
+  \ library with a class-based API but with no VRML and camera library.\n  It is also\
+  \ optimized to work with a set of precoded marker, so no marker training is needed.\n\
+  \  The ARToolKitPlus library was published under GPL2, thanks for that work goes\
+  \ to all people listed in a ./3rdParty/ARToolKitPlus/THANKS.\n  More details about\
+  \ ARToolKitPlus package can be found under http://studierstube.org/handheld_ar/artoolkitplus.php"
+doc_job: doc-hydro-v4r_ros
+has_changelog_rst: false
+license: GPLv2
+maintainers: Markus Bader <markus.bader@tuwien.ac.at>
+msgs:
+- TransformArrayStamped
+package_type: package
+repo_name: v4r_ros
+repo_url: ''
+srvs: []
+timestamp: 1405965411.289969
+url: http://studierstube.org/handheld_ar/artoolkitplus.php
+vcs: git
+vcs_uri: https://github.com/moresun/v4r_ros.git
+vcs_version: hydro-devel

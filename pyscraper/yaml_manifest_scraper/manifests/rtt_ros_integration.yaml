@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rtt_ros_integration/html
+authors: Ruben Smits, Steven Bellens, Jonathan Boren, Johannes Meyer
+brief: ''
+bugtracker: https://github.com/orocos/rtt_ros_integration/issues
+depends: &id001
+- rtt_roscomm
+- rtt_dynamic_reconfigure
+- catkin
+- rtt_ros
+- rtt_rosnode
+- rtt_actionlib
+- rtt_tf
+- rtt_rospack
+- rtt_rosparam
+- rtt_rosdeployment
+- rtt_rosclock
+- rtt_ros_msgs
+depends_on: []
+description: This stack contains all software necessary to build systems using both
+  Orocos and ROS infrastructures
+devel_jobs:
+- devel-hydro-rtt_ros_integration
+doc_job: doc-hydro-rtt_ros_integration
+has_changelog_rst: true
+license: GPL, BSD, LGPL, GPL + runtime exception
+maintainer_status: developed
+maintainers: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-rtt-ros-integration_sourcedeb
+- ros-hydro-rtt-ros-integration_binarydeb_precise_amd64
+- ros-hydro-rtt-ros-integration_binarydeb_precise_i386
+- ros-hydro-rtt-ros-integration_binarydeb_quantal_amd64
+- ros-hydro-rtt-ros-integration_binarydeb_quantal_i386
+- ros-hydro-rtt-ros-integration_binarydeb_raring_amd64
+- ros-hydro-rtt-ros-integration_binarydeb_raring_i386
+repo_name: rtt_ros_integration
+repo_url: ''
+srvs: []
+timestamp: 1405975345.399783
+url: http://ros.org/wiki/rtt_ros_integration
+vcs: git
+vcs_uri: https://github.com/orocos/rtt_ros_integration.git
+vcs_version: hydro-devel

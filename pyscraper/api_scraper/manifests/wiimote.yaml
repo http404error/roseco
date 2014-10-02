@@ -1,0 +1,55 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/wiimote/html
+authors: Andreas Paepcke, Melonee Wise
+brief: ''
+bugtracker: https://github.com/ros-drivers/joystick_drivers/issues
+depends:
+- genmsg
+- std_srvs
+- sensor_msgs
+- roslib
+- python-numpy
+- catkin
+- geometry_msgs
+- python-cwiid
+- std_msgs
+- rospy
+depends_on:
+- joystick_drivers
+description: "The wiimote package allows ROS nodes to communicate with a Nintendo\
+  \ Wiimote\n    and its related peripherals, including the Nunchuk, Motion Plus,\
+  \ and\n    (experimentally) the Classic. The package implements a ROS node that\
+  \ uses\n    Bluetooth to communicate with the Wiimote device, obtaining accelerometer\n\
+  \    and gyro data, the state of LEDs, the IR camera, rumble (vibrator),\n    buttons,\
+  \ joystick, and battery state. The node additionally enables ROS\n    nodes to control\
+  \ the Wiimote's LEDs and vibration for feedback to the human\n    Wiimote operator.\
+  \ LEDs and vibration may be switched on and off, or made to\n    operate according\
+  \ to a timed pattern."
+doc_job: doc-hydro-joystick_drivers
+has_changelog_rst: false
+license: GPL
+maintainer_status: maintained
+maintainers: Jonathan Bohren <jbo@jhu.edu>
+metapackages:
+- joystick_drivers
+msgs:
+- TimedSwitch
+- IrSourceInfo
+- State
+package_type: package
+release_jobs:
+- ros-hydro-wiimote_sourcedeb
+- ros-hydro-wiimote_binarydeb_precise_amd64
+- ros-hydro-wiimote_binarydeb_precise_i386
+- ros-hydro-wiimote_binarydeb_quantal_amd64
+- ros-hydro-wiimote_binarydeb_quantal_i386
+- ros-hydro-wiimote_binarydeb_raring_amd64
+- ros-hydro-wiimote_binarydeb_raring_i386
+repo_name: joystick_drivers
+repo_url: ''
+srvs: []
+timestamp: 1405974008.811487
+url: http://www.ros.org/wiki/wiimote
+vcs: git
+vcs_uri: https://github.com/ros-drivers/joystick_drivers.git
+vcs_version: hydro-devel

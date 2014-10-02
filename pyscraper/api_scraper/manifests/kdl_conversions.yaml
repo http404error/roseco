@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kdl_conversions/html
+authors: Adam Leeper
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- orocos_kdl
+- geometry_msgs
+depends_on:
+- pladypos
+- ldtravocean
+- kobuki_auto_docking
+- geometry
+- rtt_kdl_conversions
+- tf_conversions
+description: Conversion functions between KDL and geometry_msgs types.
+devel_jobs:
+- devel-hydro-geometry
+doc_job: doc-hydro-geometry
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Tully Foote <tfoote@willowgarage.com>
+metapackages:
+- geometry
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-kdl-conversions_sourcedeb
+- ros-hydro-kdl-conversions_binarydeb_precise_amd64
+- ros-hydro-kdl-conversions_binarydeb_precise_i386
+- ros-hydro-kdl-conversions_binarydeb_quantal_amd64
+- ros-hydro-kdl-conversions_binarydeb_quantal_i386
+- ros-hydro-kdl-conversions_binarydeb_raring_amd64
+- ros-hydro-kdl-conversions_binarydeb_raring_i386
+repo_name: geometry
+repo_url: ''
+srvs: []
+timestamp: 1405973427.932581
+url: http://ros.org/wiki/kdl_conversions
+vcs: git
+vcs_uri: https://github.com/ros/geometry.git
+vcs_version: hydro-devel

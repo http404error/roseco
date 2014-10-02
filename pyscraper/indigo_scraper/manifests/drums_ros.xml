@@ -1,0 +1,32 @@
+<?xml version="1.0" ?><package>
+  <name>drums_ros</name>
+  <version>0.2.0</version>
+  <description>ROS Adapter for Drums (Distributed Robot Monitoring System)</description>
+
+  <maintainer email="mmonajje@sfu.ca">Mani Monajjemi</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <url type="website">http://autonomylab.org/drums/</url>
+  <url type="repository">https://github.com/drums-project/drums_ros.git</url>
+  <url type="bugtracker">https://github.com/drums-project/drums_ros/issues</url>
+
+  <author email="mmonajje@sfu.ca">Mani Monajjemi</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+ 
+  <build_depend>rospy</build_depend>
+  <build_depend>diagnostic_updater</build_depend>
+  <build_depend>diagnostic_msgs</build_depend>
+ 
+  <run_depend>ros_comm</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>diagnostic_updater</run_depend>
+  <run_depend>diagnostic_msgs</run_depend>
+  <run_depend>python-requests</run_depend>
+  <run_depend>python-zmq</run_depend>
+  <run_depend>python-msgpack</run_depend>
+
+  <export>
+  </export>
+</package>

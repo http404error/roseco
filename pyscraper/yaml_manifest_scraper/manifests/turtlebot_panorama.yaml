@@ -1,0 +1,52 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtlebot_panorama/html
+authors: Younghun Ju, Jihoon Lee, Marcus Liebhardt
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_apps/issues
+depends:
+- nav_msgs
+- std_srvs
+- roscpp
+- sensor_msgs
+- actionlib
+- std_msgs
+- pano_ros
+- image_transport
+- geometry_msgs
+- turtlebot_msgs
+- catkin
+- yocs_velocity_smoother
+- turtlebot_bringup
+- eigen
+depends_on:
+- turtlebot_apps
+- turtlebot_core_apps
+description: This app utilises pano_ros for taking snapshots and stitching them together
+  to create panorama pictures.
+devel_jobs:
+- devel-hydro-turtlebot_apps
+doc_job: doc-hydro-turtlebot_apps
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Jorge Santos <jorge@yujinrobot.com>
+metapackages:
+- turtlebot_apps
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-turtlebot-panorama_sourcedeb
+- ros-hydro-turtlebot-panorama_binarydeb_precise_amd64
+- ros-hydro-turtlebot-panorama_binarydeb_precise_i386
+- ros-hydro-turtlebot-panorama_binarydeb_quantal_amd64
+- ros-hydro-turtlebot-panorama_binarydeb_quantal_i386
+- ros-hydro-turtlebot-panorama_binarydeb_raring_amd64
+- ros-hydro-turtlebot-panorama_binarydeb_raring_i386
+repo_name: turtlebot_apps
+repo_url: https://github.com/turtlebot/turtlebot_apps
+srvs: []
+timestamp: 1405965321.651282
+url: http://ros.org/wiki/turtlebot_panorama
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_apps.git
+vcs_version: hydro

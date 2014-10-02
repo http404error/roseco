@@ -1,0 +1,30 @@
+<?xml version="1.0" ?><package>
+  <name>rviz_fixed_view_controller</name>
+  <version>0.0.2</version>
+  <description>
+    A simple rviz view controller that follows a TF frame.
+  </description>
+  <author email="adamleeper@gmail.com">Adam Leeper</author>
+  <author email="dgossow@willowgarage.com">David Gossow</author>
+
+  <maintainer email="adamleeper@gmail.com">Adam Leeper</maintainer>
+
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/rviz_fixed_view_controller</url>
+  <url type="repository">https://github.com/ros-visualization/rviz_fixed_view_controller</url>
+  <url type="bugtracker">https://github.com/ros-visualization/rviz_fixed_view_controller/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>rviz</build_depend>
+  <build_depend>pluginlib</build_depend>
+
+  <run_depend>rviz</run_depend>
+  <run_depend>pluginlib</run_depend>
+
+  <export>
+    <rviz plugin="${prefix}/plugin_description.xml"/>
+  </export>
+
+</package>

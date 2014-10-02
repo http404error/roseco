@@ -1,0 +1,21 @@
+<package>
+  <name>rbdl</name>
+  <version>:{version}</version>
+  <description>The Rigid Body Dynamics Library from http://rbdl.bitbucket.org</description>
+  <url>https://bitbucket.org/rbdl/rbdl</url>
+
+  <author>Martin Felis</author>
+  <maintainer email="isura@ieee.org">Isura Ranatunga</maintainer>
+  <license>zlib</license>
+
+  <run_depend>catkin</run_depend>
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <build_depend>eigen</build_depend>
+
+  <run_depend>eigen</run_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>

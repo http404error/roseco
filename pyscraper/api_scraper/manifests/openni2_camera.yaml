@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/openni2_camera/html
+authors: Julius Kammerl <jkammerl@todo.todo>
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- libopenni2-dev
+- roscpp
+- camera_info_manager
+- sensor_msgs
+- image_transport
+- catkin
+- nodelet
+depends_on:
+- openni2_launch
+description: "Drivers for the Asus Xtion and Primesense Devices. For using a kinect\n\
+  \  with ROS, try the <a href=\"http://wiki.ros.org/freenect_stack\">freenect stack</a>"
+devel_jobs:
+- devel-hydro-openni2_camera
+doc_job: doc-hydro-openni2_camera
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Michael Ferguson <developers@unboundedrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-openni2-camera_sourcedeb
+- ros-hydro-openni2-camera_binarydeb_precise_amd64
+- ros-hydro-openni2-camera_binarydeb_precise_i386
+- ros-hydro-openni2-camera_binarydeb_quantal_amd64
+- ros-hydro-openni2-camera_binarydeb_quantal_i386
+- ros-hydro-openni2-camera_binarydeb_raring_amd64
+- ros-hydro-openni2-camera_binarydeb_raring_i386
+repo_name: openni2_camera
+repo_url: ''
+srvs: []
+timestamp: 1405772463.479072
+url: ''
+vcs: git
+vcs_uri: https://github.com/ros-drivers/openni2_camera.git
+vcs_version: hydro-devel

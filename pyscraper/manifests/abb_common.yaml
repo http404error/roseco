@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/abb_common/html
+authors: Shaun Edwards <sedwards@swri.org>
+brief: ''
+bugtracker: ''
+depends:
+- industrial_robot_client
+- simple_message
+- catkin
+- xacro
+depends_on:
+- irb_6640_moveit_config
+- irb_2400_moveit_config
+- abb
+description: abb_common
+devel_jobs:
+- devel-hydro-abb
+doc_job: doc-hydro-abb
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Shaun Edwards <sedwards@swri.org>
+metapackages:
+- abb
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-abb-common_sourcedeb
+- ros-hydro-abb-common_binarydeb_precise_amd64
+- ros-hydro-abb-common_binarydeb_precise_i386
+- ros-hydro-abb-common_binarydeb_quantal_amd64
+- ros-hydro-abb-common_binarydeb_quantal_i386
+- ros-hydro-abb-common_binarydeb_raring_amd64
+- ros-hydro-abb-common_binarydeb_raring_i386
+repo_name: abb
+repo_url: ''
+srvs: []
+timestamp: 1405972356.986733
+url: http://ros.org/wiki/industrial_core
+vcs: git
+vcs_uri: https://github.com/ros-industrial/abb.git
+vcs_version: hydro

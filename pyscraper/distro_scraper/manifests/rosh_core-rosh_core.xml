@@ -1,0 +1,29 @@
+<package>
+  <name>rosh_core</name>
+  <version>1.0.7</version>
+  <description>Main ROSH scripting and interpreter environment.</description>
+  <maintainer email="dan@lazewatsky.com">Dan Lazewatsky</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/rosh_core</url>
+  <url type="bugtracker">https://github.com/OSUrobotics/rosh_core/issues</url>
+
+  <author>Ken Conley</author>
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  
+
+
+  
+  <run_depend>roshlaunch</run_depend>
+  <run_depend>rosh</run_depend>
+
+  
+  <export>
+    <metapackage />
+  </export>
+
+</package>

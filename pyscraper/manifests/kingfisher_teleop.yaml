@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kingfisher_teleop/html
+authors: Ryan Gariepy <rgariepy@clearpathrobotics.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- joy
+- sensor_msgs
+- kingfisher_msgs
+- topic_tools
+- rospy
+- tf
+- geometry_msgs
+depends_on: []
+description: The kingfisher_teleop package
+devel_jobs:
+- devel-hydro-kingfisher
+doc_job: doc-hydro-kingfisher
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-kingfisher-teleop_sourcedeb
+- ros-hydro-kingfisher-teleop_binarydeb_precise_amd64
+- ros-hydro-kingfisher-teleop_binarydeb_precise_i386
+- ros-hydro-kingfisher-teleop_binarydeb_quantal_amd64
+- ros-hydro-kingfisher-teleop_binarydeb_quantal_i386
+- ros-hydro-kingfisher-teleop_binarydeb_raring_amd64
+- ros-hydro-kingfisher-teleop_binarydeb_raring_i386
+repo_name: kingfisher
+repo_url: ''
+srvs: []
+timestamp: 1405771485.24849
+url: http://ros.org/wiki/kingfisher_teleop
+vcs: git
+vcs_uri: https://github.com/kf/kingfisher.git
+vcs_version: hydro-devel

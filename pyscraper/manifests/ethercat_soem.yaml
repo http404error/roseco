@@ -1,0 +1,24 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ethercat_soem/html
+authors: Arthur Ketels, M.J.G. van de Molengraft
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on: []
+description: "ROS adaptation of Simple Open EtherCAT Master (SOEM) drivers.\n    \
+  \  Original: http://soem.berlios.de/"
+doc_job: doc-hydro-ethercat_soem
+has_changelog_rst: false
+license: GPLv2
+maintainers: Kelsey Hawkins <kphawkins@gatech.edu>
+msgs: []
+package_type: package
+repo_name: ethercat_soem
+repo_url: ''
+srvs: []
+timestamp: 1405963114.696806
+url: http://ros.org/wiki/ethercat_soem
+vcs: git
+vcs_uri: https://github.com/gt-ros-pkg/ethercat-soem.git
+vcs_version: hydro-devel

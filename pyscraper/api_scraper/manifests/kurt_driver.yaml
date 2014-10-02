@@ -1,0 +1,31 @@
+api_documentation: http://docs.ros.org/hydro/api/kurt_driver/html
+authors: Maintained by Jochen Sprickerhof
+brief: kurt_driver
+depends:
+- common
+- common_msgs
+- geometry
+- laser_pipeline
+- robot_model
+- ros
+- uos_tools
+depends_on: []
+description: kurt_driver
+doc_job: doc-hydro-kurt_driver
+license: BSD
+msgs: []
+package_type: stack
+packages:
+- kurt_description
+- kurt_gazebo
+- imu_recalibration
+- kurt_bringup
+- rotunit_snapshotter
+- kurt_base
+repo_name: kurt_driver
+srvs: []
+timestamp: 1405974040.600742
+url: http://ros.org/wiki/kurt_driver
+vcs: git
+vcs_uri: https://github.com/uos/kurt_driver.git
+vcs_version: hydro

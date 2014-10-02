@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/orocos_kdl/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- cmake
+- eigen
+- cppunit
+- pkg-config
+depends_on:
+- orocos_kinematics_dynamics
+- python_orocos_kdl
+- openni_tracker
+- cob_trajectory_controller
+- pr2_moveit_tests
+- steered_wheel_base_controller
+- kdl_parser
+- moveit_core
+- kdl_typekit
+- skeleton_markers
+- eigen_conversions
+- tf2_geometry_msgs
+- sr_kinematics
+- kdl_conversions
+- robot_state_publisher
+- pr2_head_action
+- pr2_gazebo_plugins
+- tf2_kdl
+- tf_conversions
+- industrial_trajectory_filters
+description: "This package contains a recent version of the Kinematics and Dynamics\n\
+  \    Library (KDL), distributed by the Orocos Project."
+devel_jobs:
+- devel-hydro-orocos_kinematics_dynamics
+doc_job: doc-hydro-orocos_kinematics_dynamics
+has_changelog_rst: false
+license: LGPL
+maintainer_status: maintained
+maintainers: Ruben Smits <ruben@intermodalics.eu>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-orocos-kdl_sourcedeb
+- ros-hydro-orocos-kdl_binarydeb_precise_amd64
+- ros-hydro-orocos-kdl_binarydeb_precise_i386
+- ros-hydro-orocos-kdl_binarydeb_quantal_amd64
+- ros-hydro-orocos-kdl_binarydeb_quantal_i386
+- ros-hydro-orocos-kdl_binarydeb_raring_amd64
+- ros-hydro-orocos-kdl_binarydeb_raring_i386
+repo_name: orocos_kinematics_dynamics
+repo_url: ''
+srvs: []
+timestamp: 1405964300.825644
+url: http://wiki.ros.org/orocos_kdl
+vcs: git
+vcs_uri: https://github.com/orocos/orocos_kinematics_dynamics.git
+vcs_version: master

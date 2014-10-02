@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/yocs_math_toolkit/html
+authors: Jorge Santos <jorge@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/yujin_ocs/issues
+depends:
+- tf
+- catkin
+- geometry_msgs
+- roscpp
+depends_on:
+- yocs_virtual_sensor
+- yujin_ocs
+- yocs_waypoints_navi
+description: "Math toolkit for Yujin open control system. This package is intended\
+  \ to contain common use functions,\n    mostly for simple mathematics but also for\
+  \ tf-related conversions.\n    By no means it pretends to be an efficient and robust,\
+  \ widely used math library, but a play ground where\n    to put common code that\
+  \ is typically repeated in many robot control programs."
+devel_jobs:
+- devel-hydro-yujin_ocs
+doc_job: doc-hydro-yujin_ocs
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Jorge Santos <jorge@yujinrobot.com>
+metapackages:
+- yujin_ocs
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-yocs-math-toolkit_sourcedeb
+- ros-hydro-yocs-math-toolkit_binarydeb_precise_amd64
+- ros-hydro-yocs-math-toolkit_binarydeb_precise_i386
+- ros-hydro-yocs-math-toolkit_binarydeb_quantal_amd64
+- ros-hydro-yocs-math-toolkit_binarydeb_quantal_i386
+- ros-hydro-yocs-math-toolkit_binarydeb_raring_amd64
+- ros-hydro-yocs-math-toolkit_binarydeb_raring_i386
+repo_name: yujin_ocs
+repo_url: https://github.com/yujinrobot/yujin_ocs
+srvs: []
+timestamp: 1405774553.8432
+url: http://ros.org/wiki/yocs_virtual_sensor
+vcs: git
+vcs_uri: https://github.com/yujinrobot/yujin_ocs.git
+vcs_version: hydro

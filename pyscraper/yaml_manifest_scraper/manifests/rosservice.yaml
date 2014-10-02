@@ -1,0 +1,60 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosservice/html
+authors: Ken Conley
+brief: ''
+bugtracker: ''
+depends:
+- genpy
+- catkin
+- roslib
+- rosgraph
+- rospy
+- rosmsg
+depends_on:
+- rocon_gateway
+- rqt_logger_level
+- roswtf
+- node_manager_fkie
+- rqt_decision_graph
+- rosh
+- household_objects_database
+- capabilities
+- rocon_python_comms
+- rqt_service_caller
+- rqt_graph
+- industrial_calibration_gui
+- ros_comm
+- rosbridge_library
+- dynamic_reconfigure
+description: "rosservice contains the rosservice command-line tool for listing\n \
+  \   and querying ROS <a href=\"http://www.ros.org/wiki/Services\">Services</a>.\
+  \ It also\n    contains a Python library for retrieving information about\n    Services\
+  \ and dynamically invoking them. The Python library is\n    experimental and is\
+  \ for internal-use only."
+devel_jobs:
+- devel-hydro-ros_comm
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros_comm
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosservice_sourcedeb
+- ros-hydro-rosservice_binarydeb_precise_amd64
+- ros-hydro-rosservice_binarydeb_precise_i386
+- ros-hydro-rosservice_binarydeb_quantal_amd64
+- ros-hydro-rosservice_binarydeb_quantal_i386
+- ros-hydro-rosservice_binarydeb_raring_amd64
+- ros-hydro-rosservice_binarydeb_raring_i386
+repo_name: ros_comm
+repo_url: ''
+srvs: []
+timestamp: 1405773159.76364
+url: http://ros.org/wiki/rosservice
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

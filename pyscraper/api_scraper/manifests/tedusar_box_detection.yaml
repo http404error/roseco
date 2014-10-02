@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/tedusar_box_detection/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- pcl_conversions
+- roscpp
+- actionlib
+- sensor_msgs
+- tedusar_box_detection_msgs
+- visualization_msgs
+- catkin
+- moveit_msgs
+- pcl_ros
+depends_on: []
+description: Node for detecting boxes with square base in point clouds by detecting
+  their top plane. Detection is started via an action interface.
+doc_job: doc-hydro-tedusar_manipulation
+has_changelog_rst: false
+license: BSD
+maintainers: Alexander Buchegger <alexander.buchegger@student.tugraz.at>
+msgs: []
+package_type: package
+repo_name: tedusar_manipulation
+repo_url: ''
+srvs: []
+timestamp: 1405965240.335955
+url: http://wiki.ros.org/tedusar_box_detection
+vcs: git
+vcs_uri: https://github.com/johmau85/tedusar_manipulation.git
+vcs_version: master

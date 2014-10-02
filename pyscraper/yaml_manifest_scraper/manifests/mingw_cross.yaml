@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/mingw_cross/html
+authors: Daniel Stonier
+brief: ''
+bugtracker: ''
+depends:
+- flex
+- intltool
+- catkin
+- mercurial
+- yasm
+- scons
+- bison
+- xz-utils
+- libtool
+- autoconf
+depends_on: []
+description: "Installer script for the mingw cross environment. This will install\
+  \ to /opt/mingw\n     and immediately begin cross-compiling gcc, boost and qt. Other\
+  \ libraries can be added by\n     simply cd'ing to /opt/mingw and running make for\
+  \ the desired target."
+doc_job: doc-hydro-win_ros
+has_changelog_rst: false
+license: BSD
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+msgs: []
+package_type: package
+repo_name: win_ros
+repo_url: ''
+srvs: []
+timestamp: 1405975742.122877
+url: http://ros.org/wiki/mingw_cross
+vcs: git
+vcs_uri: https://github.com/ros-windows/win_ros.git
+vcs_version: hydro-devel

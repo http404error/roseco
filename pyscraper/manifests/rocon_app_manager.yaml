@@ -1,0 +1,55 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_app_manager/html
+authors: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_app_platform/issues
+depends:
+- rocon_apps
+- rocon_gateway
+- rocon_hub
+- gateway_msgs
+- catkin
+- roslib
+- std_msgs
+- rocon_app_manager_msgs
+- rosmaster
+- rospy
+- rocon_utilities
+depends_on:
+- rocon_app_platform
+- segbot_gazebo_concert
+- roomba_robin_bringup
+- wheeled_robin_bringup
+- multinav_concert
+- chatter_concert
+- turtle_concert
+- turtlebot_bringup
+- bwi_guidance_concert
+description: The public interface and retaskable interface for a robot.
+devel_jobs:
+- devel-hydro-rocon_app_platform
+doc_job: doc-hydro-rocon_app_platform
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+metapackages:
+- rocon_app_platform
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rocon-app-manager_sourcedeb
+- ros-hydro-rocon-app-manager_binarydeb_precise_amd64
+- ros-hydro-rocon-app-manager_binarydeb_precise_i386
+- ros-hydro-rocon-app-manager_binarydeb_quantal_amd64
+- ros-hydro-rocon-app-manager_binarydeb_quantal_i386
+- ros-hydro-rocon-app-manager_binarydeb_raring_amd64
+- ros-hydro-rocon-app-manager_binarydeb_raring_i386
+repo_name: rocon_app_platform
+repo_url: https://github.com/robotics-in-concert/rocon_app_platform
+srvs: []
+timestamp: 1405964623.682486
+url: http://www.ros.org/wiki/rocon_app_manager
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_app_platform.git
+vcs_version: hydro

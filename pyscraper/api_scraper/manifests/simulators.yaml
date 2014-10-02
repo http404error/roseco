@@ -1,0 +1,23 @@
+authors: ''
+depends:
+- gazebo_ros_pkgs
+- image_common
+- catkin
+- perception_pcl
+- robot
+- rqt_robot_plugins
+- stage_ros
+description: A metapackage to aggregate several packages.
+license: BSD
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+package_type: package
+release_jobs:
+- ros-hydro-simulators_sourcedeb
+- ros-hydro-simulators_binarydeb_precise_amd64
+- ros-hydro-simulators_binarydeb_precise_i386
+- ros-hydro-simulators_binarydeb_quantal_amd64
+- ros-hydro-simulators_binarydeb_quantal_i386
+- ros-hydro-simulators_binarydeb_raring_amd64
+- ros-hydro-simulators_binarydeb_raring_i386
+repo_name: metapackages
+timestamp: 1405956415.07612

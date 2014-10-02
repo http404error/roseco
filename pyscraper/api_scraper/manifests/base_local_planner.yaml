@@ -1,0 +1,70 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/base_local_planner/html
+authors: Eitan Marder-Eppstein, Eric Perko, contradict@gmail.com
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- rosconsole
+- pcl_conversions
+- roscpp
+- costmap_2d
+- pluginlib
+- std_msgs
+- catkin
+- eigen
+- cmake_modules
+- nav_core
+- rospy
+- dynamic_reconfigure
+- angles
+- visualization_msgs
+- tf
+- geometry_msgs
+- message_generation
+- voxel_grid
+- pcl_ros
+depends_on:
+- rosjava_messages
+- navigation
+- turtlebot_navigation
+- dwa_local_planner
+- move_base
+- carrot_planner
+- rotate_recovery
+description: This package provides implementations of the Trajectory Rollout and Dynamic
+  Window approaches to local robot navigation on a plane. Given a plan to follow and
+  a costmap, the controller produces velocity commands to send to a mobile base. This
+  package supports both holonomic and non-holonomic robots, any robot footprint that
+  can be represented as a convex polygon or circle, and exposes its configuration
+  as ROS parameters that can be set in a launch file. This package's ROS wrapper adheres
+  to the BaseLocalPlanner interface specified in the <a href="http://wiki.ros.org/nav_core">nav_core</a>
+  package.
+devel_jobs:
+- devel-hydro-navigation
+doc_job: doc-hydro-navigation
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <fergs@unboundedrobotics.com>
+metapackages:
+- navigation
+msgs:
+- Position2DInt
+package_type: package
+release_jobs:
+- ros-hydro-base-local-planner_sourcedeb
+- ros-hydro-base-local-planner_binarydeb_precise_amd64
+- ros-hydro-base-local-planner_binarydeb_precise_i386
+- ros-hydro-base-local-planner_binarydeb_quantal_amd64
+- ros-hydro-base-local-planner_binarydeb_quantal_i386
+- ros-hydro-base-local-planner_binarydeb_raring_amd64
+- ros-hydro-base-local-planner_binarydeb_raring_i386
+repo_name: navigation
+repo_url: ''
+srvs: []
+timestamp: 1405974575.297595
+url: http://wiki.ros.org/base_local_planner
+vcs: git
+vcs_uri: https://github.com/ros-planning/navigation.git
+vcs_version: hydro-devel

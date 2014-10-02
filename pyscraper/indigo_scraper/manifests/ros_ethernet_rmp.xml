@@ -1,0 +1,28 @@
+<?xml version="1.0" ?><package>
+  <name>ros_ethernet_rmp</name>
+  <version>0.0.4</version>
+  <description>ROS Wrapper for the Segway RMP Ethernet Python Driver</description>
+
+  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  <author>SEGWAY Inc.</author>
+  <author email="cmdunkers@wpi.edu">Chris Dunkers</author>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/ros_ethernet_rmp</url>
+  <url type="bugtracker">https://github.com/WPI-RAIL/ros_ethernet_rmp/issues</url>
+  <url type="repository">https://github.com/WPI-RAIL/ros_ethernet_rmp</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>battery_monitor_rmp</run_depend>
+  <run_depend>rmp_msgs</run_depend>
+</package>

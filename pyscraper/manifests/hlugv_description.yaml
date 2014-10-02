@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hlugv_description/html
+authors: Stefan Kohlbrecher
+brief: hlugv_description contains the URDF model of a mobile robot based on the Wild
+  Thumper robot kit
+bugtracker: ''
+depends:
+- hector_roll_pitch_stabilizer
+- hector_imu_attitude_to_tf
+- urdf
+- hector_sensors_description
+depends_on:
+- hlugv_gazebo
+description: "\n\n     hlugv_description contains the URDF model of a mobile robot\
+  \ based on the Wild Thumper robot kit\n\n  "
+doc_job: doc-hydro-hlugv_common
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: hlugv_common
+repo_url: ''
+srvs: []
+timestamp: 1405973640.524572
+url: http://ros.org/wiki/hlugv_description
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hlugv_common
+vcs_version: HEAD

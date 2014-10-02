@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_exploration_controller/html
+authors: Stefan Kohlbrecher
+brief: hector_exploration_controller is a simple controller that requests a plan via
+  a service and generates geometry_msgs/Twist commands accordingly to follow this
+  plan
+bugtracker: ''
+depends:
+- hector_path_follower
+- hector_nav_msgs
+depends_on:
+- hlugv_apps
+description: "\n\n     hector_exploration_controller is a simple controller that requests\
+  \ a plan via a service and generates geometry_msgs/Twist commands accordingly to\
+  \ follow this plan\n\n  "
+doc_job: doc-hydro-hector_navigation
+license: BSD
+maintainers: ''
+metapackages:
+- hector_navigation
+msgs: []
+package_type: package
+repo_name: hector_navigation
+repo_url: ''
+srvs: []
+timestamp: 1405771003.67207
+url: http://ros.org/wiki/hector_exploration_controller
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_navigation.git
+vcs_version: master

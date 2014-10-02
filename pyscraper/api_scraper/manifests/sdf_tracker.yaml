@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sdf_tracker/html
+authors: Daniel Canelhas <daniel.canelhas@oru.se>
+brief: ''
+bugtracker: ''
+depends:
+- libvtk
+- catkin
+- roscpp
+- std_msgs
+- opencv2
+- cv_bridge
+- eigen
+depends_on: []
+description: The sdf_tracker package
+doc_job: doc-hydro-perception_oru
+has_changelog_rst: true
+license: BSD
+maintainers: Daniel Canelhas <daniel.canelhas@oru.se>, Todor Stoyanov <todor.stoyanov@oru.se>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sdf-tracker_sourcedeb
+- ros-hydro-sdf-tracker_binarydeb_precise_amd64
+- ros-hydro-sdf-tracker_binarydeb_precise_i386
+- ros-hydro-sdf-tracker_binarydeb_quantal_amd64
+- ros-hydro-sdf-tracker_binarydeb_quantal_i386
+- ros-hydro-sdf-tracker_binarydeb_raring_amd64
+- ros-hydro-sdf-tracker_binarydeb_raring_i386
+repo_name: perception_oru
+repo_url: ''
+srvs: []
+timestamp: 1405964381.006665
+url: ''
+vcs: git
+vcs_uri: https://github.com/tstoyanov/perception_oru-release.git
+vcs_version: release-hydro-source

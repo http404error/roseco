@@ -1,0 +1,58 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ecl_threads/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/stonier/ecl_core/issues
+depends:
+- ecl_utilities
+- catkin
+- ecl_license
+- ecl_concepts
+- ecl_errors
+- ecl_time
+- ecl_config
+- ecl_build
+- ecl_exceptions
+depends_on:
+- kobuki_keyop
+- ecl_core
+- ecl_core_apps
+- yocs_diff_drive_pose_controller
+- kobuki_node
+- yocs_velocity_smoother
+- kobuki_safety_controller
+- ecl_sigslots
+- kobuki_dock_drive
+- ecl_devices
+- kobuki_auto_docking
+- kobuki_random_walker
+description: "This package provides the c++ extensions for a variety of threaded \n\
+  \     programming tools. These are usually different on different \n     platforms,\
+  \ so the architecture for a cross-platform framework\n     is also implemented."
+devel_jobs:
+- devel-hydro-ecl_core
+doc_job: doc-hydro-ecl_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- ecl_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ecl-threads_sourcedeb
+- ros-hydro-ecl-threads_binarydeb_precise_amd64
+- ros-hydro-ecl-threads_binarydeb_precise_i386
+- ros-hydro-ecl-threads_binarydeb_quantal_amd64
+- ros-hydro-ecl-threads_binarydeb_quantal_i386
+- ros-hydro-ecl-threads_binarydeb_raring_amd64
+- ros-hydro-ecl-threads_binarydeb_raring_i386
+repo_name: ecl_core
+repo_url: https://github.com/stonier/ecl_core
+srvs: []
+timestamp: 1405963104.998456
+url: http://wiki.ros.org/ecl_threads
+vcs: git
+vcs_uri: https://github.com/stonier/ecl_core.git
+vcs_version: hydro-devel

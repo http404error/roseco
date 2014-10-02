@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/labust_navigation/html
+authors: Gyula Nagy <dula.nad@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- sensor_msgs
+- navcon_msgs
+- geometry_msgs
+- auv_msgs
+- tf2_ros
+- snippets
+depends_on:
+- labust_framework
+- ldtravocean
+description: "The labust_navigation package contains different navigation models and\
+  \ \n      filter nodes used for sensors and vehicles."
+doc_job: doc-hydro-labust_ros_pkg
+has_changelog_rst: false
+license: BSD
+maintainers: Gyula Nagy <dula.nad@gmail.com>
+metapackages:
+- labust_framework
+msgs: []
+package_type: package
+repo_name: labust_ros_pkg
+repo_url: ''
+srvs: []
+timestamp: 1405771628.952199
+url: ''
+vcs: git
+vcs_uri: https://github.com/labust/labust-ros-pkg.git
+vcs_version: master

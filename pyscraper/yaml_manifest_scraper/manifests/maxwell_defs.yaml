@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/maxwell_defs/html
+authors: Michael Ferguson
+brief: ''
+bugtracker: ''
+depends:
+- ivcon
+- xacro
+- urdf
+- arbotix_python
+- catkin
+- diagnostic_msgs
+depends_on:
+- maxwell
+description: Maxwell is a custom mobile manipulator, this package contains his configuration
+  and launch files.
+doc_job: doc-hydro-maxwell
+has_changelog_rst: false
+license: BSD
+maintainers: Michael Ferguson <mike@vanadiumlabs.com>
+metapackages:
+- maxwell
+msgs: []
+package_type: package
+repo_name: maxwell
+repo_url: ''
+srvs: []
+timestamp: 1405963903.440724
+url: http://ros.org/wiki/maxwell_defs
+vcs: git
+vcs_uri: https://github.com/mikeferguson/maxwell.git
+vcs_version: sixdof

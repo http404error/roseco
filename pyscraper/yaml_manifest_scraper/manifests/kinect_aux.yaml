@@ -1,0 +1,36 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kinect_aux/html
+authors: "Ivan Dryanovski, William Morris, St\xE9phane Magnenat, Radu Bogdan Rusu,\
+  \ Patrick Mihelich, Authors of libfreenect"
+brief: ''
+bugtracker: ''
+depends:
+- std_msgs
+- sensor_msgs
+- libusb-1.0-dev
+- catkin
+- roscpp
+depends_on: []
+description: A standalone driver for the Kinect accelerometers and tilt motor.
+doc_job: doc-hydro-kinect_aux
+has_changelog_rst: true
+license: BSD
+maintainers: Murilo F. M. <muhrix@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-kinect-aux_sourcedeb
+- ros-hydro-kinect-aux_binarydeb_precise_amd64
+- ros-hydro-kinect-aux_binarydeb_precise_i386
+- ros-hydro-kinect-aux_binarydeb_quantal_amd64
+- ros-hydro-kinect-aux_binarydeb_quantal_i386
+- ros-hydro-kinect-aux_binarydeb_raring_amd64
+- ros-hydro-kinect-aux_binarydeb_raring_i386
+repo_name: kinect_aux
+repo_url: ''
+srvs: []
+timestamp: 1405963639.640851
+url: http://ros.org/wiki/kinect_aux
+vcs: git
+vcs_uri: https://github.com/muhrix/kinect_aux.git
+vcs_version: hydro

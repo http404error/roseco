@@ -1,0 +1,60 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rostime/html
+authors: Josh Faust
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- cpp_common
+- boost
+depends_on:
+- rosconsole
+- rtt_ros
+- roscpp_serialization
+- roscpp_traits
+- moveit_core
+- roscpp_tutorials
+- topic_tools
+- ros_web_video
+- rosbag_storage
+- rtt_rosclock
+- roscpp
+- tf2
+- message_runtime
+- test_roscpp
+- robot_state_publisher
+- cpp_introspection
+- hector_pose_estimation_core
+- roscpp_core
+- warehouse_ros
+- settlerlib
+- interval_intersection
+- turtlesim
+description: Time and Duration implementations for C++ libraries, including roscpp.
+devel_jobs:
+- devel-hydro-roscpp_core
+doc_job: doc-hydro-roscpp_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- roscpp_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rostime_sourcedeb
+- ros-hydro-rostime_binarydeb_precise_amd64
+- ros-hydro-rostime_binarydeb_precise_i386
+- ros-hydro-rostime_binarydeb_quantal_amd64
+- ros-hydro-rostime_binarydeb_quantal_i386
+- ros-hydro-rostime_binarydeb_raring_amd64
+- ros-hydro-rostime_binarydeb_raring_i386
+repo_name: roscpp_core
+repo_url: ''
+srvs: []
+timestamp: 1405773296.769567
+url: http://ros.org/wiki/rostime
+vcs: git
+vcs_uri: https://github.com/ros/roscpp_core.git
+vcs_version: hydro-devel

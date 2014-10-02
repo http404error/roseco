@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtle_concert/html
+authors: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_tutorials/issues
+depends:
+- rocon_apps
+- concert_conductor
+- catkin
+- zeroconf_avahi
+- gateway_msgs
+- zeroconf_msgs
+- rocon_app_manager
+- concert_orchestra
+- rospy
+- turtle_stroll
+- rocon_utilities
+depends_on:
+- rocon_tutorials
+description: A very simple software concert.
+devel_jobs:
+- devel-hydro-rocon_tutorials
+doc_job: doc-hydro-rocon_tutorials
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+metapackages:
+- rocon_tutorials
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-turtle-concert_sourcedeb
+- ros-hydro-turtle-concert_binarydeb_precise_amd64
+- ros-hydro-turtle-concert_binarydeb_precise_i386
+- ros-hydro-turtle-concert_binarydeb_quantal_amd64
+- ros-hydro-turtle-concert_binarydeb_quantal_i386
+- ros-hydro-turtle-concert_binarydeb_raring_amd64
+- ros-hydro-turtle-concert_binarydeb_raring_i386
+repo_name: rocon_tutorials
+repo_url: https://github.com/robotics-in-concert/rocon_tutorials
+srvs: []
+timestamp: 1405773079.083237
+url: http://ros.org/wiki/turtle_concert
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_tutorials.git
+vcs_version: hydro

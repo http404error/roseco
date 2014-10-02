@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/timestamp_tools/html
+authors: Blaise Gassend
+brief: ''
+bugtracker: https://github.com/ros-drivers/driver_common/issues
+depends:
+- roslib
+- catkin
+- roscpp
+depends_on:
+- driver_common
+description: "This package is currently for internal use only. Its API may change\n\
+  \    without warning in the future.  This package is deprecated."
+doc_job: doc-hydro-driver_common
+has_changelog_rst: false
+license: BSD
+maintainer_status: end-of-life
+maintainer_status_description: Will be released only as long as required for PR2 drivers
+  (hokuyo_node, wge100_driver)
+maintainers: Chad Rockey <chadrockey@gmail.com>
+metapackages:
+- driver_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-timestamp-tools_sourcedeb
+- ros-hydro-timestamp-tools_binarydeb_precise_amd64
+- ros-hydro-timestamp-tools_binarydeb_precise_i386
+- ros-hydro-timestamp-tools_binarydeb_quantal_amd64
+- ros-hydro-timestamp-tools_binarydeb_quantal_i386
+- ros-hydro-timestamp-tools_binarydeb_raring_amd64
+- ros-hydro-timestamp-tools_binarydeb_raring_i386
+repo_name: driver_common
+repo_url: https://github.com/ros-drivers/driver_common
+srvs: []
+timestamp: 1405962956.359203
+url: http://www.ros.org/wiki/timestamp_tools
+vcs: git
+vcs_uri: https://github.com/ros-drivers/driver_common.git
+vcs_version: hydro-devel

@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nodelet_core/html
+authors: Tully Foote
+brief: ''
+bugtracker: https://code.ros.org/trac/ros-pkg/query?component=common&status=assigned&status=new&status=reopened
+depends: &id001
+- nodelet_topic_tools
+- nodelet
+- catkin
+depends_on: []
+description: Nodelet Core Metapackage
+devel_jobs:
+- devel-hydro-nodelet_core
+doc_job: doc-hydro-nodelet_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Esteve Fernandez <esteve@osrfoundation.org>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-nodelet-core_sourcedeb
+- ros-hydro-nodelet-core_binarydeb_precise_amd64
+- ros-hydro-nodelet-core_binarydeb_precise_i386
+- ros-hydro-nodelet-core_binarydeb_quantal_amd64
+- ros-hydro-nodelet-core_binarydeb_quantal_i386
+- ros-hydro-nodelet-core_binarydeb_raring_amd64
+- ros-hydro-nodelet-core_binarydeb_raring_i386
+repo_name: nodelet_core
+repo_url: https://github.com/ros/nodelet_core
+srvs: []
+timestamp: 1405964081.360594
+url: http://www.ros.org/wiki/nodelet_core
+vcs: git
+vcs_uri: https://github.com/ros/nodelet_core.git
+vcs_version: hydro-devel

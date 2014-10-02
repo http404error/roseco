@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/simple_approximate_time_synchronizer/html
+authors: Michael Goerner
+brief: simple_approximate_time_synchronizer
+bugtracker: ''
+depends:
+- rospy
+- message_filters
+depends_on: []
+description: "\n\n    simple_approximate_time_synchronizer\n\n  "
+doc_job: doc-hydro-uos_tools
+license: BSD
+maintainers: ''
+metapackages:
+- uos_tools
+msgs: []
+package_type: package
+repo_name: uos_tools
+repo_url: ''
+srvs: []
+timestamp: 1405965454.643426
+url: http://ros.org/wiki/simple_approximate_time_synchronizer
+vcs: git
+vcs_uri: https://github.com/uos/uos_tools.git
+vcs_version: hydro

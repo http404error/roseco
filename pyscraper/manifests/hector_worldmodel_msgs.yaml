@@ -1,0 +1,67 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_worldmodel_msgs/html
+authors: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- geometry_msgs
+- message_runtime
+- sensor_msgs
+- catkin
+depends_on:
+- hector_thermal_self_filter
+- hector_qrcode_detection
+- hector_object_tracker
+- rosjava_messages
+- hector_worldmodel_geotiff_plugins
+- rosruby_messages
+- hector_heat_detection
+- hector_motion_detection
+- hector_worldmodel
+description: "hector_worldmodel_msgs is a message package to comes with the hector_worldmodel\
+  \ stack.\n     The messages can be used to send percepts from images (hector_worldmodel_msgs/ImagePercept)\
+  \ or other sources\n     (hector_worldmodel_msgs/PosePercept) to the hector_object_tracker\
+  \ node. The tracker publishes model updates as\n     hector_worldmodel_msgs/Object\
+  \ messages and latches the whole model state as a hector_worldmodel_msgs/ObjectModel\
+  \ message."
+devel_jobs:
+- devel-hydro-hector_worldmodel
+doc_job: doc-hydro-hector_worldmodel
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+metapackages:
+- hector_worldmodel
+msgs:
+- ObjectInfo
+- PerceptInfo
+- ObjectModel
+- PosePercept
+- ImagePercept
+- Object
+- ObjectState
+package_type: package
+release_jobs:
+- ros-hydro-hector-worldmodel-msgs_sourcedeb
+- ros-hydro-hector-worldmodel-msgs_binarydeb_precise_amd64
+- ros-hydro-hector-worldmodel-msgs_binarydeb_precise_i386
+- ros-hydro-hector-worldmodel-msgs_binarydeb_quantal_amd64
+- ros-hydro-hector-worldmodel-msgs_binarydeb_quantal_i386
+- ros-hydro-hector-worldmodel-msgs_binarydeb_raring_amd64
+- ros-hydro-hector-worldmodel-msgs_binarydeb_raring_i386
+repo_name: hector_worldmodel
+repo_url: ''
+srvs:
+- SetObjectState
+- AddObject
+- VerifyPercept
+- SetObjectName
+- GetObjectModel
+- VerifyObject
+timestamp: 1405771059.003762
+url: http://ros.org/wiki/hector_worldmodel_msgs
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_worldmodel.git
+vcs_version: catkin

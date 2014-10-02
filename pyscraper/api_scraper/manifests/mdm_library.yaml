@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/mdm_library/html
+authors: Joao Messias <jmessias@isr.ist.utl.pt>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- message_runtime
+- std_msgs
+- message_generation
+- predicate_manager
+depends_on:
+- mdm_example
+- markov_decision_making
+- topological_tools
+description: This is the core package of the Markov Decision Making Library.
+doc_job: doc-hydro-markov_decision_making
+has_changelog_rst: false
+license: LGPLv3
+maintainers: Joao Messias <jmessias@isr.ist.utl.pt>
+metapackages:
+- markov_decision_making
+msgs:
+- FactoredDistribution
+- FactoredSymbolMetadata
+- BeliefStateInfo
+- ActionSymbol
+- SymbolMetadata
+- WorldSymbol
+package_type: package
+repo_name: markov_decision_making
+repo_url: ''
+srvs: []
+timestamp: 1405963783.336311
+url: http://ros.org/wiki/mdm_library
+vcs: git
+vcs_uri: https://github.com/larsys/markov_decision_making.git
+vcs_version: master

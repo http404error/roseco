@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rotunit_snapshotter/html
+authors: Jochen Sprickerhof
+brief: rotunit_snapshotter
+bugtracker: ''
+depends:
+- laser_assembler
+- sensor_msgs
+- roscpp
+depends_on:
+- kurt_bringup
+description: "\n\n     rotunit_snapshotter\n\n  "
+doc_job: doc-hydro-kurt_driver
+license: BSD
+maintainers: ''
+metapackages:
+- kurt_driver
+msgs: []
+package_type: package
+repo_name: kurt_driver
+repo_url: ''
+srvs: []
+timestamp: 1405974106.888061
+url: http://ros.org/wiki/rotunit_snapshotter
+vcs: git
+vcs_uri: https://github.com/uos/kurt_driver.git
+vcs_version: hydro

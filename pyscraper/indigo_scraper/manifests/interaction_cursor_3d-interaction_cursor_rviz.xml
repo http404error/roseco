@@ -1,0 +1,32 @@
+<package>
+  <name>interaction_cursor_rviz</name>
+  <version>0.0.3</version>
+  <description>
+    An Rviz plugin that implements the interaction_cursor_msgs API
+    to interact with interactive_markers.
+  </description>
+
+  <author email="adamleeper@gmail.com">Adam Leeper</author>
+  <maintainer email="adamleeper@gmail.com">Adam Leeper</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://www.ros.org/wiki/interaction_cursor_rviz</url>
+  <url type="repository">https://github.com/aleeper/interaction_cursor_3d</url>
+  <url type="bugtracker">https://github.com/aleeper/interaction_cursor_3d/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>interaction_cursor_msgs</build_depend>
+  <build_depend>rviz</build_depend>
+
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>interaction_cursor_msgs</run_depend>
+  <run_depend>rviz</run_depend>
+
+  <export>
+    <rviz plugin="${prefix}/interaction_cursor_rviz_plugin_description.xml" />
+  </export>
+
+</package>

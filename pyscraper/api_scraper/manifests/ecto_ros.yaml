@@ -1,0 +1,31 @@
+authors: Ethan Rublee <erublee@willowgarage.com>, Vincent Rabaud <vrabaud@willowgarage.com>
+depends:
+- nav_msgs
+- catkin
+- eigen
+- std_msgs
+- rosbag
+- message_runtime
+- sensor_msgs
+- cmake_modules
+- geometry_msgs
+- rosmsg
+- message_generation
+- ecto
+- cv_bridge
+- roscpp
+description: A set of generic cells to interact with ROS
+license: BSD
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-ecto-ros_sourcedeb
+- ros-hydro-ecto-ros_binarydeb_precise_amd64
+- ros-hydro-ecto-ros_binarydeb_precise_i386
+- ros-hydro-ecto-ros_binarydeb_quantal_amd64
+- ros-hydro-ecto-ros_binarydeb_quantal_i386
+- ros-hydro-ecto-ros_binarydeb_raring_amd64
+- ros-hydro-ecto-ros_binarydeb_raring_i386
+repo_name: ecto_ros
+timestamp: 1405956414.776247
+url: http://plasmodic.github.io/ecto_ros

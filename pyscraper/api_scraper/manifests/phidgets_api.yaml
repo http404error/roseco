@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/phidgets_api/html
+authors: Tully Foote, Ivan Dryanovski, Copyright (C) 2010 Phidgets Inc. <patrick@phidgets.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on:
+- phidgets_imu
+- phidgets_drivers
+- phidgets_ir
+description: A C++ Wrapper for the Phidgets C API
+doc_job: doc-hydro-phidgets_drivers
+has_changelog_rst: false
+license: BSD, LGPLv3
+maintainers: Murilo F. M. <muhrix@gmail.com>, Ivan Dryanovski <ccnyroboticslab@gmail.com>
+metapackages:
+- phidgets_drivers
+msgs: []
+package_type: package
+repo_name: phidgets_drivers
+repo_url: ''
+srvs: []
+timestamp: 1405964410.913115
+url: http://ros.org/wiki/phidgets_api
+vcs: git
+vcs_uri: https://github.com/ccny-ros-pkg/phidgets_drivers.git
+vcs_version: hydro

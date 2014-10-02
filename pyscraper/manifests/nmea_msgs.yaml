@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nmea_msgs/html
+authors: Eric Perko <eric@ericperko.com>
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- catkin
+- message_runtime
+- std_msgs
+depends_on:
+- rosjava_messages
+- rosruby_messages
+- nmea_navsat_driver
+description: The nmea_msgs package contains messages related to data in the NMEA format.
+doc_job: doc-hydro-nmea_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Eric Perko <eric@ericperko.com>
+msgs:
+- Sentence
+package_type: package
+release_jobs:
+- ros-hydro-nmea-msgs_sourcedeb
+- ros-hydro-nmea-msgs_binarydeb_precise_amd64
+- ros-hydro-nmea-msgs_binarydeb_precise_i386
+- ros-hydro-nmea-msgs_binarydeb_quantal_amd64
+- ros-hydro-nmea-msgs_binarydeb_quantal_i386
+- ros-hydro-nmea-msgs_binarydeb_raring_amd64
+- ros-hydro-nmea-msgs_binarydeb_raring_i386
+repo_name: nmea_msgs
+repo_url: ''
+srvs: []
+timestamp: 1405772210.148275
+url: http://ros.org/wiki/nmea_msgs
+vcs: git
+vcs_uri: https://github.com/ros-drivers/nmea_msgs.git
+vcs_version: hydro-devel

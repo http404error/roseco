@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_table_object_cluster/html
+authors: Georg Arbeiter
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- nodelet
+- actionlib
+- cob_vision_utils
+- eigen_conversions
+- cob_perception_msgs
+- cob_srvs
+- cob_3d_mapping_common
+- cob_object_detection_msgs
+- libpcl-all-dev
+- boost
+- cob_3d_mapping_msgs
+- tf_conversions
+- pcl_ros
+depends_on:
+- cob_environment_perception
+description: Nodes for segmenting objects on a table.
+doc_job: doc-hydro-cob_environment_perception
+has_changelog_rst: false
+license: LGPL
+maintainers: Georg Arbeiter <goa@ipa.fhg.de>
+metapackages:
+- cob_environment_perception
+msgs: []
+package_type: package
+repo_name: cob_environment_perception
+repo_url: ''
+srvs: []
+timestamp: 1405962443.369704
+url: http://wiki.ros.org/cob_table_object_cluster
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_environment_perception.git
+vcs_version: hydro_dev

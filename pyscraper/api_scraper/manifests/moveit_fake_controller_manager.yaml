@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/moveit_fake_controller_manager/html
+authors: Ioan Sucan <isucan@gmail.com>
+brief: ''
+bugtracker: https://github.com/ros-planning/moveit_plugins/issues
+depends:
+- moveit_core
+- catkin
+- roscpp
+- pluginlib
+depends_on:
+- pr2_moveit_tutorials
+- moveit_plugins
+description: A fake controller manager plugin for MoveIt.
+doc_job: doc-hydro-moveit_plugins
+has_changelog_rst: true
+license: BSD
+maintainers: Ioan Sucan <isucan@gmail.com>
+metapackages:
+- moveit_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-moveit-fake-controller-manager_sourcedeb
+- ros-hydro-moveit-fake-controller-manager_binarydeb_precise_amd64
+- ros-hydro-moveit-fake-controller-manager_binarydeb_precise_i386
+- ros-hydro-moveit-fake-controller-manager_binarydeb_quantal_amd64
+- ros-hydro-moveit-fake-controller-manager_binarydeb_quantal_i386
+- ros-hydro-moveit-fake-controller-manager_binarydeb_raring_amd64
+- ros-hydro-moveit-fake-controller-manager_binarydeb_raring_i386
+repo_name: moveit_plugins
+repo_url: https://github.com/ros-planning/moveit_plugins
+srvs: []
+timestamp: 1405963921.783727
+url: http://moveit.ros.org
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_plugins.git
+vcs_version: hydro-devel

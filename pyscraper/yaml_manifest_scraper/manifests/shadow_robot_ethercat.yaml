@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/shadow_robot_ethercat/html
+authors: Ugo Cupcic, Toni Oliver, Mark Pitchless
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ros-interface-ethercat/issues
+depends: &id001
+- sr_edc_muscle_tools
+- catkin
+- sr_external_dependencies
+- sr_edc_controller_configuration
+- sr_edc_ethercat_drivers
+- sr_edc_launch
+- sr_robot_lib
+depends_on: []
+description: This stack contains the drivers and the controllers for Shadow Robot's
+  EtherCAT Hand.
+devel_jobs:
+- devel-hydro-shadow_robot_ethercat
+doc_job: doc-hydro-shadow_robot_ethercat
+has_changelog_rst: true
+license: GPL
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-shadow-robot-ethercat_sourcedeb
+- ros-hydro-shadow-robot-ethercat_binarydeb_precise_amd64
+- ros-hydro-shadow-robot-ethercat_binarydeb_precise_i386
+- ros-hydro-shadow-robot-ethercat_binarydeb_quantal_amd64
+- ros-hydro-shadow-robot-ethercat_binarydeb_quantal_i386
+- ros-hydro-shadow-robot-ethercat_binarydeb_raring_amd64
+- ros-hydro-shadow-robot-ethercat_binarydeb_raring_i386
+repo_name: shadow_robot_ethercat
+repo_url: https://github.com/shadow-robot/sr-ros-interface-ethercat
+srvs: []
+timestamp: 1405975412.498903
+url: http://ros.org/wiki/shadow_robot_ethercat
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ros-interface-ethercat.git
+vcs_version: hydro-devel

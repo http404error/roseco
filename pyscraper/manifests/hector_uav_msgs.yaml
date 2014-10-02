@@ -1,0 +1,66 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_uav_msgs/html
+authors: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+brief: ''
+bugtracker: https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor/issues
+depends:
+- message_generation
+- catkin
+- message_runtime
+- std_msgs
+depends_on:
+- hector_quadrotor_gazebo
+- hector_quadrotor
+- rosjava_messages
+- hector_quadrotor_model
+- hector_quadrotor_controller
+- hector_quadrotor_pose_estimation
+- hector_quadrotor_gazebo_plugins
+description: hector_uav_msgs is a message package that contains messages for UAV controller
+  inputs and outputs and some sensor readings not covered by sensor_msgs.
+doc_job: doc-hydro-hector_quadrotor
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+metapackages:
+- hector_quadrotor
+msgs:
+- MotorPWM
+- MotorCommand
+- Altimeter
+- MotorStatus
+- HeadingCommand
+- RawMagnetic
+- Supply
+- HeightCommand
+- AttitudeCommand
+- VelocityZCommand
+- YawrateCommand
+- PositionXYCommand
+- RawRC
+- ServoCommand
+- RuddersCommand
+- ControllerState
+- RC
+- VelocityXYCommand
+- RawImu
+- ThrustCommand
+- Compass
+package_type: package
+release_jobs:
+- ros-hydro-hector-uav-msgs_sourcedeb
+- ros-hydro-hector-uav-msgs_binarydeb_precise_amd64
+- ros-hydro-hector-uav-msgs_binarydeb_precise_i386
+- ros-hydro-hector-uav-msgs_binarydeb_quantal_amd64
+- ros-hydro-hector-uav-msgs_binarydeb_quantal_i386
+- ros-hydro-hector-uav-msgs_binarydeb_raring_amd64
+- ros-hydro-hector-uav-msgs_binarydeb_raring_i386
+repo_name: hector_quadrotor
+repo_url: ''
+srvs: []
+timestamp: 1405973491.469055
+url: http://ros.org/wiki/hector_uav_msgs
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor.git
+vcs_version: hydro-devel

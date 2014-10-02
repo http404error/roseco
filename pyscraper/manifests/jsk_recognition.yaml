@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jsk_recognition/html
+authors: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>, Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>,
+  Youhei Kakiuchi <youhei@jsk.imi.i.u-tokyo.ac.jp>
+brief: ''
+bugtracker: https://github.com/jsk-ros-pkg/jsk_recognition/issues
+depends: &id001
+- imagesift
+- catkin
+- resized_image_transport
+- jsk_pcl_ros
+- checkerboard_detector
+- jsk_perception
+depends_on: []
+description: <p>Metapackage that contains recognition package for jsk-ros-pkg</p>
+devel_jobs:
+- devel-hydro-jsk_recognition
+doc_job: doc-hydro-jsk_recognition
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-jsk-recognition_sourcedeb
+- ros-hydro-jsk-recognition_binarydeb_precise_amd64
+- ros-hydro-jsk-recognition_binarydeb_precise_i386
+- ros-hydro-jsk-recognition_binarydeb_quantal_amd64
+- ros-hydro-jsk-recognition_binarydeb_quantal_i386
+- ros-hydro-jsk-recognition_binarydeb_raring_amd64
+- ros-hydro-jsk-recognition_binarydeb_raring_i386
+repo_name: jsk_recognition
+repo_url: https://github.com/jsk-ros-pkg/jsk_recognition
+srvs: []
+timestamp: 1405974161.783849
+url: http://ros.org/wiki/jsk_recognition
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_recognition.git
+vcs_version: master

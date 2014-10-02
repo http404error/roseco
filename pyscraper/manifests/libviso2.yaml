@@ -1,0 +1,33 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/libviso2/html
+authors: Andreas Geiger, Stephan Wirth <stephan.wirth@uib.es>
+brief: ''
+bugtracker: https://github.com/srv/viso2/issues
+depends:
+- catkin
+depends_on:
+- viso2
+- viso2_ros
+description: "This is a ROS-Package for libviso2, a library for visual odometry created\
+  \ by Andeas Geiger\n    from the Institute of Measurement and Control Systems at\
+  \ Karlsruhe Institute of Technology.\n\n    Apart from the original libviso2 sources,\
+  \ this package contains\n    a CMakeFile for easier integration into the ROS build\
+  \ system.\n\n    Please note that this code is licensed under GPL. For a commercial\
+  \ usage, please\n    contact Andreas Geiger directly (see \n    <a href=\"http://www.cvlibs.net/software/libviso2.html\"\
+  >http://www.cvlibs.net/software/libviso2.html</a>)."
+doc_job: doc-hydro-viso2
+has_changelog_rst: false
+license: GPL
+maintainers: 'maintained by: Stephan Wirth <stephan.wirth@uib.es>'
+metapackages:
+- viso2
+msgs: []
+package_type: package
+repo_name: viso2
+repo_url: ''
+srvs: []
+timestamp: 1405774432.539479
+url: http://ros.org/wiki/libviso2
+vcs: git
+vcs_uri: https://github.com/srv/viso2.git
+vcs_version: hydro

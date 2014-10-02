@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_gazebo_thermal_camera/html
+authors: Stefan Kohlbrecher <kohlbrecher@sim.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- nodelet
+- image_transport
+- driver_base
+- gazebo_plugins
+- gazebo
+- gazebo_ros
+depends_on:
+- hector_gazebo
+description: hector_gazebo_thermal_camera provides a gazebo plugin that produces simulated
+  thermal camera images. The plugin uses modified code from the gazebo_ros_camera
+  plugin.
+doc_job: doc-hydro-hector_gazebo
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+metapackages:
+- hector_gazebo
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hector-gazebo-thermal-camera_sourcedeb
+- ros-hydro-hector-gazebo-thermal-camera_binarydeb_precise_amd64
+- ros-hydro-hector-gazebo-thermal-camera_binarydeb_precise_i386
+- ros-hydro-hector-gazebo-thermal-camera_binarydeb_quantal_amd64
+- ros-hydro-hector-gazebo-thermal-camera_binarydeb_quantal_i386
+- ros-hydro-hector-gazebo-thermal-camera_binarydeb_raring_amd64
+- ros-hydro-hector-gazebo-thermal-camera_binarydeb_raring_i386
+repo_name: hector_gazebo
+repo_url: ''
+srvs: []
+timestamp: 1405963325.798271
+url: http://ros.org/wiki/hector_gazebo_thermal_camera
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git
+vcs_version: hydro-devel

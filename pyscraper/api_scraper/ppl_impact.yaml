@@ -1,0 +1,11 @@
+impact:
+- metric: pkg_num
+  include: True
+  weights:
+   maintaining: 1.0
+   authored: 0.5
+- metric: pkg_impact
+  include: True
+  weights:
+   maintaining: 1.0
+   authored: 0.5

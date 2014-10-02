@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/irb_5400_arm_navigation/html
+authors: Shaun Edwards <sedwards@swri.org>
+brief: ''
+bugtracker: ''
+depends:
+- move_arm
+- trajectory_filter_server
+- catkin
+- rviz
+- planning_environment
+- robot_state_publisher
+- interpolated_ik_motion_planner
+- move_arm_warehouse
+- constraint_aware_spline_smoother
+- arm_kinematics_constraint_aware
+- kinematics_base
+- warehouse_ros
+- ompl_ros_interface
+depends_on:
+- abb
+description: irb_5400_arm_navigation
+doc_job: doc-hydro-abb
+has_changelog_rst: false
+license: BSD
+maintainers: Shaun Edwards <sedwards@swri.org>
+metapackages:
+- abb
+msgs: []
+package_type: package
+repo_name: abb
+repo_url: ''
+srvs: []
+timestamp: 1397311050.542707
+url: http://ros.org/wiki/industrial_core
+vcs: git
+vcs_uri: https://github.com/ros-industrial/abb.git
+vcs_version: groovy-devel

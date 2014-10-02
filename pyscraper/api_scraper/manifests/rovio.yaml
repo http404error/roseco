@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rovio/html
+authors: Russell Toris <rctoris@wpi.edu>
+brief: ''
+bugtracker: https://github.com/WPI-RAIL/rovio/issues
+depends: &id001
+- rovio_ctrl
+- rovio_shared
+- catkin
+- rovio_av
+depends_on: []
+description: Metapackage for the WowWee Rovio ROS Packages
+devel_jobs:
+- devel-hydro-rovio
+doc_job: doc-hydro-rovio
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Russell Toris <rctoris@wpi.edu>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-rovio_sourcedeb
+- ros-hydro-rovio_binarydeb_precise_amd64
+- ros-hydro-rovio_binarydeb_precise_i386
+- ros-hydro-rovio_binarydeb_quantal_amd64
+- ros-hydro-rovio_binarydeb_quantal_i386
+- ros-hydro-rovio_binarydeb_raring_amd64
+- ros-hydro-rovio_binarydeb_raring_i386
+repo_name: rovio
+repo_url: https://github.com/WPI-RAIL/rovio
+srvs: []
+timestamp: 1405975140.317288
+url: http://ros.org/wiki/rovio
+vcs: git
+vcs_uri: https://github.com/WPI-RAIL/rovio.git
+vcs_version: master

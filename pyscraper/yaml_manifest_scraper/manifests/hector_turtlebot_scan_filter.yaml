@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_turtlebot_scan_filter/html
+authors: Stefan Kohlbrecher
+brief: hector_turtlebot_scan_filter performs simple index-based filtering of laser
+  scanner data to prevent robot parts and shadow points from showing up in laser scans
+bugtracker: ''
+depends:
+- sensor_msgs
+- roscpp
+depends_on:
+- hector_turtlebot_gazebo
+description: "\n\n     hector_turtlebot_scan_filter performs simple index-based filtering\
+  \ of laser scanner data to prevent robot parts and shadow points from showing up\
+  \ in laser scans\n\n  "
+doc_job: doc-hydro-hector_turtlebot
+license: BSD
+maintainers: ''
+metapackages:
+- hector_turtlebot
+msgs: []
+package_type: package
+repo_name: hector_turtlebot
+repo_url: ''
+srvs: []
+timestamp: 1405963380.92846
+url: http://ros.org/wiki/hector_turtlebot_scan_filter
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hector_turtlebot
+vcs_version: HEAD

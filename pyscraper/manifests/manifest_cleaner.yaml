@@ -1,0 +1,21 @@
+authors: David V. Lu!!
+depends:
+- rospy
+- rospack
+- catkin
+description: Tool for examining package and stack manifests. Currently only can output
+  statistics, doesn't actually clean.
+license: BSD
+maintainers: David V. Lu!! <davidvlu@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-manifest-cleaner_sourcedeb
+- ros-hydro-manifest-cleaner_binarydeb_precise_amd64
+- ros-hydro-manifest-cleaner_binarydeb_precise_i386
+- ros-hydro-manifest-cleaner_binarydeb_quantal_amd64
+- ros-hydro-manifest-cleaner_binarydeb_quantal_i386
+- ros-hydro-manifest-cleaner_binarydeb_raring_amd64
+- ros-hydro-manifest-cleaner_binarydeb_raring_i386
+repo_name: wu_ros_tools
+timestamp: 1405956414.863408
+url: http://ros.org/wiki/manifest_cleaner

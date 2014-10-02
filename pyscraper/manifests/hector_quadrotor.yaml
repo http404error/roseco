@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_quadrotor/html
+authors: Johannes Meyer <meyer@fsr.tu-darmstadt.de>, Stefan Kohlbrecher <kohlbrecher@sim.tu-darmstadt.de>
+brief: ''
+bugtracker: https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor/issues
+depends:
+- catkin
+- hector_quadrotor_teleop
+- hector_quadrotor_controller
+- hector_quadrotor_model
+- hector_uav_msgs
+- hector_quadrotor_description
+depends_on:
+- hector_quadrotor_apps
+- hector_quadrotor_experimental
+description: hector_quadrotor contains packages related to modeling, control and simulation
+  of quadrotor UAV systems
+doc_job: doc-hydro-hector_quadrotor
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hector-quadrotor_sourcedeb
+- ros-hydro-hector-quadrotor_binarydeb_precise_amd64
+- ros-hydro-hector-quadrotor_binarydeb_precise_i386
+- ros-hydro-hector-quadrotor_binarydeb_quantal_amd64
+- ros-hydro-hector-quadrotor_binarydeb_quantal_i386
+- ros-hydro-hector-quadrotor_binarydeb_raring_amd64
+- ros-hydro-hector-quadrotor_binarydeb_raring_i386
+repo_name: hector_quadrotor
+repo_url: ''
+srvs: []
+timestamp: 1405973526.296932
+url: http://ros.org/wiki/hector_quadrotor
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor.git
+vcs_version: hydro-devel

@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rovio_shared/html
+authors: Russell Toris <rctoris@wpi.edu>
+brief: ''
+bugtracker: https://github.com/WPI-RAIL/rovio/issues
+depends:
+- catkin
+- roscpp
+- message_runtime
+- std_msgs
+- message_generation
+- curl
+depends_on:
+- rovio_ctrl
+- rosjava_messages
+- rovio
+- rovio_av
+description: Standard Messages and Services for the WowWee Rovio
+devel_jobs:
+- devel-hydro-rovio
+doc_job: doc-hydro-rovio
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Russell Toris <rctoris@wpi.edu>
+metapackages:
+- rovio
+msgs:
+- man_drv
+package_type: package
+release_jobs:
+- ros-hydro-rovio-shared_sourcedeb
+- ros-hydro-rovio-shared_binarydeb_precise_amd64
+- ros-hydro-rovio-shared_binarydeb_precise_i386
+- ros-hydro-rovio-shared_binarydeb_quantal_amd64
+- ros-hydro-rovio-shared_binarydeb_quantal_i386
+- ros-hydro-rovio-shared_binarydeb_raring_amd64
+- ros-hydro-rovio-shared_binarydeb_raring_i386
+repo_name: rovio
+repo_url: https://github.com/WPI-RAIL/rovio
+srvs:
+- head_ctrl
+- wav_play
+timestamp: 1405975135.295481
+url: http://ros.org/wiki/rovio_shared
+vcs: git
+vcs_uri: https://github.com/WPI-RAIL/rovio.git
+vcs_version: master

@@ -1,0 +1,53 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_trajectory_controller/html
+authors: Alexander Bubeck
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- brics_actuator
+- std_msgs
+- actionlib
+- message_runtime
+- sensor_msgs
+- cob_srvs
+- control_msgs
+- message_generation
+- geometry_msgs
+- orocos_kdl
+- eigen
+depends_on:
+- rosjava_messages
+- cob_bringup
+- cob_driver
+description: This package provides a trajectory controller which controlls velocities
+  for a chain of joints. This controller can be used e.g. with [[schunk_powercube_chain]].
+devel_jobs:
+- devel-hydro-cob_driver
+doc_job: doc-hydro-cob_driver
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Alexander Bubeck <aub@ipa.fhg.de>
+metapackages:
+- cob_driver
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-trajectory-controller_sourcedeb
+- ros-hydro-cob-trajectory-controller_binarydeb_precise_amd64
+- ros-hydro-cob-trajectory-controller_binarydeb_precise_i386
+- ros-hydro-cob-trajectory-controller_binarydeb_quantal_amd64
+- ros-hydro-cob-trajectory-controller_binarydeb_quantal_i386
+- ros-hydro-cob-trajectory-controller_binarydeb_raring_amd64
+- ros-hydro-cob-trajectory-controller_binarydeb_raring_i386
+repo_name: cob_driver
+repo_url: ''
+srvs:
+- SetFloat
+timestamp: 1405973165.299381
+url: http://ros.org/wiki/cob_trajectory_controller
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_driver.git
+vcs_version: hydro_release_candidate

@@ -1,0 +1,23 @@
+authors: Adam Leeper <adamleeper@gmail.com>
+depends:
+- genmsg
+- catkin
+- message_runtime
+- std_msgs
+- geometry_msgs
+- message_generation
+description: Messages for (camera) view controllers
+license: BSD
+maintainers: Adam Leeper <adamleeper@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-view-controller-msgs_sourcedeb
+- ros-hydro-view-controller-msgs_binarydeb_precise_amd64
+- ros-hydro-view-controller-msgs_binarydeb_precise_i386
+- ros-hydro-view-controller-msgs_binarydeb_quantal_amd64
+- ros-hydro-view-controller-msgs_binarydeb_quantal_i386
+- ros-hydro-view-controller-msgs_binarydeb_raring_amd64
+- ros-hydro-view-controller-msgs_binarydeb_raring_i386
+repo_name: view_controller_msgs
+timestamp: 1405956415.146603
+url: http://ros.org/wiki/view_controller_msgs

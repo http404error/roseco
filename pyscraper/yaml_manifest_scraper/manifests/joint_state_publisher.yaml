@@ -1,0 +1,79 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/joint_state_publisher/html
+authors: David V. Lu!! <davidvlu@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- sensor_msgs
+- wxpython
+- rospy
+- catkin
+depends_on:
+- fanuc_m10ia_support
+- grizzly_description
+- cyton_gamma_1500_description
+- urdf_tutorial
+- sr_moveit_config
+- fanuc_lrmate200ic5l_moveit_config
+- fanuc_m10ia_moveit_config
+- fanuc_lrmate200ic_moveit_config
+- motoman_sia5d_support
+- grizzly_viz
+- irb_6640_moveit_config
+- roomba_robin_rviz_launchers
+- husky_viz
+- ur10_moveit_config
+- fanuc_lrmate200id_moveit_config
+- flir_ptu_viz
+- fanuc_lrmate200id_support
+- fanuc_m20ia_moveit_config
+- fanuc_m16ib_support
+- fanuc_m20ia10l_moveit_config
+- robot_model
+- fanuc_lrmate200ic_support
+- wheeled_robin_rviz_launchers
+- pr2_moveit_config
+- fanuc_m430ia_support
+- motoman_sia20d_support
+- fanuc_m20ia_support
+- turtlebot_rviz_launchers
+- motoman_mh5_support
+- calvin_moveit_config
+- motoman_sia20d_moveit_config
+- fanuc_m430ia2f_moveit_config
+- fanuc_lrmate200ic5h_moveit_config
+- motoman_sia10d_support
+- segbot_bringup
+- ur5_moveit_config
+- fanuc_m16ib20_moveit_config
+- ackermann_vehicle_description
+- fanuc_m430ia2p_moveit_config
+description: This package contains a tool for setting and publishing joint state values
+  for a given URDF.
+devel_jobs:
+- devel-hydro-robot_model
+doc_job: doc-hydro-robot_model
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>
+metapackages:
+- robot_model
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-joint-state-publisher_sourcedeb
+- ros-hydro-joint-state-publisher_binarydeb_precise_amd64
+- ros-hydro-joint-state-publisher_binarydeb_precise_i386
+- ros-hydro-joint-state-publisher_binarydeb_quantal_amd64
+- ros-hydro-joint-state-publisher_binarydeb_quantal_i386
+- ros-hydro-joint-state-publisher_binarydeb_raring_amd64
+- ros-hydro-joint-state-publisher_binarydeb_raring_i386
+repo_name: robot_model
+repo_url: ''
+srvs: []
+timestamp: 1405974884.309755
+url: http://www.ros.org/wiki/joint_state_publisher
+vcs: git
+vcs_uri: https://github.com/ros/robot_model.git
+vcs_version: hydro-devel

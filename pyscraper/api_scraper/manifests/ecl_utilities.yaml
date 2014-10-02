@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ecl_utilities/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/stonier/ecl_core/issues
+depends:
+- catkin
+- ecl_mpl
+- ecl_concepts
+- ecl_license
+depends_on:
+- ecl_containers
+- ecl_threads
+- ecl_core
+- ecl_devices
+description: Includes various supporting tools and utilities for c++ programming.
+devel_jobs:
+- devel-hydro-ecl_core
+doc_job: doc-hydro-ecl_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- ecl_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ecl-utilities_sourcedeb
+- ros-hydro-ecl-utilities_binarydeb_precise_amd64
+- ros-hydro-ecl-utilities_binarydeb_precise_i386
+- ros-hydro-ecl-utilities_binarydeb_quantal_amd64
+- ros-hydro-ecl-utilities_binarydeb_quantal_i386
+- ros-hydro-ecl-utilities_binarydeb_raring_amd64
+- ros-hydro-ecl-utilities_binarydeb_raring_i386
+repo_name: ecl_core
+repo_url: https://github.com/stonier/ecl_core
+srvs: []
+timestamp: 1405963103.937492
+url: http://wiki.ros.org/ecl_utilities
+vcs: git
+vcs_uri: https://github.com/stonier/ecl_core.git
+vcs_version: hydro-devel

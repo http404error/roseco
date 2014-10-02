@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_py_console/html
+authors: Dorian Scholz
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt_common_plugins/issues
+depends:
+- catkin
+- rqt_gui
+- qt_gui_py_common
+- python-rospkg
+- rospy
+- qt_gui
+- rqt_gui_py
+depends_on:
+- rqt_common_plugins
+description: rqt_py_console is a Python GUI plugin providing an interactive Python
+  console.
+doc_job: doc-hydro-rqt_common_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+metapackages:
+- rqt_common_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-py-console_sourcedeb
+- ros-hydro-rqt-py-console_binarydeb_precise_amd64
+- ros-hydro-rqt-py-console_binarydeb_precise_i386
+- ros-hydro-rqt-py-console_binarydeb_quantal_amd64
+- ros-hydro-rqt-py-console_binarydeb_quantal_i386
+- ros-hydro-rqt-py-console_binarydeb_raring_amd64
+- ros-hydro-rqt-py-console_binarydeb_raring_i386
+repo_name: rqt_common_plugins
+repo_url: https://github.com/ros-visualization/rqt_common_plugins
+srvs: []
+timestamp: 1405975213.546495
+url: http://ros.org/wiki/rqt_py_console
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt_common_plugins.git
+vcs_version: groovy-devel

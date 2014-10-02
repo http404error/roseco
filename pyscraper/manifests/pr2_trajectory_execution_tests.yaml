@@ -1,0 +1,24 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_trajectory_execution_tests/html
+authors: Gil Jones
+brief: pr2_trajectory_execution_tests
+bugtracker: ''
+depends:
+- planning_scene_monitor
+- trajectory_execution
+- trajectory_execution_ros
+depends_on: []
+description: "\n\n     pr2_trajectory_execution_tests\n\n  "
+doc_job: doc-hydro-moveit_pr2
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: moveit_pr2
+repo_url: ''
+srvs: []
+timestamp: 1405964117.84842
+url: http://ros.org/wiki/pr2_trajectory_execution_tests
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_pr2.git
+vcs_version: hydro-devel

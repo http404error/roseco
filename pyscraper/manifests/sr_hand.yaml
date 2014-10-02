@@ -1,0 +1,66 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_hand/html
+authors: Ugo Cupcic
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ros-interface/issues
+depends:
+- dynamic_reconfigure
+- pr2_mechanism_msgs
+- robot_state_publisher
+- urdf
+- std_srvs
+- roscpp
+- gazebo_msgs
+- std_msgs
+- sr_robot_msgs
+- roslib
+- sensor_msgs
+- gazebo_ros
+- gtest
+- rostest
+- rospy
+- catkin
+- self_test
+- gazebo
+- diagnostic_msgs
+- sr_utilities
+- pr2_controllers_msgs
+depends_on:
+- shadow_robot
+- sr_gui_movement_recorder
+- sr_gui_joint_slider
+- sr_edc_muscle_tools
+- sr_movements
+- sr_standalone
+- sr_gui_grasp_controller
+- sr_self_test
+description: "This is a ROS interface to the Shadow Robot's robotic hand. It\n   \
+  \  contains both an interface to the real hand (communicating via\n     a CAN interface)\
+  \ and a simulated version of the hand. It also\n     contains an interface to Shadow\
+  \ Robot's muscle arm."
+devel_jobs:
+- devel-hydro-shadow_robot
+doc_job: doc-hydro-shadow_robot
+has_changelog_rst: true
+license: GPL
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- shadow_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sr-hand_sourcedeb
+- ros-hydro-sr-hand_binarydeb_precise_amd64
+- ros-hydro-sr-hand_binarydeb_precise_i386
+- ros-hydro-sr-hand_binarydeb_quantal_amd64
+- ros-hydro-sr-hand_binarydeb_quantal_i386
+- ros-hydro-sr-hand_binarydeb_raring_amd64
+- ros-hydro-sr-hand_binarydeb_raring_i386
+repo_name: shadow_robot
+repo_url: https://github.com/shadow-robot/sr-ros-interface
+srvs: []
+timestamp: 1405773822.127248
+url: http://www.shadowrobot.com
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ros-interface.git
+vcs_version: hydro-devel

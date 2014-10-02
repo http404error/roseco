@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/fanuc_m10ia_moveit_config/html
+authors: MoveIt Setup Assistant <assistant@moveit.ros.org>
+brief: ''
+bugtracker: https://github.com/ros-industrial/fanuc_experimental/issues
+depends:
+- catkin
+- industrial_robot_simulator
+- robot_state_publisher
+- moveit_planners_ompl
+- fanuc_m10ia_support
+- joint_state_publisher
+- moveit_simple_controller_manager
+- moveit_ros_move_group
+- fanuc_m10ia_moveit_plugins
+- xacro
+- moveit_ros_visualization
+depends_on:
+- fanuc_experimental
+description: "<p>\n      MoveIt package for the Fanuc M-10iA.\n    </p>\n    <p>\n\
+  \      An automatically generated package with all the configuration and launch\n\
+  \      files for using the Fanuc M-10iA with the MoveIt Motion Planning\n      Framework.\n\
+  \    </p>\n    <p>\n      <b>NB</b>: this package currently uses the default MoveIt\
+  \ acceleration\n      limits (ie: 1/5th of joint velocity limits), instead of the\
+  \ true\n      acceleration limits for this manipulator (see\n      <a href=\"https://github.com/ros-industrial/fanuc/issues/49\"\
+  >issue 49</a>).\n    </p>"
+doc_job: doc-hydro-fanuc_experimental
+has_changelog_rst: false
+license: BSD
+maintainers: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+metapackages:
+- fanuc_experimental
+msgs: []
+package_type: package
+repo_name: fanuc_experimental
+repo_url: https://github.com/ros-industrial/fanuc_experimental
+srvs: []
+timestamp: 1405770539.93548
+url: http://ros.org/wiki/fanuc_m10ia_moveit_config
+vcs: git
+vcs_uri: https://github.com/ros-industrial/fanuc_experimental.git
+vcs_version: hydro-devel

@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rtmros_hironx/html
+authors: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: https://github.com/start-jsk/rtmros_hironx/issues
+depends: &id001
+- hironx_ros_bridge
+- hironx_moveit_config
+- catkin
+depends_on: []
+description: The rtmros_hironx package
+devel_jobs:
+- devel-hydro-rtmros_hironx
+doc_job: doc-hydro-rtmros_hironx
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>, Isaac Isao Saito <iisaito@kinugarage.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-rtmros-hironx_sourcedeb
+- ros-hydro-rtmros-hironx_binarydeb_precise_amd64
+- ros-hydro-rtmros-hironx_binarydeb_precise_i386
+- ros-hydro-rtmros-hironx_binarydeb_quantal_amd64
+- ros-hydro-rtmros-hironx_binarydeb_quantal_i386
+- ros-hydro-rtmros-hironx_binarydeb_raring_amd64
+- ros-hydro-rtmros-hironx_binarydeb_raring_i386
+repo_name: rtmros_hironx
+repo_url: https://github.com/start-jsk/rtmros_hironx
+srvs: []
+timestamp: 1405965097.462713
+url: http://ros.org/wiki/rtmros_hironx/
+vcs: git
+vcs_uri: https://github.com/start-jsk/rtmros_hironx.git
+vcs_version: groovy-devel

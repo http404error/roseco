@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/steered_wheel_base_controller/html
+authors: Jim Rothrock <jim.rothrock@wunderkammerlab.com>
+brief: ''
+bugtracker: https://github.com/wunderkammer-laboratory/steered_wheel_base_controller/issues
+depends:
+- nav_msgs
+- hardware_interface
+- controller_interface
+- roscpp
+- pluginlib
+- urdf
+- kdl_parser
+- catkin
+- realtime_tools
+- geometry_msgs
+- angles
+- tf
+- control_toolbox
+- orocos_kdl
+depends_on: []
+description: "steered_wheel_base_controller contains SteeredWheelBaseController, a\
+  \ base\n    controller for mobile robots. The controller works with bases that have\n\
+  \    two or more independently-steerable driven wheels and zero or more\n    omnidirectional\
+  \ passive wheels (e.g. swivel casters)."
+doc_job: doc-hydro-steered_wheel_base_controller
+has_changelog_rst: false
+license: Apache 2.0
+maintainers: Jim Rothrock <jim.rothrock@wunderkammerlab.com>
+msgs: []
+package_type: package
+repo_name: steered_wheel_base_controller
+repo_url: https://github.com/wunderkammer-laboratory/steered_wheel_base_controller.git
+srvs: []
+timestamp: 1405965175.245013
+url: http://wiki.ros.org/steered_wheel_base_controller
+vcs: git
+vcs_uri: https://github.com/wunderkammer-laboratory/steered_wheel_base_controller.git
+vcs_version: master

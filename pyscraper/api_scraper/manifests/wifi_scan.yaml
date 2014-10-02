@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/wifi_scan/html
+authors: Rafael Berkvens <rafael.berkvens@uantwerpen.be>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- message_runtime
+- std_msgs
+- message_generation
+- rospy
+- tf
+depends_on: []
+description: The wifi_scan package scans for RSSI values of visible APs
+doc_job: doc-hydro-wifi_scan
+has_changelog_rst: false
+license: GPLv3
+maintainers: Rafael Berkvens <rafael.berkvens@uantwerpen.be>
+msgs:
+- AddressRSSI
+- Fingerprint
+package_type: package
+repo_name: wifi_scan
+repo_url: https://github.com/RafBerkvens/wifi_scan
+srvs: []
+timestamp: 1405774520.431801
+url: https://github.com/RafBerkvens/wifi_scan
+vcs: git
+vcs_uri: https://github.com/RafBerkvens/wifi_scan.git
+vcs_version: master

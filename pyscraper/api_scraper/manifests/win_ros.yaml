@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/win_ros/html
+authors: Daniel Stonier <d.stonier@gmail.com>, Yeong-Il Choe <yichoe@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/ros-windows/win_ros/issues
+depends: &id001
+- rospy
+- catkin
+depends_on: []
+description: Supporting tools and demos for developing with ros on windows.
+doc_job: doc-hydro-win_ros
+has_changelog_rst: false
+license: BSD
+maintainers: Yeong-Il Choe <yichoe@yujinrobot.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: win_ros
+repo_url: https://github.com/ros-windows/win_ros
+srvs: []
+timestamp: 1405975731.317222
+url: http://www.ros.org/wiki/win_ros
+vcs: git
+vcs_uri: https://github.com/ros-windows/win_ros.git
+vcs_version: hydro-devel

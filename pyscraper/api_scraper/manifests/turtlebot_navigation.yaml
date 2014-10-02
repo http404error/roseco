@@ -1,0 +1,51 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtlebot_navigation/html
+authors: Tully Foote
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_apps/issues
+depends:
+- move_base
+- navfn
+- clear_costmap_recovery
+- catkin
+- roscpp
+- sensor_msgs
+- map_server
+- gmapping
+- rotate_recovery
+- amcl
+- tf
+- base_local_planner
+- turtlebot_bringup
+depends_on:
+- turtlebot_apps
+- turtlebot_core_apps
+- wheeled_robin_navigation
+description: turtlebot_navigation
+devel_jobs:
+- devel-hydro-turtlebot_apps
+doc_job: doc-hydro-turtlebot_apps
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: OSRF <turtlebot@osrfoundation.org>
+metapackages:
+- turtlebot_apps
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-turtlebot-navigation_sourcedeb
+- ros-hydro-turtlebot-navigation_binarydeb_precise_amd64
+- ros-hydro-turtlebot-navigation_binarydeb_precise_i386
+- ros-hydro-turtlebot-navigation_binarydeb_quantal_amd64
+- ros-hydro-turtlebot-navigation_binarydeb_quantal_i386
+- ros-hydro-turtlebot-navigation_binarydeb_raring_amd64
+- ros-hydro-turtlebot-navigation_binarydeb_raring_i386
+repo_name: turtlebot_apps
+repo_url: https://github.com/turtlebot/turtlebot_apps
+srvs: []
+timestamp: 1405965327.101738
+url: http://ros.org/wiki/turtlebot_navigation
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_apps.git
+vcs_version: hydro

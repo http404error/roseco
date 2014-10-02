@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roshlaunch/html
+authors: Ken Conley
+brief: ''
+bugtracker: https://github.com/OSUrobotics/rosh_core/issues
+depends:
+- catkin
+- roslib
+- rosgraph
+- rosout
+- rosmaster
+- rospy
+- rosclean
+depends_on:
+- rosh
+- rosh_core
+description: roshlaunch is a temporary package for redesigning roslaunch to have better
+  programmatic APIs for libraries like rosh.
+devel_jobs:
+- devel-hydro-rosh_core
+doc_job: doc-hydro-rosh_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dan Lazewatsky <dan@lazewatsky.com>
+metapackages:
+- rosh_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-roshlaunch_sourcedeb
+- ros-hydro-roshlaunch_binarydeb_precise_amd64
+- ros-hydro-roshlaunch_binarydeb_precise_i386
+- ros-hydro-roshlaunch_binarydeb_quantal_amd64
+- ros-hydro-roshlaunch_binarydeb_quantal_i386
+- ros-hydro-roshlaunch_binarydeb_raring_amd64
+- ros-hydro-roshlaunch_binarydeb_raring_i386
+repo_name: rosh_core
+repo_url: ''
+srvs: []
+timestamp: 1405964770.076856
+url: http://ros.org/wiki/roslaunch
+vcs: git
+vcs_uri: https://github.com/OSUrobotics/rosh_core.git
+vcs_version: hydro-devel

@@ -1,0 +1,56 @@
+<package>
+  <name>ur_bringup</name>
+  <version>1.0.2</version>
+  <description>The ur_bringup package</description>
+
+   
+  
+  
+  <maintainer email="aub@ipa.fhg.de">Alexander Bubeck</maintainer>
+
+  
+  
+  
+  <license>BSD</license>
+
+
+  
+  
+  
+  <url type="website">http://ros.org/wiki/ur_bringup</url>
+
+
+  
+  
+  
+  
+  <author>Wim Meeussen</author>
+  <author email="sedwards@swri.org">Shaun Edwards</author>
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>tf2_ros</run_depend>
+  <run_depend>ur_description</run_depend>
+  <run_depend>ur_driver</run_depend>
+
+
+  
+  <export>
+    
+    
+
+    
+
+  </export>
+</package>

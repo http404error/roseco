@@ -1,0 +1,18 @@
+authors: ''
+depends:
+- catkin
+description: The r2_description package
+license: BSD
+maintainers: David Lu!! <davidvlu@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-r2-description_sourcedeb
+- ros-hydro-r2-description_binarydeb_precise_amd64
+- ros-hydro-r2-description_binarydeb_precise_i386
+- ros-hydro-r2-description_binarydeb_quantal_amd64
+- ros-hydro-r2-description_binarydeb_quantal_i386
+- ros-hydro-r2-description_binarydeb_raring_amd64
+- ros-hydro-r2-description_binarydeb_raring_i386
+repo_name: nasa_r2_common
+timestamp: 1405956414.998336
+url: http://ros.org/wiki/r2_description

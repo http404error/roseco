@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pysdf/html
+authors: Andreas Bihlmaier <andreas.bihlmaier@gmx.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rospy
+depends_on:
+- gazebo2rviz
+description: Python library to parse SDF into class hierarchy and export URDF
+doc_job: doc-hydro-pysdf
+has_changelog_rst: false
+license: MIT
+maintainers: Andreas Bihlmaier <andreas.bihlmaier@gmx.de>
+msgs: []
+package_type: package
+repo_name: pysdf
+repo_url: ''
+srvs: []
+timestamp: 1405974796.654352
+url: http://wiki.ros.org/pysdf
+vcs: git
+vcs_uri: https://github.com/andreasBihlmaier/pysdf.git
+vcs_version: master

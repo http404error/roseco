@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kurt_navigation_local/html
+authors: "Martin G\xFCnther"
+brief: XML files for running the move_base node on a PR2 in an odometric frame.
+bugtracker: ''
+depends:
+- move_base
+- topic_tools
+depends_on: []
+description: "\n    This package holds xml files for running the <a href=\"http://www.ros.org/wiki/move_base\"\
+  >move_base</a> node on a Kurt\n    robot in an odometric frame. No static map is\
+  \ needed for the <a href=\"http://www.ros.org/wiki/move_base\">move_base</a> node\
+  \ in this\n    configuration. This package is modeled after pr2_navigation_local.\n\
+  \  "
+doc_job: doc-hydro-kurt_navigation
+license: BSD
+maintainers: ''
+metapackages:
+- kurt_apps
+- kurt_navigation
+msgs: []
+package_type: package
+repo_name: kurt_navigation
+repo_url: ''
+srvs: []
+timestamp: 1405771600.067777
+url: http://ros.org/wiki/kurt_navigation_local
+vcs: git
+vcs_uri: https://github.com/uos/kurt_navigation.git
+vcs_version: hydro

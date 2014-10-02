@@ -1,0 +1,32 @@
+api_documentation: http://docs.ros.org/hydro/api/uos_tools/html
+authors: "Maintained by Martin G\xFCnther"
+brief: uos_tools
+depends:
+- joystick_drivers
+- ros
+depends_on:
+- kurt_driver
+description: Various helper utilities not associated with a particular stack
+doc_job: doc-hydro-uos_tools
+license: BSD
+msgs: []
+package_type: stack
+packages:
+- joint_state_muxer
+- uos_common_urdf
+- simple_approximate_time_synchronizer
+- uos_freespace
+- acc_finder
+- uos_maps
+- uos_diffdrive_teleop
+- uos_gazebo_worlds
+- tf_publisher_gui
+- move_base_straight
+- rgbd_rosbag_tools
+repo_name: uos_tools
+srvs: []
+timestamp: 1405965367.135279
+url: http://ros.org/wiki/uos_tools
+vcs: git
+vcs_uri: https://github.com/uos/uos_tools.git
+vcs_version: hydro

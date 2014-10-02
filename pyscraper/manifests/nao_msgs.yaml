@@ -1,0 +1,68 @@
+actions:
+- Blink
+- FollowPath
+- JointAnglesWithSpeed
+- BodyPose
+- RunBehavior
+- JointTrajectory
+api_documentation: http://docs.ros.org/hydro/api/nao_msgs/html
+authors: Armin Hornung, Stefan Osswald, Daniel Maier, Miguel Sarabia
+brief: ''
+bugtracker: https://github.com/ros-nao/nao_robot/issues
+depends:
+- nav_msgs
+- message_runtime
+- catkin
+- sensor_msgs
+- actionlib_msgs
+- trajectory_msgs
+- std_msgs
+- geometry_msgs
+- message_generation
+depends_on:
+- rosjava_messages
+- nao_driver
+- nao_path_follower
+- nao_teleop
+- nao_robot
+- nao_pose
+- nao_dashboard
+description: Message and service declarations for the Nao humanoid
+devel_jobs:
+- devel-hydro-nao_robot
+doc_job: doc-hydro-nao_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+metapackages:
+- nao_robot
+msgs:
+- JointAnglesWithSpeed
+- FadeRGB
+- JointAngleTrajectory
+- TactileTouch
+- WordRecognized
+- Bumper
+package_type: package
+release_jobs:
+- ros-hydro-nao-msgs_sourcedeb
+- ros-hydro-nao-msgs_binarydeb_precise_amd64
+- ros-hydro-nao-msgs_binarydeb_precise_i386
+- ros-hydro-nao-msgs_binarydeb_quantal_amd64
+- ros-hydro-nao-msgs_binarydeb_quantal_i386
+- ros-hydro-nao-msgs_binarydeb_raring_amd64
+- ros-hydro-nao-msgs_binarydeb_raring_i386
+repo_name: nao_robot
+repo_url: https://github.com/ros-nao/nao_robot
+srvs:
+- CmdPoseService
+- CmdVelService
+- SetTransform
+- GetTruepose
+- GetInstalledBehaviors
+timestamp: 1405974432.113191
+url: http://ros.org/wiki/nao_msgs
+vcs: git
+vcs_uri: https://github.com/ros-nao/nao_robot.git
+vcs_version: master

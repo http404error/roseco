@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/wheeled_robin_formation_drive/html
+authors: tba
+brief: ''
+bugtracker: https://github.com/robinJKU/wheeled_robin_formation_drive/issues
+depends:
+- ar_kinect
+- catkin
+- roscpp
+- std_msgs
+- rospy
+- tf
+- ar_pose
+depends_on: []
+description: several robots are moving in a given formation
+doc_job: doc-hydro-wheeled_robin_apps
+has_changelog_rst: false
+license: BSD
+maintainers: tba tba <tba@tba.tba>
+msgs: []
+package_type: package
+repo_name: wheeled_robin_apps
+repo_url: https://github.com/robinJKU/wheeled_robin_formation_drive
+srvs: []
+timestamp: 1405774519.987115
+url: http://ros.org/wiki/wheeled_robin_formation_drive
+vcs: git
+vcs_uri: https://github.com/robinJKU/wheeled_robin_apps.git
+vcs_version: hydro-devel

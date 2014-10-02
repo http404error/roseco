@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/baxter_ikfast_left_arm_plugin/html
+authors: Rethink Robotics Inc.
+brief: ''
+bugtracker: https://github.com/RethinkRobotics/baxter/issues
+depends:
+- moveit_core
+- catkin
+- roscpp
+- tf_conversions
+- pluginlib
+depends_on: []
+description: The baxter_ikfast_left_arm_plugin package
+doc_job: doc-hydro-moveit_robots
+has_changelog_rst: false
+license: BSD
+maintainers: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+msgs: []
+package_type: package
+repo_name: moveit_robots
+repo_url: https://github.com/ros-planning/moveit_robots
+srvs: []
+timestamp: 1405773127.125028
+url: http://www.rethinkrobotics.com/sdk
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_robots.git
+vcs_version: master

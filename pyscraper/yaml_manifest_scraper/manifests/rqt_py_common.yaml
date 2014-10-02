@@ -1,0 +1,60 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_py_common/html
+authors: Dorian Scholz, Isaac Saito
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt_common_plugins/issues
+depends:
+- genpy
+- catkin
+- actionlib
+- roslib
+- rospy
+- qt_gui
+- rosbag
+- rostopic
+depends_on:
+- rqt_msg
+- rqt_ez_publisher
+- rqt_common_plugins
+- rqt_plot
+- rqt_launch
+- rqt_robot_monitor
+- kobuki_qtestsuite
+- rqt_action
+- rqt_reconfigure
+- rqt_publisher
+- rqt_service_caller
+- rqt_moveit
+- industrial_calibration_gui
+- rqt_nav_view
+description: "rqt_py_common provides common functionality for rqt plugins written\
+  \ in Python.\n    Despite no plugin is provided, this package is part of the rqt_common_plugins\n\
+  \    repository to keep refactoring generic functionality from these common plugins\n\
+  \    into this package as easy as possible.\n\n    Functionality included in this\
+  \ package should cover generic ROS concepts and\n    should not introduce any special\
+  \ dependencies beside &quot;ros_base&quot;."
+doc_job: doc-hydro-rqt_common_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+metapackages:
+- rqt_common_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-py-common_sourcedeb
+- ros-hydro-rqt-py-common_binarydeb_precise_amd64
+- ros-hydro-rqt-py-common_binarydeb_precise_i386
+- ros-hydro-rqt-py-common_binarydeb_quantal_amd64
+- ros-hydro-rqt-py-common_binarydeb_quantal_i386
+- ros-hydro-rqt-py-common_binarydeb_raring_amd64
+- ros-hydro-rqt-py-common_binarydeb_raring_i386
+repo_name: rqt_common_plugins
+repo_url: https://github.com/ros-visualization/rqt_common_plugins
+srvs: []
+timestamp: 1405975223.058222
+url: http://ros.org/wiki/rqt_py_common
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt_common_plugins.git
+vcs_version: groovy-devel

@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_quadrotor_demo/html
+authors: Stefan Kohlbrecher <kohlbrecher@sim.tu-darmstadt.de>
+brief: ''
+bugtracker: https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor/issues
+depends:
+- catkin
+- hector_gazebo_worlds
+- hector_trajectory_server
+- hector_quadrotor_gazebo
+- hector_geotiff
+- hector_mapping
+depends_on: []
+description: hector_quadrotor_demo contains various launch files and needed dependencies
+  for demonstration of the hector_quadrotor stack (indoor/outdoor flight in gazebo
+  etc.)
+doc_job: doc-hydro-hector_quadrotor
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+metapackages:
+- hector_quadrotor_apps
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hector-quadrotor-demo_sourcedeb
+- ros-hydro-hector-quadrotor-demo_binarydeb_precise_amd64
+- ros-hydro-hector-quadrotor-demo_binarydeb_precise_i386
+- ros-hydro-hector-quadrotor-demo_binarydeb_quantal_amd64
+- ros-hydro-hector-quadrotor-demo_binarydeb_quantal_i386
+- ros-hydro-hector-quadrotor-demo_binarydeb_raring_amd64
+- ros-hydro-hector-quadrotor-demo_binarydeb_raring_i386
+repo_name: hector_quadrotor
+repo_url: ''
+srvs: []
+timestamp: 1405973523.278948
+url: http://ros.org/wiki/hector_quadrotor_demo
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor.git
+vcs_version: hydro-devel

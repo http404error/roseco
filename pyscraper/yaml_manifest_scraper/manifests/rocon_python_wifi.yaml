@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_python_wifi/html
+authors: "R\xF3man Joost, Sean Robinson <seankrobinson@gmail.com>"
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_tools/issues
+depends:
+- catkin
+depends_on:
+- rocon_tools
+description: "The pythonwifi package is available through pypi, but not through a\
+  \ \n    deb package. This is copy of the package suitable for use through the\n\
+  \    ROS ecosystem."
+doc_job: doc-hydro-rocon_tools
+has_changelog_rst: true
+license: GPLv2
+maintainers: piyushk <piyushk@todo.todo>
+metapackages:
+- rocon_tools
+msgs: []
+package_type: package
+repo_name: rocon_tools
+repo_url: https://github.com/robotics-in-concert/rocon_tools
+srvs: []
+timestamp: 1399026945.589186
+url: http://pythonwifi.wikispot.org/
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_tools.git
+vcs_version: hydro-devel

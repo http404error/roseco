@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/force_torque_tools/html
+authors: Francisco Vina <fevb@kth.se>
+brief: ''
+bugtracker: ''
+depends: &id001
+- gravity_compensation
+- catkin
+- force_torque_sensor_calib
+depends_on: []
+description: Tools for gravity compensation and force-torque sensor calibration.
+doc_job: doc-hydro-force_torque_tools
+has_changelog_rst: false
+license: BSD
+maintainers: Francisco Vina <fevb@kth.se>, Francisco Vina <fevb@kth.se>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: force_torque_tools
+repo_url: ''
+srvs: []
+timestamp: 1405973424.826375
+url: http://wiki.ros.org/force_torque_tools
+vcs: git
+vcs_uri: https://github.com/kth-ros-pkg/force_torque_tools.git
+vcs_version: hydro

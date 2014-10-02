@@ -1,0 +1,21 @@
+authors: ''
+depends:
+- mobile
+- simulators
+- perception
+- catkin
+- desktop
+description: A metapackage to aggregate several packages.
+license: BSD
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+package_type: package
+release_jobs:
+- ros-hydro-desktop-full_sourcedeb
+- ros-hydro-desktop-full_binarydeb_precise_amd64
+- ros-hydro-desktop-full_binarydeb_precise_i386
+- ros-hydro-desktop-full_binarydeb_quantal_amd64
+- ros-hydro-desktop-full_binarydeb_quantal_i386
+- ros-hydro-desktop-full_binarydeb_raring_amd64
+- ros-hydro-desktop-full_binarydeb_raring_i386
+repo_name: metapackages
+timestamp: 1405956414.728035

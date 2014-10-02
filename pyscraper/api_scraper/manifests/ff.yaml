@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ff/html
+authors: J.Hoffmann
+brief: ''
+bugtracker: ''
+depends:
+- flex
+- unzip
+- rospack
+- rosbash
+- roslib
+- mk
+- rosbuild
+- bison
+- catkin
+depends_on:
+- pddl_planner
+description: 'ff: pddl planner. see http://www.loria.fr/~hoffmanj/ff.html'
+devel_jobs:
+- devel-hydro-jsk_common
+doc_job: doc-hydro-jsk_common
+has_changelog_rst: true
+license: GPL
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ff_sourcedeb
+- ros-hydro-ff_binarydeb_precise_amd64
+- ros-hydro-ff_binarydeb_precise_i386
+- ros-hydro-ff_binarydeb_quantal_amd64
+- ros-hydro-ff_binarydeb_quantal_i386
+- ros-hydro-ff_binarydeb_raring_amd64
+- ros-hydro-ff_binarydeb_raring_i386
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771560.018607
+url: ''
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_gazebo_worlds/html
+authors: Stefan Kohlbrecher <kohlbrecher@sim.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- hector_gazebo_plugins
+- catkin
+- gazebo_ros
+depends_on:
+- hector_gazebo
+- hector_quadrotor_demo
+description: hector_gazebo_worlds provides gazebo scenarios used by Team Hector Darmstadt
+doc_job: doc-hydro-hector_gazebo
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+metapackages:
+- hector_gazebo
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hector-gazebo-worlds_sourcedeb
+- ros-hydro-hector-gazebo-worlds_binarydeb_precise_amd64
+- ros-hydro-hector-gazebo-worlds_binarydeb_precise_i386
+- ros-hydro-hector-gazebo-worlds_binarydeb_quantal_amd64
+- ros-hydro-hector-gazebo-worlds_binarydeb_quantal_i386
+- ros-hydro-hector-gazebo-worlds_binarydeb_raring_amd64
+- ros-hydro-hector-gazebo-worlds_binarydeb_raring_i386
+repo_name: hector_gazebo
+repo_url: ''
+srvs: []
+timestamp: 1405963323.109559
+url: http://ros.org/wiki/hector_gazebo_worlds
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git
+vcs_version: hydro-devel

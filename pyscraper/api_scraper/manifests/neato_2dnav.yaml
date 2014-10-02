@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/neato_2dnav/html
+authors: Michael Ferguson
+brief: ''
+bugtracker: ''
+depends:
+- neato_node
+- catkin
+depends_on:
+- neato_robot
+description: This package contains configuration and launch files for using the navigation
+  stack with the Neato XV-11 robot.
+doc_job: doc-hydro-neato_robot
+has_changelog_rst: false
+license: BSD
+maintainers: Michael Ferguson <ferguson@cs.albany.edu>
+metapackages:
+- neato_robot
+msgs: []
+package_type: package
+repo_name: neato_robot
+repo_url: ''
+srvs: []
+timestamp: 1405974475.265832
+url: http://ros.org/wiki/neato_2dnav
+vcs: git
+vcs_uri: https://github.com/mikeferguson/neato_robot.git
+vcs_version: hydro-devel

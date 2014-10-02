@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/calvin_bringup/html
+authors: apotenza
+brief: calvin_bringup
+bugtracker: ''
+depends:
+- calvin_joint_commander
+- calvin_description
+- robot_state_publisher
+- sick_tim3xx
+- katana
+- openni_launch
+- phidgets_imu
+- volksbot_driver
+- imu_filter_madgwick
+- laser_filters
+- robot_pose_ekf
+- libuvc_camera
+depends_on: []
+description: "\n\n     calvin_bringup\n\n  "
+doc_job: doc-hydro-calvin_robot
+license: BSD
+maintainers: ''
+metapackages:
+- calvin_robot
+msgs: []
+package_type: package
+repo_name: calvin_robot
+repo_url: ''
+srvs: []
+timestamp: 1405972848.812906
+url: http://ros.org/wiki/calvin_bringup
+vcs: git
+vcs_uri: https://github.com/uos/calvin_robot.git
+vcs_version: hydro

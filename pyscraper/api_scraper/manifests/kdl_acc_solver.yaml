@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kdl_acc_solver/html
+authors: Francisco Vina <fevb@kth.se>
+brief: ''
+bugtracker: ''
+depends:
+- urdf
+- catkin
+- roscpp
+depends_on:
+- kdl_wrapper
+description: Wraps the kdl and kdl_parser packages for generating KDL kinematic chains
+  from URDF.
+doc_job: doc-hydro-kdl_acc_solver
+has_changelog_rst: false
+license: BSD
+maintainers: Francisco Vina <fevb@kth.se>, Francisco Vina <fevb@kth.se>
+msgs: []
+package_type: package
+repo_name: kdl_acc_solver
+repo_url: ''
+srvs: []
+timestamp: 1405963629.417944
+url: http://wiki.ros.org/kdl_acc_solver
+vcs: git
+vcs_uri: https://github.com/kth-ros-pkg/kdl_acc_solver.git
+vcs_version: hydro

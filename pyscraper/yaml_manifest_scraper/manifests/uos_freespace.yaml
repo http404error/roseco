@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/uos_freespace/html
+authors: Jochen Sprickerhof
+brief: Simple obstacle avoidance behavior
+bugtracker: ''
+depends:
+- sensor_msgs
+- roscpp
+depends_on: []
+description: "\n\n    <p>\n      This node implements a simple &quot;freespace&quot;\
+  \ (obstacle avoidance) behavior.\n      It subscribes to a 2D laser scan and always\
+  \ tries to steer towards the\n      largest open space.\n    </p>\n\n    <p>\n \
+  \     It was tested on the Kurt robot platform, but should work on any robot\n \
+  \     that has a 2D laser scanner and accepts\n      <a href=\"http://www.ros.org/doc/api/geometry_msgs/html/msg/Twist.html\"\
+  >Twist</a>\n      messages.\n    </p>\n\n  "
+doc_job: doc-hydro-uos_tools
+license: BSD
+maintainers: ''
+metapackages:
+- uos_tools
+msgs: []
+package_type: package
+repo_name: uos_tools
+repo_url: ''
+srvs: []
+timestamp: 1405965456.857964
+url: http://ros.org/wiki/uos_freespace
+vcs: git
+vcs_uri: https://github.com/uos/uos_tools.git
+vcs_version: hydro

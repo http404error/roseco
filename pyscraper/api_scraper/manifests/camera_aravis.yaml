@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/camera_aravis/html
+authors: Steve Safarik <stevesafarik@gmail.com>, Andrew Straw <andrew.straw@imp.ac.at>,
+  strawlab, Steve Safarik
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- camera_info_manager
+- sensor_msgs
+- image_transport
+- driver_base
+- tf
+depends_on: []
+description: 'camera_aravis: An ethernet camera driver for ROS.'
+doc_job: doc-hydro-camera_aravis
+has_changelog_rst: false
+license: LGPLv2
+maintainers: Steve Safarik <stevesafarik@gmail.com>
+msgs: []
+package_type: package
+repo_name: camera_aravis
+repo_url: ''
+srvs: []
+timestamp: 1405769785.847179
+url: http://github.com/ssafarik/camera_aravis
+vcs: git
+vcs_uri: https://github.com/ssafarik/camera_aravis.git
+vcs_version: master

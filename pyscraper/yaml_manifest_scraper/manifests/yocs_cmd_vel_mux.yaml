@@ -1,0 +1,56 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/yocs_cmd_vel_mux/html
+authors: Jorge Santos Simon <jorge@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/yujin_ocs/issues
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- pluginlib
+- geometry_msgs
+- yaml-cpp
+- nodelet
+depends_on:
+- kobuki_keyop
+- roomba_robin_bringup
+- turtlebot_gazebo
+- roomba_robin_gazebo
+- yujin_ocs
+- turtlebot_bringup
+- kobuki_gazebo
+- kobuki_auto_docking
+- kobuki_random_walker
+description: "A multiplexer for command velocity inputs. Arbitrates incoming cmd_vel\
+  \ messages from several topics,\n     allowing one topic at a time to command the\
+  \ robot, based on priorities. It also deallocates current\n     allowed topic if\
+  \ no messages are received after a configured timeout. All topics, together with\
+  \ their\n     priority and timeout are configured through a YAML file, that can\
+  \ be reload at runtime."
+devel_jobs:
+- devel-hydro-yujin_ocs
+doc_job: doc-hydro-yujin_ocs
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Jorge Santos Simon <jorge@yujinrobot.com>
+metapackages:
+- yujin_ocs
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-yocs-cmd-vel-mux_sourcedeb
+- ros-hydro-yocs-cmd-vel-mux_binarydeb_precise_amd64
+- ros-hydro-yocs-cmd-vel-mux_binarydeb_precise_i386
+- ros-hydro-yocs-cmd-vel-mux_binarydeb_quantal_amd64
+- ros-hydro-yocs-cmd-vel-mux_binarydeb_quantal_i386
+- ros-hydro-yocs-cmd-vel-mux_binarydeb_raring_amd64
+- ros-hydro-yocs-cmd-vel-mux_binarydeb_raring_i386
+repo_name: yujin_ocs
+repo_url: https://github.com/yujinrobot/yujin_ocs
+srvs: []
+timestamp: 1405774564.26171
+url: http://ros.org/wiki/yocs_cmd_vel_mux
+vcs: git
+vcs_uri: https://github.com/yujinrobot/yujin_ocs.git
+vcs_version: hydro

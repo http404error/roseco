@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pepperl_fuchs_r2000/html
+authors: Denis Dillenberger <denis.dillenberger@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- std_msgs
+- sensor_msgs
+- roscpp
+- catkin
+depends_on: []
+description: The Pepperl+Fuchs R2000 laser range finder driver package
+doc_job: doc-hydro-pepperl_fuchs
+has_changelog_rst: false
+license: BSD
+maintainers: Denis Dillenberger <denis.dillenberger@gmail.com>
+msgs: []
+package_type: package
+repo_name: pepperl_fuchs
+repo_url: ''
+srvs: []
+timestamp: 1405964324.637881
+url: http://wiki.ros.org/pepperl_fuchs_r2000
+vcs: git
+vcs_uri: https://github.com/dillenberger/pepperl_fuchs.git
+vcs_version: master

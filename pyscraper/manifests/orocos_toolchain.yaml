@@ -1,0 +1,25 @@
+authors: ''
+depends:
+- catkin
+- ocl
+- typelib
+- utilrb
+- rtt
+- utilmm
+- orogen
+- log4cpp
+- rtt_typelib
+description: This package provides the entire orocos_toolchain
+license: GPL v2 + linking exception, LGPL v2, CeCILL-B, GPL v2 or later,
+maintainers: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+package_type: package
+release_jobs:
+- ros-hydro-orocos-toolchain_sourcedeb
+- ros-hydro-orocos-toolchain_binarydeb_precise_amd64
+- ros-hydro-orocos-toolchain_binarydeb_precise_i386
+- ros-hydro-orocos-toolchain_binarydeb_quantal_amd64
+- ros-hydro-orocos-toolchain_binarydeb_quantal_i386
+- ros-hydro-orocos-toolchain_binarydeb_raring_amd64
+- ros-hydro-orocos-toolchain_binarydeb_raring_i386
+repo_name: orocos_toolchain
+timestamp: 1405956414.959811

@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ecl_converters_lite/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/stonier/ecl_lite/issues
+depends:
+- ecl_config
+- catkin
+- ecl_license
+depends_on:
+- ecl_lite
+description: "These are a very simple version of some of the functions in ecl_converters\
+  \ \n     suitable for firmware development. That is, there is no use of new, \n\
+  \     templates or exceptions."
+devel_jobs:
+- devel-hydro-ecl_lite
+doc_job: doc-hydro-ecl_lite
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- ecl_lite
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ecl-converters-lite_sourcedeb
+- ros-hydro-ecl-converters-lite_binarydeb_precise_amd64
+- ros-hydro-ecl-converters-lite_binarydeb_precise_i386
+- ros-hydro-ecl-converters-lite_binarydeb_quantal_amd64
+- ros-hydro-ecl-converters-lite_binarydeb_quantal_i386
+- ros-hydro-ecl-converters-lite_binarydeb_raring_amd64
+- ros-hydro-ecl-converters-lite_binarydeb_raring_i386
+repo_name: ecl_lite
+repo_url: https://github.com/stonier/ecl_lite
+srvs: []
+timestamp: 1405963090.991012
+url: http://wiki.ros.org/ecl_converters_lite
+vcs: git
+vcs_uri: https://github.com/stonier/ecl_lite.git
+vcs_version: hydro-devel

@@ -1,0 +1,69 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosapi/html
+authors: Jonathan Mace <jonathan.c.mace@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- message_runtime
+- rosgraph
+- rosbridge_library
+- rospy
+- message_generation
+- rosnode
+depends_on:
+- rosjava_messages
+- rosbridge_suite
+- rosbridge_server
+- bwi_web
+description: "Provides service calls for getting ros meta-information, like list of\n\
+  \    topics, services, params, etc."
+devel_jobs:
+- devel-hydro-rosbridge_suite
+doc_job: doc-hydro-rosbridge_suite
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Brandon Alexander <baalexander@gmail.com>
+metapackages:
+- rosbridge_suite
+msgs:
+- TypeDef
+package_type: package
+release_jobs:
+- ros-hydro-rosapi_sourcedeb
+- ros-hydro-rosapi_binarydeb_precise_amd64
+- ros-hydro-rosapi_binarydeb_precise_i386
+- ros-hydro-rosapi_binarydeb_quantal_amd64
+- ros-hydro-rosapi_binarydeb_quantal_i386
+- ros-hydro-rosapi_binarydeb_raring_amd64
+- ros-hydro-rosapi_binarydeb_raring_i386
+repo_name: rosbridge_suite
+repo_url: ''
+srvs:
+- SetParam
+- SearchParam
+- Nodes
+- GetParam
+- ServiceProviders
+- Services
+- ServiceRequestDetails
+- ServiceNode
+- HasParam
+- GetTime
+- TopicsForType
+- Subscribers
+- MessageDetails
+- DeleteParam
+- GetParamNames
+- ServiceResponseDetails
+- Topics
+- ServiceType
+- TopicType
+- ServiceHost
+- Publishers
+timestamp: 1405975011.709788
+url: https://github.com/RobotWebTools/rosbridge_suite
+vcs: git
+vcs_uri: https://github.com/RobotWebTools/rosbridge_suite.git
+vcs_version: master

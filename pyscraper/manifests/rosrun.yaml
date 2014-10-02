@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosrun/html
+authors: Felix Kolbe
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on: []
+description: "rosrun allows you to run an executable \n    in an arbitrary package\
+  \ from anywhere \n    without having to give its full path \n    or cd/roscd there\
+  \ first."
+doc_job: doc-hydro-win_ros
+has_changelog_rst: false
+license: BSD
+maintainers: Yeong-il Choe <yichoe@yujinrobot.com>
+msgs: []
+package_type: package
+repo_name: win_ros
+repo_url: ''
+srvs: []
+timestamp: 1405975740.123573
+url: http://ros.org/wiki/rosrun
+vcs: git
+vcs_uri: https://github.com/ros-windows/win_ros.git
+vcs_version: hydro-devel

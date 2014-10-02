@@ -1,0 +1,23 @@
+authors: Sylvain Joyeux/sylvain.joyeux@m4x.org
+depends:
+- cmake
+- typelib
+- ruby
+- utilrb
+- catkin
+description: "orogen offers a specification interface for components developped in\
+  \ the\n    Orocos Realtime Toolkit. Moreover, it generates the specified modules,\n\
+  \    thus offering an easy and fast development process."
+license: GPL v2 or later
+maintainers: OCL Development Team <orocos-dev@lists.mech.kuleuven.be>
+package_type: package
+release_jobs:
+- ros-hydro-orogen_sourcedeb
+- ros-hydro-orogen_binarydeb_precise_amd64
+- ros-hydro-orogen_binarydeb_precise_i386
+- ros-hydro-orogen_binarydeb_quantal_amd64
+- ros-hydro-orogen_binarydeb_quantal_i386
+- ros-hydro-orogen_binarydeb_raring_amd64
+- ros-hydro-orogen_binarydeb_raring_i386
+repo_name: orogen
+timestamp: 1405956414.963491

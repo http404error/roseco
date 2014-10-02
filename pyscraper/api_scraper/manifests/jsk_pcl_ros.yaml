@@ -1,0 +1,98 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jsk_pcl_ros/html
+authors: Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: ''
+depends:
+- pcl_conversions
+- stereo_msgs
+- pcl_msgs
+- diagnostic_updater
+- catkin
+- pcl_ros
+- eigen_conversions
+- tf_conversions
+- tf2_ros
+- visualization_msgs
+- message_generation
+- boost
+- image_geometry
+- ml_classifiers
+- sensor_msgs
+- message_runtime
+- std_msgs
+- image_transport
+- opencv2
+- tf
+- cv_bridge
+- diagnostic_msgs
+- image_view2
+- dynamic_reconfigure
+- rosboost_cfg
+- std_srvs
+- nodelet
+- geometry_msgs
+- sklearn
+depends_on:
+- rosjava_messages
+- jsk_rviz_plugins
+- jsk_recognition
+- jsk_perception
+- jsk_interactive_marker
+description: jsk_pcl_ros
+devel_jobs:
+- devel-hydro-jsk_recognition
+doc_job: doc-hydro-jsk_recognition
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Youhei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>
+metapackages:
+- jsk_recognition
+msgs:
+- BoundingBox
+- SparseOccupancyGridColumn
+- SparseOccupancyGridCell
+- SparseOccupancyGridArray
+- SnapItRequest
+- SlicedPointCloud
+- ColorHistogramArray
+- PointsArray
+- Int32Stamped
+- ModelCoefficientsArray
+- SparseOccupancyGrid
+- ClusterPointIndices
+- PolygonArray
+- ColorHistogram
+- BoundingBoxArray
+- DepthErrorResult
+package_type: package
+release_jobs:
+- ros-hydro-jsk-pcl-ros_sourcedeb
+- ros-hydro-jsk-pcl-ros_binarydeb_precise_amd64
+- ros-hydro-jsk-pcl-ros_binarydeb_precise_i386
+- ros-hydro-jsk-pcl-ros_binarydeb_quantal_amd64
+- ros-hydro-jsk-pcl-ros_binarydeb_quantal_i386
+- ros-hydro-jsk-pcl-ros_binarydeb_raring_amd64
+- ros-hydro-jsk-pcl-ros_binarydeb_raring_i386
+repo_name: jsk_recognition
+repo_url: ''
+srvs:
+- TowerPickUp
+- SetPointCloud2
+- CheckCircle
+- EuclideanSegment
+- TransformScreenpoint
+- PolygonOnEnvironment
+- CallPolygon
+- CallSnapIt
+- RobotPickupReleasePoint
+- SwitchTopic
+- EnvironmentLock
+- ICPAlign
+- TowerRobotMoveCommand
+timestamp: 1405974150.104721
+url: http://ros.org/wiki/jsk_pcl_ros
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_recognition.git
+vcs_version: master

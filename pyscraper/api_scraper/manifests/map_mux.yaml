@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/map_mux/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- roscpp
+- std_msgs
+- geometry_msgs
+- rospy
+depends_on: []
+description: The map_mux_tutorials package
+doc_job: doc-hydro-bwi_common
+has_changelog_rst: false
+license: TODO
+maintainers: aunwala <aunwala@todo.todo>
+msgs: []
+package_type: package
+repo_name: bwi_common
+repo_url: ''
+srvs:
+- ChangeMap
+timestamp: 1405769824.386603
+url: ''
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/bwi_common.git
+vcs_version: master

@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/world_magnetic_model/html
+authors: National Geophysical Data Center (NGDC, Boulder CO, USA), British Geological
+  Survey (BGS, Edinburgh, Scotland)
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on: []
+description: The World Magnetic Model is the standard model used by the U.S. Department
+  of Defense, the U.K. Ministry of Defence, the North Atlantic Treaty Organization
+  (NATO) and the International Hydrographic Organization (IHO), for navigation, attitude
+  and heading referencing systems using the geomagnetic field. It is also used widely
+  in civilian navigation and heading systems. The model, associated software, and
+  documentation are distributed by NGDC on behalf of NGA. The model is produced at
+  5-year intervals, with the current model expiring on December 31, 2014.
+devel_jobs:
+- devel-hydro-hector_localization
+doc_job: doc-hydro-hector_localization
+has_changelog_rst: true
+license: Public Domain
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-world-magnetic-model_sourcedeb
+- ros-hydro-world-magnetic-model_binarydeb_precise_amd64
+- ros-hydro-world-magnetic-model_binarydeb_precise_i386
+- ros-hydro-world-magnetic-model_binarydeb_quantal_amd64
+- ros-hydro-world-magnetic-model_binarydeb_quantal_i386
+- ros-hydro-world-magnetic-model_binarydeb_raring_amd64
+- ros-hydro-world-magnetic-model_binarydeb_raring_i386
+repo_name: hector_localization
+repo_url: ''
+srvs: []
+timestamp: 1405770981.468699
+url: http://www.ngdc.noaa.gov/geomag/WMM/DoDWMM.shtml
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_localization.git
+vcs_version: catkin

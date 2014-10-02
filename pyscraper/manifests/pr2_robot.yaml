@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_robot/html
+authors: Maintained by Wim Meeussen
+brief: ''
+bugtracker: ''
+depends: &id001
+- catkin
+- pr2_ethercat
+- pr2_controller_configuration
+- pr2_camera_synchronizer
+- imu_monitor
+- pr2_run_stop_auto_restart
+- pr2_computer_monitor
+- pr2_bringup
+depends_on: []
+description: "This stack collects PR2-specific components that are used in bringing\
+  \ up\n  a robot."
+doc_job: doc-hydro-pr2_robot
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-pr2-robot_sourcedeb
+- ros-hydro-pr2-robot_binarydeb_precise_amd64
+- ros-hydro-pr2-robot_binarydeb_precise_i386
+- ros-hydro-pr2-robot_binarydeb_quantal_amd64
+- ros-hydro-pr2-robot_binarydeb_quantal_i386
+- ros-hydro-pr2-robot_binarydeb_raring_amd64
+- ros-hydro-pr2-robot_binarydeb_raring_i386
+repo_name: pr2_robot
+repo_url: ''
+srvs: []
+timestamp: 1405974836.680146
+url: http://ros.org/wiki/pr2_robot
+vcs: git
+vcs_uri: https://github.com/PR2/pr2_robot.git
+vcs_version: hydro-devel

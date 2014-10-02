@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/schunk_libm5api/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- libpcan
+- roslib
+- catkin
+- libntcan
+depends_on:
+- schunk_powercube_chain
+- schunk_modular_robotics
+description: This package wraps the libm5api to use it as a ros dependency. Original
+  sources from http://www.schunk-modular-robotics.com/fileadmin/user_upload/software/schunk_libm5api_source.zip.
+devel_jobs:
+- devel-hydro-schunk_modular_robotics
+doc_job: doc-hydro-schunk_modular_robotics
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+metapackages:
+- schunk_modular_robotics
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-schunk-libm5api_sourcedeb
+- ros-hydro-schunk-libm5api_binarydeb_precise_amd64
+- ros-hydro-schunk-libm5api_binarydeb_precise_i386
+- ros-hydro-schunk-libm5api_binarydeb_quantal_amd64
+- ros-hydro-schunk-libm5api_binarydeb_quantal_i386
+- ros-hydro-schunk-libm5api_binarydeb_raring_amd64
+- ros-hydro-schunk-libm5api_binarydeb_raring_i386
+repo_name: schunk_modular_robotics
+repo_url: ''
+srvs: []
+timestamp: 1405975314.065724
+url: http://ros.org/wiki/schunk_libm5api
+vcs: git
+vcs_uri: https://github.com/ipa320/schunk_modular_robotics.git
+vcs_version: hydro_release_candidate

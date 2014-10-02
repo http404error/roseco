@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rtt_rospack_tests/html
+authors: Jonathan Bohren <jbo@jhu.edu>
+brief: ''
+bugtracker: ''
+depends:
+- rtt_rospack
+- roslib
+- catkin
+- ocl
+depends_on: []
+description: The rtt_ros_tests package
+doc_job: doc-hydro-rtt_ros_integration
+has_changelog_rst: false
+license: BSD
+maintainers: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+msgs: []
+package_type: package
+repo_name: rtt_ros_integration
+repo_url: ''
+srvs: []
+timestamp: 1405975336.13736
+url: ''
+vcs: git
+vcs_uri: https://github.com/orocos/rtt_ros_integration.git
+vcs_version: hydro-devel

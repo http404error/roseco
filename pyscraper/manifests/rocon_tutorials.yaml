@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_tutorials/html
+authors: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_tutorials/issues
+depends: &id001
+- catkin
+- rocon_gateway_tutorials
+- chatter_concert
+- multinav_concert
+- turtle_concert
+- turtle_stroll
+depends_on:
+- rocon
+description: Various tutorials to demonstrate in simulation, the rocon framework.
+devel_jobs:
+- devel-hydro-rocon_tutorials
+doc_job: doc-hydro-rocon_tutorials
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+metapackages:
+- rocon
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-rocon-tutorials_sourcedeb
+- ros-hydro-rocon-tutorials_binarydeb_precise_amd64
+- ros-hydro-rocon-tutorials_binarydeb_precise_i386
+- ros-hydro-rocon-tutorials_binarydeb_quantal_amd64
+- ros-hydro-rocon-tutorials_binarydeb_quantal_i386
+- ros-hydro-rocon-tutorials_binarydeb_raring_amd64
+- ros-hydro-rocon-tutorials_binarydeb_raring_i386
+repo_name: rocon_tutorials
+repo_url: https://github.com/robotics-in-concert/rocon_tutorials
+srvs: []
+timestamp: 1405773085.714647
+url: http://www.ros.org/wiki/rocon_tutorials
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_tutorials.git
+vcs_version: hydro

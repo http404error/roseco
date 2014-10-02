@@ -1,0 +1,21 @@
+api_documentation: http://docs.ros.org/hydro/api/hector_ugv_common/html
+authors: Stefan Kohlbrecher
+brief: hector_ugv_common
+depends:
+- ros
+depends_on: []
+description: hector_ugv_common
+doc_job: doc-hydro-hector_ugv_common
+license: BSD
+msgs: []
+package_type: stack
+packages:
+- hector_ugv_description
+- hector_ugv_gazebo
+repo_name: hector_ugv_common
+srvs: []
+timestamp: 1405973560.407309
+url: http://ros.org/wiki/hector_ugv_common
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/hector_ugv_common
+vcs_version: HEAD

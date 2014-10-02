@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtlebot_android/html
+authors: ''
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_android/issues
+depends:
+- rosjava_bootstrap
+- android_extras
+- catkin
+- rosjava_messages
+- rosjava_build_tools
+- android_core
+- android_apps
+depends_on: []
+description: Android applications and libraries for turtlebot.
+doc_job: doc-hydro-turtlebot_android
+has_changelog_rst: false
+license: Apache 2.0
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+msgs: []
+package_type: package
+repo_name: turtlebot_android
+repo_url: https://github.com/turtlebot/turtlebot_android
+srvs: []
+timestamp: 1405965251.285029
+url: http://ros.org/wiki/turtlebot_android
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_android.git
+vcs_version: hydro-devel

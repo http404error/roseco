@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/optris_drivers/html
+authors: "Stefan May (Nuremberg Institute of Technology Georg Simon Ohm - www.th-nuernberg.de),\
+  \ 64-Bit platform supported by Fraunhofer IPA (www.ipa.fraunhofer.de), Support for\
+  \ ROS hydro migration by Christopher-Eyk Hrabia (DAI-Labor, Technische Universit\xE4\
+  t Berlin)"
+brief: ''
+bugtracker: ''
+depends:
+- std_srvs
+- roscpp
+- std_msgs
+- message_runtime
+- sensor_msgs
+- image_transport
+- message_generation
+- catkin
+- libudev-dev
+depends_on: []
+description: ROS nodes wrapping the binary driver for Optris thermal imager devices.
+doc_job: doc-hydro-optris_drivers
+has_changelog_rst: false
+license: BSD
+maintainers: Stefan May(Nuremberg Institute of Technology Georg Simon Ohm - www.th-nuernberg.de)
+  <not@given.yet>
+msgs: []
+package_type: package
+repo_name: optris_drivers
+repo_url: ''
+srvs:
+- AutoFlag
+- ForceFlag
+timestamp: 1405964293.378848
+url: http://ros.org/wiki/optris_drivers
+vcs: git
+vcs_uri: https://github.com/ohm-ros-pkg/optris_drivers.git
+vcs_version: groovy-devel

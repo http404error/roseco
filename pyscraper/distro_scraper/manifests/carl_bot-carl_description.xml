@@ -1,0 +1,23 @@
+<package>
+  <name>carl_description</name>
+  <version>0.0.4</version>
+  <description>URDF Files for CARL</description>
+
+  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  <maintainer email="davidkent@wpi.edu">David Kent</maintainer>
+  <author email="rctoris@wpi.edu">Russell Toris</author>
+  <author email="davidkent@wpi.edu">David Kent</author>
+  <author email="spkordell@wpi.edu">Steven Kordell</author>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/carl_description</url>
+  <url type="bugtracker">https://github.com/WPI-RAIL/carl_bot/issues</url>
+  <url type="repository">https://github.com/WPI-RAIL/carl_bot</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>xacro</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+</package>

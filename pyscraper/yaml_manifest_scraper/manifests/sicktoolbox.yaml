@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sicktoolbox/html
+authors: Jason Derenick <derenick@lehigh.edu>, Thomas Miller <thm204@lehigh.edu>
+brief: ''
+bugtracker: https://github.com/ros-drivers/sicktoolbox/issues
+depends:
+- catkin
+depends_on:
+- sicktoolbox_wrapper
+description: "SICK Toolbox drivers for SICK laser rangefinders\n\n    This package\
+  \ contains the ROS fork of the SICK LIDAR Matlab/C++ Toolbox, available from <a\
+  \ href=\"http://sicktoolbox.sourceforge.net/\">http://sicktoolbox.sourceforge.net/</a>.\n\
+  \n    The SICK LIDAR Matlab/C++ Toolbox offers stable and easy-to-use C++ drivers\
+  \ for SICK LMS 2xx and SICK LD LIDARs.  Also included are config utilities, examples,\
+  \ and tutorials."
+doc_job: doc-hydro-sicktoolbox
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Chad Rockey <chadrockey@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sicktoolbox_sourcedeb
+- ros-hydro-sicktoolbox_binarydeb_precise_amd64
+- ros-hydro-sicktoolbox_binarydeb_precise_i386
+- ros-hydro-sicktoolbox_binarydeb_quantal_amd64
+- ros-hydro-sicktoolbox_binarydeb_quantal_i386
+- ros-hydro-sicktoolbox_binarydeb_raring_amd64
+- ros-hydro-sicktoolbox_binarydeb_raring_i386
+repo_name: sicktoolbox
+repo_url: https://github.com/ros-drivers/sicktoolbox
+srvs: []
+timestamp: 1405975372.348989
+url: http://sicktoolbox.sourceforge.net/
+vcs: git
+vcs_uri: https://github.com/ros-drivers/sicktoolbox.git
+vcs_version: catkin

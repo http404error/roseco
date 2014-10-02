@@ -1,0 +1,68 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosbuild/html
+authors: Brian Gerkey, Troy Straszheim, Morgan Quigley
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- message_runtime
+- catkin
+- pkg-config
+depends_on:
+- rosconsole
+- hironx_ros_bridge
+- ffha
+- libphidgets
+- ros
+- mk
+- jsk_interactive
+- hrpsys
+- roswtf
+- euslisp
+- openhrp3
+- openrtm_aist
+- roslaunch
+- test_rospy
+- jsk_rviz_plugins
+- ff
+- test_rosmaster
+- python_qt_binding
+- libpcan
+- jsk_interactive_test
+- jsk_rqt_plugins
+- nlopt
+- jsk_perception
+- openrtm_aist_python
+- rosping
+- jsk_interactive_marker
+- hrpsys_ros_bridge
+- roseus
+description: rosbuild contains scripts for managing the CMake-based build system for
+  ROS.
+devel_jobs:
+- devel-hydro-ros
+doc_job: doc-hydro-ros
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosbuild_sourcedeb
+- ros-hydro-rosbuild_binarydeb_precise_amd64
+- ros-hydro-rosbuild_binarydeb_precise_i386
+- ros-hydro-rosbuild_binarydeb_quantal_amd64
+- ros-hydro-rosbuild_binarydeb_quantal_i386
+- ros-hydro-rosbuild_binarydeb_raring_amd64
+- ros-hydro-rosbuild_binarydeb_raring_i386
+repo_name: ros
+repo_url: ''
+srvs: []
+timestamp: 1405974960.572063
+url: http://ros.org/wiki/rosbuild
+vcs: git
+vcs_uri: https://github.com/ros/ros.git
+vcs_version: hydro-devel

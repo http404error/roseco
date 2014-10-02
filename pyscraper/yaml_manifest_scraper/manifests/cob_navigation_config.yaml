@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_navigation_config/html
+authors: Matthias Gruhler <mig@ipa.fraunhofer.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on:
+- cob_navigation_slam
+- cob_navigation
+- cob_navigation_global
+- cob_navigation_local
+- cob_mapping_slam
+description: This package holds common configuration files for running the  <a href="http://ros.org/wiki/move_base">move_base</a>
+  node and other navigation related nodes on the <a href="http://ros.org/wiki/care-o-bot">Care-O-bot</a>.
+devel_jobs:
+- devel-hydro-cob_navigation
+doc_job: doc-hydro-cob_navigation
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Matthias Gruhler <mig@ipa.fraunhofer.de>
+metapackages:
+- cob_navigation
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-navigation-config_sourcedeb
+- ros-hydro-cob-navigation-config_binarydeb_precise_amd64
+- ros-hydro-cob-navigation-config_binarydeb_precise_i386
+- ros-hydro-cob-navigation-config_binarydeb_quantal_amd64
+- ros-hydro-cob-navigation-config_binarydeb_quantal_i386
+- ros-hydro-cob-navigation-config_binarydeb_raring_amd64
+- ros-hydro-cob-navigation-config_binarydeb_raring_i386
+repo_name: cob_navigation
+repo_url: ''
+srvs: []
+timestamp: 1405770114.819638
+url: http://ros.org/wiki/cob_navigation_config
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_navigation.git
+vcs_version: hydro_release_candidate

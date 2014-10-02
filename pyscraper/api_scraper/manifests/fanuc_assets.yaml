@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/fanuc_assets/html
+authors: G.A. vd. Hoorn (TU Delft Robotics Institute)
+brief: ''
+bugtracker: https://github.com/ros-industrial/fanuc/issues
+depends:
+- catkin
+depends_on:
+- fanuc
+deprecated: This package has been deprecated in Hydro, and will be removed in Indigo.
+  Please use the 'fanuc_resources' package as a replacement.
+description: "<p>\n      Shared configuration data, 3D models and launch files for\
+  \ Fanuc \n      manipulators.\n    </p>\n    <p>\n      This package contains configuration\
+  \ data, 3D models and launch files \n      that are shared between different Fanuc\
+  \ robot support packages \n      within the ROS Industrial program.\n\n      This\
+  \ package also contains common URDF / XACRO resources used by \n      other Fanuc\
+  \ related packages.\n    </p>"
+devel_jobs:
+- devel-hydro-fanuc
+doc_job: doc-hydro-fanuc
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+metapackages:
+- fanuc
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-fanuc-assets_sourcedeb
+- ros-hydro-fanuc-assets_binarydeb_precise_amd64
+- ros-hydro-fanuc-assets_binarydeb_precise_i386
+- ros-hydro-fanuc-assets_binarydeb_quantal_amd64
+- ros-hydro-fanuc-assets_binarydeb_quantal_i386
+- ros-hydro-fanuc-assets_binarydeb_raring_amd64
+- ros-hydro-fanuc-assets_binarydeb_raring_i386
+repo_name: fanuc
+repo_url: https://github.com/ros-industrial/fanuc
+srvs: []
+timestamp: 1405963170.494765
+url: http://ros.org/wiki/fanuc_assets
+vcs: git
+vcs_uri: https://github.com/ros-industrial/fanuc.git
+vcs_version: hydro-devel

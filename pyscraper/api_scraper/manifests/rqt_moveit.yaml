@@ -1,0 +1,51 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_moveit/html
+authors: Isaac Saito
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt_robot_plugins/issues
+depends:
+- rqt_gui_py
+- catkin
+- rqt_gui
+- sensor_msgs
+- rqt_topic
+- rospy
+- rostopic
+- rosnode
+- rqt_py_common
+depends_on:
+- rqt_robot_plugins
+description: "An rqt-based tool that assists monitoring tasks\n   for <a href=\"http://ros.org/wiki/moveit\"\
+  >MoveIt!</a> motion planner\n   developers and users. Currently the following items\
+  \ are monitored if they\n   are either running, existing or published:\n   <ul>\n\
+  \   <li>Node: /move_group</li>\n   <li>Parameter: [/robot_description, /robot_description_semantic]</li>\n\
+  \   <li>Topic: Following types are monitored. Published &quot;names&quot; are ignored.<br/>\n\
+  \       [sensor_msgs/PointCloud, sensor_msgs/PointCloud2,\n        sensor_msgs/Image,\
+  \ sensor_msgs/CameraInfo]</li>\n   </ul>\n   Since this package is not made by the\
+  \ MoveIt! development team (although with\n   assistance from the them), please\
+  \ post issue reports to the designated \n   tracker (not MoveIt!'s main tracker)."
+doc_job: doc-hydro-rqt_robot_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Isaac Isao Saito <130s@alumni.smu.edu>
+metapackages:
+- rqt_robot_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-moveit_sourcedeb
+- ros-hydro-rqt-moveit_binarydeb_precise_amd64
+- ros-hydro-rqt-moveit_binarydeb_precise_i386
+- ros-hydro-rqt-moveit_binarydeb_quantal_amd64
+- ros-hydro-rqt-moveit_binarydeb_quantal_i386
+- ros-hydro-rqt-moveit_binarydeb_raring_amd64
+- ros-hydro-rqt-moveit_binarydeb_raring_i386
+repo_name: rqt_robot_plugins
+repo_url: https://github.com/ros-visualization/rqt_robot_plugins/rqt_moveit
+srvs: []
+timestamp: 1405773556.375918
+url: http://ros.org/wiki/rqt_moveit
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt_robot_plugins.git
+vcs_version: groovy-devel

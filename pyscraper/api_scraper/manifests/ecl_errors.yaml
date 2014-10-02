@@ -1,0 +1,54 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ecl_errors/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/stonier/ecl_lite/issues
+depends:
+- ecl_config
+- catkin
+- ecl_license
+depends_on:
+- ecl_containers
+- ecl_time_lite
+- ecl_threads
+- ecl_core_apps
+- ecl_exceptions
+- ecl_converters
+- ecl_sigslots_lite
+- ecl_lite
+- ecl_devices
+- ecl_streams
+- ecl_io
+- ecl_ipc
+- ecl_time
+- ecl_mobile_robot
+description: "This library provides lean and mean error mechanisms. \n    It includes\
+  \ c style error functions as well as a few \n    useful macros. For higher level\
+  \ mechanisms, \n    refer to ecl_exceptions."
+devel_jobs:
+- devel-hydro-ecl_lite
+doc_job: doc-hydro-ecl_lite
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- ecl_lite
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ecl-errors_sourcedeb
+- ros-hydro-ecl-errors_binarydeb_precise_amd64
+- ros-hydro-ecl-errors_binarydeb_precise_i386
+- ros-hydro-ecl-errors_binarydeb_quantal_amd64
+- ros-hydro-ecl-errors_binarydeb_quantal_i386
+- ros-hydro-ecl-errors_binarydeb_raring_amd64
+- ros-hydro-ecl-errors_binarydeb_raring_i386
+repo_name: ecl_lite
+repo_url: https://github.com/stonier/ecl_lite
+srvs: []
+timestamp: 1405963091.637248
+url: http://wiki.ros.org/ecl_errors
+vcs: git
+vcs_uri: https://github.com/stonier/ecl_lite.git
+vcs_version: hydro-devel

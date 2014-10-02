@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_nist_arena_elements/html
+authors: Johannes Simon, Stefan Kohlbrecher
+brief: hector_nist_arena_elements
+bugtracker: ''
+depends:
+- gazebo_ros
+depends_on:
+- hector_nist_arena_worlds
+description: "\n\n     hector_nist_arena_elements contains models of elements/parts\
+  \ used in NIST standard test arenas for response robots. Using these elements, scenarios\
+  \ can be generated for simulation using gazebo.\n\n  "
+doc_job: doc-hydro-hector_nist_arenas_gazebo
+license: BSD
+maintainers: ''
+metapackages:
+- hector_nist_arenas_gazebo
+msgs: []
+package_type: package
+repo_name: hector_nist_arenas_gazebo
+repo_url: ''
+srvs: []
+timestamp: 1405973469.346353
+url: http://ros.org/wiki/hector_nist_arena_elements
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_nist_arenas_gazebo.git
+vcs_version: hydro-devel

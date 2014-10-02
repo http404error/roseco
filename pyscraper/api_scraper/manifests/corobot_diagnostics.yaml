@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/corobot_diagnostics/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- rosconsole
+- catkin
+- roscpp
+- diagnostic_aggregator
+- pluginlib
+- xmlrpcpp
+- std_msgs
+- diagnostic_msgs
+depends_on:
+- corobot
+- phidget_stepper
+- corobot_camera
+- corobot_gps
+- phidget_motor
+- phidget_servo
+- corobot_phidget_ik
+- corobot_pantilt
+- corobot_ssc32
+description: The corobot_diagnostics package
+doc_job: doc-hydro-corobot
+has_changelog_rst: false
+license: BSD
+maintainers: Morgan Cormier <mcormier@coroware.com>
+metapackages:
+- corobot
+msgs: []
+package_type: package
+repo_name: corobot
+repo_url: ''
+srvs: []
+timestamp: 1405962608.923759
+url: http://ros.org/wiki/corobot_diagnostics
+vcs: git
+vcs_uri: https://github.com/morgancormier/corobot.git
+vcs_version: master

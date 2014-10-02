@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/viso2_ros/html
+authors: Stephan Wirth <stephan.wirth@uib.es>
+brief: ''
+bugtracker: https://github.com/srv/viso2/issues
+depends:
+- nav_msgs
+- image_geometry
+- std_srvs
+- roscpp
+- message_filters
+- libviso2
+- message_runtime
+- sensor_msgs
+- image_transport
+- message_generation
+- PCL
+- tf
+- catkin
+- cv_bridge
+- pcl_ros
+depends_on:
+- viso2
+description: This is the ROS wrapper for libviso2, library for visual odometry (see
+  package libviso2).
+doc_job: doc-hydro-viso2
+has_changelog_rst: false
+license: GPL
+maintainers: Stephan Wirth <stephan.wirth@uib.es>
+metapackages:
+- viso2
+msgs:
+- VisoInfo
+package_type: package
+repo_name: viso2
+repo_url: ''
+srvs: []
+timestamp: 1405774435.452741
+url: http://ros.org/wiki/viso2_ros
+vcs: git
+vcs_uri: https://github.com/srv/viso2.git
+vcs_version: hydro

@@ -1,0 +1,21 @@
+authors: ''
+depends:
+- cob_manipulation
+- catkin
+- care_o_bot_simulation
+- care_o_bot_robot
+- cob_navigation
+description: The care-o-bot meta-package
+license: BSD
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+package_type: package
+release_jobs:
+- ros-hydro-care-o-bot_sourcedeb
+- ros-hydro-care-o-bot_binarydeb_precise_amd64
+- ros-hydro-care-o-bot_binarydeb_precise_i386
+- ros-hydro-care-o-bot_binarydeb_quantal_amd64
+- ros-hydro-care-o-bot_binarydeb_quantal_i386
+- ros-hydro-care-o-bot_binarydeb_raring_amd64
+- ros-hydro-care-o-bot_binarydeb_raring_i386
+repo_name: care_o_bot
+timestamp: 1405956414.698576

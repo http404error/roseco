@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jaco_demo/html
+authors: Braden Stenning <braden@stenning.com>
+brief: ''
+bugtracker: ''
+depends:
+- jaco_driver
+- catkin
+- roscpp
+- jaco_msgs
+- std_msgs
+- rospy
+- geometry_msgs
+depends_on: []
+description: The jaco_demo package
+doc_job: doc-hydro-jaco_ros
+has_changelog_rst: false
+license: BSD
+maintainers: Ilia Baranov (Clearpath) <ibaranov@clearpathrobotics.com>
+msgs: []
+package_type: package
+repo_name: jaco_ros
+repo_url: ''
+srvs: []
+timestamp: 1405963522.46318
+url: ''
+vcs: git
+vcs_uri: https://github.com/Kinovarobotics/jaco-ros.git
+vcs_version: hydro-devel

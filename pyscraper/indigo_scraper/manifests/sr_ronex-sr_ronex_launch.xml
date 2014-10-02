@@ -1,0 +1,27 @@
+<package>
+  <name>sr_ronex_launch</name>
+  <version>0.9.15</version>
+  <description>Contains the main launch files for the RoNeX system.</description>
+  <maintainer email="software@shadowrobot.com">Shadow Robot's software team</maintainer>
+
+  <license>LGPLv3</license>
+
+  <url type="website">http://www.shadowrobot.com/products/ronex</url>
+  <url type="repository">https://github.com/shadow-robot/sr-ronex</url>
+  <url type="bugtracker">https://github.com/shadow-robot/sr-ronex/issues</url>
+
+  <author>Ugo Cupcic</author>
+  <author>Toni Oliver</author>
+  <author>Mark Pitchless</author>
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  
+
+  
+  <run_depend>ros_ethercat_loop</run_depend>
+
+  
+
+</package>

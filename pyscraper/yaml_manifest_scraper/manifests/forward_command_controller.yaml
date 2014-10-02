@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/forward_command_controller/html
+authors: Vijay Pradeep, Adolfo Rodriguez Tsouroukdissian
+brief: ''
+bugtracker: https://github.com/ros-controls/ros_controllers/issues
+depends:
+- std_msgs
+- hardware_interface
+- controller_interface
+- catkin
+depends_on:
+- velocity_controllers
+- ros_controllers
+- position_controllers
+- effort_controllers
+description: forward_command_controller
+devel_jobs:
+- devel-hydro-ros_controllers
+doc_job: doc-hydro-ros_controllers
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Adolfo Rodriguez Tsouroukdissian <adolfo.rodriguez@pal-robotics.com>
+metapackages:
+- ros_controllers
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-forward-command-controller_sourcedeb
+- ros-hydro-forward-command-controller_binarydeb_precise_amd64
+- ros-hydro-forward-command-controller_binarydeb_precise_i386
+- ros-hydro-forward-command-controller_binarydeb_quantal_amd64
+- ros-hydro-forward-command-controller_binarydeb_quantal_i386
+- ros-hydro-forward-command-controller_binarydeb_raring_amd64
+- ros-hydro-forward-command-controller_binarydeb_raring_i386
+repo_name: ros_controllers
+repo_url: https://github.com/ros-controls/ros_controllers
+srvs: []
+timestamp: 1405773385.671189
+url: https://github.com/ros-controls/ros_controllers/wiki
+vcs: git
+vcs_uri: https://github.com/ros-controls/ros_controllers.git
+vcs_version: hydro-devel

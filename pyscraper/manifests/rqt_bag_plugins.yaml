@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_bag_plugins/html
+authors: Aaron Blasdel, Tim Field
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt_common_plugins/issues
+depends:
+- catkin
+- rqt_bag
+- rqt_gui
+- roslib
+- sensor_msgs
+- python-imaging
+- rospy
+- std_msgs
+- geometry_msgs
+- rqt_gui_py
+- rosbag
+depends_on:
+- rqt_common_plugins
+description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
+doc_job: doc-hydro-rqt_common_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Aaron Blasdel <ablasdel@gmail.com>, Austin Hendrix <namniart@gmail.com>
+metapackages:
+- rqt_common_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-bag-plugins_sourcedeb
+- ros-hydro-rqt-bag-plugins_binarydeb_precise_amd64
+- ros-hydro-rqt-bag-plugins_binarydeb_precise_i386
+- ros-hydro-rqt-bag-plugins_binarydeb_quantal_amd64
+- ros-hydro-rqt-bag-plugins_binarydeb_quantal_i386
+- ros-hydro-rqt-bag-plugins_binarydeb_raring_amd64
+- ros-hydro-rqt-bag-plugins_binarydeb_raring_i386
+repo_name: rqt_common_plugins
+repo_url: https://github.com/ros-visualization/rqt_common_plugins
+srvs: []
+timestamp: 1405975251.114592
+url: http://ros.org/wiki/rqt_bag
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt_common_plugins.git
+vcs_version: groovy-devel

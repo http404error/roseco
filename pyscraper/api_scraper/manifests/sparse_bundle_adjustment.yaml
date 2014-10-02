@@ -1,0 +1,23 @@
+authors: ''
+depends:
+- catkin
+- eigen
+- cmake_modules
+- libblas-dev
+- liblapack-dev
+- suitesparse
+description: ROS wrapper for the sparse bundle adjustment (sba) library (needed for
+  slam_karto)
+license: BSD
+maintainers: Michael Ferguson <fergs@unboundedrobotics.com>
+package_type: package
+release_jobs:
+- ros-hydro-sparse-bundle-adjustment_sourcedeb
+- ros-hydro-sparse-bundle-adjustment_binarydeb_precise_amd64
+- ros-hydro-sparse-bundle-adjustment_binarydeb_precise_i386
+- ros-hydro-sparse-bundle-adjustment_binarydeb_quantal_amd64
+- ros-hydro-sparse-bundle-adjustment_binarydeb_quantal_i386
+- ros-hydro-sparse-bundle-adjustment_binarydeb_raring_amd64
+- ros-hydro-sparse-bundle-adjustment_binarydeb_raring_i386
+repo_name: sparse_bundle_adjustment
+timestamp: 1405956415.09707

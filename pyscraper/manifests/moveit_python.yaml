@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/moveit_python/html
+authors: Michael Ferguson
+brief: ''
+bugtracker: ''
+depends:
+- shape_msgs
+- catkin
+- actionlib
+- geometry_msgs
+- tf
+- rospy
+- python-pyassimp
+- moveit_msgs
+depends_on: []
+description: A pure-python interaface to the MoveIt! ROS API.
+devel_jobs:
+- devel-hydro-moveit_python
+doc_job: doc-hydro-moveit_python
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Michael Ferguson <fergs@unboundedrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-moveit-python_sourcedeb
+- ros-hydro-moveit-python_binarydeb_precise_amd64
+- ros-hydro-moveit-python_binarydeb_precise_i386
+- ros-hydro-moveit-python_binarydeb_quantal_amd64
+- ros-hydro-moveit-python_binarydeb_quantal_i386
+- ros-hydro-moveit-python_binarydeb_raring_amd64
+- ros-hydro-moveit-python_binarydeb_raring_i386
+repo_name: moveit_python
+repo_url: ''
+srvs: []
+timestamp: 1405771832.695951
+url: http://ros.org/wiki/moveit_python
+vcs: git
+vcs_uri: https://github.com/mikeferguson/moveit_python.git
+vcs_version: master

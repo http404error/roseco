@@ -1,0 +1,19 @@
+authors: Tully Foote <tfoote@osrfoundation.org>
+depends:
+- catkin
+- turtle_tf
+description: Metapackage of geometry tutorials ROS.
+license: BSD
+maintainers: William Woodall <william@osrfoundation.org>
+package_type: package
+release_jobs:
+- ros-hydro-geometry-tutorials_sourcedeb
+- ros-hydro-geometry-tutorials_binarydeb_precise_amd64
+- ros-hydro-geometry-tutorials_binarydeb_precise_i386
+- ros-hydro-geometry-tutorials_binarydeb_quantal_amd64
+- ros-hydro-geometry-tutorials_binarydeb_quantal_i386
+- ros-hydro-geometry-tutorials_binarydeb_raring_amd64
+- ros-hydro-geometry-tutorials_binarydeb_raring_i386
+repo_name: geometry_tutorials
+timestamp: 1405956414.790681
+url: http://www.ros.org/wiki/geometry_tutorials

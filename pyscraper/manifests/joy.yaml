@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/joy/html
+authors: Morgan Quigley, Brian Gerkey, Kevin Watts, Blaise Gassend
+brief: ''
+bugtracker: https://github.com/ros-drivers/joystick_drivers/issues
+depends:
+- catkin
+- roscpp
+- sensor_msgs
+- diagnostic_updater
+- joystick
+- rosbag
+depends_on:
+- turtlebot_teleop
+- kingfisher_teleop
+- rovio_ctrl
+- ackermann_hks
+- grizzly_teleop
+- wheeled_robin_teleop
+- tedusar_cartesian_arm_teleop
+- demo_pioneer
+- cob_bringup
+- nao_teleop
+- corobot_joystick
+- pr2_bringup
+- universal_teleop
+- corobot_pantilt
+- hector_quadrotor_teleop
+- joystick_drivers
+- husky_teleop
+description: "ROS driver for a generic Linux joystick.\n    The joy package contains\
+  \ joy_node, a node that interfaces a\n    generic Linux joystick to ROS. This node\
+  \ publishes a &quot;Joy&quot;\n    message, which contains the current state of\
+  \ each one of the\n    joystick's buttons and axes."
+doc_job: doc-hydro-joystick_drivers
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Jonathan Bohren <jbo@jhu.edu>
+metapackages:
+- joystick_drivers
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-joy_sourcedeb
+- ros-hydro-joy_binarydeb_precise_amd64
+- ros-hydro-joy_binarydeb_precise_i386
+- ros-hydro-joy_binarydeb_quantal_amd64
+- ros-hydro-joy_binarydeb_quantal_i386
+- ros-hydro-joy_binarydeb_raring_amd64
+- ros-hydro-joy_binarydeb_raring_i386
+repo_name: joystick_drivers
+repo_url: ''
+srvs: []
+timestamp: 1405974010.36196
+url: http://www.ros.org/wiki/joy
+vcs: git
+vcs_uri: https://github.com/ros-drivers/joystick_drivers.git
+vcs_version: hydro-devel

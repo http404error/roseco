@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jsk_tools/html
+authors: Ryohei Ueda (ueda@jsk.t.u-tokyo.ac.jp), Rosen Diankov (rosen.diankov@gmail.com)
+brief: ''
+bugtracker: ''
+depends:
+- git
+- catkin
+depends_on:
+- pr2eus_openrave
+- multi_map_server
+- jsk_common
+description: Includes emacs scripts, ros tool alias generator, and launch doc generator.
+devel_jobs:
+- devel-hydro-jsk_common
+doc_job: doc-hydro-jsk_common
+has_changelog_rst: true
+license: Apache License 2.0
+maintainer_status: developed
+maintainers: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+metapackages:
+- jsk_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-jsk-tools_sourcedeb
+- ros-hydro-jsk-tools_binarydeb_precise_amd64
+- ros-hydro-jsk-tools_binarydeb_precise_i386
+- ros-hydro-jsk-tools_binarydeb_quantal_amd64
+- ros-hydro-jsk-tools_binarydeb_quantal_i386
+- ros-hydro-jsk-tools_binarydeb_raring_amd64
+- ros-hydro-jsk-tools_binarydeb_raring_i386
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771486.95062
+url: http://ros.org/wiki/jsk_tools
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

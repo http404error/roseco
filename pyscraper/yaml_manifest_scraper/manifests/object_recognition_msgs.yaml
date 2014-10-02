@@ -1,0 +1,58 @@
+actions:
+- ObjectRecognition
+api_documentation: http://docs.ros.org/hydro/api/object_recognition_msgs/html
+authors: Vincent Rabaud <vincent.rabaud@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- shape_msgs
+- catkin
+- std_msgs
+- actionlib_msgs
+- message_runtime
+- sensor_msgs
+- geometry_msgs
+- message_generation
+depends_on:
+- moveit_msgs
+- blort_msgs
+- rosjava_messages
+- rosruby_messages
+- household_objects_database_msgs
+- object_recognition_clusters
+- calvin_pick_n_place
+- moveit_ros_visualization
+description: Object_recognition_msgs contains the ROS message and the actionlib definition
+  used in object_recognition_core
+devel_jobs:
+- devel-hydro-object_recognition_msgs
+doc_job: doc-hydro-object_recognition_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+msgs:
+- Table
+- RecognizedObjectArray
+- TableArray
+- RecognizedObject
+- ObjectType
+- ObjectInformation
+package_type: package
+release_jobs:
+- ros-hydro-object-recognition-msgs_sourcedeb
+- ros-hydro-object-recognition-msgs_binarydeb_precise_amd64
+- ros-hydro-object-recognition-msgs_binarydeb_precise_i386
+- ros-hydro-object-recognition-msgs_binarydeb_quantal_amd64
+- ros-hydro-object-recognition-msgs_binarydeb_quantal_i386
+- ros-hydro-object-recognition-msgs_binarydeb_raring_amd64
+- ros-hydro-object-recognition-msgs_binarydeb_raring_i386
+repo_name: object_recognition_msgs
+repo_url: ''
+srvs:
+- GetObjectInformation
+timestamp: 1405974592.852845
+url: http://www.ros.org/wiki/object_recognition
+vcs: git
+vcs_uri: https://github.com/wg-perception/object_recognition_msgs.git
+vcs_version: master

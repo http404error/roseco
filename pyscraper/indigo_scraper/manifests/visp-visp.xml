@@ -1,0 +1,58 @@
+<package>
+  <name>visp</name>
+  <version>:{version}</version>
+  <description>
+    ViSP, standing for Visual Servoing Platform, is unique. This software
+    is a complete cross-platform solution that allows prototyping and
+    developing applications in visual tracking and visual servoing.
+
+    ViSP can be useful in robotics, computer vision, augmented reality
+    and computer animation.
+  </description>
+
+  <author>Thomas Moulard</author>
+  <maintainer email="Fabien.Spindler@inria.fr">Fabien Spindler</maintainer>
+  <license>GPLv2</license>
+
+  <url type="website">http://www.ros.org/wiki/visp</url>
+  <url type="bugtracker">https://github.com/lagadic/visp-release/issues</url>
+  <url type="repository">https://github.com/lagadic/visp-release</url>
+
+  <buildtool_depend>cmake</buildtool_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>doxygen</build_depend>
+  <build_depend>opencv2</build_depend>
+  <build_depend>liblapack-dev</build_depend>
+  <build_depend>libcoin60-dev</build_depend>
+  <build_depend>libsoqt4-dev</build_depend>
+  <build_depend>libogre-dev</build_depend>
+  <build_depend>libdc1394-dev</build_depend>
+  <build_depend>libxml2</build_depend>
+  <build_depend>libjpeg</build_depend>
+  <build_depend>libpng12-dev</build_depend>
+  <build_depend>ffmpeg</build_depend>
+  <build_depend>bzip2</build_depend>
+  <build_depend>libx11-dev</build_depend>
+  <build_depend>libv4l-dev</build_depend>
+  <build_depend>libusb-dev</build_depend>
+  <build_depend>libfreenect-dev</build_depend>
+  <build_depend>libois-dev</build_depend>
+
+  <run_depend>opencv2</run_depend>
+  <run_depend>liblapack-dev</run_depend>
+  <run_depend>libcoin60-dev</run_depend>
+  <run_depend>libsoqt4-dev</run_depend>
+  <run_depend>libogre-dev</run_depend>
+  <run_depend>libdc1394-dev</run_depend>
+  <run_depend>libxml2</run_depend>
+  <run_depend>libjpeg</run_depend>
+  <run_depend>libpng12-dev</run_depend>
+  <run_depend>bzip2</run_depend>
+  <run_depend>ffmpeg</run_depend>
+  <run_depend>libx11-dev</run_depend>
+  <run_depend>libv4l-dev</run_depend>
+  <run_depend>libusb-dev</run_depend>
+  <run_depend>libfreenect-dev</run_depend>
+  <run_depend>libois-dev</run_depend>
+</package>

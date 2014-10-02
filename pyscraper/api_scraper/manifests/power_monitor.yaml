@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/power_monitor/html
+authors: Tim Field, Curt Meyers
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- std_msgs
+- roscpp
+- pr2_msgs
+depends_on:
+- pr2_power_drivers
+- pr2_bringup
+description: "The power_monitor collects messages from the ocean_battery_server and\n\
+  \     the pr2_power_board, and publishes a summary of their data in a\n     friendlier\
+  \ message format."
+doc_job: doc-hydro-pr2_power_drivers
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+metapackages:
+- pr2_power_drivers
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-power-monitor_sourcedeb
+- ros-hydro-power-monitor_binarydeb_precise_amd64
+- ros-hydro-power-monitor_binarydeb_precise_i386
+- ros-hydro-power-monitor_binarydeb_quantal_amd64
+- ros-hydro-power-monitor_binarydeb_quantal_i386
+- ros-hydro-power-monitor_binarydeb_raring_amd64
+- ros-hydro-power-monitor_binarydeb_raring_i386
+repo_name: pr2_power_drivers
+repo_url: ''
+srvs: []
+timestamp: 1405964569.5848
+url: http://www.ros.org/wiki/power_monitor
+vcs: git
+vcs_uri: https://github.com/PR2/pr2_power_drivers.git
+vcs_version: hydro-devel

@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/polypartition/html
+authors: Georg Arbeiter
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on:
+- cob_3d_segmentation
+- cob_3d_mapping_common
+- cob_environment_perception
+description: This package wraps the polypartition library to use it as a ros dependency
+doc_job: doc-hydro-cob_environment_perception
+has_changelog_rst: false
+license: LGPL
+maintainers: Georg Arbeiter <goab@ipa.fhg.de>
+metapackages:
+- cob_environment_perception
+msgs: []
+package_type: package
+repo_name: cob_environment_perception
+repo_url: ''
+srvs: []
+timestamp: 1405962316.601082
+url: http://ros.org/wiki/polypartition
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_environment_perception.git
+vcs_version: hydro_dev

@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jsk_roseus/html
+authors: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>, Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>,
+  Youhei Kakiuchi <youhei@jsk.imi.i.u-tokyo.ac.jp>
+brief: ''
+bugtracker: https://github.com/jsk-ros-pkg/jsk_roseus/issues
+depends: &id001
+- roseus
+- catkin
+- geneus
+- euslisp
+depends_on: []
+description: <p>Metapackage that contains roseus package for jsk-ros-pkg</p>
+devel_jobs:
+- devel-hydro-jsk_roseus
+doc_job: doc-hydro-jsk_roseus
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-jsk-roseus_sourcedeb
+- ros-hydro-jsk-roseus_binarydeb_precise_amd64
+- ros-hydro-jsk-roseus_binarydeb_precise_i386
+- ros-hydro-jsk-roseus_binarydeb_quantal_amd64
+- ros-hydro-jsk-roseus_binarydeb_quantal_i386
+- ros-hydro-jsk-roseus_binarydeb_raring_amd64
+- ros-hydro-jsk-roseus_binarydeb_raring_i386
+repo_name: jsk_roseus
+repo_url: https://github.com/jsk-ros-pkg/jsk_roseus
+srvs: []
+timestamp: 1405771457.367542
+url: http://ros.org/wiki/jsk_roseus
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_roseus.git
+vcs_version: master

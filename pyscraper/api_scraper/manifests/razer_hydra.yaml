@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/razer_hydra/html
+authors: Adam Leeper
+brief: ''
+bugtracker: https://github.com/aleeper/razer_hydra/issues
+depends:
+- catkin
+- roscpp
+- message_runtime
+- tf
+- geometry_msgs
+- libusb-1.0-dev
+- message_generation
+- pkg-config
+depends_on:
+- rosjava_messages
+description: Unofficial driver and ROS node for Razer Hydra
+devel_jobs:
+- devel-hydro-razer_hydra
+doc_job: doc-hydro-razer_hydra
+has_changelog_rst: true
+license: Public Domain
+maintainer_status: maintained
+maintainers: Adam Leeper <adamleeper@gmail.com>
+msgs:
+- Hydra
+- HydraPaddle
+- HydraRaw
+package_type: package
+release_jobs:
+- ros-hydro-razer-hydra_sourcedeb
+- ros-hydro-razer-hydra_binarydeb_precise_amd64
+- ros-hydro-razer-hydra_binarydeb_precise_i386
+- ros-hydro-razer-hydra_binarydeb_quantal_amd64
+- ros-hydro-razer-hydra_binarydeb_quantal_i386
+- ros-hydro-razer-hydra_binarydeb_raring_amd64
+- ros-hydro-razer-hydra_binarydeb_raring_i386
+repo_name: razer_hydra
+repo_url: ''
+srvs: []
+timestamp: 1405772743.569429
+url: http://www.ros.org/wiki/razer_hydra
+vcs: git
+vcs_uri: https://github.com/ros-drivers/razer_hydra.git
+vcs_version: groovy-devel

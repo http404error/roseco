@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/audio_common_msgs/html
+authors: Nate Koenig
+brief: ''
+bugtracker: https://github.com/ros-drivers/audio_common/issues
+depends:
+- message_generation
+- message_runtime
+- catkin
+depends_on:
+- rosjava_messages
+- rosruby_messages
+- audio_common
+- audio_capture
+- audio_play
+- sound_play
+description: Messages for transmitting audio via ROS
+devel_jobs:
+- devel-hydro-audio_common
+doc_job: doc-hydro-audio_common
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+metapackages:
+- audio_common
+msgs:
+- AudioData
+package_type: package
+release_jobs:
+- ros-hydro-audio-common-msgs_sourcedeb
+- ros-hydro-audio-common-msgs_binarydeb_precise_amd64
+- ros-hydro-audio-common-msgs_binarydeb_precise_i386
+- ros-hydro-audio-common-msgs_binarydeb_quantal_amd64
+- ros-hydro-audio-common-msgs_binarydeb_quantal_i386
+- ros-hydro-audio-common-msgs_binarydeb_raring_amd64
+- ros-hydro-audio-common-msgs_binarydeb_raring_i386
+repo_name: audio_common
+repo_url: https://github.com/ros-drivers/audio_common
+srvs: []
+timestamp: 1405769649.34129
+url: http://ros.org/wiki/audio_common_msgs
+vcs: git
+vcs_uri: https://github.com/ros-drivers/audio_common.git
+vcs_version: hydro-devel

@@ -1,0 +1,66 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosgraph/html
+authors: Ken Conley
+brief: ''
+bugtracker: ''
+depends:
+- python-rospkg
+- python-netifaces
+- python-mock
+- catkin
+depends_on:
+- master_sync_fkie
+- test_rosparam
+- ps3joy
+- roshlaunch
+- master_discovery_fkie
+- rosnode
+- rosmaster
+- rqt_plot
+- rospy
+- roswtf
+- node_manager_fkie
+- rqt_decision_graph
+- rosservice
+- rosh
+- parallel_util
+- test_rospy
+- test_roslaunch
+- household_objects_database
+- test_rosmaster
+- rosparam
+- tf2_ros
+- rocon_python_comms
+- rqt_graph
+- rosapi
+- ros_comm
+description: "rosgraph contains the rosgraph command-line tool, which prints\n   \
+  \ information about the ROS Computation Graph. It also provides an\n    internal\
+  \ library that can be used by graphical tools."
+devel_jobs:
+- devel-hydro-ros_comm
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros_comm
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosgraph_sourcedeb
+- ros-hydro-rosgraph_binarydeb_precise_amd64
+- ros-hydro-rosgraph_binarydeb_precise_i386
+- ros-hydro-rosgraph_binarydeb_quantal_amd64
+- ros-hydro-rosgraph_binarydeb_quantal_i386
+- ros-hydro-rosgraph_binarydeb_raring_amd64
+- ros-hydro-rosgraph_binarydeb_raring_i386
+repo_name: ros_comm
+repo_url: ''
+srvs: []
+timestamp: 1405773121.218261
+url: http://ros.org/wiki/rosgraph
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

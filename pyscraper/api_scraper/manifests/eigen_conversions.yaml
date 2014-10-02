@@ -1,0 +1,62 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/eigen_conversions/html
+authors: Stuart Glaser, Adam Leeper
+brief: ''
+bugtracker: ''
+depends:
+- std_msgs
+- orocos_kdl
+- geometry_msgs
+- eigen
+- catkin
+depends_on:
+- moveit_planners_ompl
+- moveit_ros_robot_interaction
+- pr2_moveit_plugins
+- cob_table_object_cluster
+- moveit_ros_benchmarks_gui
+- moveit_core
+- moveit_visual_tools
+- moveit_ros_planning_interface
+- image_rotate
+- force_torque_sensor_calib
+- cob_3d_mapping_common
+- handle_detector
+- moveit_simple_grasps
+- gravity_compensation
+- moveit_commander
+- cob_3d_visualization
+- robot_mechanism_controllers
+- jsk_pcl_ros
+- geometry
+- jsk_interactive_marker
+- moveit_ros_benchmarks
+description: "Conversion functions between:\n      - Eigen and KDL\n      - Eigen\
+  \ and geometry_msgs."
+devel_jobs:
+- devel-hydro-geometry
+doc_job: doc-hydro-geometry
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Tully Foote <tfoote@willowgarage.com>
+metapackages:
+- geometry
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-eigen-conversions_sourcedeb
+- ros-hydro-eigen-conversions_binarydeb_precise_amd64
+- ros-hydro-eigen-conversions_binarydeb_precise_i386
+- ros-hydro-eigen-conversions_binarydeb_quantal_amd64
+- ros-hydro-eigen-conversions_binarydeb_quantal_i386
+- ros-hydro-eigen-conversions_binarydeb_raring_amd64
+- ros-hydro-eigen-conversions_binarydeb_raring_i386
+repo_name: geometry
+repo_url: ''
+srvs: []
+timestamp: 1405973426.223579
+url: http://ros.org/wiki/eigen_conversions
+vcs: git
+vcs_uri: https://github.com/ros/geometry.git
+vcs_version: hydro-devel

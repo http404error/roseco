@@ -1,0 +1,42 @@
+actions:
+- ArmJointAngles
+- ArmPose
+- SetFingersPosition
+api_documentation: http://docs.ros.org/hydro/api/jaco_msgs/html
+authors: Ilia Baranov (Clearpath) <ibaranov@clearpathrobotics.com>, Jeff Schmidt (Clearpath)
+  <jschmidt@clearpathrobotics.com>, Alex Bencz (Clearpath) <abencz@clearpathrobotics.com>,
+  Matt DeDonato (WPI)
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- actionlib
+- message_runtime
+- geometry_msgs
+- message_generation
+- actionlib_msgs
+depends_on:
+- jaco_demo
+- jaco_driver
+description: "This contains the messages, actions and services for interfacing with\
+  \ the Kinova\n  Jaco arm through ROS."
+doc_job: doc-hydro-jaco_ros
+has_changelog_rst: false
+license: BSD
+maintainers: Ilia Baranov (Clearpath) <ibaranov@clearpathrobotics.com>
+msgs:
+- JointAngles
+- JointVelocity
+- FingerPosition
+package_type: package
+repo_name: jaco_ros
+repo_url: ''
+srvs:
+- Stop
+- HomeArm
+- Start
+timestamp: 1405963514.171569
+url: http://ros.org/wiki/jaco
+vcs: git
+vcs_uri: https://github.com/Kinovarobotics/jaco-ros.git
+vcs_version: hydro-devel

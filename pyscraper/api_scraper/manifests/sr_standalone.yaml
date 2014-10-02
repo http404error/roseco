@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_standalone/html
+authors: Manos Nikolaidis <manos@shadowrobot.com>, Yi Li <yi@shadowrobot.com>
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ros-interface/issues
+depends:
+- pr2_mechanism_msgs
+- sr_hand
+- catkin
+- roscpp
+- sensor_msgs
+- sr_robot_msgs
+- std_msgs
+depends_on: []
+description: sr_standalone is a wrapper allowing shadow_robot to be used from outside
+  of ROS (with ROS installed on the system)
+doc_job: doc-hydro-shadow_robot
+has_changelog_rst: true
+license: GPL
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+msgs: []
+package_type: package
+repo_name: shadow_robot
+repo_url: https://github.com/shadow-robot/sr-ros-interface
+srvs: []
+timestamp: 1405773910.003555
+url: http://ros.org/wiki/sr_ros_interface
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ros-interface.git
+vcs_version: hydro-devel

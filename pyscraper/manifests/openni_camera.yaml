@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/openni_camera/html
+authors: Patrick Mihelich, Suat Gedikli, Radu Bogdan Rusu
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- libopenni-sensor-primesense-dev
+- catkin
+- roscpp
+- libopenni-dev
+- camera_info_manager
+- sensor_msgs
+- image_transport
+- libusb-1.0-dev
+- nodelet
+- log4cxx
+depends_on:
+- openni_launch
+- skeleton_markers
+description: "A ROS driver for OpenNI depth (+ RGB) cameras. These include: \n   \
+  \    Microsoft Kinect,\n       PrimeSense PSDK,\n       ASUS Xtion Pro and Pro Live\n\
+  \n    The driver publishes raw depth, RGB, and IR image streams."
+doc_job: doc-hydro-openni_camera
+has_changelog_rst: true
+license: BSD
+maintainers: Julius Kammerl <jkammerl@willowgarage.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-openni-camera_sourcedeb
+- ros-hydro-openni-camera_binarydeb_precise_amd64
+- ros-hydro-openni-camera_binarydeb_precise_i386
+- ros-hydro-openni-camera_binarydeb_quantal_amd64
+- ros-hydro-openni-camera_binarydeb_quantal_i386
+- ros-hydro-openni-camera_binarydeb_raring_amd64
+- ros-hydro-openni-camera_binarydeb_raring_i386
+repo_name: openni_camera
+repo_url: ''
+srvs: []
+timestamp: 1405964204.781972
+url: http://www.ros.org/wiki/openni_camera
+vcs: git
+vcs_uri: https://github.com/ros-drivers/openni_camera.git
+vcs_version: hydro-devel

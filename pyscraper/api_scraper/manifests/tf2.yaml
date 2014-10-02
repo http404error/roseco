@@ -1,0 +1,54 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/tf2/html
+authors: Tully Foote, Eitan Marder-Eppstein, Wim Meeussen
+brief: ''
+bugtracker: ''
+depends:
+- rostime
+- geometry_msgs
+- tf2_msgs
+- catkin
+- console_bridge
+depends_on:
+- geometry_experimental
+- tf2_py
+- rqt_tf_tree
+- test_tf2
+- tf
+- tf2_geometry_msgs
+- tf2_tools
+- tf2_ros
+- tf2_kdl
+- tf2_bullet
+description: "tf2 is the second generation of the transform library, which lets\n\
+  \    the user keep track of multiple coordinate frames over time. tf2\n    maintains\
+  \ the relationship between coordinate frames in a tree\n    structure buffered in\
+  \ time, and lets the user transform points,\n    vectors, etc between any two coordinate\
+  \ frames at any desired\n    point in time."
+devel_jobs:
+- devel-hydro-geometry_experimental
+doc_job: doc-hydro-geometry_experimental
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Tully Foote <tfoote@osrfoundation.org>
+metapackages:
+- geometry_experimental
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-tf2_sourcedeb
+- ros-hydro-tf2_binarydeb_precise_amd64
+- ros-hydro-tf2_binarydeb_precise_i386
+- ros-hydro-tf2_binarydeb_quantal_amd64
+- ros-hydro-tf2_binarydeb_quantal_i386
+- ros-hydro-tf2_binarydeb_raring_amd64
+- ros-hydro-tf2_binarydeb_raring_i386
+repo_name: geometry_experimental
+repo_url: ''
+srvs: []
+timestamp: 1405973462.857519
+url: http://www.ros.org/wiki/tf2
+vcs: git
+vcs_uri: https://github.com/ros/geometry-experimental.git
+vcs_version: hydro-devel

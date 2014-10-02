@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_machine/html
+authors: Wim Meeussen, Austin Hendrix
+brief: ''
+bugtracker: https://github.com/PR2/pr2_common/issues
+depends:
+- catkin
+depends_on:
+- pr2_navigation_teleop
+- pr2_navigation_slam
+- pr2_controller_configuration
+- pr2_common
+- pr2_navigation_local
+- pr2_bringup
+- pr2_navigation_perception
+- pr2_navigation_global
+description: This package contains the xxx.machine files that describe the different
+  hosts a node can be spawned on. Currently there is one machine file for the pr2
+  robot, and one for the simulated pr2 robot.
+devel_jobs:
+- devel-hydro-pr2_common
+doc_job: doc-hydro-pr2_common
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+metapackages:
+- pr2_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-pr2-machine_sourcedeb
+- ros-hydro-pr2-machine_binarydeb_precise_amd64
+- ros-hydro-pr2-machine_binarydeb_precise_i386
+- ros-hydro-pr2-machine_binarydeb_quantal_amd64
+- ros-hydro-pr2-machine_binarydeb_quantal_i386
+- ros-hydro-pr2-machine_binarydeb_raring_amd64
+- ros-hydro-pr2-machine_binarydeb_raring_i386
+repo_name: pr2_common
+repo_url: ''
+srvs: []
+timestamp: 1405772580.361043
+url: http://ros.org/wiki/pr2_machine
+vcs: git
+vcs_uri: https://github.com/PR2/pr2_common.git
+vcs_version: hydro-devel

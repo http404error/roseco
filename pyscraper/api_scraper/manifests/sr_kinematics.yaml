@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_kinematics/html
+authors: David LU, adapted for ShadowHand by Guillaume WALCK
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ros-interface/issues
+depends:
+- moveit_core
+- catkin
+- roscpp
+- urdf
+- sensor_msgs
+- kdl_parser
+- tf
+- orocos_kdl
+- tf_conversions
+depends_on: []
+description: "A specific shadowhand package derived from arm_kinematics, for computing\
+  \ both forward and backward kinematics for the fingers except thumb.\n    Solution\
+  \ is analytic. Developed as an alternative to arm_kinematics that cannot solve coupled\
+  \ joints."
+devel_jobs:
+- devel-hydro-shadow_robot
+doc_job: doc-hydro-shadow_robot
+has_changelog_rst: true
+license: BSD
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sr-kinematics_sourcedeb
+- ros-hydro-sr-kinematics_binarydeb_precise_amd64
+- ros-hydro-sr-kinematics_binarydeb_precise_i386
+- ros-hydro-sr-kinematics_binarydeb_quantal_amd64
+- ros-hydro-sr-kinematics_binarydeb_quantal_i386
+- ros-hydro-sr-kinematics_binarydeb_raring_amd64
+- ros-hydro-sr-kinematics_binarydeb_raring_i386
+repo_name: shadow_robot
+repo_url: https://github.com/shadow-robot/sr-ros-interface
+srvs: []
+timestamp: 1405773859.984098
+url: http://ros.org/wiki/arm_kinematics
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ros-interface.git
+vcs_version: hydro-devel

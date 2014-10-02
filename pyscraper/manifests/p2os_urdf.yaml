@@ -1,0 +1,27 @@
+authors: Hunter Allen <hunter.allen@Vanderbilt.edu>, David Feil-Seifer <dfseifer@usc.edu>,
+  Brian Gerkey, Kasper Stoy, Richard Vaughan, Andrew Howard, Tucker Hermans, ActivMedia
+  Robotics LLC, MobileRobots Inc.
+depends:
+- message_runtime
+- catkin
+- sensor_msgs
+- robot_state_publisher
+- urdf
+- std_msgs
+- geometry_msgs
+- message_generation
+description: URDF file descriptions for P2OS/ARCOS robot
+license: BSD
+maintainers: Hunter Allen <hunter.allen@vanderbilt.edu>
+package_type: package
+release_jobs:
+- ros-hydro-p2os-urdf_sourcedeb
+- ros-hydro-p2os-urdf_binarydeb_precise_amd64
+- ros-hydro-p2os-urdf_binarydeb_precise_i386
+- ros-hydro-p2os-urdf_binarydeb_quantal_amd64
+- ros-hydro-p2os-urdf_binarydeb_quantal_i386
+- ros-hydro-p2os-urdf_binarydeb_raring_amd64
+- ros-hydro-p2os-urdf_binarydeb_raring_i386
+repo_name: p2os
+timestamp: 1405956414.97844
+url: http://ros.org/wiki/p2os-vanderbilt

@@ -1,0 +1,35 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rviz_plugin_tutorials/html
+authors: Dave Hershberger
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rviz
+depends_on:
+- visualization_tutorials
+description: Tutorials showing how to write plugins for RViz.
+doc_job: doc-hydro-visualization_tutorials
+has_changelog_rst: false
+license: BSD
+maintainers: Dave Hershberger <hersh@willowgarage.com>
+metapackages:
+- visualization_tutorials
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rviz-plugin-tutorials_sourcedeb
+- ros-hydro-rviz-plugin-tutorials_binarydeb_precise_amd64
+- ros-hydro-rviz-plugin-tutorials_binarydeb_precise_i386
+- ros-hydro-rviz-plugin-tutorials_binarydeb_quantal_amd64
+- ros-hydro-rviz-plugin-tutorials_binarydeb_quantal_i386
+- ros-hydro-rviz-plugin-tutorials_binarydeb_raring_amd64
+- ros-hydro-rviz-plugin-tutorials_binarydeb_raring_i386
+repo_name: visualization_tutorials
+repo_url: ''
+srvs: []
+timestamp: 1405975648.867728
+url: http://ros.org/wiki/rviz_plugin_tutorials
+vcs: git
+vcs_uri: https://github.com/ros-visualization/visualization_tutorials.git
+vcs_version: hydro-devel

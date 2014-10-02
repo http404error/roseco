@@ -1,0 +1,72 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ros_comm/html
+authors: Morgan Quigley <mquigley@cs.stanford.edu>, Eric Berger <berger@willowgarage.com>,
+  Ken Conley <kwc@willowgarage.com>, Rosen Diankov <rdiankov@cs.cmu.edu>, Josh Faust
+  <jfaust@willowgarage.com>, Tim Field <tfield@willowgarage.com>, Tully Foote <tfoote@osrfoundation.org>,
+  Brian Gerkey <gerkey@willowgarage.com>, Jeremy Leibs <leibs@willowgarage.com>, Bhaskara
+  Marthi <bhaskara@willowgarage.com>, Troy Straszheim <straszheim@willowgarage.com>,
+  Rob Wheeler <wheeler@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends: &id001
+- rosconsole
+- catkin
+- rosgraph
+- ros
+- roscpp
+- rosparam
+- rosout
+- topic_tools
+- rostest
+- rostopic
+- roswtf
+- roslaunch
+- roslisp
+- message_filters
+- rosservice
+- rospy
+- rosgraph_msgs
+- std_srvs
+- xmlrpcpp
+- rosmaster
+- rosmsg
+- rosnode
+- rosbag
+depends_on:
+- dynamixel_motor_experimental
+- mrpt_hwdrivers
+- erratic_robot
+- nao_extras
+- ublox
+- humanoid_navigation
+- mrpt_slam
+- pr2_navigation
+- mrpt_common
+description: ROS communications-related packages, including core client libraries
+  (roscpp, rospy) and graph introspection tools (rostopic, rosnode, rosservice, rosparam).
+devel_jobs:
+- devel-hydro-ros_comm
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-ros-comm_sourcedeb
+- ros-hydro-ros-comm_binarydeb_precise_amd64
+- ros-hydro-ros-comm_binarydeb_precise_i386
+- ros-hydro-ros-comm_binarydeb_quantal_amd64
+- ros-hydro-ros-comm_binarydeb_quantal_i386
+- ros-hydro-ros-comm_binarydeb_raring_amd64
+- ros-hydro-ros-comm_binarydeb_raring_i386
+repo_name: ros_comm
+repo_url: ''
+srvs: []
+timestamp: 1405773170.889252
+url: http://www.ros.org/wiki/ros_comm
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

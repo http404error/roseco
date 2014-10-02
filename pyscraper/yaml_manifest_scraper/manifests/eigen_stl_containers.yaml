@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/eigen_stl_containers/html
+authors: Ioan Sucan <isucan@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- eigen
+depends_on:
+- geometric_shapes
+- moveit_core
+description: "This package provides a set of typedef's that allow\n  using Eigen datatypes\
+  \ in STL containers"
+devel_jobs:
+- devel-hydro-eigen_stl_containers
+doc_job: doc-hydro-eigen_stl_containers
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-eigen-stl-containers_sourcedeb
+- ros-hydro-eigen-stl-containers_binarydeb_precise_amd64
+- ros-hydro-eigen-stl-containers_binarydeb_precise_i386
+- ros-hydro-eigen-stl-containers_binarydeb_quantal_amd64
+- ros-hydro-eigen-stl-containers_binarydeb_quantal_i386
+- ros-hydro-eigen-stl-containers_binarydeb_raring_amd64
+- ros-hydro-eigen-stl-containers_binarydeb_raring_i386
+repo_name: eigen_stl_containers
+repo_url: ''
+srvs: []
+timestamp: 1405973322.021327
+url: http://eigen.tuxfamily.org/dox/TopicUnalignedArrayAssert.html
+vcs: git
+vcs_uri: https://github.com/ros/eigen_stl_containers.git
+vcs_version: master

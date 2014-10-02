@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/unique_identifier/html
+authors: Jack O'Quin
+brief: ''
+bugtracker: https://github.com/ros-geographic-info/unique_identifier/issues
+depends: &id001
+- catkin
+- unique_id
+- uuid_msgs
+depends_on: []
+description: "ROS messages and interfaces for universally unique identifiers.\n\n\
+  \    Not needed for wet packages, use only to resolve dry stack\n    dependencies."
+devel_jobs:
+- devel-hydro-unique_identifier
+doc_job: doc-hydro-unique_identifier
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Jack O'Quin <jack.oquin@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-unique-identifier_sourcedeb
+- ros-hydro-unique-identifier_binarydeb_precise_amd64
+- ros-hydro-unique-identifier_binarydeb_precise_i386
+- ros-hydro-unique-identifier_binarydeb_quantal_amd64
+- ros-hydro-unique-identifier_binarydeb_quantal_i386
+- ros-hydro-unique-identifier_binarydeb_raring_amd64
+- ros-hydro-unique-identifier_binarydeb_raring_i386
+repo_name: unique_identifier
+repo_url: https://github.com/ros-geographic-info/unique_identifier
+srvs: []
+timestamp: 1405774241.546601
+url: http://ros.org/wiki/unique_identifier
+vcs: git
+vcs_uri: https://github.com/ros-geographic-info/unique_identifier.git
+vcs_version: master

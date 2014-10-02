@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/geometry/html
+authors: Tully Foote
+brief: ''
+bugtracker: https://code.ros.org/trac/ros-pkg/query?component=geometry&status=assigned&status=new&status=reopened
+depends: &id001
+- catkin
+- kdl_conversions
+- eigen_conversions
+- angles
+- tf
+- tf_conversions
+depends_on:
+- ar_tools
+- erratic_robot
+- kurt_driver
+- nao_extras
+- humanoid_navigation
+- pr2_navigation
+- jsk_interactive_marker
+- openni_tracker_jsk_patch
+description: Geometry Library
+devel_jobs:
+- devel-hydro-geometry
+doc_job: doc-hydro-geometry
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Tully Foote <tfoote@willowgarage.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-geometry_sourcedeb
+- ros-hydro-geometry_binarydeb_precise_amd64
+- ros-hydro-geometry_binarydeb_precise_i386
+- ros-hydro-geometry_binarydeb_quantal_amd64
+- ros-hydro-geometry_binarydeb_quantal_i386
+- ros-hydro-geometry_binarydeb_raring_amd64
+- ros-hydro-geometry_binarydeb_raring_i386
+repo_name: geometry
+repo_url: https://kforge.ros.org/geometry/geometry
+srvs: []
+timestamp: 1405974167.518894
+url: http://www.ros.org/wiki/geometry
+vcs: git
+vcs_uri: https://github.com/ros/geometry.git
+vcs_version: hydro-devel

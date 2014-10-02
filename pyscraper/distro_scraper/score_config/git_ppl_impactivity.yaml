@@ -1,0 +1,6 @@
+impactivity:
+ - metric: git_activity_ppl_impact_composite
+   include: True
+   weights: 
+    git_activity: 1.0
+    ppl_impact: 0.75

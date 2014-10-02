@@ -1,0 +1,64 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/driver_base/html
+authors: Blaise Gassend
+brief: ''
+bugtracker: https://github.com/ros-drivers/driver_common/issues
+depends:
+- self_test
+- dynamic_reconfigure
+- catkin
+- roscpp
+- message_runtime
+- std_msgs
+- diagnostic_updater
+- message_generation
+depends_on:
+- rosjava_messages
+- camera_aravis
+- driver_common
+- hokuyo_node
+- cr_capture
+- opt_camera
+- gazebo_plugins
+- kinect_2d_scanner
+- hector_gazebo_thermal_camera
+- jsk_perception
+- pr2_gazebo_plugins
+- avt_vimba_camera
+- resized_image_transport
+- camera1394
+- sick_tim3xx
+- camera1394stereo
+- pointgrey_camera_driver
+description: "A framework for writing drivers that helps with runtime reconfiguration,\
+  \ diagnostics and self-test.\n\n    This package is deprecated."
+doc_job: doc-hydro-driver_common
+has_changelog_rst: false
+license: BSD
+maintainer_status: end-of-life
+maintainer_status_description: Will be released only as long as required for PR2 drivers
+  (hokuyo_node, wge100_driver)
+maintainers: Chad Rockey <chadrockey@gmail.com>
+metapackages:
+- driver_common
+msgs:
+- ConfigString
+- SensorLevels
+- ConfigValue
+package_type: package
+release_jobs:
+- ros-hydro-driver-base_sourcedeb
+- ros-hydro-driver-base_binarydeb_precise_amd64
+- ros-hydro-driver-base_binarydeb_precise_i386
+- ros-hydro-driver-base_binarydeb_quantal_amd64
+- ros-hydro-driver-base_binarydeb_quantal_i386
+- ros-hydro-driver-base_binarydeb_raring_amd64
+- ros-hydro-driver-base_binarydeb_raring_i386
+repo_name: driver_common
+repo_url: https://github.com/ros-drivers/driver_common
+srvs: []
+timestamp: 1405962954.910053
+url: http://www.ros.org/wiki/driver_base
+vcs: git
+vcs_uri: https://github.com/ros-drivers/driver_common.git
+vcs_version: hydro-devel

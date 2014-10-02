@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/stdr_server/html
+authors: Chris Zalidis
+brief: ''
+bugtracker: https://github.com/stdr-simulator-ros-pkg/stdr_simulator/issues
+depends:
+- nav_msgs
+- stdr_robot
+- map_server
+- catkin
+- roscpp
+- actionlib
+- tf
+- nodelet
+- stdr_msgs
+depends_on:
+- stdr_simulator
+- stdr_launchers
+- stdr_gui
+description: Implements synchronization and coordination functionalities of STDR Simulator.
+doc_job: doc-hydro-stdr_simulator
+has_changelog_rst: true
+license: GPLv3
+maintainer_status: maintained
+maintainers: Chris Zalidis <zalidis@gmail.com>
+metapackages:
+- stdr_simulator
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-stdr-server_sourcedeb
+- ros-hydro-stdr-server_binarydeb_precise_amd64
+- ros-hydro-stdr-server_binarydeb_precise_i386
+- ros-hydro-stdr-server_binarydeb_quantal_amd64
+- ros-hydro-stdr-server_binarydeb_quantal_i386
+- ros-hydro-stdr-server_binarydeb_raring_amd64
+- ros-hydro-stdr-server_binarydeb_raring_i386
+repo_name: stdr_simulator
+repo_url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator
+srvs: []
+timestamp: 1405773980.642984
+url: http://stdr-simulator-ros-pkg.github.io
+vcs: git
+vcs_uri: https://github.com/stdr-simulator-ros-pkg/stdr_simulator.git
+vcs_version: hydro-devel

@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/aruco_ros/html
+authors: "Rafael Mu\xF1oz Salinas <rmsalinas@uco.es>, Bence Magyar <bence.magyar@pal-robotics.com>"
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- pal_vision_segmentation
+- roscpp
+- image_transport
+- geometry_msgs
+- tf
+- catkin
+- cv_bridge
+depends_on: []
+description: "The ARUCO Library has been developed by the Ava group of the Univeristy\
+  \ of Cordoba(Spain).\n    It provides real-time marker based 3D pose estimation\
+  \ using AR markers."
+doc_job: doc-hydro-aruco_ros
+has_changelog_rst: false
+license: BSD
+maintainers: Bence Magyar <bence.magyar@pal-robotics.com>
+msgs: []
+package_type: package
+repo_name: aruco_ros
+repo_url: ''
+srvs: []
+timestamp: 1405972622.408485
+url: http://www.uco.es/investiga/grupos/ava/node/26
+vcs: git
+vcs_uri: https://github.com/pal-robotics/aruco_ros.git
+vcs_version: master

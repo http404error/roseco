@@ -1,0 +1,56 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/joint_trajectory_controller/html
+authors: Adolfo Rodriguez Tsouroukdissian
+brief: ''
+bugtracker: https://github.com/ros-controls/ros_controllers/issues
+depends:
+- xacro
+- hardware_interface
+- trajectory_msgs
+- control_toolbox
+- roscpp
+- controller_manager
+- actionlib
+- urdf
+- realtime_tools
+- catkin
+- rqt_plot
+- cmake_modules
+- rostest
+- control_msgs
+- angles
+- controller_interface
+depends_on:
+- ros_controllers
+- play_motion
+- reemc_controller_configuration
+- tedusar_cartesian_controller
+- reemc_controller_configuration_gazebo
+description: Controller for executing joint-space trajectories on a group of joints.
+devel_jobs:
+- devel-hydro-ros_controllers
+doc_job: doc-hydro-ros_controllers
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Adolfo Rodriguez Tsouroukdissian <adolfo.rodriguez@pal-robotics.com>
+metapackages:
+- ros_controllers
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-joint-trajectory-controller_sourcedeb
+- ros-hydro-joint-trajectory-controller_binarydeb_precise_amd64
+- ros-hydro-joint-trajectory-controller_binarydeb_precise_i386
+- ros-hydro-joint-trajectory-controller_binarydeb_quantal_amd64
+- ros-hydro-joint-trajectory-controller_binarydeb_quantal_i386
+- ros-hydro-joint-trajectory-controller_binarydeb_raring_amd64
+- ros-hydro-joint-trajectory-controller_binarydeb_raring_i386
+repo_name: ros_controllers
+repo_url: https://github.com/ros-controls/ros_controllers
+srvs: []
+timestamp: 1405773428.744315
+url: https://github.com/ros-controls/ros_controllers/wiki
+vcs: git
+vcs_uri: https://github.com/ros-controls/ros_controllers.git
+vcs_version: hydro-devel

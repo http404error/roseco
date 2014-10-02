@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/video_player/html
+authors: Thomas Keplinger <t.keplinger@gmx.at>, Lukas Schwarz <lukas_schwarz@gmx.at>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- std_msgs
+- rospy
+- message_generation
+- gscam
+depends_on:
+- wheeled_robin_guided_tour
+- wheeled_robin_core_apps
+description: Video_player package to play/stream a video with &quot;gscam&quot;.
+doc_job: doc-hydro-tools_robin
+has_changelog_rst: false
+license: BSD
+maintainers: Thomas Keplinger <t.keplinger@gmx.at>, Lukas Schwarz <lukas_schwarz@gmx.at>
+msgs: []
+package_type: package
+repo_name: tools_robin
+repo_url: ''
+srvs:
+- PlayVideoSrv
+timestamp: 1405774142.540478
+url: ''
+vcs: git
+vcs_uri: https://github.com/robinJKU/tools_robin.git
+vcs_version: hydro-devel

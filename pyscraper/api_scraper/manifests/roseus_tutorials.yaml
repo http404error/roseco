@@ -1,0 +1,22 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roseus_tutorials/html
+authors: Kei Okada, Tsukasa Ito, Manabu Saito
+brief: roseus_tutorials
+bugtracker: ''
+depends:
+- roseus
+depends_on: []
+description: "\n\n     roseus_tutorials\n\n  "
+doc_job: doc-hydro-jsk_roseus
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_roseus
+repo_url: ''
+srvs: []
+timestamp: 1405771457.98952
+url: http://ros.org/wiki/roseus_tutorials
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_roseus.git
+vcs_version: master

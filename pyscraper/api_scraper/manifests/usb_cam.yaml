@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/usb_cam/html
+authors: Benjamin Pitzer <benjamin.pitzer@bosch.com>
+brief: ''
+bugtracker: https://github.com/bosch-ros-pkg/usb_cam/issues
+depends:
+- catkin
+- roscpp
+- std_msgs
+- camera_info_manager
+- sensor_msgs
+- image_transport
+- ffmpeg
+depends_on: []
+description: A generic driver for USB camera that are supported by V4L
+doc_job: doc-hydro-usb_cam
+has_changelog_rst: false
+license: BSD
+maintainers: Russell Toris <rctoris@wpi.edu>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-usb-cam_sourcedeb
+- ros-hydro-usb-cam_binarydeb_precise_amd64
+- ros-hydro-usb-cam_binarydeb_precise_i386
+- ros-hydro-usb-cam_binarydeb_quantal_amd64
+- ros-hydro-usb-cam_binarydeb_quantal_i386
+- ros-hydro-usb-cam_binarydeb_raring_amd64
+- ros-hydro-usb-cam_binarydeb_raring_i386
+repo_name: usb_cam
+repo_url: https://github.com/bosch-ros-pkg/usb_cam
+srvs: []
+timestamp: 1405965393.013596
+url: http://www.ros.org/wiki/usb_cam
+vcs: git
+vcs_uri: https://github.com/bosch-ros-pkg/usb_cam.git
+vcs_version: hydro-devel

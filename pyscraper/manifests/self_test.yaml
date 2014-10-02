@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/self_test/html
+authors: Kevin Watts, Brice Rebsamen <brice.rebsamen@gmail.com>, Jeremy Leibs and
+  Blaise Gassend
+brief: ''
+bugtracker: ''
+depends:
+- diagnostic_updater
+- rostest
+- catkin
+- diagnostic_msgs
+- roscpp
+depends_on:
+- sr_edc_launch
+- hokuyo_node
+- microstrain_3dmgx2_imu
+- driver_base
+- sr_hand
+- diagnostics
+- sr_self_test
+description: self_test
+devel_jobs:
+- devel-hydro-diagnostics
+doc_job: doc-hydro-diagnostics
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Brice Rebsamen <brice.rebsamen@gmail.com>
+metapackages:
+- diagnostics
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-self-test_sourcedeb
+- ros-hydro-self-test_binarydeb_precise_amd64
+- ros-hydro-self-test_binarydeb_precise_i386
+- ros-hydro-self-test_binarydeb_quantal_amd64
+- ros-hydro-self-test_binarydeb_quantal_i386
+- ros-hydro-self-test_binarydeb_raring_amd64
+- ros-hydro-self-test_binarydeb_raring_i386
+repo_name: diagnostics
+repo_url: ''
+srvs: []
+timestamp: 1405770168.293116
+url: http://www.ros.org/wiki/self_test
+vcs: git
+vcs_uri: https://github.com/ros/diagnostics.git
+vcs_version: groovy-devel

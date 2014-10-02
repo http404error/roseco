@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/create_dashboard/html
+authors: Ze'ev Klapow <zklapow@gmail.com>, Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_create_desktop/issues
+depends:
+- catkin
+- rqt_robot_dashboard
+- rqt_gui
+- rospy
+- create_node
+- rqt_gui_py
+- diagnostic_msgs
+depends_on:
+- turtlebot_dashboard
+- turtlebot_create_desktop
+description: "The Create dashboard is a RQT-based plug-in for visualising data from\
+  \ the Create and giving easy access\n    to basic functionalities."
+devel_jobs:
+- devel-hydro-turtlebot_create_desktop
+doc_job: doc-hydro-turtlebot_create_desktop
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+metapackages:
+- turtlebot_create_desktop
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-create-dashboard_sourcedeb
+- ros-hydro-create-dashboard_binarydeb_precise_amd64
+- ros-hydro-create-dashboard_binarydeb_precise_i386
+- ros-hydro-create-dashboard_binarydeb_quantal_amd64
+- ros-hydro-create-dashboard_binarydeb_quantal_i386
+- ros-hydro-create-dashboard_binarydeb_raring_amd64
+- ros-hydro-create-dashboard_binarydeb_raring_i386
+repo_name: turtlebot_create_desktop
+repo_url: https://github.com/turtlebot/turtlebot_create_desktop
+srvs: []
+timestamp: 1405975523.718964
+url: http://ros.org/wiki/create_dashboard
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_create_desktop.git
+vcs_version: hydro

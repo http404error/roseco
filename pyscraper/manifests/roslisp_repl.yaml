@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roslisp_repl/html
+authors: Lorenz Moesenlechner
+brief: ''
+bugtracker: ''
+depends:
+- rosemacs-el
+- roslisp
+- catkin
+- slime
+- sbcl
+depends_on: []
+description: "This package provides a script that launches Emacs with Slime (the\n\
+  \    Superior Lisp Interaction Mode) ready for Lisp development and\n    roslisp."
+doc_job: doc-hydro-roslisp_repl
+has_changelog_rst: false
+license: Public domain
+maintainer_status: maintained
+maintainers: Lorenz Moesenlechner <moesenle@in.tum.de>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-roslisp-repl_sourcedeb
+- ros-hydro-roslisp-repl_binarydeb_precise_amd64
+- ros-hydro-roslisp-repl_binarydeb_precise_i386
+- ros-hydro-roslisp-repl_binarydeb_quantal_amd64
+- ros-hydro-roslisp-repl_binarydeb_quantal_i386
+- ros-hydro-roslisp-repl_binarydeb_raring_amd64
+- ros-hydro-roslisp-repl_binarydeb_raring_i386
+repo_name: roslisp_repl
+repo_url: ''
+srvs: []
+timestamp: 1405964918.991177
+url: ''
+vcs: git
+vcs_uri: https://github.com/ros/roslisp_repl.git
+vcs_version: master

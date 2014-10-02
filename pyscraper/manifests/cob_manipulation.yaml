@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_manipulation/html
+authors: Maintained by Mathias Luedtke and Felix Messmer
+brief: ''
+bugtracker: https://github.com/ipa320/cob_manipulation/issues
+depends: &id001
+- cob_tray_monitor
+- catkin
+- cob_moveit_config
+- cob_moveit_interface
+- cob_kinematics
+- cob_pick_place_action
+- cob_grasp_generation
+- cob_lookat_action
+- cob_tactiletools
+depends_on: []
+description: The cob_manipulation stack includes packages that provide manipulation
+  capabilities for Care-O-bot.
+devel_jobs:
+- devel-hydro-cob_manipulation
+doc_job: doc-hydro-cob_manipulation
+has_changelog_rst: true
+license: BSD, LGPL
+maintainer_status: developed
+maintainers: Felix Messmer <fxm@ipa.fhg.de>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-cob-manipulation_sourcedeb
+- ros-hydro-cob-manipulation_binarydeb_precise_amd64
+- ros-hydro-cob-manipulation_binarydeb_precise_i386
+- ros-hydro-cob-manipulation_binarydeb_quantal_amd64
+- ros-hydro-cob-manipulation_binarydeb_quantal_i386
+- ros-hydro-cob-manipulation_binarydeb_raring_amd64
+- ros-hydro-cob-manipulation_binarydeb_raring_i386
+repo_name: cob_manipulation
+repo_url: https://github.com/ipa320/cob_manipulation
+srvs: []
+timestamp: 1405962334.540421
+url: http://ros.org/wiki/cob_manipulation/
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_manipulation.git
+vcs_version: hydro_release_candidate

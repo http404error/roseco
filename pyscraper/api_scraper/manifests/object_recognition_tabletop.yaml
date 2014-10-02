@@ -1,0 +1,28 @@
+authors: Marius Muja, Vincent Rabaud <vrabaud@willowgarage.com>
+depends:
+- sql_database
+- moveit_core
+- catkin
+- opencv_candidate
+- pluginlib
+- object_recognition_core
+- object_recognition_msgs
+- assimp
+- tf
+- household_objects_database
+- ecto
+description: A port of the old tabletop object recognition
+license: BSD
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>, Jon Binney <jbinney@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-object-recognition-tabletop_sourcedeb
+- ros-hydro-object-recognition-tabletop_binarydeb_precise_amd64
+- ros-hydro-object-recognition-tabletop_binarydeb_precise_i386
+- ros-hydro-object-recognition-tabletop_binarydeb_quantal_amd64
+- ros-hydro-object-recognition-tabletop_binarydeb_quantal_i386
+- ros-hydro-object-recognition-tabletop_binarydeb_raring_amd64
+- ros-hydro-object-recognition-tabletop_binarydeb_raring_i386
+repo_name: object_recognition_tabletop
+timestamp: 1405956414.928864
+url: http://ecto.willowgarage.com

@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roomba_robin_bringup/html
+authors: Stephan Hofstaetter
+brief: ''
+bugtracker: https://github.com/robinJKU/roobma_robin/issues
+depends:
+- depthimage_to_laserscan
+- catkin
+- diagnostic_aggregator
+- zeroconf_avahi
+- robot_state_publisher
+- rocon_app_manager
+- yocs_cmd_vel_mux
+- roomba_robin_description
+- openni_launch
+- turtlebot_description
+- create_node
+- robot_pose_ekf
+- turtlebot_bringup
+depends_on:
+- roomba_robin
+- roomba_robin_interactive_markers
+- roomba_robin_rviz_launchers
+- roomba_robin_gazebo
+description: roomba_robin_bringup provides roslaunch scripts for starting the TurtleBot
+  base functionality with the JKU Stack.
+doc_job: doc-hydro-roomba_robin
+has_changelog_rst: false
+license: BSD
+maintainers: Stephan Hofstaetter <stephan.hofstaetter@gmail.com>
+metapackages:
+- roomba_robin
+msgs: []
+package_type: package
+repo_name: roomba_robin
+repo_url: https://github.com/robinJKU/roobma_robin
+srvs: []
+timestamp: 1405964740.518001
+url: http://ros.org/wiki/roomba_robin_bringup
+vcs: git
+vcs_uri: https://github.com/robinJKU/roomba_robin.git
+vcs_version: hydro-devel

@@ -1,0 +1,63 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/create_node/html
+authors: Ken Conley <kwc@kwc.org>, Melonee Wise <mwise@willowgarage.com>
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_create/issues
+depends:
+- dynamic_reconfigure
+- nav_msgs
+- catkin
+- message_runtime
+- create_driver
+- python_orocos_kdl
+- tf
+- geometry_msgs
+- message_generation
+- rospy
+- diagnostic_msgs
+depends_on:
+- rosjava_messages
+- roomba_robin_bringup
+- create_dashboard
+- turtlebot_create
+- turtlebot_bringup
+- create_gazebo_plugins
+description: "iRobot Create ROS driver node\n    \n    ROS bindings for the Create/Roomba\
+  \ driver.\n    \n    This is based on otl_roomba driver by OTL, ported to use\n\
+  \    create_driver's implementation instead. \n    This also contains a 'bonus'\
+  \ feature from the turtlebot \n    driver by Xuwen Cao and Morgan Quigley."
+devel_jobs:
+- devel-hydro-turtlebot_create
+doc_job: doc-hydro-turtlebot_create
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: OSRF <turtlebot@osrfoundation.org>
+metapackages:
+- turtlebot_create
+msgs:
+- Drive
+- RawTurtlebotSensorState
+- BatteryState
+- RoombaSensorState
+- TurtlebotSensorState
+- Turtle
+package_type: package
+release_jobs:
+- ros-hydro-create-node_sourcedeb
+- ros-hydro-create-node_binarydeb_precise_amd64
+- ros-hydro-create-node_binarydeb_precise_i386
+- ros-hydro-create-node_binarydeb_quantal_amd64
+- ros-hydro-create-node_binarydeb_quantal_i386
+- ros-hydro-create-node_binarydeb_raring_amd64
+- ros-hydro-create-node_binarydeb_raring_i386
+repo_name: turtlebot_create
+repo_url: https://github.com/turtlebot/turtlebot_create
+srvs:
+- SetDigitalOutputs
+- SetTurtlebotMode
+timestamp: 1405975490.837932
+url: http://ros.org/wiki/create_node
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_create.git
+vcs_version: hydro

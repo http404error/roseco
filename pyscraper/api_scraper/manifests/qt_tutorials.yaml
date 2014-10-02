@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/qt_tutorials/html
+authors: Daniel Stonier
+brief: ''
+bugtracker: https://github.com/stonier/qt_ros/issues
+depends:
+- catkin
+- roscpp
+- message_runtime
+- std_msgs
+- libqt4-dev
+- message_generation
+- qt_build
+depends_on:
+- rosjava_messages
+- qt_ros
+description: "Example qt programs, generated from code similar to that used by the\
+  \ \n     roscreate-qt-pkg script and styled on roscpp_tutorials."
+devel_jobs:
+- devel-hydro-qt_ros
+doc_job: doc-hydro-qt_ros
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- qt_ros
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-qt-tutorials_sourcedeb
+- ros-hydro-qt-tutorials_binarydeb_precise_amd64
+- ros-hydro-qt-tutorials_binarydeb_precise_i386
+- ros-hydro-qt-tutorials_binarydeb_quantal_amd64
+- ros-hydro-qt-tutorials_binarydeb_quantal_i386
+- ros-hydro-qt-tutorials_binarydeb_raring_amd64
+- ros-hydro-qt-tutorials_binarydeb_raring_i386
+repo_name: qt_ros
+repo_url: https://github.com/stonier/qt_ros
+srvs:
+- TwoInts
+timestamp: 1405772794.196244
+url: ''
+vcs: git
+vcs_uri: https://github.com/stonier/qt_ros.git
+vcs_version: hydro

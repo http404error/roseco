@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/openni_launch/html
+authors: Patrick Mihelich
+brief: ''
+bugtracker: https://github.com/ros-drivers/openni_launch/issues
+depends:
+- roslaunch
+- nodelet
+- rgbd_launch
+- catkin
+- openni_camera
+depends_on:
+- cob_3d_mapping_demonstrator
+- calvin_bringup
+- segbot_sensors
+- roomba_robin_bringup
+- wheeled_robin_bringup
+- cob_bringup
+- turtlebot_bringup
+- face_detector
+description: "Launch files to open an OpenNI device and load all nodelets to \n  \
+  \   convert raw depth/RGB/IR streams to depth images, disparity images, \n     and\
+  \ (registered) point clouds."
+devel_jobs:
+- devel-hydro-openni_launch
+doc_job: doc-hydro-openni_launch
+has_changelog_rst: true
+license: BSD
+maintainers: Julius Kammerl <jkammerl@willowgarage.com>, Jon Binney <jbinney@willowgarage.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-openni-launch_sourcedeb
+- ros-hydro-openni-launch_binarydeb_precise_amd64
+- ros-hydro-openni-launch_binarydeb_precise_i386
+- ros-hydro-openni-launch_binarydeb_quantal_amd64
+- ros-hydro-openni-launch_binarydeb_quantal_i386
+- ros-hydro-openni-launch_binarydeb_raring_amd64
+- ros-hydro-openni-launch_binarydeb_raring_i386
+repo_name: openni_launch
+repo_url: https://github.com/ros-drivers/openni_launch
+srvs: []
+timestamp: 1405964222.105691
+url: http://www.ros.org/wiki/openni_launch
+vcs: git
+vcs_uri: https://github.com/ros-drivers/openni_launch.git
+vcs_version: hydro-devel

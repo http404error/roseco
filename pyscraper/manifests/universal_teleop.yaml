@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/universal_teleop/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- roscpp
+- joy
+- message_runtime
+- std_msgs
+- geometry_msgs
+- keyboard
+- message_generation
+depends_on: []
+description: Allows keyboard/joystick control of any robot by means of geometry_msgs::Twist
+  messages
+devel_jobs:
+- devel-hydro-universal_teleop
+doc_job: doc-hydro-universal_teleop
+has_changelog_rst: true
+license: TODO
+maintainer_status: maintained
+maintainers: v01d <v01d@todo.todo>
+msgs:
+- Event
+- Control
+package_type: package
+release_jobs:
+- ros-hydro-universal-teleop_sourcedeb
+- ros-hydro-universal-teleop_binarydeb_precise_amd64
+- ros-hydro-universal-teleop_binarydeb_precise_i386
+- ros-hydro-universal-teleop_binarydeb_quantal_amd64
+- ros-hydro-universal-teleop_binarydeb_quantal_i386
+- ros-hydro-universal-teleop_binarydeb_raring_amd64
+- ros-hydro-universal-teleop_binarydeb_raring_i386
+repo_name: universal_teleop
+repo_url: ''
+srvs: []
+timestamp: 1405975541.117249
+url: ''
+vcs: git
+vcs_uri: https://github.com/lrse/ros-universal-teleop.git
+vcs_version: 0.1.0

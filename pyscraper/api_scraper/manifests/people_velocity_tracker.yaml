@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/people_velocity_tracker/html
+authors: David V. Lu!! <davidvlu@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- easy_markers
+- leg_detector
+- geometry_msgs
+- people_msgs
+- rospy
+depends_on:
+- people
+description: Track the output of the leg_detector to indicate the velocity of person.
+devel_jobs:
+- devel-hydro-people
+doc_job: doc-hydro-people
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>
+metapackages:
+- people
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-people-velocity-tracker_sourcedeb
+- ros-hydro-people-velocity-tracker_binarydeb_precise_amd64
+- ros-hydro-people-velocity-tracker_binarydeb_precise_i386
+- ros-hydro-people-velocity-tracker_binarydeb_quantal_amd64
+- ros-hydro-people-velocity-tracker_binarydeb_quantal_i386
+- ros-hydro-people-velocity-tracker_binarydeb_raring_amd64
+- ros-hydro-people-velocity-tracker_binarydeb_raring_i386
+repo_name: people
+repo_url: ''
+srvs: []
+timestamp: 1405974723.909969
+url: http://ros.org/wiki/people_velocity_tracker
+vcs: git
+vcs_uri: https://github.com/wg-perception/people.git
+vcs_version: hydro-devel

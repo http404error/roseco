@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/mln_robosherlock_msgs/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- message_generation
+- message_runtime
+- catkin
+depends_on:
+- rosjava_messages
+- iai_common_msgs
+description: Message definitions for communicating between the RoboSherlock perception
+  system and the MLN PRAC inference machine
+devel_jobs:
+- devel-hydro-iai_common_msgs
+doc_job: doc-hydro-iai_common_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Ferenc Balint-Benczedi <balintbe@cs.uni-bremen.de>
+metapackages:
+- iai_common_msgs
+msgs:
+- MLNAtoms
+package_type: package
+release_jobs:
+- ros-hydro-mln-robosherlock-msgs_sourcedeb
+- ros-hydro-mln-robosherlock-msgs_binarydeb_precise_amd64
+- ros-hydro-mln-robosherlock-msgs_binarydeb_precise_i386
+- ros-hydro-mln-robosherlock-msgs_binarydeb_quantal_amd64
+- ros-hydro-mln-robosherlock-msgs_binarydeb_quantal_i386
+- ros-hydro-mln-robosherlock-msgs_binarydeb_raring_amd64
+- ros-hydro-mln-robosherlock-msgs_binarydeb_raring_i386
+repo_name: iai_common_msgs
+repo_url: ''
+srvs:
+- MLNQuery
+timestamp: 1405963487.499185
+url: ''
+vcs: git
+vcs_uri: https://github.com/code-iai/iai_common_msgs.git
+vcs_version: master

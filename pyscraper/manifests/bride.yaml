@@ -1,0 +1,26 @@
+authors: Alexander Bubeck <aub@ipa.fraunhofer.de>
+depends:
+- bride_templates
+- java
+- bride_compilers
+- catkin
+- bride_tutorials
+- rospack
+- curl
+description: installer.py installs a full eclipse installation in this package. Additionally
+  CDT and the BRIDE plugins will be installed. After rosmake you have the full model
+  driven engineering tool chain accessible inside this package.
+license: BSD
+maintainers: Alexander Bubeck <aub@ipa.fraunhofer.de>
+package_type: package
+release_jobs:
+- ros-hydro-bride_sourcedeb
+- ros-hydro-bride_binarydeb_precise_amd64
+- ros-hydro-bride_binarydeb_precise_i386
+- ros-hydro-bride_binarydeb_quantal_amd64
+- ros-hydro-bride_binarydeb_quantal_i386
+- ros-hydro-bride_binarydeb_raring_amd64
+- ros-hydro-bride_binarydeb_raring_i386
+repo_name: bride
+timestamp: 1405956414.685329
+url: http://ros.org/wiki/bride

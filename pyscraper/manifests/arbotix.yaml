@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/arbotix/html
+authors: Michael Ferguson
+brief: ''
+bugtracker: ''
+depends: &id001
+- catkin
+- arbotix_msgs
+- arbotix_firmware
+- arbotix_python
+- arbotix_sensors
+- arbotix_controllers
+depends_on: []
+description: ArbotiX Drivers
+doc_job: doc-hydro-arbotix
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Michael Ferguson <mike@vanadiumlabs.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-arbotix_sourcedeb
+- ros-hydro-arbotix_binarydeb_precise_amd64
+- ros-hydro-arbotix_binarydeb_precise_i386
+- ros-hydro-arbotix_binarydeb_quantal_amd64
+- ros-hydro-arbotix_binarydeb_quantal_i386
+- ros-hydro-arbotix_binarydeb_raring_amd64
+- ros-hydro-arbotix_binarydeb_raring_i386
+repo_name: arbotix
+repo_url: ''
+srvs: []
+timestamp: 1405961952.101028
+url: http://ros.org/wiki/arbotix
+vcs: git
+vcs_uri: https://github.com/vanadiumlabs/arbotix_ros.git
+vcs_version: hydro-devel

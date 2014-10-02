@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_base_velocity_smoother/html
+authors: Florian Mirus <frm@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- geometry_msgs
+- std_msgs
+- roscpp
+- catkin
+depends_on:
+- cob_bringup
+- cob_driver
+description: The 'cob_base_velocity_smoother' reads velocity messages and publishes
+  messages of the same type for &quot;smoothed&quot; velocity to avoid shaking behavior.
+devel_jobs:
+- devel-hydro-cob_driver
+doc_job: doc-hydro-cob_driver
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Mirus <frm@ipa.fhg.de>
+metapackages:
+- cob_driver
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-base-velocity-smoother_sourcedeb
+- ros-hydro-cob-base-velocity-smoother_binarydeb_precise_amd64
+- ros-hydro-cob-base-velocity-smoother_binarydeb_precise_i386
+- ros-hydro-cob-base-velocity-smoother_binarydeb_quantal_amd64
+- ros-hydro-cob-base-velocity-smoother_binarydeb_quantal_i386
+- ros-hydro-cob-base-velocity-smoother_binarydeb_raring_amd64
+- ros-hydro-cob-base-velocity-smoother_binarydeb_raring_i386
+repo_name: cob_driver
+repo_url: ''
+srvs: []
+timestamp: 1405973137.53462
+url: http://ros.org/wiki/cob_base_velocity_smoother
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_driver.git
+vcs_version: hydro_release_candidate

@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/audio_common/html
+authors: Blaise Gassend
+brief: ''
+bugtracker: https://github.com/ros-drivers/audio_common/issues
+depends: &id001
+- audio_capture
+- sound_play
+- catkin
+- audio_play
+- audio_common_msgs
+depends_on: []
+description: Common code for working with audio in ROS
+devel_jobs:
+- devel-hydro-audio_common
+doc_job: doc-hydro-audio_common
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-audio-common_sourcedeb
+- ros-hydro-audio-common_binarydeb_precise_amd64
+- ros-hydro-audio-common_binarydeb_precise_i386
+- ros-hydro-audio-common_binarydeb_quantal_amd64
+- ros-hydro-audio-common_binarydeb_quantal_i386
+- ros-hydro-audio-common_binarydeb_raring_amd64
+- ros-hydro-audio-common_binarydeb_raring_i386
+repo_name: audio_common
+repo_url: https://github.com/ros-drivers/audio_common
+srvs: []
+timestamp: 1405769653.498495
+url: http://ros.org/wiki/audio_common
+vcs: git
+vcs_uri: https://github.com/ros-drivers/audio_common.git
+vcs_version: hydro-devel

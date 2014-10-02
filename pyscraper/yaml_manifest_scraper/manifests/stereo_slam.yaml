@@ -1,0 +1,36 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/stereo_slam/html
+authors: Pep Lluis Negre <pl.negre@uib.cat>
+brief: ''
+bugtracker: https://github.com/srv/stereo_slam/issues
+depends:
+- nav_msgs
+- image_geometry
+- std_srvs
+- roscpp
+- message_filters
+- sensor_msgs
+- image_transport
+- opencv2
+- geometry_msgs
+- libhaloc
+- libg2o
+- tf
+- catkin
+- cv_bridge
+depends_on: []
+description: Stereo Slam
+doc_job: doc-hydro-stereo_slam
+has_changelog_rst: false
+license: BSD
+maintainers: Pep Lluis Negre <pl.negre@uib.cat>
+msgs: []
+package_type: package
+repo_name: stereo_slam
+repo_url: ''
+srvs: []
+timestamp: 1405975496.928145
+url: https://github.com/srv/stereo_slam
+vcs: git
+vcs_uri: https://github.com/srv/stereo_slam.git
+vcs_version: hydro

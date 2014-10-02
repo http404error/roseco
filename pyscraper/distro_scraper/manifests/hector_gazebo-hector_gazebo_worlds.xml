@@ -1,0 +1,31 @@
+<package>
+  <name>hector_gazebo_worlds</name>
+  <version>0.3.4</version>
+  <description>hector_gazebo_worlds provides gazebo scenarios used by Team Hector Darmstadt</description>
+  <maintainer email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/hector_gazebo_worlds</url>
+  
+
+  <author email="kohlbrecher@sim.tu-darmstadt.de">Stefan Kohlbrecher</author>
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  
+
+  
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>hector_gazebo_plugins</run_depend>
+
+  
+  
+  
+
+<export>
+    <gazebo_ros gazebo_media_path="${prefix}" />
+</export>
+
+</package>

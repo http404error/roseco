@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ueye/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- cv_bridge
+- std_msgs
+- image_transport
+- camera_calibration_parsers
+- nodelet
+depends_on: []
+description: Driver for IDS Imaging uEye cameras.
+doc_job: doc-hydro-ueye
+has_changelog_rst: false
+license: BSD
+maintainers: kevin <kevin@todo.todo>
+msgs: []
+package_type: package
+repo_name: ueye
+repo_url: ''
+srvs: []
+timestamp: 1405774351.054367
+url: ''
+vcs: hg
+vcs_uri: https://bitbucket.org/kmhallen/ueye
+vcs_version: default

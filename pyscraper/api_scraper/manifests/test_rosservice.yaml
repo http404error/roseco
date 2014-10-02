@@ -1,0 +1,30 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/test_rosservice/html
+authors: Ken Conley
+brief: ''
+bugtracker: ''
+depends:
+- genmsg
+- catkin
+- test_rosmaster
+- std_msgs
+- rostest
+- rospy
+- rosunit
+depends_on: []
+description: Tests for the rosservice tool.
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: false
+license: BSD
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+msgs: []
+package_type: package
+repo_name: ros_comm
+repo_url: ''
+srvs:
+- HeaderEcho
+timestamp: 1405773152.362344
+url: http://ros.org/wiki/rosservice
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

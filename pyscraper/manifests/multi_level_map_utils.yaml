@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/multi_level_map_utils/html
+authors: Piyush Khandelwal, Jake Menashe
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- boost
+depends_on:
+- multi_level_map_server
+- multi_level_map
+description: multi_level_map_utils
+doc_job: doc-hydro-multi_level_map
+has_changelog_rst: false
+license: BSD
+maintainers: Piyush Khandelwal <piyushk@gmail.com>, Jack O'Quin <jack.oquin@gmail.com>
+metapackages:
+- multi_level_map
+msgs: []
+package_type: package
+repo_name: multi_level_map
+repo_url: ''
+srvs: []
+timestamp: 1405772059.914224
+url: http://ros.org/wiki/multi_level_map_utils
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/multi_level_map.git
+vcs_version: master

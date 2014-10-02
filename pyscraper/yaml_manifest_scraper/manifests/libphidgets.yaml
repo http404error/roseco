@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/libphidgets/html
+authors: Alexander Bubeck
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- libusb-dev
+- roslib
+- mk
+- rosbuild
+- libusb
+- rospack
+depends_on:
+- cob_voltage_control
+- cob_phidgets
+- cob_extern
+description: This package wraps the libphidgets to use it as a ros dependency
+devel_jobs:
+- devel-hydro-cob_extern
+doc_job: doc-hydro-cob_extern
+has_changelog_rst: true
+license: LGPL
+maintainer_status: maintained
+maintainers: Alexander Bubeck <aub@ipa.fhg.de>
+metapackages:
+- cob_extern
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-libphidgets_sourcedeb
+- ros-hydro-libphidgets_binarydeb_precise_amd64
+- ros-hydro-libphidgets_binarydeb_precise_i386
+- ros-hydro-libphidgets_binarydeb_quantal_amd64
+- ros-hydro-libphidgets_binarydeb_quantal_i386
+- ros-hydro-libphidgets_binarydeb_raring_amd64
+- ros-hydro-libphidgets_binarydeb_raring_i386
+repo_name: cob_extern
+repo_url: ''
+srvs: []
+timestamp: 1405770009.807358
+url: http://ros.org/wiki/libphidgets
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_extern.git
+vcs_version: hydro_release_candidate

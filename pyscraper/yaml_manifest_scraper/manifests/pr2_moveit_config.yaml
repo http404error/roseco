@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_moveit_config/html
+authors: MoveIt Setup Assistant <assistant@moveit.ros.org>
+brief: ''
+bugtracker: https://github.com/ros-planning/moveit_setup_assistant/issues
+depends:
+- pr2_description
+- robot_state_publisher
+- catkin
+- joint_state_publisher
+- moveit_ros_move_group
+depends_on:
+- pr2_move_group_test
+- moveit_pr2
+description: An automatically generated package with all the configuration and launch
+  files for using the pr2 with the MoveIt Motion Planning Framework
+devel_jobs:
+- devel-hydro-moveit_pr2
+doc_job: doc-hydro-moveit_pr2
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: MoveIt Setup Assistant <assistant@moveit.ros.org>
+metapackages:
+- moveit_pr2
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-pr2-moveit-config_sourcedeb
+- ros-hydro-pr2-moveit-config_binarydeb_precise_amd64
+- ros-hydro-pr2-moveit-config_binarydeb_precise_i386
+- ros-hydro-pr2-moveit-config_binarydeb_quantal_amd64
+- ros-hydro-pr2-moveit-config_binarydeb_quantal_i386
+- ros-hydro-pr2-moveit-config_binarydeb_raring_amd64
+- ros-hydro-pr2-moveit-config_binarydeb_raring_i386
+repo_name: moveit_pr2
+repo_url: https://github.com/ros-planning/moveit_setup_assistant
+srvs: []
+timestamp: 1405964075.517548
+url: http://moveit.ros.org/
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_pr2.git
+vcs_version: hydro-devel

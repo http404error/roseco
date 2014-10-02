@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/receive_xsens/html
+authors: Ji Zhang, Silvio Maeta
+brief: ''
+bugtracker: ''
+depends:
+- sensor_msgs
+- std_msgs
+- roscpp
+- catkin
+depends_on: []
+description: ROS driver for Xsens MTi-10 and MTi-100 series motion trackers
+doc_job: doc-hydro-receive_xsens
+has_changelog_rst: false
+license: BSD
+maintainers: Ji Zhang <zhangji@cmu.edu>
+msgs: []
+package_type: package
+repo_name: receive_xsens
+repo_url: ''
+srvs: []
+timestamp: 1405772768.995128
+url: http://wiki.ros.org/receive_xsens
+vcs: git
+vcs_uri: https://github.com/jizhang-cmu/receive_xsens.git
+vcs_version: hydro

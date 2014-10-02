@@ -1,0 +1,23 @@
+authors: Jose Fonseca, Jonathan Bohren, Alex Bravo
+depends:
+- wxpython
+- catkin
+- graphviz
+description: "XDot.py, by Jose Fonseca, is an interactive viewer for graphs written\
+  \ in\n    Graphviz's dot language.\n\n    This package adds front-end capabilities\
+  \ to XDot including WX Widget\n    support and experimental Qt support and a mechanism\
+  \ for receiving callbacks\n    when nodes are clicked.  This extension is provided\
+  \ as BSD."
+license: LGPL/BSD
+maintainers: Jonathan Bohren <jbo@jhu.edu>
+package_type: package
+release_jobs:
+- ros-hydro-xdot_sourcedeb
+- ros-hydro-xdot_binarydeb_precise_amd64
+- ros-hydro-xdot_binarydeb_precise_i386
+- ros-hydro-xdot_binarydeb_quantal_amd64
+- ros-hydro-xdot_binarydeb_quantal_i386
+- ros-hydro-xdot_binarydeb_raring_amd64
+- ros-hydro-xdot_binarydeb_raring_i386
+repo_name: xdot
+timestamp: 1405956415.180243

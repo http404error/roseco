@@ -1,0 +1,112 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/urdf/html
+authors: Ioan Sucan
+brief: ''
+bugtracker: https://github.com/ros/robot_model/issues
+depends:
+- catkin
+- roscpp
+- pluginlib
+- rosconsole_bridge
+- urdfdom_headers
+- cmake_modules
+- rostest
+- urdf_parser_plugin
+- urdfdom
+depends_on:
+- grizzly_description
+- urdf_tutorial
+- turtlebot_description
+- ur_description
+- kingfisher_description
+- cob_3d_mapping_demonstrator
+- steered_wheel_base_controller
+- rviz
+- motoman_driver
+- industrial_utils
+- pr2_moveit_plugins
+- pr2_mechanism_diagnostics
+- kurt_description
+- hrl_kinematics
+- sr_edc_launch
+- erratic_description
+- kdl_parser
+- jaco_model
+- industrial_robot_client
+- ros_ethercat_model
+- schunk_powercube_chain
+- gazebo_ros_control
+- joint_trajectory_controller
+- create_description
+- uos_common_urdf
+- diff_drive_controller
+- moveit_ros_perception
+- collada_urdf
+- multisense_description
+- roomba_robin_description
+- nao_description
+- husky_navigation
+- calvin_description
+- sr_description
+- uwsim
+- wheeled_robin_description
+- collada_urdf_jsk_patch
+- biorob_description
+- gazebo_plugins
+- nextage_description
+- robot_model
+- flir_ptu_description
+- hlugv_description
+- gripper_action_controller
+- schunk_sdh
+- sr_kinematics
+- kdl_wrapper
+- cob_kinematics
+- effort_controllers
+- cob_head_axis
+- kdl_acc_solver
+- husky_description
+- pr2_arm_ik_tests
+- pr2_mechanism_model
+- sr_hand
+- pr2_navigation_self_filter
+- cob_gazebo_objects
+- maxwell_defs
+- pr2_gazebo_plugins
+- jsk_interactive_marker
+- motoman_config
+- kobuki_description
+- ipa_canopen_ros
+- sr_gazebo_plugins
+- cob_gazebo_worlds
+description: "This package contains a C++ parser for the Unified Robot Description\n\
+  \    Format (URDF), which is an XML format for representing a robot model. \n  \
+  \  The code API of the parser has been through our review process and will remain\n\
+  \    backwards compatible in future releases."
+devel_jobs:
+- devel-hydro-robot_model
+doc_job: doc-hydro-robot_model
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@gmail.com>
+metapackages:
+- robot_model
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-urdf_sourcedeb
+- ros-hydro-urdf_binarydeb_precise_amd64
+- ros-hydro-urdf_binarydeb_precise_i386
+- ros-hydro-urdf_binarydeb_quantal_amd64
+- ros-hydro-urdf_binarydeb_quantal_i386
+- ros-hydro-urdf_binarydeb_raring_amd64
+- ros-hydro-urdf_binarydeb_raring_i386
+repo_name: robot_model
+repo_url: https://github.com/ros/robot_model
+srvs: []
+timestamp: 1405974879.56053
+url: http://ros.org/wiki/urdf
+vcs: git
+vcs_uri: https://github.com/ros/robot_model.git
+vcs_version: hydro-devel

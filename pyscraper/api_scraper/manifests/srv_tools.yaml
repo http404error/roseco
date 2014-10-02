@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/srv_tools/html
+authors: Stephan Wirth <stwirth@uib.es>, Miquel Massot <miquel.massot@uib.es>
+brief: ''
+bugtracker: ''
+depends: &id001
+- launch_tools
+- plot_tools
+- catkin
+- pointcloud_tools
+- tf_tools
+- bag_tools
+depends_on: []
+description: Stack with interesting ROS tools
+doc_job: doc-hydro-srv_tools
+has_changelog_rst: false
+license: BSD
+maintainers: Miquel Massot <miquel.massot@uib.es>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: srv_tools
+repo_url: ''
+srvs: []
+timestamp: 1405774099.126741
+url: http://ros.org/wiki/srv_tools
+vcs: git
+vcs_uri: https://github.com/srv/srv_tools.git
+vcs_version: hydro

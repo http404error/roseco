@@ -1,0 +1,61 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/auv_msgs/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- std_msgs
+- message_runtime
+- sensor_msgs
+- geometry_msgs
+- message_generation
+depends_on:
+- usbl
+- navcon_msgs
+- pladypos
+- navquest_dvl
+- misc_msgs
+- cart2
+- labust_uvapp
+- caddy_ui
+- labust_framework
+- ldtravocean
+- labust_control
+- usbl_comms
+- labust_navigation
+- labust_mission
+- labust_gui
+- labust_primitives
+- acoustic_vr
+- labust_sim
+description: "The package contains the Catkinized subset of auv_msgs package developed\
+  \ by \n\t\tHeriot-Watt University Ocean System Laboratory. For more details\n\t\t\
+  visit <url>http://code.google.com/p/hwu-osl-ros-pkg/</url>."
+doc_job: doc-hydro-labust_common_msgs
+has_changelog_rst: false
+license: BSD
+maintainers: Gyula Nagy <dula.nad@gmail.com>
+metapackages:
+- labust_framework
+msgs:
+- GoalDescriptor
+- DecimalLatLon
+- VehiclePose
+- NED
+- BodyForceReq
+- BodyVelocityReq
+- NavStsReq
+- NavSts
+- RPY
+- Windup6Axis
+- Bool6Axis
+package_type: package
+repo_name: labust_common_msgs
+repo_url: ''
+srvs: []
+timestamp: 1405974130.026862
+url: ''
+vcs: git
+vcs_uri: https://github.com/labust/labust-common-msgs.git
+vcs_version: master

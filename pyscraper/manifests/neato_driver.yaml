@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/neato_driver/html
+authors: Michael Ferguson
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- python-serial
+depends_on:
+- neato_robot
+- neato_node
+description: This is a generic drivers for the Neato XV-11 Robotic Vacuum.
+doc_job: doc-hydro-neato_robot
+has_changelog_rst: false
+license: BSD
+maintainers: Michael Ferguson <ferguson@cs.albany.edu>
+metapackages:
+- neato_robot
+msgs: []
+package_type: package
+repo_name: neato_robot
+repo_url: ''
+srvs: []
+timestamp: 1405974472.065111
+url: http://ros.org/wiki/neato_driver
+vcs: git
+vcs_uri: https://github.com/mikeferguson/neato_robot.git
+vcs_version: hydro-devel

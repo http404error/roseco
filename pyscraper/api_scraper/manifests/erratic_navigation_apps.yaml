@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/erratic_navigation_apps/html
+authors: Antons Rebguns
+brief: erratic_navigation_apps
+bugtracker: ''
+depends:
+- map_server
+- erratic_navigation
+- costmap_2d
+- erratic_description
+depends_on: []
+description: "\n        erratic_navigation_apps\n    "
+doc_job: doc-hydro-erratic_robot
+license: BSD
+maintainers: ''
+metapackages:
+- erratic_robot
+msgs: []
+package_type: package
+repo_name: erratic_robot
+repo_url: ''
+srvs: []
+timestamp: 1405963244.707183
+url: http://ros.org/wiki/erratic_navigation_apps
+vcs: git
+vcs_uri: https://github.com/arebgun/erratic_robot.git
+vcs_version: master

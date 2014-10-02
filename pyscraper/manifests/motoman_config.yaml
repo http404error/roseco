@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/motoman_config/html
+authors: Shaun Edwards <sedwards@swri.org>
+brief: ''
+bugtracker: ''
+depends:
+- urdf
+- catkin
+depends_on:
+- motoman
+deprecated: "This package will be removed in ROS Indigo.  The configuration data included\
+  \ in this\n      package can now be found in the various support packages (i.e.\
+  \ motoman_[model]_support)"
+description: The motoman_config package includes common configurations and 3D models
+  for motoman manipulators
+devel_jobs:
+- devel-hydro-motoman
+doc_job: doc-hydro-motoman
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Shaun Edwards <sedwards@swri.org>
+metapackages:
+- motoman
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-motoman-config_sourcedeb
+- ros-hydro-motoman-config_binarydeb_precise_amd64
+- ros-hydro-motoman-config_binarydeb_precise_i386
+- ros-hydro-motoman-config_binarydeb_quantal_amd64
+- ros-hydro-motoman-config_binarydeb_quantal_i386
+- ros-hydro-motoman-config_binarydeb_raring_amd64
+- ros-hydro-motoman-config_binarydeb_raring_i386
+repo_name: motoman
+repo_url: ''
+srvs: []
+timestamp: 1405964015.670163
+url: http://ros.org/wiki/industrial_core
+vcs: git
+vcs_uri: https://github.com/ros-industrial/motoman.git
+vcs_version: hydro

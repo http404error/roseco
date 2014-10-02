@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/test_nodelet_topic_tools/html
+authors: Radu Bogdan Rusu, Tully Foote
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- message_filters
+- pluginlib
+- std_msgs
+- nodelet_topic_tools
+- rostest
+- rospy
+- nodelet
+depends_on: []
+description: A package for nodelet_topic_tools unit tests.
+doc_job: doc-hydro-nodelet_core
+has_changelog_rst: true
+license: BSD
+maintainers: Esteve Fernandez <esteve@osrfoundation.org>
+msgs: []
+package_type: package
+repo_name: nodelet_core
+repo_url: ''
+srvs: []
+timestamp: 1405964084.385582
+url: http://ros.org/wiki/nodelet_topic_tools
+vcs: git
+vcs_uri: https://github.com/ros/nodelet_core.git
+vcs_version: hydro-devel

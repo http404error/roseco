@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_apps/html
+authors: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_app_platform/issues
+depends:
+- gateway_msgs
+- catkin
+- roslib
+- rocon_app_manager_msgs
+- rospy_tutorials
+- rospy
+depends_on:
+- rocon_app_platform
+- segbot_gazebo_concert
+- rocon_app_manager
+- chatter_concert
+- turtle_concert
+- bwi_guidance_concert
+description: Core rocon apps for use with the appmanager and rocon concert.
+devel_jobs:
+- devel-hydro-rocon_app_platform
+doc_job: doc-hydro-rocon_app_platform
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+metapackages:
+- rocon_app_platform
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rocon-apps_sourcedeb
+- ros-hydro-rocon-apps_binarydeb_precise_amd64
+- ros-hydro-rocon-apps_binarydeb_precise_i386
+- ros-hydro-rocon-apps_binarydeb_quantal_amd64
+- ros-hydro-rocon-apps_binarydeb_quantal_i386
+- ros-hydro-rocon-apps_binarydeb_raring_amd64
+- ros-hydro-rocon-apps_binarydeb_raring_i386
+repo_name: rocon_app_platform
+repo_url: https://github.com/robotics-in-concert/rocon_app_platform
+srvs: []
+timestamp: 1405964622.314542
+url: http://wiki.ros.org/rocon_apps
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_app_platform.git
+vcs_version: hydro

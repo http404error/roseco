@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtlebot_interactive_markers/html
+authors: Helen Oleynikova <internship@willowgarage.com>
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_viz/issues
+depends:
+- interactive_markers
+- catkin
+- roscpp
+- turtlebot_bringup
+- visualization_msgs
+depends_on:
+- roomba_robin_viz
+- turtlebot_viz
+description: Interactive control for the TurtleBot using RViz and interactive markers
+devel_jobs:
+- devel-hydro-turtlebot_viz
+doc_job: doc-hydro-turtlebot_viz
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Daniel Stonier <stonier@yujinrobot.com>
+metapackages:
+- turtlebot_viz
+- roomba_robin_viz
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-turtlebot-interactive-markers_sourcedeb
+- ros-hydro-turtlebot-interactive-markers_binarydeb_precise_amd64
+- ros-hydro-turtlebot-interactive-markers_binarydeb_precise_i386
+- ros-hydro-turtlebot-interactive-markers_binarydeb_quantal_amd64
+- ros-hydro-turtlebot-interactive-markers_binarydeb_quantal_i386
+- ros-hydro-turtlebot-interactive-markers_binarydeb_raring_amd64
+- ros-hydro-turtlebot-interactive-markers_binarydeb_raring_i386
+repo_name: turtlebot_viz
+repo_url: https://github.com/turtlebot/turtlebot_viz
+srvs: []
+timestamp: 1405774268.737145
+url: http://ros.org/wiki/turtlebot_interactive_markers
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_viz.git
+vcs_version: hydro

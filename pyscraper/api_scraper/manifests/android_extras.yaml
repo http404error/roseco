@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/android_extras/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/rosjava/android_extras/issues
+depends:
+- rosjava_bootstrap
+- catkin
+- zeroconf_jmdns_suite
+- rosjava_build_tools
+- android_core
+- rosjava_extras
+depends_on:
+- android_remocons
+- turtlebot_android
+- android_apps
+description: Various additional and useful general packages, but not core.
+doc_job: doc-hydro-android_extras
+has_changelog_rst: true
+license: Apache 2.0
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+msgs: []
+package_type: package
+repo_name: android_extras
+repo_url: https://github.com/rosjava/android_extras
+srvs: []
+timestamp: 1405972590.758003
+url: http://ros.org/wiki/android_extras
+vcs: git
+vcs_uri: https://github.com/rosjava/android_extras.git
+vcs_version: hydro

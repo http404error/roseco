@@ -1,0 +1,26 @@
+authors: Stephen Hart
+depends:
+- catkin
+- roscpp
+- gazebo_msgs
+- r2_msgs
+- urdf
+- std_msgs
+- kdl_parser
+- rospy
+- tf
+description: The r2_gazebo package
+license: BSD
+maintainers: David Lu!! <davidvlu@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-r2-gazebo_sourcedeb
+- ros-hydro-r2-gazebo_binarydeb_precise_amd64
+- ros-hydro-r2-gazebo_binarydeb_precise_i386
+- ros-hydro-r2-gazebo_binarydeb_quantal_amd64
+- ros-hydro-r2-gazebo_binarydeb_quantal_i386
+- ros-hydro-r2-gazebo_binarydeb_raring_amd64
+- ros-hydro-r2-gazebo_binarydeb_raring_i386
+repo_name: nasa_r2_simulator
+timestamp: 1405956415.004198
+url: http://ros.org/wiki/r2_gazebo

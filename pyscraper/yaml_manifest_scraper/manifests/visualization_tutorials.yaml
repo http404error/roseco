@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/visualization_tutorials/html
+authors: Dave Hershberger, David Gossow, Josh Faust
+brief: ''
+bugtracker: ''
+depends: &id001
+- visualization_marker_tutorials
+- catkin
+- librviz_tutorial
+- interactive_marker_tutorials
+- rviz_python_tutorial
+- rviz_plugin_tutorials
+depends_on: []
+description: Metapackage referencing tutorials related to rviz and visualization.
+doc_job: doc-hydro-visualization_tutorials
+has_changelog_rst: false
+license: BSD
+maintainers: Dave Hershberger <hersh@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-visualization-tutorials_sourcedeb
+- ros-hydro-visualization-tutorials_binarydeb_precise_amd64
+- ros-hydro-visualization-tutorials_binarydeb_precise_i386
+- ros-hydro-visualization-tutorials_binarydeb_quantal_amd64
+- ros-hydro-visualization-tutorials_binarydeb_quantal_i386
+- ros-hydro-visualization-tutorials_binarydeb_raring_amd64
+- ros-hydro-visualization-tutorials_binarydeb_raring_i386
+repo_name: visualization_tutorials
+repo_url: ''
+srvs: []
+timestamp: 1405975655.386328
+url: http://ros.org/wiki/visualization_tutorials
+vcs: git
+vcs_uri: https://github.com/ros-visualization/visualization_tutorials.git
+vcs_version: hydro-devel

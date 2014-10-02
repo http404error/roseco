@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosdoc_lite/html
+authors: Ken Conley, Eitan Marder-Eppstein <eitan@hidof.com>
+brief: ''
+bugtracker: https://github.com/ros-infrastructure/rosdoc_lite/issues
+depends:
+- epydoc
+- python-sphinx
+- genmsg
+- catkin
+- python-yaml
+- python-rospkg
+- python-catkin-pkg
+- doxygen
+- python-kitchen
+depends_on: []
+description: "This ROS package wraps documentation tools like doxygen, sphinx,\n \
+  \   and epydoc, making it convenient to generate ROS package\n    documentation.\n\
+  \n    It also generates online documentation for the ROS wiki."
+devel_jobs:
+- devel-hydro-rosdoc_lite
+doc_job: doc-hydro-rosdoc_lite
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Jack O'Quin <jack.oquin@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosdoc-lite_sourcedeb
+- ros-hydro-rosdoc-lite_binarydeb_precise_amd64
+- ros-hydro-rosdoc-lite_binarydeb_precise_i386
+- ros-hydro-rosdoc-lite_binarydeb_quantal_amd64
+- ros-hydro-rosdoc-lite_binarydeb_quantal_i386
+- ros-hydro-rosdoc-lite_binarydeb_raring_amd64
+- ros-hydro-rosdoc-lite_binarydeb_raring_i386
+repo_name: rosdoc_lite
+repo_url: https://github.com/ros-infrastructure/rosdoc_lite.git
+srvs: []
+timestamp: 1405975060.55433
+url: http://wiki.ros.org/rosdoc_lite
+vcs: git
+vcs_uri: https://github.com/ros-infrastructure/rosdoc_lite.git
+vcs_version: master

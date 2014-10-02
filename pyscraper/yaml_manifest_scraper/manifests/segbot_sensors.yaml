@@ -1,0 +1,62 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/segbot_sensors/html
+authors: Piyush Khandelwal <piyushk@gmail.com>
+brief: ''
+bugtracker: https://github.com/utexas-bwi/segbot/issues
+depends:
+- catkin
+- camera1394
+- filters
+- pcl_ros
+- roscpp
+- laser_filters
+- tf2_ros
+- message_generation
+- nodelet
+- freenect_launch
+- message_runtime
+- sensor_msgs
+- roslint
+- tf
+- rospy
+- rviz
+- roslaunch
+- hokuyo_node
+- depthimage_to_laserscan
+- pluginlib
+- python-serial
+- openni_launch
+depends_on:
+- rosjava_messages
+- segbot
+- segbot_bringup
+description: "Contains sensor specific launch files and all the relevant filters that\
+  \ are\n    applied on sensor data before being used by the segbot."
+devel_jobs:
+- devel-hydro-segbot
+doc_job: doc-hydro-segbot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Piyush Khandelwal <piyushk@gmail.com>, Jack O'Quin <jack.oquin@gmail.com>
+metapackages:
+- segbot
+msgs:
+- RangeArray
+package_type: package
+release_jobs:
+- ros-hydro-segbot-sensors_sourcedeb
+- ros-hydro-segbot-sensors_binarydeb_precise_amd64
+- ros-hydro-segbot-sensors_binarydeb_precise_i386
+- ros-hydro-segbot-sensors_binarydeb_quantal_amd64
+- ros-hydro-segbot-sensors_binarydeb_quantal_i386
+- ros-hydro-segbot-sensors_binarydeb_raring_amd64
+- ros-hydro-segbot-sensors_binarydeb_raring_i386
+repo_name: segbot
+repo_url: https://github.com/utexas-bwi/segbot.git
+srvs: []
+timestamp: 1405773658.69136
+url: http://ros.org/wiki/segbot_sensors
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/segbot.git
+vcs_version: master

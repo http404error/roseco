@@ -1,0 +1,46 @@
+actions:
+- Config
+api_documentation: http://docs.ros.org/hydro/api/monocam_settler/html
+authors: Vijay Pradeep
+brief: ''
+bugtracker: ''
+depends:
+- rosconsole
+- catkin
+- actionlib
+- std_msgs
+- roscpp_serialization
+- settlerlib
+- actionlib_msgs
+depends_on:
+- calibration_launch
+- calibration
+description: "Listens on a ImageFeatures topic, and waits for the data to settle.\n\
+  \     This package is experimental and unstable.\n     Expect its APIs to change."
+devel_jobs:
+- devel-hydro-calibration
+doc_job: doc-hydro-calibration
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+metapackages:
+- calibration
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-monocam-settler_sourcedeb
+- ros-hydro-monocam-settler_binarydeb_precise_amd64
+- ros-hydro-monocam-settler_binarydeb_precise_i386
+- ros-hydro-monocam-settler_binarydeb_quantal_amd64
+- ros-hydro-monocam-settler_binarydeb_quantal_i386
+- ros-hydro-monocam-settler_binarydeb_raring_amd64
+- ros-hydro-monocam-settler_binarydeb_raring_i386
+repo_name: calibration
+repo_url: ''
+srvs: []
+timestamp: 1405962111.085661
+url: http://www.ros.org/wiki/monocam_settler
+vcs: git
+vcs_uri: https://github.com/ros-perception/calibration.git
+vcs_version: hydro

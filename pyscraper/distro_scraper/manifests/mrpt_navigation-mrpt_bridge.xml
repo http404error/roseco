@@ -1,0 +1,56 @@
+<package>
+  <name>mrpt_bridge</name>
+  <version>0.1.0</version>
+  <description>The mrpt_bridge package</description>
+
+   
+  
+  
+  <maintainer email="jlblanco@ual.es">Jose-Luis Blanco-Claraco</maintainer>
+  <maintainer email="markus.bader@tuwien.ac.at">Markus Bader</maintainer>
+
+  <license>BSD</license>
+  <url type="website">http://wiki.ros.org/mrpt_bridge</url>
+
+  
+  
+  
+  
+  
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>mrpt_msgs</build_depend>
+  <build_depend>libpcl-all-dev</build_depend> 
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <test_depend>gtest</test_depend>
+  
+  
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>mrpt_msgs</run_depend>
+
+  <build_depend>mrpt</build_depend> 
+  <run_depend>mrpt</run_depend> 
+  
+
+  
+  <export>
+    
+    
+
+    
+
+  </export>
+</package>

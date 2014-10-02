@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/concert_service_segbot_gazebo/html
+authors: Piyush Khandelwal
+brief: ''
+bugtracker: https://github.com/utexas-bwi/segbot_rocon/issues
+depends:
+- catkin
+- gazebo_msgs
+- concert_service_utilities
+- segbot_gazebo
+- concert_service_gazebo
+- gazebo_ros
+depends_on:
+- segbot_gazebo_concert
+- bwi_guidance_concert
+description: Instantiates the Gazebo Robot Service (concert_service_gazebo) for spawing/killing
+  Segbot robots as concert clients.
+doc_job: doc-hydro-segbot_rocon
+has_changelog_rst: false
+license: BSD
+maintainers: Piyush Khandelwal <piyushk@gmail.com>
+msgs: []
+package_type: package
+repo_name: segbot_rocon
+repo_url: https://github.com/utexas-bwi/segbot_rocon
+srvs: []
+timestamp: 1405965099.111495
+url: http://ros.org/wiki/concert_service_segbot_gazebo
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/segbot_rocon.git
+vcs_version: master

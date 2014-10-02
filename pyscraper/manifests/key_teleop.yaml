@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/key_teleop/html
+authors: Siegfried-A. Gevatter Pujals <siegfried.gevatter@pal-robotics.com>
+brief: ''
+bugtracker: ''
+depends:
+- rospy
+- catkin
+- geometry_msgs
+depends_on:
+- teleop_tools
+description: A text-based interface to send a robot movement commands
+doc_job: doc-hydro-joy_teleop
+has_changelog_rst: false
+license: BSD
+maintainers: Siegfried-A. Gevatter Pujals <siegfried.gevatter@pal-robotics.com>
+metapackages:
+- teleop_tools
+msgs: []
+package_type: package
+repo_name: joy_teleop
+repo_url: ''
+srvs: []
+timestamp: 1405973974.28941
+url: ''
+vcs: git
+vcs_uri: https://github.com/pal-robotics/joy_teleop.git
+vcs_version: hydro-devel

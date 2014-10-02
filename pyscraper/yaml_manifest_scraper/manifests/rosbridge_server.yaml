@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosbridge_server/html
+authors: Jonathan Mace <jonathan.c.mace@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rosapi
+- python-imaging
+- rosbridge_library
+- rospy
+- rosauth
+depends_on:
+- rosbridge_suite
+- bwi_web
+- roswww
+description: A WebSocket interface to rosbridge.
+devel_jobs:
+- devel-hydro-rosbridge_suite
+doc_job: doc-hydro-rosbridge_suite
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Brandon Alexander <baalexander@gmail.com>
+metapackages:
+- rosbridge_suite
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosbridge-server_sourcedeb
+- ros-hydro-rosbridge-server_binarydeb_precise_amd64
+- ros-hydro-rosbridge-server_binarydeb_precise_i386
+- ros-hydro-rosbridge-server_binarydeb_quantal_amd64
+- ros-hydro-rosbridge-server_binarydeb_quantal_i386
+- ros-hydro-rosbridge-server_binarydeb_raring_amd64
+- ros-hydro-rosbridge-server_binarydeb_raring_i386
+repo_name: rosbridge_suite
+repo_url: ''
+srvs: []
+timestamp: 1405975021.000524
+url: https://github.com/RobotWebTools/rosbridge_suite
+vcs: git
+vcs_uri: https://github.com/RobotWebTools/rosbridge_suite.git
+vcs_version: master

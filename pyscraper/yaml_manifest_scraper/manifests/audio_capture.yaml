@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/audio_capture/html
+authors: Nate Koenig
+brief: ''
+bugtracker: https://github.com/ros-drivers/audio_common/issues
+depends:
+- libgstreamer-plugins-base0.10-0
+- catkin
+- roscpp
+- libgstreamer-plugins-base0.10-dev
+- gstreamer0.10-plugins-good
+- libgstreamer0.10-0
+- libgstreamer0.10-dev
+- gstreamer0.10-plugins-ugly
+- audio_common_msgs
+depends_on:
+- audio_common
+description: "Transports audio from a source to a destination. Audio sources can come\n\
+  \      from a microphone or file. The destination can play the audio or save it\n\
+  \      to an mp3 file."
+devel_jobs:
+- devel-hydro-audio_common
+doc_job: doc-hydro-audio_common
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+metapackages:
+- audio_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-audio-capture_sourcedeb
+- ros-hydro-audio-capture_binarydeb_precise_amd64
+- ros-hydro-audio-capture_binarydeb_precise_i386
+- ros-hydro-audio-capture_binarydeb_quantal_amd64
+- ros-hydro-audio-capture_binarydeb_quantal_i386
+- ros-hydro-audio-capture_binarydeb_raring_amd64
+- ros-hydro-audio-capture_binarydeb_raring_i386
+repo_name: audio_common
+repo_url: https://github.com/ros-drivers/audio_common
+srvs: []
+timestamp: 1405769650.274022
+url: http://ros.org/wiki/audio_capture
+vcs: git
+vcs_uri: https://github.com/ros-drivers/audio_common.git
+vcs_version: hydro-devel

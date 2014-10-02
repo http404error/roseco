@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon/html
+authors: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>,
+  HyungRyul Kim <hrkim@yujinrobot.com>
+brief: ''
+bugtracker: http://www.github.com/robotics-in-concert/rocon/issues
+depends: &id001
+- rocon_tutorials
+- rocon_multimaster
+- rocon_rqt_plugins
+- catkin
+- rocon_app_platform
+- rocon_msgs
+- rocon_concert
+depends_on: []
+description: This is a meta package for robotics in concert(a.k.a rocon)
+doc_job: doc-hydro-rocon
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>,
+  HyungRyul Kim <hrkim@yujinrobot.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-rocon_sourcedeb
+- ros-hydro-rocon_binarydeb_precise_amd64
+- ros-hydro-rocon_binarydeb_precise_i386
+- ros-hydro-rocon_binarydeb_quantal_amd64
+- ros-hydro-rocon_binarydeb_quantal_i386
+- ros-hydro-rocon_binarydeb_raring_amd64
+- ros-hydro-rocon_binarydeb_raring_i386
+repo_name: rocon
+repo_url: http://www.github.com/robotics-in-concert
+srvs: []
+timestamp: 1405772993.676071
+url: http://www.robotconcert.org/
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon.git
+vcs_version: hydro

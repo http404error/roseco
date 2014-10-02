@@ -1,0 +1,21 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/win_appupdater/html
+authors: Daniel Stonier
+brief: win_appupdater
+bugtracker: ''
+depends: ''
+depends_on: []
+description: "\n\n     win_appupdater\n\n  "
+doc_job: doc-hydro-win_ros
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: win_ros
+repo_url: ''
+srvs: []
+timestamp: 1405975732.30125
+url: http://ros.org/wiki/win_appupdater
+vcs: git
+vcs_uri: https://github.com/ros-windows/win_ros.git
+vcs_version: hydro-devel

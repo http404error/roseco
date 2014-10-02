@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosmsg/html
+authors: Ken Conley, Tully Foote
+brief: ''
+bugtracker: ''
+depends:
+- python-rospkg
+- rosbag
+- genmsg
+- catkin
+- roslib
+depends_on:
+- rqt_msg
+- node_manager_fkie
+- rosservice
+- rosh
+- rosruby
+- rqt_srv
+- rosh_common
+- rqt_publisher
+- ros_comm
+- roseus
+description: "rosmsg contains two command-line tools: <tt>rosmsg</tt> and\n    <tt>rossrv</tt>.\
+  \ <tt>rosmsg</tt> is a command-line tool for\n    displaying information about <a\
+  \ href=\"http://www.ros.org/wiki/msg\">ROS Message\n    types</a>. <tt>rossrv</tt>\
+  \ is a command-line tool for displaying\n    information about <a href=\"http://www.ros.org/wiki/srv\"\
+  >ROS\n    Service types</a>."
+devel_jobs:
+- devel-hydro-ros_comm
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros_comm
+msgs:
+- RosmsgB
+- RosmsgA
+- RosmsgC
+package_type: package
+release_jobs:
+- ros-hydro-rosmsg_sourcedeb
+- ros-hydro-rosmsg_binarydeb_precise_amd64
+- ros-hydro-rosmsg_binarydeb_precise_i386
+- ros-hydro-rosmsg_binarydeb_quantal_amd64
+- ros-hydro-rosmsg_binarydeb_quantal_i386
+- ros-hydro-rosmsg_binarydeb_raring_amd64
+- ros-hydro-rosmsg_binarydeb_raring_i386
+repo_name: ros_comm
+repo_url: ''
+srvs:
+- RossrvA
+- RossrvB
+timestamp: 1405773159.354822
+url: http://ros.org/wiki/rosmsg
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

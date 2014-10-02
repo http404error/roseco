@@ -1,0 +1,54 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/octomap_server/html
+authors: Armin Hornung
+brief: ''
+bugtracker: https://github.com/OctoMap/octomap_mapping/issues
+depends:
+- nav_msgs
+- dynamic_reconfigure
+- pcl_conversions
+- roscpp
+- std_msgs
+- sensor_msgs
+- octomap_msgs
+- octomap
+- octomap_ros
+- visualization_msgs
+- libpcl-all-dev
+- std_srvs
+- catkin
+- nodelet
+- libpcl-all
+- pcl_ros
+depends_on:
+- octomap_mapping
+description: "octomap_server loads a 3D map (as Octree-based OctoMap) and distributes\
+  \ it to other nodes in a compact binary format.\n    It also allows to incrementally\
+  \ build 3D OctoMaps, and provides map saving in the node octomap_saver."
+devel_jobs:
+- devel-hydro-octomap_mapping
+doc_job: doc-hydro-octomap_mapping
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Armin Hornung <hornunga@informatik.uni-freiburg.de>
+metapackages:
+- octomap_mapping
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-octomap-server_sourcedeb
+- ros-hydro-octomap-server_binarydeb_precise_amd64
+- ros-hydro-octomap-server_binarydeb_precise_i386
+- ros-hydro-octomap-server_binarydeb_quantal_amd64
+- ros-hydro-octomap-server_binarydeb_quantal_i386
+- ros-hydro-octomap-server_binarydeb_raring_amd64
+- ros-hydro-octomap-server_binarydeb_raring_i386
+repo_name: octomap_mapping
+repo_url: https://github.com/OctoMap/octomap_mapping
+srvs: []
+timestamp: 1405974594.381156
+url: http://www.ros.org/wiki/octomap_server
+vcs: git
+vcs_uri: https://github.com/OctoMap/octomap_mapping.git
+vcs_version: hydro-devel

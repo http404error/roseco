@@ -1,0 +1,36 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jsk_pr2eus/html
+authors: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>, Youhei Kakiuchi <youhei@jsk.imi.i.u-tokyo.ac.jp>
+brief: ''
+bugtracker: https://github.com/jsk-ros-pkg/jsk_pr2eus/issues
+depends: &id001
+- catkin
+- pr2eus
+depends_on: []
+description: <p>Metapackage that contains robot eus client package for jsk-ros-pkg</p>
+devel_jobs:
+- devel-hydro-jsk_pr2eus
+doc_job: doc-hydro-jsk_pr2eus
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-jsk-pr2eus_sourcedeb
+- ros-hydro-jsk-pr2eus_binarydeb_precise_amd64
+- ros-hydro-jsk-pr2eus_binarydeb_precise_i386
+- ros-hydro-jsk-pr2eus_binarydeb_quantal_amd64
+- ros-hydro-jsk-pr2eus_binarydeb_quantal_i386
+- ros-hydro-jsk-pr2eus_binarydeb_raring_amd64
+- ros-hydro-jsk-pr2eus_binarydeb_raring_i386
+repo_name: jsk_pr2eus
+repo_url: https://github.com/jsk-ros-pkg/jsk_pr2eus
+srvs: []
+timestamp: 1405771701.844414
+url: http://ros.org/wiki/jsk_pr2eus
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+vcs_version: master

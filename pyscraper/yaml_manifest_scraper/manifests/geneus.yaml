@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/geneus/html
+authors: Kei Okada
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- genmsg
+- rospy
+- euslisp
+depends_on:
+- jsk_roseus
+- roseus_msgs
+- roseus
+description: EusLisp ROS message and service generators
+devel_jobs:
+- devel-hydro-jsk_roseus
+doc_job: doc-hydro-jsk_roseus
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+metapackages:
+- jsk_roseus
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-geneus_sourcedeb
+- ros-hydro-geneus_binarydeb_precise_amd64
+- ros-hydro-geneus_binarydeb_precise_i386
+- ros-hydro-geneus_binarydeb_quantal_amd64
+- ros-hydro-geneus_binarydeb_quantal_i386
+- ros-hydro-geneus_binarydeb_raring_amd64
+- ros-hydro-geneus_binarydeb_raring_i386
+repo_name: jsk_roseus
+repo_url: ''
+srvs: []
+timestamp: 1405771452.331555
+url: ''
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_roseus.git
+vcs_version: master

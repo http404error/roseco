@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/calibration_launch/html
+authors: Michael Ferguson
+brief: ''
+bugtracker: ''
+depends:
+- laser_cb_detector
+- catkin
+- monocam_settler
+- urdfdom_py
+- interval_intersection
+- joint_states_settler
+depends_on:
+- maxwell_calibration
+- calibration
+description: "This package contains a collection of launch files that can be helpful\
+  \ in configuring\n    the calibration stack to run on your robot."
+devel_jobs:
+- devel-hydro-calibration
+doc_job: doc-hydro-calibration
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+metapackages:
+- calibration
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-calibration-launch_sourcedeb
+- ros-hydro-calibration-launch_binarydeb_precise_amd64
+- ros-hydro-calibration-launch_binarydeb_precise_i386
+- ros-hydro-calibration-launch_binarydeb_quantal_amd64
+- ros-hydro-calibration-launch_binarydeb_quantal_i386
+- ros-hydro-calibration-launch_binarydeb_raring_amd64
+- ros-hydro-calibration-launch_binarydeb_raring_i386
+repo_name: calibration
+repo_url: ''
+srvs: []
+timestamp: 1405962114.762595
+url: http://ros.org/wiki/calibration_launch
+vcs: git
+vcs_uri: https://github.com/ros-perception/calibration.git
+vcs_version: hydro

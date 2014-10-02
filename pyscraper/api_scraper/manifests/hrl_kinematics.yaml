@@ -1,0 +1,36 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hrl_kinematics/html
+authors: Armin Hornung
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- robot_state_publisher
+- urdf
+- sensor_msgs
+- kdl_parser
+- assimp
+- libpcl-all
+- visualization_msgs
+- libpcl-all-dev
+- geometric_shapes
+- tf_conversions
+depends_on: []
+description: A small kinematics library for humanoid robots based on KDL. The main
+  components are (recursive) center of mass, (static) stability, and support polygon
+  computations.
+doc_job: doc-hydro-hrl_kinematics
+has_changelog_rst: false
+license: BSD
+maintainers: Armin Hornung <hornunga@cs.informatik.uni-freiburg.de>
+msgs: []
+package_type: package
+repo_name: hrl_kinematics
+repo_url: ''
+srvs: []
+timestamp: 1405963371.398724
+url: http://ros.org/wiki/hrl_kinematics
+vcs: git
+vcs_uri: https://github.com/ahornung/hrl_kinematics.git
+vcs_version: hydro-devel

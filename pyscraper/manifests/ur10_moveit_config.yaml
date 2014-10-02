@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ur10_moveit_config/html
+authors: MoveIt Setup Assistant <assistant@moveit.ros.org>
+brief: ''
+bugtracker: https://github.com/ros-planning/moveit_setup_assistant/issues
+depends:
+- catkin
+- robot_state_publisher
+- moveit_planners_ompl
+- joint_state_publisher
+- moveit_ros_move_group
+- ur_description
+- xacro
+- moveit_ros_visualization
+depends_on:
+- universal_robot
+description: An automatically generated package with all the configuration and launch
+  files for using the ur10 with the MoveIt Motion Planning Framework
+devel_jobs:
+- devel-hydro-universal_robot
+doc_job: doc-hydro-universal_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: MoveIt Setup Assistant <assistant@moveit.ros.org>
+metapackages:
+- universal_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ur10-moveit-config_sourcedeb
+- ros-hydro-ur10-moveit-config_binarydeb_precise_amd64
+- ros-hydro-ur10-moveit-config_binarydeb_precise_i386
+- ros-hydro-ur10-moveit-config_binarydeb_quantal_amd64
+- ros-hydro-ur10-moveit-config_binarydeb_quantal_i386
+- ros-hydro-ur10-moveit-config_binarydeb_raring_amd64
+- ros-hydro-ur10-moveit-config_binarydeb_raring_i386
+repo_name: universal_robot
+repo_url: https://github.com/ros-planning/moveit_setup_assistant
+srvs: []
+timestamp: 1405774302.304755
+url: http://moveit.ros.org/
+vcs: git
+vcs_uri: https://github.com/ros-industrial/universal_robot.git
+vcs_version: hydro

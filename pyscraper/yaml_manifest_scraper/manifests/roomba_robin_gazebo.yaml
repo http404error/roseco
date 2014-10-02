@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roomba_robin_gazebo/html
+authors: Stephan Hofstaetter <stephan.hofstaetter@gmail.com>
+brief: ''
+bugtracker: https://github.com/robinJKU/roomba_robin_simulator/issues
+depends:
+- depthimage_to_laserscan
+- catkin
+- kobuki_gazebo_plugins
+- diagnostic_aggregator
+- robot_pose_ekf
+- robot_state_publisher
+- gazebo_ros
+- yocs_cmd_vel_mux
+- roomba_robin_bringup
+- turtlebot_description
+- roomba_robin_description
+- xacro
+- create_gazebo_plugins
+- turtlebot_bringup
+depends_on:
+- roomba_robin_simulator
+description: Gazebo launchers and worlds for TurtleBot simulation with JKU Stack
+doc_job: doc-hydro-roomba_robin_simulator
+has_changelog_rst: false
+license: BSD
+maintainers: Stephan Hofstaetter <stephan.hofstaetter@gmail.com>
+metapackages:
+- roomba_robin_simulator
+msgs: []
+package_type: package
+repo_name: roomba_robin_simulator
+repo_url: https://github.com/robinJKU/roomba_robin_simulator
+srvs: []
+timestamp: 1405773185.391705
+url: http://ros.org/wiki/turtlebot_gazebo
+vcs: git
+vcs_uri: https://github.com/robinJKU/roomba_robin_simulator.git
+vcs_version: hydro-devel

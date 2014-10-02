@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_gateway_tests/html
+authors: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>,
+  Piyush Khandelwal <piyushk@gmail.com>
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_multimaster/issues
+depends:
+- rocon_gateway
+- rocon_hub
+- catkin
+- gateway_msgs
+- rospy_tutorials
+- rospy
+- roscpp_tutorials
+- rocon_test
+depends_on:
+- rocon_multimaster
+description: Testing programs for gateways.
+devel_jobs:
+- devel-hydro-rocon_multimaster
+doc_job: doc-hydro-rocon_multimaster
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>,
+  Piyush Khandelwal <piyushk@gmail.com>
+metapackages:
+- rocon_multimaster
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rocon-gateway-tests_sourcedeb
+- ros-hydro-rocon-gateway-tests_binarydeb_precise_amd64
+- ros-hydro-rocon-gateway-tests_binarydeb_precise_i386
+- ros-hydro-rocon-gateway-tests_binarydeb_quantal_amd64
+- ros-hydro-rocon-gateway-tests_binarydeb_quantal_i386
+- ros-hydro-rocon-gateway-tests_binarydeb_raring_amd64
+- ros-hydro-rocon-gateway-tests_binarydeb_raring_i386
+repo_name: rocon_multimaster
+repo_url: https://github.com/robotics-in-concert/rocon_multimaster
+srvs: []
+timestamp: 1405964663.08027
+url: http://ros.org/wiki/rocon_gateway_tests
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_multimaster.git
+vcs_version: hydro

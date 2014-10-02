@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/open_controllers_interface/html
+authors: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>, Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: ''
+depends:
+- pr2_controller_manager
+- std_srvs
+- roscpp
+- realtime_tools
+- diagnostic_updater
+- catkin
+- diagnostic_msgs
+depends_on:
+- vs060
+- denso_controller
+- open_industrial_ros_controllers
+description: <p>This package provides generic capability for industrial controllers.
+  Please see <a href="http://wiki.ros.org/open_industrial_ros_controllers">open_industrial_ros_controllers</a>
+  for overall description.</p>
+devel_jobs:
+- devel-hydro-open_industrial_ros_controllers
+doc_job: doc-hydro-open_industrial_ros_controllers
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>, Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>
+metapackages:
+- open_industrial_ros_controllers
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-open-controllers-interface_sourcedeb
+- ros-hydro-open-controllers-interface_binarydeb_precise_amd64
+- ros-hydro-open-controllers-interface_binarydeb_precise_i386
+- ros-hydro-open-controllers-interface_binarydeb_quantal_amd64
+- ros-hydro-open-controllers-interface_binarydeb_quantal_i386
+- ros-hydro-open-controllers-interface_binarydeb_raring_amd64
+- ros-hydro-open-controllers-interface_binarydeb_raring_i386
+repo_name: open_industrial_ros_controllers
+repo_url: ''
+srvs: []
+timestamp: 1405974595.726011
+url: ''
+vcs: git
+vcs_uri: https://github.com/start-jsk/open_industrial_ros_controllers.git
+vcs_version: hydro-devel

@@ -1,0 +1,24 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_teleop_general_jsk_patch/html
+authors: Manabu Saito
+brief: pr2_teleop_general_jsk_patch
+bugtracker: ''
+depends:
+- polled_camera
+- ps3joy
+- bullet
+depends_on: []
+description: "\n\n     pr2_teleop_general_jsk_patch\n\n  "
+doc_job: doc-hydro-jsk_common
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771541.918315
+url: http://ros.org/wiki/pr2_teleop_general_jsk_patch
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

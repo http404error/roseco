@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosnode_rtc/html
+authors: Manabu Saito <saito@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: https://github.com/start-jsk/rtmros_common/issues
+depends:
+- catkin
+- openrtm_tools
+- rospy
+- rostopic
+- roscpp_tutorials
+depends_on:
+- rtmros_common
+description: "This package gives transparency between RTM and ROS.\n\n     rtmros-data-bridge.py\
+  \ is a RT-Component for dataport/topic.\n     This automatically convert ROS/topic\
+  \ into RTM/dataport."
+devel_jobs:
+- devel-hydro-rtmros_common
+doc_job: doc-hydro-rtmros_common
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>, Isaac Isao Saito <iisaito@kinugarage.com>
+metapackages:
+- rtmros_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosnode-rtc_sourcedeb
+- ros-hydro-rosnode-rtc_binarydeb_precise_amd64
+- ros-hydro-rosnode-rtc_binarydeb_precise_i386
+- ros-hydro-rosnode-rtc_binarydeb_quantal_amd64
+- ros-hydro-rosnode-rtc_binarydeb_quantal_i386
+- ros-hydro-rosnode-rtc_binarydeb_raring_amd64
+- ros-hydro-rosnode-rtc_binarydeb_raring_i386
+repo_name: rtmros_common
+repo_url: https://github.com/start-jsk/rtmros_common
+srvs: []
+timestamp: 1405773775.79907
+url: http://ros.org/wiki/rosnode_rtc
+vcs: git
+vcs_uri: https://github.com/start-jsk/rtmros_common.git
+vcs_version: master

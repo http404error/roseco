@@ -1,0 +1,36 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/eigen_utils/html
+authors: Mario Prats
+brief: ''
+bugtracker: ''
+depends:
+- tf
+- catkin
+- eigen
+- tf_conversions
+- roscpp
+depends_on: []
+description: Useful math functions using Eigen
+doc_job: doc-hydro-eigen_utils
+has_changelog_rst: false
+license: GPLv2
+maintainer_status: maintained
+maintainers: Mario Prats <marioprats@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-eigen-utils_sourcedeb
+- ros-hydro-eigen-utils_binarydeb_precise_amd64
+- ros-hydro-eigen-utils_binarydeb_precise_i386
+- ros-hydro-eigen-utils_binarydeb_quantal_amd64
+- ros-hydro-eigen-utils_binarydeb_quantal_i386
+- ros-hydro-eigen-utils_binarydeb_raring_amd64
+- ros-hydro-eigen-utils_binarydeb_raring_i386
+repo_name: eigen_utils
+repo_url: ''
+srvs: []
+timestamp: 1405770290.284423
+url: http://ros.org/wiki/eigen_utils
+vcs: git
+vcs_uri: https://github.com/marioprats/eigen_utils.git
+vcs_version: groovy-devel

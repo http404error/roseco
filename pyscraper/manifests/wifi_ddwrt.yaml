@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/wifi_ddwrt/html
+authors: Scott Hassan <hassan@willowgarage.com>, Eitan Marder-Eppstein <eitan@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- python-mechanize
+- message_runtime
+- std_msgs
+- tf
+- rospy
+- pr2_msgs
+- visualization_msgs
+- message_generation
+- geometry_msgs
+depends_on:
+- rosjava_messages
+- cob_bringup
+- pr2_bringup
+description: Access to the DD-WRT wifi
+doc_job: doc-hydro-wifi_ddwrt
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+msgs:
+- Network
+- SiteSurvey
+package_type: package
+release_jobs:
+- ros-hydro-wifi-ddwrt_sourcedeb
+- ros-hydro-wifi-ddwrt_binarydeb_precise_amd64
+- ros-hydro-wifi-ddwrt_binarydeb_precise_i386
+- ros-hydro-wifi-ddwrt_binarydeb_quantal_amd64
+- ros-hydro-wifi-ddwrt_binarydeb_quantal_i386
+- ros-hydro-wifi-ddwrt_binarydeb_raring_amd64
+- ros-hydro-wifi-ddwrt_binarydeb_raring_i386
+repo_name: wifi_ddwrt
+repo_url: ''
+srvs: []
+timestamp: 1405975681.727586
+url: http://ros.org/wiki/wifi_ddwrt
+vcs: git
+vcs_uri: https://github.com/ros-drivers/wifi_ddwrt.git
+vcs_version: hydro-devel

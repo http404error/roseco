@@ -1,0 +1,32 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosjson_time/html
+authors: Ken Conley <kwc@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roslib
+- rospy
+depends_on:
+- biotac_log_parser
+- biotac_driver
+- biotac_logger
+description: "rosjson_time is a Python library for converting ROS messages to JSON\n\
+  \    (JavaScript Object Notation) representation. This is essentially the\n    same\
+  \ as the rosjson package, but modified so that time is not rounded.\n    - Ian McMahon/imcmahon@grasp.upenn.edu"
+doc_job: doc-hydro-biotac_driver
+has_changelog_rst: false
+license: BSD
+maintainers: Ian McMahon <imcmahon@grasp.upenn.edu>, Francisco Vina <fevb@kth.se>
+metapackages:
+- biotac_driver
+msgs: []
+package_type: package
+repo_name: biotac_driver
+repo_url: ''
+srvs: []
+timestamp: 1405972768.016583
+url: http://wiki.ros.org/rosjson_time
+vcs: git
+vcs_uri: https://github.com/kth-ros-pkg/biotac_driver.git
+vcs_version: hydro

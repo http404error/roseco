@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosping/html
+authors: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: ''
+depends:
+- rosboost_cfg
+- catkin
+- roscpp
+- std_msgs
+- mk
+- rosbuild
+- rostest
+depends_on:
+- jsk_common
+description: "rosping is the tool to send ICMP ECHO_REQUEST to network hosts where\
+  \ roscore is running, and send back to you as rostopic message. <br/>\n    For echoing\
+  \ ROS node, use <a href=\"http://wiki.ros.org/rosnode\">rosnode</a>."
+devel_jobs:
+- devel-hydro-jsk_common
+doc_job: doc-hydro-jsk_common
+has_changelog_rst: true
+license: Boost Software License, Version 1.0
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+metapackages:
+- jsk_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosping_sourcedeb
+- ros-hydro-rosping_binarydeb_precise_amd64
+- ros-hydro-rosping_binarydeb_precise_i386
+- ros-hydro-rosping_binarydeb_quantal_amd64
+- ros-hydro-rosping_binarydeb_quantal_i386
+- ros-hydro-rosping_binarydeb_raring_amd64
+- ros-hydro-rosping_binarydeb_raring_i386
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771535.560102
+url: http://ros.org/wiki/rosping
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

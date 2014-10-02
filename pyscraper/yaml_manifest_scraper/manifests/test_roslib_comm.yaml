@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/test_roslib_comm/html
+authors: Jeremy Leibs, Ken Conley
+brief: ''
+bugtracker: ''
+depends:
+- rosgraph_msgs
+- genpy
+- genmsg
+- catkin
+- roslib
+- std_msgs
+depends_on: []
+description: Unit tests verifying that roslib is operating as expected.
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: false
+license: BSD
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+msgs:
+- TypeNameChangeComplex1
+- FieldNameChange1
+- FieldNameChange2
+- TypeNameChange1
+- SameSubMsg3
+- SameSubMsg2
+- TypeNameChangeArray2
+- HeaderTest
+- FillSimple
+- TypeNameChangeComplex2
+- TypeNameChange2
+- ArrayOfMsgs
+- TypeNameChangeArray1
+- SameSubMsg1
+- FillEmbedTime
+package_type: package
+repo_name: ros_comm
+repo_url: ''
+srvs: []
+timestamp: 1405773145.365592
+url: http://ros.org/wiki/roslib
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

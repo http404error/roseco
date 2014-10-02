@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosh_common/html
+authors: Ken Conley
+brief: ''
+bugtracker: https://github.com/OSUrobotics/rosh_robot_plugins/issues
+depends:
+- nav_msgs
+- catkin
+- std_msgs
+- actionlib
+- roslib
+- sensor_msgs
+- rospy
+- rosmsg
+- rosh
+- rostopic
+depends_on:
+- rosh_robot_plugins
+- rosh_robot
+description: ROSH plugin for packages in the common stack
+devel_jobs:
+- devel-hydro-rosh_robot_plugins
+doc_job: doc-hydro-rosh_robot_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dan Lazewatsky <dan@lazewatsky.com>
+metapackages:
+- rosh_robot_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosh-common_sourcedeb
+- ros-hydro-rosh-common_binarydeb_precise_amd64
+- ros-hydro-rosh-common_binarydeb_precise_i386
+- ros-hydro-rosh-common_binarydeb_quantal_amd64
+- ros-hydro-rosh-common_binarydeb_quantal_i386
+- ros-hydro-rosh-common_binarydeb_raring_amd64
+- ros-hydro-rosh-common_binarydeb_raring_i386
+repo_name: rosh_robot_plugins
+repo_url: ''
+srvs: []
+timestamp: 1405773349.950809
+url: http://ros.org/wiki/rosh_common
+vcs: git
+vcs_uri: https://github.com/OSUrobotics/rosh_robot_plugins.git
+vcs_version: master

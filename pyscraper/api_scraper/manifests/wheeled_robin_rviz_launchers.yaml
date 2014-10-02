@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/wheeled_robin_rviz_launchers/html
+authors: Johannes Mayr <joh.mayr@jku.at>, Klemens Springer <klemens.springer@jku.at>
+brief: ''
+bugtracker: https://github.com/turtlebot/wheeled_robin_viz/issues
+depends:
+- wheeled_robin_bringup
+- catkin
+- rviz
+- joint_state_publisher
+depends_on:
+- wheeled_robin_viz
+description: Launchers for visualizing WheeledRobin
+doc_job: doc-hydro-wheeled_robin_viz
+has_changelog_rst: false
+license: BSD
+maintainers: Johannes Mayr <joh.mayr@jku.at>
+metapackages:
+- wheeled_robin_viz
+msgs: []
+package_type: package
+repo_name: wheeled_robin_viz
+repo_url: https://github.com/turtlebot/wheeled_robin_viz
+srvs: []
+timestamp: 1405774624.823037
+url: http://ros.org/wiki/wheeled_robin_rviz_launchers
+vcs: git
+vcs_uri: https://github.com/robinJKU/wheeled_robin_viz.git
+vcs_version: hydro-devel

@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rgbd_rosbag_tools/html
+authors: "Martin G\xFCnther"
+brief: rgbd_rosbag_tools
+bugtracker: ''
+depends:
+- sensor_msgs
+- rosbag
+- rospy
+- cv_bridge
+depends_on: []
+description: "\n\n     rgbd_rosbag_tools\n\n  "
+doc_job: doc-hydro-uos_tools
+license: BSD
+maintainers: ''
+metapackages:
+- uos_tools
+msgs: []
+package_type: package
+repo_name: uos_tools
+repo_url: ''
+srvs: []
+timestamp: 1405965463.276308
+url: http://ros.org/wiki/rgbd_rosbag_tools
+vcs: git
+vcs_uri: https://github.com/uos/uos_tools.git
+vcs_version: hydro

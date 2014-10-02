@@ -1,0 +1,60 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/image_rotate/html
+authors: Blaise Gassend
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- nodelet
+- image_transport
+- eigen_conversions
+- opencv2
+- rostest
+- geometry_msgs
+- tf2_ros
+- tf
+- cv_bridge
+- tf_conversions
+depends_on:
+- image_pipeline
+description: "<p>\n      Contains a node that rotates an image stream in a way that\
+  \ minimizes\n      the angle between a vector in some arbitrary frame and a vector\
+  \ in the\n      camera frame. The frame of the outgoing image is published by the\
+  \ node.\n    </p>\n    <p>\n      This node is intended to allow camera images to\
+  \ be visualized in an\n      orientation that is more intuitive than the hardware-constrained\n\
+  \      orientation of the physical camera. This is particularly helpful, for\n \
+  \     example, to show images from the PR2's forearm cameras with a\n      consistent\
+  \ up direction, despite the fact that the forearms need to\n      rotate in arbitrary\
+  \ ways during manipulation.\n    </p>\n    <p>\n      It is not recommended to use\
+  \ the output from this node for further\n      computation, as it interpolates the\
+  \ source image, introduces black\n      borders, and does not output a camera_info.\n\
+  \    </p>"
+devel_jobs:
+- devel-hydro-image_pipeline
+doc_job: doc-hydro-image_pipeline
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+metapackages:
+- image_pipeline
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-image-rotate_sourcedeb
+- ros-hydro-image-rotate_binarydeb_precise_amd64
+- ros-hydro-image-rotate_binarydeb_precise_i386
+- ros-hydro-image-rotate_binarydeb_quantal_amd64
+- ros-hydro-image-rotate_binarydeb_quantal_i386
+- ros-hydro-image-rotate_binarydeb_raring_amd64
+- ros-hydro-image-rotate_binarydeb_raring_i386
+repo_name: image_pipeline
+repo_url: ''
+srvs: []
+timestamp: 1405963502.394438
+url: http://ros.org/wiki/image_rotate
+vcs: git
+vcs_uri: https://github.com/ros-perception/image_pipeline.git
+vcs_version: hydro-devel

@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/test_rosbag_storage/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- std_msgs
+- rosbag_storage
+depends_on: []
+description: A package containing the unit tests for rosbag_storage.
+doc_job: doc-hydro-ros_comm
+has_changelog_rst: false
+license: BSD
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+msgs: []
+package_type: package
+repo_name: ros_comm
+repo_url: ''
+srvs: []
+timestamp: 1405773149.49504
+url: ''
+vcs: git
+vcs_uri: https://github.com/ros/ros_comm.git
+vcs_version: hydro-devel

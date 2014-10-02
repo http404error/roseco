@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jsk_rqt_plugins/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rqt_gui
+- qt_gui_py_common
+- mk
+- rosbuild
+- rqt_plot
+- rqt_gui_py
+depends_on: []
+description: The jsk_rqt_plugins package
+devel_jobs:
+- devel-hydro-jsk_visualization
+doc_job: doc-hydro-jsk_visualization
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-jsk-rqt-plugins_sourcedeb
+- ros-hydro-jsk-rqt-plugins_binarydeb_precise_amd64
+- ros-hydro-jsk-rqt-plugins_binarydeb_precise_i386
+- ros-hydro-jsk-rqt-plugins_binarydeb_quantal_amd64
+- ros-hydro-jsk-rqt-plugins_binarydeb_quantal_i386
+- ros-hydro-jsk-rqt-plugins_binarydeb_raring_amd64
+- ros-hydro-jsk-rqt-plugins_binarydeb_raring_i386
+repo_name: jsk_visualization
+repo_url: ''
+srvs: []
+timestamp: 1405963695.868149
+url: ''
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_visualization.git
+vcs_version: master

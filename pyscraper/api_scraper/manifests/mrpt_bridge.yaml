@@ -1,0 +1,37 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/mrpt_bridge/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- sensor_msgs
+- std_msgs
+- mrpt_msgs
+- gtest
+- geometry_msgs
+- tf
+- rospy
+depends_on:
+- pose_cov_ops
+- mrpt_icp_slam_2d
+- kinect_2d_scanner
+- rawlog_play
+description: The mrpt_bridge package
+doc_job: doc-hydro-mrpt_common
+has_changelog_rst: false
+license: BSD
+maintainers: Jose Luis <jose.luis@todo.todo>, Markus Bader <markus.bader@tuwien.ac.at>
+metapackages:
+- mrpt_common
+msgs: []
+package_type: package
+repo_name: mrpt_common
+repo_url: ''
+srvs: []
+timestamp: 1405964063.100418
+url: ''
+vcs: git
+vcs_uri: https://github.com/mrpt-ros-pkg/mrpt_common.git
+vcs_version: master

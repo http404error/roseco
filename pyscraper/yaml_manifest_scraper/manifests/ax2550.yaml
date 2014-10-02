@@ -1,0 +1,24 @@
+authors: William Woodall <wjwwood@gmail.com>, Michael Carroll <carroll.michael@gmail.com>
+depends:
+- nav_msgs
+- serial_utils
+- catkin
+- roscpp
+- geometry_msgs
+- tf
+- serial
+description: Package which provides a library and a ROS ndoe for interfacing with
+  the Roboteq AX2550 motor controller.
+license: MIT
+maintainers: William Woodall <wjwwood@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-ax2550_sourcedeb
+- ros-hydro-ax2550_binarydeb_precise_amd64
+- ros-hydro-ax2550_binarydeb_precise_i386
+- ros-hydro-ax2550_binarydeb_quantal_amd64
+- ros-hydro-ax2550_binarydeb_quantal_i386
+- ros-hydro-ax2550_binarydeb_raring_amd64
+- ros-hydro-ax2550_binarydeb_raring_i386
+repo_name: ax2550
+timestamp: 1405956414.68197

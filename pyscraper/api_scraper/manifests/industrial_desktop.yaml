@@ -1,0 +1,22 @@
+authors: ''
+depends:
+- abb
+- catkin
+- fanuc
+- motoman
+- universal_robot
+- industrial_core
+description: The industrial_desktop package contains all &quot;released&quot; packages
+license: BSD, Apache 2.0
+maintainers: Shaun Edwards <shaun.edwards@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-industrial-desktop_sourcedeb
+- ros-hydro-industrial-desktop_binarydeb_precise_amd64
+- ros-hydro-industrial-desktop_binarydeb_precise_i386
+- ros-hydro-industrial-desktop_binarydeb_quantal_amd64
+- ros-hydro-industrial-desktop_binarydeb_quantal_i386
+- ros-hydro-industrial-desktop_binarydeb_raring_amd64
+- ros-hydro-industrial-desktop_binarydeb_raring_i386
+repo_name: industrial_metapackages
+timestamp: 1405956414.801561

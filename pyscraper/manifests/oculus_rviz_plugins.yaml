@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/oculus_rviz_plugins/html
+authors: David Gossow <dgossow@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rviz
+- libogre-dev
+- libqt4-opengl-dev
+- libqt4-dev
+- oculus_sdk
+- tf
+- boost
+- roscpp
+depends_on: []
+description: RViz plugins for the Oculus Rift.
+doc_job: doc-hydro-oculus_rviz_plugins
+has_changelog_rst: false
+license: BSD
+maintainers: David Gossow <dgossow@willowgarage.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-oculus-rviz-plugins_sourcedeb
+- ros-hydro-oculus-rviz-plugins_binarydeb_precise_amd64
+- ros-hydro-oculus-rviz-plugins_binarydeb_precise_i386
+- ros-hydro-oculus-rviz-plugins_binarydeb_quantal_amd64
+- ros-hydro-oculus-rviz-plugins_binarydeb_quantal_i386
+- ros-hydro-oculus-rviz-plugins_binarydeb_raring_amd64
+- ros-hydro-oculus-rviz-plugins_binarydeb_raring_i386
+repo_name: oculus_rviz_plugins
+repo_url: ''
+srvs: []
+timestamp: 1405772405.573307
+url: ''
+vcs: git
+vcs_uri: https://github.com/ros-visualization/oculus_rviz_plugins.git
+vcs_version: groovy-devel

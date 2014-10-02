@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/turtlebot_follower/html
+authors: Tony Pratkanis <tony.pratkanis@to.do>
+brief: ''
+bugtracker: https://github.com/turtlebot/turtlebot_apps/issues
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- visualization_msgs
+- turtlebot_msgs
+- nodelet
+- turtlebot_bringup
+- pcl_ros
+depends_on:
+- turtlebot_apps
+- turtlebot_core_apps
+description: Follower for the turtlebot. Follows humans and robots around by following
+  the centroid of a box points in front of the turtlebot.
+devel_jobs:
+- devel-hydro-turtlebot_apps
+doc_job: doc-hydro-turtlebot_apps
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <stonier@rnd.yujinrobot.com>
+metapackages:
+- turtlebot_apps
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-turtlebot-follower_sourcedeb
+- ros-hydro-turtlebot-follower_binarydeb_precise_amd64
+- ros-hydro-turtlebot-follower_binarydeb_precise_i386
+- ros-hydro-turtlebot-follower_binarydeb_quantal_amd64
+- ros-hydro-turtlebot-follower_binarydeb_quantal_i386
+- ros-hydro-turtlebot-follower_binarydeb_raring_amd64
+- ros-hydro-turtlebot-follower_binarydeb_raring_i386
+repo_name: turtlebot_apps
+repo_url: https://github.com/turtlebot/turtlebot_apps
+srvs: []
+timestamp: 1405965332.647824
+url: http://ros.org/wiki/turtlebot_apps
+vcs: git
+vcs_uri: https://github.com/turtlebot/turtlebot_apps.git
+vcs_version: hydro

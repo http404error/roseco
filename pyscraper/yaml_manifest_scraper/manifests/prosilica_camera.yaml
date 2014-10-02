@@ -1,0 +1,31 @@
+authors: Maintained by William Woodall - wwoodall@willowgarage.com
+depends:
+- self_test
+- dynamic_reconfigure
+- polled_camera
+- rosconsole
+- roscpp
+- driver_base
+- std_msgs
+- sensor_msgs
+- image_transport
+- prosilica_gige_sdk
+- diagnostic_updater
+- camera_calibration_parsers
+- catkin
+- diagnostic_msgs
+description: A ROS driver node for AVT/Prosilica Gigabit Ethernet (GigE) cameras.
+license: BSD
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-prosilica-camera_sourcedeb
+- ros-hydro-prosilica-camera_binarydeb_precise_amd64
+- ros-hydro-prosilica-camera_binarydeb_precise_i386
+- ros-hydro-prosilica-camera_binarydeb_quantal_amd64
+- ros-hydro-prosilica-camera_binarydeb_quantal_i386
+- ros-hydro-prosilica-camera_binarydeb_raring_amd64
+- ros-hydro-prosilica-camera_binarydeb_raring_i386
+repo_name: prosilica_driver
+timestamp: 1405956414.992382
+url: http://www.ros.org/wiki/prosilica_camera

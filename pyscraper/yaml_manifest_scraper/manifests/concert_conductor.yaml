@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/concert_conductor/html
+authors: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_concert/issues
+depends:
+- catkin
+- gateway_msgs
+- std_msgs
+- rocon_app_manager_msgs
+- concert_msgs
+- rospy
+- rocon_utilities
+depends_on:
+- multinav_concert
+- chatter_concert
+- turtle_concert
+- rocon_concert
+description: Managing the concert clients - invitations, monitoring connections...
+devel_jobs:
+- devel-hydro-rocon_concert
+doc_job: doc-hydro-rocon_concert
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+metapackages:
+- rocon_concert
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-concert-conductor_sourcedeb
+- ros-hydro-concert-conductor_binarydeb_precise_amd64
+- ros-hydro-concert-conductor_binarydeb_precise_i386
+- ros-hydro-concert-conductor_binarydeb_quantal_amd64
+- ros-hydro-concert-conductor_binarydeb_quantal_i386
+- ros-hydro-concert-conductor_binarydeb_raring_amd64
+- ros-hydro-concert-conductor_binarydeb_raring_i386
+repo_name: rocon_concert
+repo_url: https://github.com/robotics-in-concert/rocon_concert
+srvs: []
+timestamp: 1405964630.384464
+url: http://ros.org/wiki/concert_conductor
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_concert.git
+vcs_version: hydro

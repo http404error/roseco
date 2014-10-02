@@ -1,0 +1,57 @@
+<package>
+  <name>topic_proxy</name>
+  <version>0.1.1</version>
+  <description>topic_proxy implements a ROS service server and client to pull single messages from one master and optionally republish them locally.</description>
+
+   
+  
+  
+  <maintainer email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</maintainer>
+
+
+  
+  
+  
+  <license>BSD</license>
+
+  
+  
+  
+  <url type="website">https://github.com/tu-darmstadt-ros-pkg/topic_proxy</url>
+
+
+  
+  
+  
+  
+  <author email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</author>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>blob</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>blob</run_depend>
+
+
+  
+  <export>
+    
+    
+
+    
+
+  </export>
+</package>

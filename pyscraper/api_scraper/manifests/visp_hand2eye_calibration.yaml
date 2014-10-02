@@ -1,0 +1,51 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/visp_hand2eye_calibration/html
+authors: Filip Novotny
+brief: ''
+bugtracker: ''
+depends:
+- visp
+- image_proc
+- sensor_msgs
+- message_runtime
+- std_msgs
+- catkin
+- geometry_msgs
+- message_generation
+- visp_bridge
+depends_on:
+- rosjava_messages
+- vision_visp
+description: "visp_hand2eye_calibration estimates the camera position with respect\n\
+  \     to its effector using the ViSP library."
+devel_jobs:
+- devel-hydro-vision_visp
+doc_job: doc-hydro-vision_visp
+has_changelog_rst: true
+license: GPLv2
+maintainer_status: maintained
+maintainers: Fabien Spindler <Fabien.Spindler@inria.fr>
+metapackages:
+- vision_visp
+msgs:
+- TransformArray
+package_type: package
+release_jobs:
+- ros-hydro-visp-hand2eye-calibration_sourcedeb
+- ros-hydro-visp-hand2eye-calibration_binarydeb_precise_amd64
+- ros-hydro-visp-hand2eye-calibration_binarydeb_precise_i386
+- ros-hydro-visp-hand2eye-calibration_binarydeb_quantal_amd64
+- ros-hydro-visp-hand2eye-calibration_binarydeb_quantal_i386
+- ros-hydro-visp-hand2eye-calibration_binarydeb_raring_amd64
+- ros-hydro-visp-hand2eye-calibration_binarydeb_raring_i386
+repo_name: vision_visp
+repo_url: ''
+srvs:
+- compute_effector_camera
+- reset
+- compute_effector_camera_quick
+timestamp: 1405774398.653311
+url: http://ros.org/wiki/visp_hand2eye_calibration
+vcs: git
+vcs_uri: https://github.com/lagadic/vision_visp.git
+vcs_version: hydro

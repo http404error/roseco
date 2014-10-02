@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/base_controller/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- android_core
+- catkin
+- rosjava_build_tools
+- usb_serial_for_android
+depends_on: []
+description: A base controller for doing Android base robots using ROS.
+doc_job: doc-hydro-android_base_controller
+has_changelog_rst: false
+license: Apache 2.0
+maintainers: Lucas Chiesa <lucas@creativa77.com.ar>
+msgs: []
+package_type: package
+repo_name: android_base_controller
+repo_url: ''
+srvs: []
+timestamp: 1405769495.95175
+url: ''
+vcs: git
+vcs_uri: https://github.com/creativa77/base_controller.git
+vcs_version: master

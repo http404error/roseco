@@ -1,0 +1,50 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/yocs_waypoints_navi/html
+authors: Jorge Santos Simon <jorge@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/yujin_ocs/issues
+depends:
+- nav_msgs
+- catkin
+- roscpp
+- yocs_math_toolkit
+- actionlib
+- move_base_msgs
+- geometry_msgs
+- yaml-cpp
+- visualization_msgs
+- tf
+- actionlib_msgs
+depends_on:
+- yujin_ocs
+description: "Simple tool for waypoints navigation with two functions:\n    <br/>\
+  \ * Command the robot to go to a goal by passing through a series of waypoints.\n\
+  \    <br/> * Command the robot to constantly loop through a series of waypoints,\
+  \ useful for patrol."
+devel_jobs:
+- devel-hydro-yujin_ocs
+doc_job: doc-hydro-yujin_ocs
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Jorge Santos Simon <jorge@yujinrobot.com>
+metapackages:
+- yujin_ocs
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-yocs-waypoints-navi_sourcedeb
+- ros-hydro-yocs-waypoints-navi_binarydeb_precise_amd64
+- ros-hydro-yocs-waypoints-navi_binarydeb_precise_i386
+- ros-hydro-yocs-waypoints-navi_binarydeb_quantal_amd64
+- ros-hydro-yocs-waypoints-navi_binarydeb_quantal_i386
+- ros-hydro-yocs-waypoints-navi_binarydeb_raring_amd64
+- ros-hydro-yocs-waypoints-navi_binarydeb_raring_i386
+repo_name: yujin_ocs
+repo_url: https://github.com/yujinrobot/yujin_ocs
+srvs: []
+timestamp: 1405774555.764705
+url: http://ros.org/wiki/yocs_waypoints_navi
+vcs: git
+vcs_uri: https://github.com/yujinrobot/yujin_ocs.git
+vcs_version: hydro

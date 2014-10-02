@@ -1,0 +1,18 @@
+authors: ''
+depends:
+- catkin
+- kingfisher_viz
+description: The kingfisher_desktop metapackage
+license: BSD
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+package_type: package
+release_jobs:
+- ros-hydro-kingfisher-desktop_sourcedeb
+- ros-hydro-kingfisher-desktop_binarydeb_precise_amd64
+- ros-hydro-kingfisher-desktop_binarydeb_precise_i386
+- ros-hydro-kingfisher-desktop_binarydeb_quantal_amd64
+- ros-hydro-kingfisher-desktop_binarydeb_quantal_i386
+- ros-hydro-kingfisher-desktop_binarydeb_raring_amd64
+- ros-hydro-kingfisher-desktop_binarydeb_raring_i386
+repo_name: kingfisher_desktop
+timestamp: 1405956414.828233

@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_driving_aid_markers/html
+authors: kohlbrecher
+brief: hector_driving_aid_markers
+bugtracker: ''
+depends:
+- roscpp
+- visualization_msgs
+depends_on: []
+description: "\n\n     hector_driving_aid_markers\n\n  "
+doc_job: doc-hydro-hector_navigation
+license: BSD
+maintainers: ''
+metapackages:
+- hector_navigation
+msgs: []
+package_type: package
+repo_name: hector_navigation
+repo_url: ''
+srvs: []
+timestamp: 1405770999.380758
+url: http://ros.org/wiki/hector_driving_aid_markers
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_navigation.git
+vcs_version: master

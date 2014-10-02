@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/dm_lizi/html
+authors: Igor Makhtes <igor@cogniteam.com>
+brief: ''
+bugtracker: ''
+depends:
+- lizi_description
+- catkin
+- sensor_msgs
+- decision_making
+- geometry_msgs
+- decision_making_parser
+depends_on:
+- decision_making_robot_examples
+description: Wandering algorithm implementation using decision_making tools
+doc_job: doc-hydro-decision_making_robot_examples
+has_changelog_rst: false
+license: MIT
+maintainers: Igor Makhtes <igor@cogniteam.com>
+metapackages:
+- decision_making_robot_examples
+msgs: []
+package_type: package
+repo_name: decision_making_robot_examples
+repo_url: ''
+srvs: []
+timestamp: 1405973308.530979
+url: ''
+vcs: git
+vcs_uri: https://github.com/cogniteam/decision_making_robot_examples.git
+vcs_version: master

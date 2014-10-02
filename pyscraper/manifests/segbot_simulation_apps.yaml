@@ -1,0 +1,53 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/segbot_simulation_apps/html
+authors: Piyush Khandelwal <piyushk@gmail.com>
+brief: ''
+bugtracker: https://github.com/utexas-bwi/segbot_simulator/issues
+depends:
+- roslaunch
+- catkin
+- roscpp
+- std_msgs
+- message_runtime
+- gazebo_msgs
+- tf
+- bwi_planning_common
+- geometry_msgs
+- bwi_tools
+- message_generation
+- boost
+depends_on:
+- rosjava_messages
+- bwi_planning
+- bwi_planning_icaps14
+- segbot_simulator
+description: "Applications designed specifically to be used in a simulation\n    environment,\
+  \ such as opening and closing doors inside the building\n    simulation."
+devel_jobs:
+- devel-hydro-segbot_simulator
+doc_job: doc-hydro-segbot_simulator
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Piyush Khandelwal <piyushk@gmail.com>, Jack O'Quin <jack.oquin@gmail.com>
+metapackages:
+- segbot_simulator
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-segbot-simulation-apps_sourcedeb
+- ros-hydro-segbot-simulation-apps_binarydeb_precise_amd64
+- ros-hydro-segbot-simulation-apps_binarydeb_precise_i386
+- ros-hydro-segbot-simulation-apps_binarydeb_quantal_amd64
+- ros-hydro-segbot-simulation-apps_binarydeb_quantal_i386
+- ros-hydro-segbot-simulation-apps_binarydeb_raring_amd64
+- ros-hydro-segbot-simulation-apps_binarydeb_raring_i386
+repo_name: segbot_simulator
+repo_url: https://github.com/utexas-bwi/segbot_simulator.git
+srvs:
+- DoorHandlerInterface
+timestamp: 1405975323.125144
+url: http://wiki.ros.org/segbot_simulation_apps
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/segbot_simulator.git
+vcs_version: master

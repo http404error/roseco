@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/husky_base/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- roslaunch
+- nav_msgs
+- catkin
+- diagnostic_aggregator
+- rospy
+- sensor_msgs
+- python_orocos_kdl
+- clearpath_base
+- geometry_msgs
+- diagnostic_msgs
+depends_on:
+- husky_bringup
+description: The husky_base package
+doc_job: doc-hydro-husky_base
+has_changelog_rst: true
+license: BSD
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-husky-base_sourcedeb
+- ros-hydro-husky-base_binarydeb_precise_amd64
+- ros-hydro-husky-base_binarydeb_precise_i386
+- ros-hydro-husky-base_binarydeb_quantal_amd64
+- ros-hydro-husky-base_binarydeb_quantal_i386
+- ros-hydro-husky-base_binarydeb_raring_amd64
+- ros-hydro-husky-base_binarydeb_raring_i386
+repo_name: husky_base
+repo_url: ''
+srvs: []
+timestamp: 1405973750.540436
+url: ''
+vcs: git
+vcs_uri: https://github.com/husky/husky_base.git
+vcs_version: hydro-devel

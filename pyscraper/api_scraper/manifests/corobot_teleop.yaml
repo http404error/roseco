@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/corobot_teleop/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- qt4
+- corobot_msgs
+- catkin
+- roscpp
+- Phidget_motor
+- corobot_joystick
+- sensor_msgs
+- corobot_arm
+- corobot_phidget_ik
+- qt-ros
+- phidget_motor
+depends_on:
+- corobot
+- corobot_launch
+description: "Teleoperation package that permits to control the Corobot. It also permits\
+  \ to connect to a distant Corobot.\n     Data such as Camera, sensor (IR, encoder,\
+  \ batterie life) values can be read."
+doc_job: doc-hydro-corobot
+has_changelog_rst: false
+license: BSD
+maintainers: Morgan Cormier <mcormier@coroware.com>
+metapackages:
+- corobot
+msgs: []
+package_type: package
+repo_name: corobot
+repo_url: ''
+srvs: []
+timestamp: 1405962632.238848
+url: http://ros.org/wiki/corobot_teleop
+vcs: git
+vcs_uri: https://github.com/morgancormier/corobot.git
+vcs_version: master

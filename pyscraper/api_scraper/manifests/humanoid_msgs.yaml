@@ -1,0 +1,36 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/humanoid_msgs/html
+authors: ''
+brief: ''
+bugtracker: https://github.com/ahornung/humanoid_msgs/issues
+depends: &id001
+- catkin
+depends_on:
+- humanoid_navigation
+description: Messages and services for humanoid robots
+devel_jobs:
+- devel-hydro-humanoid_msgs
+doc_job: doc-hydro-humanoid_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-humanoid-msgs_sourcedeb
+- ros-hydro-humanoid-msgs_binarydeb_precise_amd64
+- ros-hydro-humanoid-msgs_binarydeb_precise_i386
+- ros-hydro-humanoid-msgs_binarydeb_quantal_amd64
+- ros-hydro-humanoid-msgs_binarydeb_quantal_i386
+- ros-hydro-humanoid-msgs_binarydeb_raring_amd64
+- ros-hydro-humanoid-msgs_binarydeb_raring_i386
+repo_name: humanoid_msgs
+repo_url: https://github.com/ahornung/humanoid_msgs
+srvs: []
+timestamp: 1405973710.701359
+url: http://www.ros.org/wiki/humanoid_msgs
+vcs: git
+vcs_uri: https://github.com/ahornung/humanoid_msgs.git
+vcs_version: master

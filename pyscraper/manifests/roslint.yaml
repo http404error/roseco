@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/roslint/html
+authors: Mike Purvis, Jack O'Quin
+brief: ''
+bugtracker: https://github.com/ros/roslint/issues
+depends:
+- catkin
+depends_on:
+- flir_ptu_driver
+- concert_simple_scheduler
+- xacro
+- segbot_sensors
+- rocon_interactions
+- um6
+- nextage_ros_bridge
+- concert_scheduler_requests
+- rocon_scheduler_requests
+- scheduler_request_manager
+- concert_resource_pool
+- pointgrey_camera_driver
+- industrial_extrinsic_cal
+description: "CMake lint commands for ROS packages.\n\n    The lint commands perform\
+  \ static checking of Python or C++ source\n    code for errors and standards compliance."
+devel_jobs:
+- devel-hydro-roslint
+doc_job: doc-hydro-roslint
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-roslint_sourcedeb
+- ros-hydro-roslint_binarydeb_precise_amd64
+- ros-hydro-roslint_binarydeb_precise_i386
+- ros-hydro-roslint_binarydeb_quantal_amd64
+- ros-hydro-roslint_binarydeb_quantal_i386
+- ros-hydro-roslint_binarydeb_raring_amd64
+- ros-hydro-roslint_binarydeb_raring_i386
+repo_name: roslint
+repo_url: https://github.com/ros/roslint.git
+srvs: []
+timestamp: 1405773369.886887
+url: http://ros.org/wiki/roslint
+vcs: git
+vcs_uri: https://github.com/ros/roslint.git
+vcs_version: master

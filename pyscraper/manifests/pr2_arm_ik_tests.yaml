@@ -1,0 +1,26 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_arm_ik_tests/html
+authors: Sachin Chitta
+brief: pr2_arm_ik_tests
+bugtracker: ''
+depends:
+- urdf
+- planning_models
+- robot_model_loader
+- pr2_arm_kinematics
+- srdf
+depends_on: []
+description: "\n\n     pr2_arm_ik_tests\n\n  "
+doc_job: doc-hydro-moveit_pr2
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: moveit_pr2
+repo_url: ''
+srvs: []
+timestamp: 1405964114.714063
+url: http://ros.org/wiki/pr2_arm_ik_tests
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_pr2.git
+vcs_version: hydro-devel

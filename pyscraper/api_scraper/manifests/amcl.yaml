@@ -1,0 +1,57 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/amcl/html
+authors: Brian P. Gerkey, contradict@gmail.com
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- nav_msgs
+- map_server
+- std_srvs
+- roscpp
+- message_filters
+- rostest
+- tf
+- catkin
+- rosbag
+depends_on:
+- segbot_navigation
+- navigation
+- cob_navigation_global
+- erratic_navigation
+- turtlebot_navigation
+- husky_navigation
+- pr2_navigation_global
+description: "<p>\n            amcl is a probabilistic localization system for a robot\
+  \ moving in\n            2D. It implements the adaptive (or KLD-sampling) Monte\
+  \ Carlo\n            localization approach (as described by Dieter Fox), which uses\
+  \ a\n            particle filter to track the pose of a robot against a known map.\n\
+  \        </p>\n        <p>\n            This node is derived, with thanks, from\
+  \ Andrew Howard's excellent\n            'amcl' Player driver.\n        </p>"
+devel_jobs:
+- devel-hydro-navigation
+doc_job: doc-hydro-navigation
+has_changelog_rst: true
+license: LGPL
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <fergs@unboundedrobotics.com>
+metapackages:
+- navigation
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-amcl_sourcedeb
+- ros-hydro-amcl_binarydeb_precise_amd64
+- ros-hydro-amcl_binarydeb_precise_i386
+- ros-hydro-amcl_binarydeb_quantal_amd64
+- ros-hydro-amcl_binarydeb_quantal_i386
+- ros-hydro-amcl_binarydeb_raring_amd64
+- ros-hydro-amcl_binarydeb_raring_i386
+repo_name: navigation
+repo_url: ''
+srvs: []
+timestamp: 1405974622.757905
+url: http://wiki.ros.org/amcl
+vcs: git
+vcs_uri: https://github.com/ros-planning/navigation.git
+vcs_version: hydro-devel

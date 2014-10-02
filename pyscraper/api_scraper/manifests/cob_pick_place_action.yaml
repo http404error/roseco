@@ -1,0 +1,54 @@
+actions:
+- CobPick
+- CobPlace
+api_documentation: http://docs.ros.org/hydro/api/cob_pick_place_action/html
+authors: Felix Messmer <fxm@ipa.fhg.de>
+brief: ''
+bugtracker: https://github.com/ipa320/cob_manipulation/issues
+depends:
+- catkin
+- roscpp
+- actionlib
+- message_runtime
+- std_msgs
+- moveit_ros_move_group
+- cob_moveit_interface
+- tf
+- moveit_msgs
+- rospy
+- cob_grasp_generation
+- message_generation
+- geometry_msgs
+- actionlib_msgs
+- moveit_ros_planning_interface
+depends_on:
+- rosjava_messages
+- cob_manipulation
+description: An action interface to MoveIt!'s pick-and-place for Care-O-bot
+devel_jobs:
+- devel-hydro-cob_manipulation
+doc_job: doc-hydro-cob_manipulation
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Felix Messmer <fxm@ipa.fhg.de>
+metapackages:
+- cob_manipulation
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-pick-place-action_sourcedeb
+- ros-hydro-cob-pick-place-action_binarydeb_precise_amd64
+- ros-hydro-cob-pick-place-action_binarydeb_precise_i386
+- ros-hydro-cob-pick-place-action_binarydeb_quantal_amd64
+- ros-hydro-cob-pick-place-action_binarydeb_quantal_i386
+- ros-hydro-cob-pick-place-action_binarydeb_raring_amd64
+- ros-hydro-cob-pick-place-action_binarydeb_raring_i386
+repo_name: cob_manipulation
+repo_url: https://github.com/ipa320/cob_manipulation
+srvs: []
+timestamp: 1405962323.96162
+url: http://ros.org/wiki/cob_manipulation/
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_manipulation.git
+vcs_version: hydro_release_candidate

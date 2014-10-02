@@ -1,0 +1,24 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/win_dateutil/html
+authors: Daniel Stonier
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on:
+- win_python_build_tools
+description: Scripts to help download, patch and compile python dateutil.
+doc_job: doc-hydro-win_ros
+has_changelog_rst: false
+license: BSD
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+msgs: []
+package_type: package
+repo_name: win_ros
+repo_url: ''
+srvs: []
+timestamp: 1405975744.104175
+url: http://ros.org/wiki/win_dateutil
+vcs: git
+vcs_uri: https://github.com/ros-windows/win_ros.git
+vcs_version: hydro-devel

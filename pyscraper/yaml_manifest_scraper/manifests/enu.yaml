@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/enu/html
+authors: Mike Purvis <mpurvis@clearpathrobotics.com>, Ryan Gariepy <rgariepy@clearpathrobotics.com>
+brief: ''
+bugtracker: https://github.com/clearpathrobotics/enu/issues
+depends:
+- nav_msgs
+- rosconsole
+- catkin
+- roscpp
+- sensor_msgs
+- geometry_msgs
+- swiftnav
+depends_on:
+- husky_bringup
+description: enu
+devel_jobs:
+- devel-hydro-enu
+doc_job: doc-hydro-enu
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Mike Purvis <mpurvis@clearpathrobotics.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-enu_sourcedeb
+- ros-hydro-enu_binarydeb_precise_amd64
+- ros-hydro-enu_binarydeb_precise_i386
+- ros-hydro-enu_binarydeb_quantal_amd64
+- ros-hydro-enu_binarydeb_quantal_i386
+- ros-hydro-enu_binarydeb_raring_amd64
+- ros-hydro-enu_binarydeb_raring_i386
+repo_name: enu
+repo_url: https://github.com/clearpathrobotics/enu
+srvs:
+- FromFix
+- ToFix
+- ToENU
+timestamp: 1405770293.825674
+url: http://ros.org/wiki/enu
+vcs: git
+vcs_uri: https://github.com/clearpathrobotics/enu.git
+vcs_version: hydro

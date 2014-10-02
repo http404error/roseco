@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/concert_resource_pool/html
+authors: Jack O'Quin
+brief: ''
+bugtracker: https://github.com/utexas-bwi/concert_scheduling/issues
+depends:
+- python-yaml
+- catkin
+- scheduler_msgs
+- roslint
+- python-catkin-pkg
+- rocon_app_manager_msgs
+- concert_msgs
+- rospy
+- rosunit
+- rocon_std_msgs
+- rostest
+- rocon_uri
+- unique_id
+depends_on:
+- concert_scheduling
+description: Python interfaces for managing a pool of ROCON scheduler resources.
+doc_job: doc-hydro-concert_scheduling
+has_changelog_rst: true
+license: BSD
+maintainers: Jack O'Quin <jack.oquin@gmail.com>
+metapackages:
+- concert_scheduling
+msgs: []
+package_type: package
+repo_name: concert_scheduling
+repo_url: https://github.com/utexas-bwi/concert_scheduling.git
+srvs: []
+timestamp: 1405770041.599249
+url: http://wiki.ros.org/concert_resource_pool
+vcs: git
+vcs_uri: https://github.com/utexas-bwi/concert_scheduling.git
+vcs_version: master

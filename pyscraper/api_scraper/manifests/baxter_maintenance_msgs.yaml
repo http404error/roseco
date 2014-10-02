@@ -1,0 +1,50 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/baxter_maintenance_msgs/html
+authors: Rethink Robotics Inc.
+brief: ''
+bugtracker: https://github.com/RethinkRobotics/baxter_common/issues
+depends:
+- message_generation
+- catkin
+- message_runtime
+- std_msgs
+depends_on:
+- baxter_common
+- rosjava_messages
+- baxter_tools
+description: "Messages and Services required for use with maintenance procedures\n\
+  \    with the Baxter Research Robot from Rethink Robotics."
+devel_jobs:
+- devel-hydro-baxter_common
+doc_job: doc-hydro-baxter_common
+has_changelog_rst: false
+license: BSD
+maintainer_status: developed
+maintainers: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+metapackages:
+- baxter_common
+msgs:
+- CalibrateArmData
+- TareEnable
+- UpdateSources
+- UpdateSource
+- UpdateStatus
+- TareData
+- CalibrateArmEnable
+package_type: package
+release_jobs:
+- ros-hydro-baxter-maintenance-msgs_sourcedeb
+- ros-hydro-baxter-maintenance-msgs_binarydeb_precise_amd64
+- ros-hydro-baxter-maintenance-msgs_binarydeb_precise_i386
+- ros-hydro-baxter-maintenance-msgs_binarydeb_quantal_amd64
+- ros-hydro-baxter-maintenance-msgs_binarydeb_quantal_i386
+- ros-hydro-baxter-maintenance-msgs_binarydeb_raring_amd64
+- ros-hydro-baxter-maintenance-msgs_binarydeb_raring_i386
+repo_name: baxter_common
+repo_url: https://github.com/RethinkRobotics/baxter_common
+srvs: []
+timestamp: 1405961946.829095
+url: http://www.rethinkrobotics.com/sdk
+vcs: git
+vcs_uri: https://github.com/RethinkRobotics/baxter_common.git
+vcs_version: master

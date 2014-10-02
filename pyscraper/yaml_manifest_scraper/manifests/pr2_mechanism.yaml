@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_mechanism/html
+authors: Maintained by Wim Meeussen
+brief: ''
+bugtracker: ''
+depends: &id001
+- pr2_controller_manager
+- catkin
+- pr2_mechanism_diagnostics
+- pr2_controller_interface
+- pr2_hardware_interface
+- pr2_mechanism_model
+depends_on: []
+description: The pr2_mechanism stack contains the infrastructure to control the PR2
+  robot in a hard realtime control loop.
+devel_jobs:
+- devel-hydro-pr2_mechanism
+doc_job: doc-hydro-pr2_mechanism
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-pr2-mechanism_sourcedeb
+- ros-hydro-pr2-mechanism_binarydeb_precise_amd64
+- ros-hydro-pr2-mechanism_binarydeb_precise_i386
+- ros-hydro-pr2-mechanism_binarydeb_quantal_amd64
+- ros-hydro-pr2-mechanism_binarydeb_quantal_i386
+- ros-hydro-pr2-mechanism_binarydeb_raring_amd64
+- ros-hydro-pr2-mechanism_binarydeb_raring_i386
+repo_name: pr2_mechanism
+repo_url: ''
+srvs: []
+timestamp: 1405964531.969916
+url: http://ros.org/wiki/pr2_mechanism
+vcs: git
+vcs_uri: https://github.com/PR2/pr2_mechanism.git
+vcs_version: hydro-devel

@@ -1,0 +1,60 @@
+actions:
+- MoveBase
+api_documentation: http://docs.ros.org/hydro/api/move_base_msgs/html
+authors: Eitan Marder-Eppstein, contradict@gmail.com
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- actionlib_msgs
+- message_runtime
+- geometry_msgs
+- message_generation
+depends_on:
+- pr2_move_base
+- cob_collision_velocity_filter
+- elevator
+- cob_gazebo
+- rosjava_messages
+- pr2eus
+- navigation
+- cob_script_server
+- nao_path_follower
+- move_base
+- rosruby_messages
+- wheeled_robin_guided_tour
+- frontier_exploration
+- yocs_waypoints_navi
+- segbot_logical_translator
+- move_base_straight
+- cob_linear_nav
+description: Holds the action description and relevant messages for the move_base
+  package
+devel_jobs:
+- devel-hydro-navigation
+doc_job: doc-hydro-navigation
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <fergs@unboundedrobotics.com>
+metapackages:
+- navigation
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-move-base-msgs_sourcedeb
+- ros-hydro-move-base-msgs_binarydeb_precise_amd64
+- ros-hydro-move-base-msgs_binarydeb_precise_i386
+- ros-hydro-move-base-msgs_binarydeb_quantal_amd64
+- ros-hydro-move-base-msgs_binarydeb_quantal_i386
+- ros-hydro-move-base-msgs_binarydeb_raring_amd64
+- ros-hydro-move-base-msgs_binarydeb_raring_i386
+repo_name: navigation
+repo_url: ''
+srvs: []
+timestamp: 1405974578.186456
+url: http://wiki.ros.org/move_base_msgs
+vcs: git
+vcs_uri: https://github.com/ros-planning/navigation.git
+vcs_version: hydro-devel

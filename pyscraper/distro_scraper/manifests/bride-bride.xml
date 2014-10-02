@@ -1,0 +1,26 @@
+<package>
+  <name>bride</name>
+  <version>0.3.3</version>
+  <description>
+
+     installer.py installs a full eclipse installation in this package. Additionally CDT and the BRIDE plugins will be installed. After rosmake you have the full model driven engineering tool chain accessible inside this package.
+
+  </description>
+  <maintainer email="aub@ipa.fraunhofer.de">Alexander Bubeck</maintainer>
+  <author email="aub@ipa.fraunhofer.de">Alexander Bubeck</author>
+  <license>BSD</license>
+  
+  <url>http://ros.org/wiki/bride</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospack</build_depend>
+
+  <run_depend>bride_templates</run_depend>
+  <run_depend>bride_tutorials</run_depend>
+  <run_depend>bride_compilers</run_depend>
+
+  <build_depend>curl</build_depend>
+  <build_depend>java</build_depend>
+  <run_depend>java</run_depend>
+
+
+</package>

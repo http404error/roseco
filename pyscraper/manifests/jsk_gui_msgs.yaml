@@ -1,0 +1,56 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/jsk_gui_msgs/html
+authors: chen
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- std_msgs
+- message_runtime
+- sensor_msgs
+- geometry_msgs
+- message_generation
+depends_on:
+- rosjava_messages
+- jsk_common
+description: jsk_gui_msgs
+devel_jobs:
+- devel-hydro-jsk_common
+doc_job: doc-hydro-jsk_common
+has_changelog_rst: true
+license: Apache 2.0
+maintainer_status: developed
+maintainers: KazutoMurase <murase@jsk.imi.i.u-tokyo.ac.jp>
+metapackages:
+- jsk_common
+msgs:
+- Imu
+- TouchEvent
+- Gravity
+- Tablet
+- MultiTouch
+- DeviceSensorALL
+- AndroidSensor
+- DeviceSensor
+- MagneticField
+- Action
+- VoiceMessage
+- Touch
+package_type: package
+release_jobs:
+- ros-hydro-jsk-gui-msgs_sourcedeb
+- ros-hydro-jsk-gui-msgs_binarydeb_precise_amd64
+- ros-hydro-jsk-gui-msgs_binarydeb_precise_i386
+- ros-hydro-jsk-gui-msgs_binarydeb_quantal_amd64
+- ros-hydro-jsk-gui-msgs_binarydeb_quantal_i386
+- ros-hydro-jsk-gui-msgs_binarydeb_raring_amd64
+- ros-hydro-jsk-gui-msgs_binarydeb_raring_i386
+repo_name: jsk_common
+repo_url: ''
+srvs:
+- Query
+timestamp: 1405771532.441262
+url: ''
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

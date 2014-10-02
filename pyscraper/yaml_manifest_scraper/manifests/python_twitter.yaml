@@ -1,0 +1,21 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/python_twitter/html
+authors: applications
+brief: python_twitter
+bugtracker: ''
+depends: ''
+depends_on: []
+description: "\n\n     python_twitter\n\n  "
+doc_job: doc-hydro-jsk_common
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771509.564487
+url: http://ros.org/wiki/python_twitter
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

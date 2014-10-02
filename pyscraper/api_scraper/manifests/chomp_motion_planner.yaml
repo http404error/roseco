@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/chomp_motion_planner/html
+authors: Gil Jones
+brief: chomp_motion_planner
+bugtracker: ''
+depends:
+- planning_scene
+- collision_distance_field
+depends_on:
+- pr2_test_chomp_planner
+- chomp_interface_ros
+description: "\n\n     chomp_motion_planner\n\n  "
+doc_job: doc-hydro-moveit_planners
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: moveit_planners
+repo_url: ''
+srvs: []
+timestamp: 1405974503.811622
+url: http://ros.org/wiki/chomp_motion_planner
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_planners.git
+vcs_version: hydro-devel

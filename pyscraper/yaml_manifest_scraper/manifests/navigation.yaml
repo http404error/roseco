@@ -1,0 +1,57 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/navigation/html
+authors: contradict@gmail.com, Eitan Marder-Eppstein
+brief: ''
+bugtracker: ''
+depends: &id001
+- move_base
+- navfn
+- clear_costmap_recovery
+- catkin
+- costmap_2d
+- dwa_local_planner
+- base_local_planner
+- carrot_planner
+- map_server
+- voxel_grid
+- rotate_recovery
+- amcl
+- fake_localization
+- move_base_msgs
+- move_slow_and_clear
+- nav_core
+- robot_pose_ekf
+depends_on:
+- erratic_robot
+- nao_extras
+- humanoid_navigation
+- pr2_navigation
+description: "A 2D navigation stack that takes in information from odometry, sensor\n\
+  \        streams, and a goal pose and outputs safe velocity commands that are sent\n\
+  \        to a mobile base."
+devel_jobs:
+- devel-hydro-navigation
+doc_job: doc-hydro-navigation
+has_changelog_rst: true
+license: BSD,LGPL,LGPL (amcl)
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <fergs@unboundedrobotics.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-navigation_sourcedeb
+- ros-hydro-navigation_binarydeb_precise_amd64
+- ros-hydro-navigation_binarydeb_precise_i386
+- ros-hydro-navigation_binarydeb_quantal_amd64
+- ros-hydro-navigation_binarydeb_quantal_i386
+- ros-hydro-navigation_binarydeb_raring_amd64
+- ros-hydro-navigation_binarydeb_raring_i386
+repo_name: navigation
+repo_url: ''
+srvs: []
+timestamp: 1405974632.345217
+url: http://wiki.ros.org/navigation
+vcs: git
+vcs_uri: https://github.com/ros-planning/navigation.git
+vcs_version: hydro-devel

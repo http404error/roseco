@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ecl_eigen/html
+authors: Daniel Stonier <d.stonier@gmail.com>
+brief: ''
+bugtracker: https://github.com/stonier/ecl_core/issues
+depends:
+- catkin
+- eigen
+- ecl_license
+depends_on:
+- ecl_core
+- ecl_linear_algebra
+description: This provides an Eigen implementation for ecl's linear algebra.
+devel_jobs:
+- devel-hydro-ecl_core
+doc_job: doc-hydro-ecl_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- ecl_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-ecl-eigen_sourcedeb
+- ros-hydro-ecl-eigen_binarydeb_precise_amd64
+- ros-hydro-ecl-eigen_binarydeb_precise_i386
+- ros-hydro-ecl-eigen_binarydeb_quantal_amd64
+- ros-hydro-ecl-eigen_binarydeb_quantal_i386
+- ros-hydro-ecl-eigen_binarydeb_raring_amd64
+- ros-hydro-ecl-eigen_binarydeb_raring_i386
+repo_name: ecl_core
+repo_url: https://github.com/stonier/ecl_core
+srvs: []
+timestamp: 1405963090.391653
+url: http://wiki.ros.org/ecl_eigen
+vcs: git
+vcs_uri: https://github.com/stonier/ecl_core.git
+vcs_version: hydro-devel

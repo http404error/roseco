@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kobuki_core/html
+authors: Daniel Stonier <stonier@yujinrobot.com>, Younghun Ju <yhju@yujinrobot.com>,
+  Jorge Santos Simon <jorge@yujinrobot.com>, Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/kobuki_core/issues
+depends: &id001
+- kobuki_ftdi
+- kobuki_dock_drive
+- catkin
+- kobuki_driver
+depends_on: []
+description: Non-ROS software for Kobuki, Yujin Robot's mobile research base.
+devel_jobs:
+- devel-hydro-kobuki_core
+doc_job: doc-hydro-kobuki_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Daniel Stonier <stonier@yujinrobot.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-kobuki-core_sourcedeb
+- ros-hydro-kobuki-core_binarydeb_precise_amd64
+- ros-hydro-kobuki-core_binarydeb_precise_i386
+- ros-hydro-kobuki-core_binarydeb_quantal_amd64
+- ros-hydro-kobuki-core_binarydeb_quantal_i386
+- ros-hydro-kobuki-core_binarydeb_raring_amd64
+- ros-hydro-kobuki-core_binarydeb_raring_i386
+repo_name: kobuki_core
+repo_url: https://github.com/yujinrobot/kobuki_core
+srvs: []
+timestamp: 1405974047.404054
+url: http://ros.org/wiki/kobuki_core
+vcs: git
+vcs_uri: https://github.com/yujinrobot/kobuki_core.git
+vcs_version: hydro

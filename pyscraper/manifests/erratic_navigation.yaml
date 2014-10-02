@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/erratic_navigation/html
+authors: Antons Rebguns
+brief: Navigation stack configuration for Erratic robot
+bugtracker: ''
+depends:
+- move_base
+- topic_tools
+- amcl
+- gmapping
+depends_on:
+- erratic_navigation_apps
+description: "\n        This package contains configuration and launch files necessary\
+  \ to run\n        ROS navigation stack on the Erratic robot.\n    "
+doc_job: doc-hydro-erratic_robot
+license: BSD
+maintainers: ''
+metapackages:
+- erratic_robot
+msgs: []
+package_type: package
+repo_name: erratic_robot
+repo_url: ''
+srvs: []
+timestamp: 1405963239.01142
+url: http://ros.org/wiki/erratic_navigation
+vcs: git
+vcs_uri: https://github.com/arebgun/erratic_robot.git
+vcs_version: master

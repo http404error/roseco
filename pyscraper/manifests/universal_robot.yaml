@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/universal_robot/html
+authors: Shaun Edwards <sedwards@swri.org>, Stuart Glaser, Kelsey Hawkins <kphawkins@gatech.edu>,
+  Wim Meeussen
+brief: ''
+bugtracker: ''
+depends: &id001
+- ur_gazebo
+- catkin
+- ur10_moveit_config
+- ur5_moveit_config
+- ur_kinematics
+- ur_description
+- ur_bringup
+- ur_driver
+depends_on: []
+description: Drivers, description, and utilities for Universal Robot Arms.
+devel_jobs:
+- devel-hydro-universal_robot
+doc_job: doc-hydro-universal_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Shaun Edwards <sedwards@swri.org>, Kelsey Hawkins <kphawkins@gatech.edu>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-universal-robot_sourcedeb
+- ros-hydro-universal-robot_binarydeb_precise_amd64
+- ros-hydro-universal-robot_binarydeb_precise_i386
+- ros-hydro-universal-robot_binarydeb_quantal_amd64
+- ros-hydro-universal-robot_binarydeb_quantal_i386
+- ros-hydro-universal-robot_binarydeb_raring_amd64
+- ros-hydro-universal-robot_binarydeb_raring_i386
+repo_name: universal_robot
+repo_url: ''
+srvs: []
+timestamp: 1405774322.656044
+url: http://ros.org/wiki/universal_robot
+vcs: git
+vcs_uri: https://github.com/ros-industrial/universal_robot.git
+vcs_version: hydro

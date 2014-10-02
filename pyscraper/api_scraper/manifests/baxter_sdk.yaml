@@ -1,0 +1,40 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/baxter_sdk/html
+authors: Rethink Robotics Inc.
+brief: ''
+bugtracker: https://github.com/RethinkRobotics/baxter/issues
+depends: &id001
+- baxter_interface
+- baxter_examples
+- catkin
+- baxter_tools
+- baxter_common
+depends_on: []
+description: "baxter_sdk metapackage containing all of the SDK packages\n    for the\
+  \ Baxter Research Robot from Rethink Robotics."
+devel_jobs:
+- devel-hydro-baxter
+doc_job: doc-hydro-baxter
+has_changelog_rst: false
+license: BSD
+maintainer_status: developed
+maintainers: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-baxter-sdk_sourcedeb
+- ros-hydro-baxter-sdk_binarydeb_precise_amd64
+- ros-hydro-baxter-sdk_binarydeb_precise_i386
+- ros-hydro-baxter-sdk_binarydeb_quantal_amd64
+- ros-hydro-baxter-sdk_binarydeb_quantal_i386
+- ros-hydro-baxter-sdk_binarydeb_raring_amd64
+- ros-hydro-baxter-sdk_binarydeb_raring_i386
+repo_name: baxter
+repo_url: https://github.com/RethinkRobotics/baxter
+srvs: []
+timestamp: 1405769657.536355
+url: http://www.rethinkrobotics.com/sdk
+vcs: git
+vcs_uri: https://github.com/RethinkRobotics/baxter.git
+vcs_version: master

@@ -1,0 +1,29 @@
+<package>
+  <name>rosh_desktop_plugins</name>
+  <version>1.0.2</version>
+  <description>ROSH plugins related to the desktop variant.</description>
+  <maintainer email="dan@lazewatsky.com">Dan Lazewatsky</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/rosh_desktop_plugins</url>
+  <url type="bugtracker">https://github.com/OSUrobotics/rosh_desktop_plugins/issues</url>
+
+  <author>Ken Conley</author>
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  
+
+
+  
+  <run_depend>rosh_visualization</run_depend>
+  <run_depend>rosh_desktop</run_depend>
+
+  
+  <export>
+    <metapackage />
+  </export>
+
+</package>

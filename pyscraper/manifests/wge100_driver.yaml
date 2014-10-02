@@ -1,0 +1,21 @@
+authors: Patrick Mihelich
+depends:
+- wge100_camera_firmware
+- catkin
+- wge100_camera
+description: This stack contains the ROS driver and firmware for the WGE100 camera
+  used on the PR2 robot.
+license: BSD,GPL because of list.h; other files released under BSD,GPL
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-wge100-driver_sourcedeb
+- ros-hydro-wge100-driver_binarydeb_precise_amd64
+- ros-hydro-wge100-driver_binarydeb_precise_i386
+- ros-hydro-wge100-driver_binarydeb_quantal_amd64
+- ros-hydro-wge100-driver_binarydeb_quantal_i386
+- ros-hydro-wge100-driver_binarydeb_raring_amd64
+- ros-hydro-wge100-driver_binarydeb_raring_i386
+repo_name: wge100_driver
+timestamp: 1405956415.168864
+url: http://ros.org/wiki/wge100_driver

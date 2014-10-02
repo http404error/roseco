@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ros_control/html
+authors: Wim Meeussen
+brief: ''
+bugtracker: https://github.com/ros-controls/ros_control/issues
+depends: &id001
+- hardware_interface
+- controller_interface
+- controller_manager
+- transmission_interface
+- joint_limits_interface
+- realtime_tools
+- control_toolbox
+- catkin
+- controller_manager_tests
+- controller_manager_msgs
+depends_on: []
+description: A set of packages that include controller interfaces, controller managers,
+  transmissions, hardware_interfaces and the control_toolbox.
+devel_jobs:
+- devel-hydro-ros_control
+doc_job: doc-hydro-ros_control
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Wim Meeussen <wim@hidof.com>, Adolfo Rodriguez Tsouroukdissian <adolfo.rodriguez@pal-robotics.com>,
+  Dave Coleman <davetcoleman@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-ros-control_sourcedeb
+- ros-hydro-ros-control_binarydeb_precise_amd64
+- ros-hydro-ros-control_binarydeb_precise_i386
+- ros-hydro-ros-control_binarydeb_quantal_amd64
+- ros-hydro-ros-control_binarydeb_quantal_i386
+- ros-hydro-ros-control_binarydeb_raring_amd64
+- ros-hydro-ros-control_binarydeb_raring_i386
+repo_name: ros_control
+repo_url: https://github.com/ros-controls/ros_control/
+srvs: []
+timestamp: 1405773271.57504
+url: http://ros.org/wiki/ros_control
+vcs: git
+vcs_uri: https://github.com/ros-controls/ros_control.git
+vcs_version: hydro-devel

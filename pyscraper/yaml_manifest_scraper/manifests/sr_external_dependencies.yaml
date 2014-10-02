@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_external_dependencies/html
+authors: Ugo Cupcic
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-ros-interface-ethercat/issues
+depends:
+- catkin
+depends_on:
+- sr_edc_ethercat_drivers
+- shadow_robot_ethercat
+- sr_robot_lib
+description: sr_external_dependencies package is a &quot;dummy&quot; package used
+  to synchronize the includes for the protocol communication between the host and
+  the PIC for Shadow's EtherCAT hardware. It contains a script that automatically
+  downloads the latest h file from our pic32 svn.
+devel_jobs:
+- devel-hydro-shadow_robot_ethercat
+doc_job: doc-hydro-shadow_robot_ethercat
+has_changelog_rst: true
+license: GPL
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- shadow_robot_ethercat
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sr-external-dependencies_sourcedeb
+- ros-hydro-sr-external-dependencies_binarydeb_precise_amd64
+- ros-hydro-sr-external-dependencies_binarydeb_precise_i386
+- ros-hydro-sr-external-dependencies_binarydeb_quantal_amd64
+- ros-hydro-sr-external-dependencies_binarydeb_quantal_i386
+- ros-hydro-sr-external-dependencies_binarydeb_raring_amd64
+- ros-hydro-sr-external-dependencies_binarydeb_raring_i386
+repo_name: shadow_robot_ethercat
+repo_url: https://github.com/shadow-robot/sr-ros-interface-ethercat
+srvs: []
+timestamp: 1405975381.88678
+url: http://ros.org/wiki/sr_external_dependencies
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-ros-interface-ethercat.git
+vcs_version: hydro-devel

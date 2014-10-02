@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/people/html
+authors: Caroline Pantofaru
+brief: ''
+bugtracker: ''
+depends: &id001
+- catkin
+- people_tracking_filter
+- face_detector
+- leg_detector
+- people_velocity_tracker
+- people_msgs
+- social_navigation_layers
+depends_on: []
+description: The people stack holds algorithms for perceiving people from a number
+  of sensors.
+devel_jobs:
+- devel-hydro-people
+doc_job: doc-hydro-people
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dan Lazewatsky <dan@lazewatsky.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-people_sourcedeb
+- ros-hydro-people_binarydeb_precise_amd64
+- ros-hydro-people_binarydeb_precise_i386
+- ros-hydro-people_binarydeb_quantal_amd64
+- ros-hydro-people_binarydeb_quantal_i386
+- ros-hydro-people_binarydeb_raring_amd64
+- ros-hydro-people_binarydeb_raring_i386
+repo_name: people
+repo_url: ''
+srvs: []
+timestamp: 1405974729.638378
+url: http://ros.org/wiki/people
+vcs: git
+vcs_uri: https://github.com/wg-perception/people.git
+vcs_version: hydro-devel

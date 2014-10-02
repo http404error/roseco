@@ -1,0 +1,50 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/yocs_virtual_sensor/html
+authors: Jorge Santos <jorge@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/yujin_ocs/issues
+depends:
+- catkin
+- roscpp
+- rospy_message_converter
+- yocs_math_toolkit
+- sensor_msgs
+- yocs_msgs
+- geometry_msgs
+- visualization_msgs
+- tf
+- rospy
+depends_on:
+- yujin_ocs
+description: "Virtual sensor that uses semantic map information to &quot;see&quot;\
+  \ obstacles undetectable by robot sensors.\n      \n      Current implementation\
+  \ cannot read obstacles from YAML files. Until this feature gets implemented, we\n\
+  \      use auxiliary scripts to read and publish files' content. Data directory\
+  \ contains some example files."
+devel_jobs:
+- devel-hydro-yujin_ocs
+doc_job: doc-hydro-yujin_ocs
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Jorge Santos <jorge@yujinrobot.com>
+metapackages:
+- yujin_ocs
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-yocs-virtual-sensor_sourcedeb
+- ros-hydro-yocs-virtual-sensor_binarydeb_precise_amd64
+- ros-hydro-yocs-virtual-sensor_binarydeb_precise_i386
+- ros-hydro-yocs-virtual-sensor_binarydeb_quantal_amd64
+- ros-hydro-yocs-virtual-sensor_binarydeb_quantal_i386
+- ros-hydro-yocs-virtual-sensor_binarydeb_raring_amd64
+- ros-hydro-yocs-virtual-sensor_binarydeb_raring_i386
+repo_name: yujin_ocs
+repo_url: https://github.com/yujinrobot/yujin_ocs
+srvs: []
+timestamp: 1405774566.206357
+url: http://ros.org/wiki/yocs_virtual_sensor
+vcs: git
+vcs_uri: https://github.com/yujinrobot/yujin_ocs.git
+vcs_version: hydro

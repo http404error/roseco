@@ -1,0 +1,24 @@
+authors: ''
+depends:
+- catkin
+- r2_msgs
+- interactive_markers
+- sensor_msgs
+- geometry_msgs
+- tf
+- orocos_kdl
+description: The r2_teleop package
+license: BSD
+maintainers: David Lu!! <davidvlu@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-r2-teleop_sourcedeb
+- ros-hydro-r2-teleop_binarydeb_precise_amd64
+- ros-hydro-r2-teleop_binarydeb_precise_i386
+- ros-hydro-r2-teleop_binarydeb_quantal_amd64
+- ros-hydro-r2-teleop_binarydeb_quantal_i386
+- ros-hydro-r2-teleop_binarydeb_raring_amd64
+- ros-hydro-r2-teleop_binarydeb_raring_i386
+repo_name: nasa_r2_common
+timestamp: 1405956415.011003
+url: http://ros.org/wiki/r2_teleop

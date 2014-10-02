@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosboost_cfg/html
+authors: Josh Faust
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+depends_on:
+- assimp_devel
+- ros
+- libsiftfast
+- jsk_pcl_ros
+- rosping
+description: Contains scripts used by the rosboost-cfg tool for determining cflags/lflags/etc.
+  of boost on your system
+devel_jobs:
+- devel-hydro-ros
+doc_job: doc-hydro-ros
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Dirk Thomas <dthomas@osrfoundation.org>
+metapackages:
+- ros
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosboost-cfg_sourcedeb
+- ros-hydro-rosboost-cfg_binarydeb_precise_amd64
+- ros-hydro-rosboost-cfg_binarydeb_precise_i386
+- ros-hydro-rosboost-cfg_binarydeb_quantal_amd64
+- ros-hydro-rosboost-cfg_binarydeb_quantal_i386
+- ros-hydro-rosboost-cfg_binarydeb_raring_amd64
+- ros-hydro-rosboost-cfg_binarydeb_raring_i386
+repo_name: ros
+repo_url: ''
+srvs: []
+timestamp: 1405974954.726743
+url: http://ros.org/wiki/rosboost_cfg
+vcs: git
+vcs_uri: https://github.com/ros/ros.git
+vcs_version: hydro-devel

@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/labust_primitives/html
+authors: Gyula Nagy <dula.nad@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- actionlib
+- navcon_msgs
+- auv_msgs
+- tf2_ros
+- actionlib_msgs
+- snippets
+depends_on: []
+description: "The package contains the actions and primitives used for high-level\
+  \ control and \n      mission management."
+doc_job: doc-hydro-labust_ros_pkg
+has_changelog_rst: false
+license: BSD
+maintainers: Gyula Nagy <dula.nad@gmail.com>
+msgs: []
+package_type: package
+repo_name: labust_ros_pkg
+repo_url: ''
+srvs: []
+timestamp: 1405771639.966362
+url: ''
+vcs: git
+vcs_uri: https://github.com/labust/labust-ros-pkg.git
+vcs_version: master

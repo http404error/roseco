@@ -1,0 +1,22 @@
+authors: Vincent Rabaud <vincent.rabaud@gmail.com>
+depends:
+- opencv2
+- object_recognition_core
+- ecto
+- catkin
+- object_recognition_renderer
+description: An object recognition pipeline that uses LINE-MOD from OpenCV
+license: BSD
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-object-recognition-linemod_sourcedeb
+- ros-hydro-object-recognition-linemod_binarydeb_precise_amd64
+- ros-hydro-object-recognition-linemod_binarydeb_precise_i386
+- ros-hydro-object-recognition-linemod_binarydeb_quantal_amd64
+- ros-hydro-object-recognition-linemod_binarydeb_quantal_i386
+- ros-hydro-object-recognition-linemod_binarydeb_raring_amd64
+- ros-hydro-object-recognition-linemod_binarydeb_raring_i386
+repo_name: object_recognition_linemod
+timestamp: 1405956414.909391
+url: https://github.com/wg-perception/linemod

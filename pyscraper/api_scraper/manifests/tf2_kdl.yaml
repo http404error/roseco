@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/tf2_kdl/html
+authors: Wim Meeussen
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- eigen
+- rostest
+- tf2_ros
+- orocos_kdl
+- tf2
+depends_on:
+- geometry_experimental
+- test_tf2
+description: KDL binding for tf2
+devel_jobs:
+- devel-hydro-geometry_experimental
+doc_job: doc-hydro-geometry_experimental
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Tully Foote <tfoote@osrfoundation.org>
+metapackages:
+- geometry_experimental
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-tf2-kdl_sourcedeb
+- ros-hydro-tf2-kdl_binarydeb_precise_amd64
+- ros-hydro-tf2-kdl_binarydeb_precise_i386
+- ros-hydro-tf2-kdl_binarydeb_quantal_amd64
+- ros-hydro-tf2-kdl_binarydeb_quantal_i386
+- ros-hydro-tf2-kdl_binarydeb_raring_amd64
+- ros-hydro-tf2-kdl_binarydeb_raring_i386
+repo_name: geometry_experimental
+repo_url: ''
+srvs: []
+timestamp: 1405973843.820084
+url: http://ros.org/wiki/tf2
+vcs: git
+vcs_uri: https://github.com/ros/geometry-experimental.git
+vcs_version: hydro-devel

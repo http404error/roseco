@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/velodyne/html
+authors: Jack O'Quin
+brief: ''
+bugtracker: https://github.com/ros-drivers/velodyne/issues
+depends: &id001
+- velodyne_driver
+- velodyne_msgs
+- velodyne_pointcloud
+- catkin
+depends_on: []
+description: Basic ROS support for the Velodyne 3D LIDARs.
+devel_jobs:
+- devel-hydro-velodyne
+doc_job: doc-hydro-velodyne
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Jack O'Quin <jack.oquin@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-velodyne_sourcedeb
+- ros-hydro-velodyne_binarydeb_precise_amd64
+- ros-hydro-velodyne_binarydeb_precise_i386
+- ros-hydro-velodyne_binarydeb_quantal_amd64
+- ros-hydro-velodyne_binarydeb_quantal_i386
+- ros-hydro-velodyne_binarydeb_raring_amd64
+- ros-hydro-velodyne_binarydeb_raring_i386
+repo_name: velodyne
+repo_url: https://github.com/ros-drivers/velodyne
+srvs: []
+timestamp: 1405975614.084292
+url: http://www.ros.org/wiki/velodyne
+vcs: git
+vcs_uri: https://github.com/ros-drivers/velodyne.git
+vcs_version: master

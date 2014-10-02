@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ros_arduino_bridge/html
+authors: Patrick Goebel
+brief: ''
+bugtracker: ''
+depends: &id001
+- ros_arduino_python
+- ros_arduino_firmware
+- catkin
+- ros_arduino_msgs
+depends_on: []
+description: Metapackage for ros_arduino_bridge.
+doc_job: doc-hydro-ros_arduino_bridge
+has_changelog_rst: false
+license: BSD
+maintainers: Patrick Goebel <patrick@pirobot.org>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: ros_arduino_bridge
+repo_url: ''
+srvs: []
+timestamp: 1405964733.790542
+url: http://ros.org/wiki/ros_arduino_bridge
+vcs: git
+vcs_uri: https://github.com/hbrobotics/ros_arduino_bridge.git
+vcs_version: hydro-devel

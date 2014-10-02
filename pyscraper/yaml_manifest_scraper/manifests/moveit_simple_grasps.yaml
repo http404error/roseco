@@ -1,0 +1,56 @@
+actions:
+- GenerateGrasps
+api_documentation: http://docs.ros.org/hydro/api/moveit_simple_grasps/html
+authors: Dave Coleman <davetcoleman@gmail.com>
+brief: ''
+bugtracker: https://github.com/davetcoleman/simple_grasps/issues
+depends:
+- moveit_core
+- message_runtime
+- catkin
+- roscpp
+- actionlib_msgs
+- moveit_visual_tools
+- actionlib
+- trajectory_msgs
+- std_msgs
+- eigen_conversions
+- moveit_ros_planning
+- message_generation
+- cmake_modules
+- geometry_msgs
+- moveit_ros_planning_interface
+- tf
+- moveit_msgs
+- tf_conversions
+depends_on:
+- rosjava_messages
+description: "A basic grasp generator for simple objects such as blocks or cylinders\
+  \ for use with the MoveIt! pick and place pipeline. \n    Does not consider friction\
+  \ cones or other dynamics."
+devel_jobs:
+- devel-hydro-moveit_simple_grasps
+doc_job: doc-hydro-moveit_simple_grasps
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Dave Coleman <davetcoleman@gmail.com>
+msgs:
+- GraspGeneratorOptions
+package_type: package
+release_jobs:
+- ros-hydro-moveit-simple-grasps_sourcedeb
+- ros-hydro-moveit-simple-grasps_binarydeb_precise_amd64
+- ros-hydro-moveit-simple-grasps_binarydeb_precise_i386
+- ros-hydro-moveit-simple-grasps_binarydeb_quantal_amd64
+- ros-hydro-moveit-simple-grasps_binarydeb_quantal_i386
+- ros-hydro-moveit-simple-grasps_binarydeb_raring_amd64
+- ros-hydro-moveit-simple-grasps_binarydeb_raring_i386
+repo_name: moveit_simple_grasps
+repo_url: https://github.com/davetcoleman/simple_grasps
+srvs: []
+timestamp: 1405771956.188045
+url: https://github.com/davetcoleman/simple_grasps/
+vcs: git
+vcs_uri: https://github.com/davetcoleman/moveit_simple_grasps.git
+vcs_version: hydro-devel

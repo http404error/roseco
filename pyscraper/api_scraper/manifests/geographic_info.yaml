@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/geographic_info/html
+authors: Jack O'Quin
+brief: ''
+bugtracker: https://github.com/ros-geographic-info/geographic_info/issues
+depends: &id001
+- geographic_msgs
+- catkin
+- geodesy
+depends_on: []
+description: "Geographic information metapackage.\n\n    DEPRECATED for wet packages,\
+  \ use only to resolve dry stack\n    dependencies."
+devel_jobs:
+- devel-hydro-geographic_info
+doc_job: doc-hydro-geographic_info
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Jack O'Quin <jack.oquin@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-geographic-info_sourcedeb
+- ros-hydro-geographic-info_binarydeb_precise_amd64
+- ros-hydro-geographic-info_binarydeb_precise_i386
+- ros-hydro-geographic-info_binarydeb_quantal_amd64
+- ros-hydro-geographic-info_binarydeb_quantal_i386
+- ros-hydro-geographic-info_binarydeb_raring_amd64
+- ros-hydro-geographic-info_binarydeb_raring_i386
+repo_name: geographic_info
+repo_url: https://github.com/ros-geographic-info/geographic_info
+srvs: []
+timestamp: 1405770675.992766
+url: http://ros.org/wiki/geographic_info
+vcs: git
+vcs_uri: https://github.com/ros-geographic-info/geographic_info.git
+vcs_version: master

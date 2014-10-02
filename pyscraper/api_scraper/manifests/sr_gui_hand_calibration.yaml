@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_gui_hand_calibration/html
+authors: Ugo Cupcic <software@shadowrobot.com>
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-visualization/issues
+depends:
+- catkin
+- rqt_gui
+- sr_robot_lib
+- rospy
+- rqt_gui_py
+- sr_robot_msgs
+depends_on:
+- sr_visualization
+description: A GUI plugin for calibrating the Shadow EtherCAT Hand.
+devel_jobs:
+- devel-hydro-sr_visualization
+doc_job: doc-hydro-sr_visualization
+has_changelog_rst: true
+license: GPL
+maintainer_status: maintained
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- sr_visualization
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sr-gui-hand-calibration_sourcedeb
+- ros-hydro-sr-gui-hand-calibration_binarydeb_precise_amd64
+- ros-hydro-sr-gui-hand-calibration_binarydeb_precise_i386
+- ros-hydro-sr-gui-hand-calibration_binarydeb_quantal_amd64
+- ros-hydro-sr-gui-hand-calibration_binarydeb_quantal_i386
+- ros-hydro-sr-gui-hand-calibration_binarydeb_raring_amd64
+- ros-hydro-sr-gui-hand-calibration_binarydeb_raring_i386
+repo_name: sr_visualization
+repo_url: https://github.com/shadow-robot/sr-visualization
+srvs: []
+timestamp: 1405774013.00615
+url: http://ros.org/wiki/sr_gui_hand_calibration
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-visualization.git
+vcs_version: hydro-devel

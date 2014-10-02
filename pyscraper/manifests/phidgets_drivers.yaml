@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/phidgets_drivers/html
+authors: Phidgets Inc., Tully Foote, Ivan Dryanovski
+brief: ''
+bugtracker: ''
+depends: &id001
+- phidgets_ir
+- catkin
+- phidgets_api
+- phidgets_imu
+depends_on: []
+description: API and ROS drivers for Phidgets devices
+doc_job: doc-hydro-phidgets_drivers
+has_changelog_rst: false
+license: BSD, LGPL
+maintainers: Murilo F. M. <muhrix@gmail.com>, Ivan Dryanovski <ccnyroboticslab@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+repo_name: phidgets_drivers
+repo_url: ''
+srvs: []
+timestamp: 1405964417.052313
+url: http://ros.org/wiki/phidgets_drivers
+vcs: git
+vcs_uri: https://github.com/ccny-ros-pkg/phidgets_drivers.git
+vcs_version: hydro

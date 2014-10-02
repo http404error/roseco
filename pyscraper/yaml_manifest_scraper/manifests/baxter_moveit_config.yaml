@@ -1,0 +1,27 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/baxter_moveit_config/html
+authors: MoveIt Setup Assistant <assistant@moveit.ros.org>
+brief: ''
+bugtracker: https://github.com/RethinkRobotics/baxter/issues
+depends:
+- moveit_simple_controller_manager
+- baxter_description
+- catkin
+- moveit_ros_move_group
+depends_on: []
+description: An automatically generated package with all the configuration and launch
+  files for using the baxter with the MoveIt Motion Planning Framework
+doc_job: doc-hydro-moveit_robots
+has_changelog_rst: false
+license: BSD
+maintainers: MoveIt Setup Assistant <assistant@moveit.ros.org>
+msgs: []
+package_type: package
+repo_name: moveit_robots
+repo_url: https://github.com/ros-planning/moveit_robots
+srvs: []
+timestamp: 1405771953.412161
+url: http://rethinkrobotics.com/sdk
+vcs: git
+vcs_uri: https://github.com/ros-planning/moveit_robots.git
+vcs_version: master

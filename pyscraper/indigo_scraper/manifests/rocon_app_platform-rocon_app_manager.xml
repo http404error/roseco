@@ -1,0 +1,43 @@
+<package>
+  <name>rocon_app_manager</name>
+  <version>0.7.1</version>
+  <description>
+    The public interface and retaskable interface for a robot.
+  </description>
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <maintainer email="marcus.liebhardt@yujinrobot.com">Marcus Liebhardt</maintainer>
+  <license>BSD</license>
+  <url type="website">http://www.ros.org/wiki/rocon_app_manager</url>
+  <url type="repository">https://github.com/robotics-in-concert/rocon_app_platform</url>
+  <url type="bugtracker">https://github.com/robotics-in-concert/rocon_app_platform/issues</url>
+  <author>Daniel Stonier</author>
+  <author>Jihoon Lee</author>
+  <author>Marcus Liebhardt</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>python-catkin-pkg</build_depend>
+  <build_depend>roslint</build_depend>
+
+  <run_depend>capabilities</run_depend>
+  <run_depend>gateway_msgs</run_depend>
+  <run_depend>python-rospkg</run_depend>
+  <run_depend>rocon_app_manager_msgs</run_depend>
+  <run_depend>rocon_app_utilities</run_depend>
+  <run_depend>rocon_apps</run_depend>
+  <run_depend>rocon_console</run_depend>
+  <run_depend>rocon_gateway_utils</run_depend>
+  <run_depend>rocon_gateway</run_depend>
+  <run_depend>rocon_hub</run_depend>
+  <run_depend>rocon_master_info</run_depend>
+  <run_depend>rocon_python_comms</run_depend>
+  <run_depend>rocon_python_utils</run_depend>
+  <run_depend>rocon_std_msgs</run_depend>
+  <run_depend>rocon_uri</run_depend>
+  <run_depend>roslib</run_depend>
+  <run_depend>rosmaster</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <export>
+    <rosdoc config="rosdoc.yaml" />
+  </export>
+</package>

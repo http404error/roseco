@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosserial_xbee/html
+authors: Adam Stambler
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- python-serial
+- rosserial_python
+- rosserial_msgs
+- rospy
+- diagnostic_msgs
+depends_on: []
+description: "rosserial_xbee provides tools to do point to multipoint communication\n\
+  \     between rosserial nodes connected to an xbee.  All of the nodes\n     communicate\
+  \ back to a master xbee connected to a computer running\n     ROS.  This software\
+  \ currently only works with Series 1 Xbees.\n     \n     This pkg includes python\
+  \ code from the python-xbee project:\n     http://code.google.com/p/python-xbee/"
+devel_jobs:
+- devel-hydro-rosserial
+doc_job: doc-hydro-rosserial
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Paul Bouchier <paul.bouchier@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rosserial-xbee_sourcedeb
+- ros-hydro-rosserial-xbee_binarydeb_precise_amd64
+- ros-hydro-rosserial-xbee_binarydeb_precise_i386
+- ros-hydro-rosserial-xbee_binarydeb_quantal_amd64
+- ros-hydro-rosserial-xbee_binarydeb_quantal_i386
+- ros-hydro-rosserial-xbee_binarydeb_raring_amd64
+- ros-hydro-rosserial-xbee_binarydeb_raring_i386
+repo_name: rosserial
+repo_url: ''
+srvs: []
+timestamp: 1405773530.271664
+url: http://ros.org/wiki/rosserial_xbee
+vcs: git
+vcs_uri: https://github.com/ros-drivers/rosserial.git
+vcs_version: hydro-devel

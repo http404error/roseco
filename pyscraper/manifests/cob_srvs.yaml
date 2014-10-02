@@ -1,0 +1,71 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_srvs/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- trajectory_msgs
+- catkin
+- message_runtime
+- std_msgs
+- geometry_msgs
+- message_generation
+depends_on:
+- cob_trajectory_controller
+- cob_3d_mapping_demonstrator
+- cob_sound
+- cob_gazebo
+- cob_base_drive_chain
+- cob_tray_monitor
+- cob_table_object_cluster
+- rosjava_messages
+- cob_3d_mapping_point_map
+- schunk_powercube_chain
+- cob_script_server
+- cob_keyframe_detector
+- rosruby_messages
+- schunk_sdh
+- cob_common
+- cob_head_axis
+- cob_teleop
+- cob_3d_registration
+- cob_tactiletools
+- ipa_canopen_ros
+description: This Package contains Care-O-bot specific service definitions.
+devel_jobs:
+- devel-hydro-cob_common
+doc_job: doc-hydro-cob_common
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+metapackages:
+- cob_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-srvs_sourcedeb
+- ros-hydro-cob-srvs_binarydeb_precise_amd64
+- ros-hydro-cob-srvs_binarydeb_precise_i386
+- ros-hydro-cob-srvs_binarydeb_quantal_amd64
+- ros-hydro-cob-srvs_binarydeb_quantal_i386
+- ros-hydro-cob-srvs_binarydeb_raring_amd64
+- ros-hydro-cob-srvs_binarydeb_raring_i386
+repo_name: cob_common
+repo_url: ''
+srvs:
+- Trigger
+- SetString
+- SetMaxVel
+- SetJointStiffness
+- SetDefaultVel
+- GetPoseStampedTransformed
+- SetJointTrajectory
+- SetInt
+- SetOperationMode
+- SetFloat
+timestamp: 1405973067.071675
+url: http://ros.org/wiki/cob_srvs
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_common.git
+vcs_version: hydro_release_candidate

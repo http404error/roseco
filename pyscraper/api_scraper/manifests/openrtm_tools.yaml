@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/openrtm_tools/html
+authors: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+brief: ''
+bugtracker: https://github.com/start-jsk/rtmros_common/issues
+depends:
+- openrtm_aist
+- catkin
+- rosbash
+- rtshell
+- rostest
+- openrtm_aist_python
+depends_on:
+- rosnode_rtc
+- hrpsys_tools
+- openrtm_ros_bridge
+- rtmros_common
+description: The openrtm_tools package
+devel_jobs:
+- devel-hydro-rtmros_common
+doc_job: doc-hydro-rtmros_common
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>, Isao Isaac Saito <iisaito@kinugarage.com>
+metapackages:
+- rtmros_common
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-openrtm-tools_sourcedeb
+- ros-hydro-openrtm-tools_binarydeb_precise_amd64
+- ros-hydro-openrtm-tools_binarydeb_precise_i386
+- ros-hydro-openrtm-tools_binarydeb_quantal_amd64
+- ros-hydro-openrtm-tools_binarydeb_quantal_i386
+- ros-hydro-openrtm-tools_binarydeb_raring_amd64
+- ros-hydro-openrtm-tools_binarydeb_raring_i386
+repo_name: rtmros_common
+repo_url: https://github.com/start-jsk/rtmros_common
+srvs: []
+timestamp: 1405773764.250954
+url: http://ros.org/wiki/openrtm_tools
+vcs: git
+vcs_uri: https://github.com/start-jsk/rtmros_common.git
+vcs_version: master

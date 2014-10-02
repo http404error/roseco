@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <user>
+        <mac>156747545658</mac>
+    </user>
+    <msgs>
+        <msg>
+            <name>/rosout_agg</name>
+            <msg_type>Publisher</msg_type>
+            <topic_type>rosgraph_msgs/Log</topic_type>
+            <node_name>rosout</node_name>
+            <duration>0.794243097305</duration>
+        </msg>
+        <msg>
+            <name>/rosout</name>
+            <msg_type>Subscriber</msg_type>
+            <topic_type>rosgraph_msgs/Log</topic_type>
+            <node_name>rosout</node_name>
+            <duration>0.796895980835</duration>
+        </msg>
+        <msg>
+            <name>/rosout/get_loggers</name>
+            <msg_type>Service</msg_type>
+            <topic_type></topic_type>
+            <node_name>rosout</node_name>
+            <duration>0.79980301857</duration>
+        </msg>
+        <msg>
+            <name>/rosout/set_logger_level</name>
+            <msg_type>Service</msg_type>
+            <topic_type></topic_type>
+            <node_name>rosout</node_name>
+            <duration>0.799794912338</duration>
+        </msg>
+    </msgs>
+    <launches/>
+</root>

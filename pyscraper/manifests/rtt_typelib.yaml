@@ -1,0 +1,21 @@
+authors: Sylvain Joyeux/sylvain.joyeux@m4x.org
+depends:
+- rtt
+- typelib
+- cmake
+- catkin
+description: Orocos/RTT typelib bindings
+license: GPL v2 or later
+maintainers: OCL Development Team <orocos-dev@lists.mech.kuleuven.be>
+package_type: package
+release_jobs:
+- ros-hydro-rtt-typelib_sourcedeb
+- ros-hydro-rtt-typelib_binarydeb_precise_amd64
+- ros-hydro-rtt-typelib_binarydeb_precise_i386
+- ros-hydro-rtt-typelib_binarydeb_quantal_amd64
+- ros-hydro-rtt-typelib_binarydeb_quantal_i386
+- ros-hydro-rtt-typelib_binarydeb_raring_amd64
+- ros-hydro-rtt-typelib_binarydeb_raring_i386
+repo_name: rtt_typelib
+timestamp: 1405956415.051088
+url: http://doudou.github.com/orogen

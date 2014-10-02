@@ -1,0 +1,56 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/warehouse_ros/html
+authors: Bhaskara Marthi <bhaskara@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- rostime
+- std_msgs
+- gtest
+- rostest
+- geometry_msgs
+- libssl-dev
+- rospy
+- curl
+- mongodb-dev
+depends_on:
+- moveit_ros_warehouse
+- turtlebot_core_apps
+- irb_2400_arm_navigation
+- SIA20D_Mesh_arm_navigation
+- fanuc_m16ib20_arm_navigation
+- mh5_mesh_arm_navigation
+- fanuc_m10ia_arm_navigation
+- sia10d_mesh_arm_navigation
+- sia20d_mesh_arm_navigation
+- fanuc_m430ia2f_arm_navigation
+- irb_5400_arm_navigation
+- map_store
+description: Persistent storage of ROS data using MongoDB
+devel_jobs:
+- devel-hydro-warehouse_ros
+doc_job: doc-hydro-warehouse_ros
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Ioan Sucan <isucan@google.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-warehouse-ros_sourcedeb
+- ros-hydro-warehouse-ros_binarydeb_precise_amd64
+- ros-hydro-warehouse-ros_binarydeb_precise_i386
+- ros-hydro-warehouse-ros_binarydeb_quantal_amd64
+- ros-hydro-warehouse-ros_binarydeb_quantal_i386
+- ros-hydro-warehouse-ros_binarydeb_raring_amd64
+- ros-hydro-warehouse-ros_binarydeb_raring_i386
+repo_name: warehouse_ros
+repo_url: ''
+srvs: []
+timestamp: 1405965490.803757
+url: http://ros.org/wiki/warehouse_ros
+vcs: git
+vcs_uri: https://github.com/ros-planning/warehouse_ros.git
+vcs_version: master

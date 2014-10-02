@@ -1,0 +1,29 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/siftgpu/html
+authors: Changchang Wu <ccwu@cs.unc.edu>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- libglew-dev
+- libdevil-dev
+depends_on:
+- perception_blort
+- blort
+description: The SiftGPU library is an implementation of SIFT for GPU.
+doc_job: doc-hydro-perception_blort
+has_changelog_rst: true
+license: non-profit license from University of North Carolina
+maintainers: Bence Magyar <bence.magyar@pal-robotics.com>
+metapackages:
+- perception_blort
+msgs: []
+package_type: package
+repo_name: perception_blort
+repo_url: ''
+srvs: []
+timestamp: 1405964362.576715
+url: http://cs.unc.edu/~ccwu/siftgpu/
+vcs: git
+vcs_uri: https://github.com/pal-robotics/perception_blort.git
+vcs_version: hydro-devel

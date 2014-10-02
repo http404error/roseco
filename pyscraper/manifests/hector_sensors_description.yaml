@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_sensors_description/html
+authors: Stefan Kohlbrecher <kohlbrecher@sim.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- xacro
+- catkin
+depends_on:
+- hector_ugv_description
+- hector_quadrotor_description
+- hector_models
+- hector_turtlebot_description
+- hlugv_description
+- hector_components_description
+- hector_sensors_gazebo
+description: hector_sensors_description contains URDF xacro macros for sensors, so
+  they are easily attachable to robot models and usable in gazebo.
+doc_job: doc-hydro-hector_models
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+metapackages:
+- hector_models
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hector-sensors-description_sourcedeb
+- ros-hydro-hector-sensors-description_binarydeb_precise_amd64
+- ros-hydro-hector-sensors-description_binarydeb_precise_i386
+- ros-hydro-hector-sensors-description_binarydeb_quantal_amd64
+- ros-hydro-hector-sensors-description_binarydeb_quantal_i386
+- ros-hydro-hector-sensors-description_binarydeb_raring_amd64
+- ros-hydro-hector-sensors-description_binarydeb_raring_i386
+repo_name: hector_models
+repo_url: ''
+srvs: []
+timestamp: 1405963261.601796
+url: http://ros.org/wiki/hector_sensors_description
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
+vcs_version: hydro-devel

@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/snippets/html
+authors: Gyula Nagy <dula.nad@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- geometry_msgs
+- rospy
+- boost
+- eigen
+depends_on:
+- usbl
+- pladypos
+- navquest_dvl
+- cart2
+- labust_uvapp
+- ident_so
+- tritech_sdk
+- ldtravocean
+- labust_control
+- labust_navigation
+- labust_imu
+- labust_sim
+description: "The snippets package contains shared code definitions and \n      various\
+  \ helper tools for ROS oriented applications."
+doc_job: doc-hydro-labust_ros_pkg
+has_changelog_rst: false
+license: BSD
+maintainers: Gyula Nagy <dula.nad@gmail.com>
+msgs: []
+package_type: package
+repo_name: labust_ros_pkg
+repo_url: ''
+srvs: []
+timestamp: 1405771611.429273
+url: ''
+vcs: git
+vcs_uri: https://github.com/labust/labust-ros-pkg.git
+vcs_version: master

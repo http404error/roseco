@@ -1,0 +1,64 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/visp_tracker/html
+authors: Thomas Moulard <thomas.moulard@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- visp
+- image_proc
+- roscpp
+- bullet
+- sensor_msgs
+- message_runtime
+- std_msgs
+- resource_retriever
+- image_transport
+- tf
+- rospy
+- message_generation
+- geometry_msgs
+- catkin
+- nodelet
+depends_on:
+- rosjava_messages
+- visp_auto_tracker
+- vision_visp
+description: "Wraps the ViSP moving edge tracker provided by the ViSP visual\n   \
+  \ servoing library into a ROS package.\n\n    This computer vision algorithm computes\
+  \ the pose (i.e. position\n    and orientation) of an object in an image. It is\
+  \ fast enough to\n    allow object online tracking using a camera."
+devel_jobs:
+- devel-hydro-vision_visp
+doc_job: doc-hydro-vision_visp
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Fabien Spindler <fabien.spindler@inria.fr>
+metapackages:
+- vision_visp
+msgs:
+- KltPoint
+- KltPoints
+- KltSettings
+- MovingEdgeSite
+- MovingEdgeSites
+- MovingEdgeSettings
+package_type: package
+release_jobs:
+- ros-hydro-visp-tracker_sourcedeb
+- ros-hydro-visp-tracker_binarydeb_precise_amd64
+- ros-hydro-visp-tracker_binarydeb_precise_i386
+- ros-hydro-visp-tracker_binarydeb_quantal_amd64
+- ros-hydro-visp-tracker_binarydeb_quantal_i386
+- ros-hydro-visp-tracker_binarydeb_raring_amd64
+- ros-hydro-visp-tracker_binarydeb_raring_i386
+repo_name: vision_visp
+repo_url: git://github.com/lagadic/vision_visp.git
+srvs:
+- Init
+timestamp: 1405774403.444088
+url: http://ros.org/wiki/visp_tracker
+vcs: git
+vcs_uri: https://github.com/lagadic/vision_visp.git
+vcs_version: hydro

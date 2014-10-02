@@ -1,0 +1,26 @@
+<package>
+  <name>sql_database</name>
+  <version>0.4.9</version>
+  <description>
+    Provides an easy to use and general interface between a SQL
+    database and object-oriented C++ code, making it easy to
+    encapsulate the conceptual "objects" contained in the database as
+    C++ classes.
+  </description>
+  <maintainer email="matei.ciocarlie@gmail.com">Matei Ciocarlie</maintainer>
+  <author>Matei Ciocarlie and Lorenz Mosenlechner</author>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/database_interface</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>libpq-dev</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>yaml-cpp</build_depend>
+  <build_depend>pkg-config</build_depend>
+
+  <run_depend>libpq-dev</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>yaml-cpp</run_depend>
+
+</package>

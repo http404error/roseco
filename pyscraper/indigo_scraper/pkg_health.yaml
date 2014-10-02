@@ -1,0 +1,13 @@
+health:
+ - metric: maintainer_num
+   include: True
+   weights: 
+    weight: 5.0 # Even though there's only one weight we are keeping a consistent format
+
+ - metric: maintainer_email
+   include: True
+   weights:
+    osrfoundation: 2.5
+    willowgarage: 2.0
+    unboundedrobotics: 2.0
+    edu: 1.0

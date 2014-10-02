@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/kobuki_ftdi/html
+authors: Younghun Ju <yhju@yujinrobot.com>
+brief: ''
+bugtracker: https://github.com/yujinrobot/kobuki_core/issues
+depends:
+- ftdi-eeprom
+- libftdi-dev
+- catkin
+- libusb-dev
+- ecl_command_line
+depends_on:
+- kobuki_core
+- kobuki_node
+description: "Utilities for flashing and enabling Kobuki's USB connection.\n\t   \
+  \ This package contains tools for flashing the Kobuki's FTDI chip (usually done\
+  \ at the factory).\n\t    The special firmware for the FTDI chip (USB to serial\
+  \ converter) enables it to appear as \n\t    /dev/kobuki on the user's PC."
+devel_jobs:
+- devel-hydro-kobuki_core
+doc_job: doc-hydro-kobuki_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Younghun Ju <yhju@yujinrobot.com>
+metapackages:
+- kobuki_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-kobuki-ftdi_sourcedeb
+- ros-hydro-kobuki-ftdi_binarydeb_precise_amd64
+- ros-hydro-kobuki-ftdi_binarydeb_precise_i386
+- ros-hydro-kobuki-ftdi_binarydeb_quantal_amd64
+- ros-hydro-kobuki-ftdi_binarydeb_quantal_i386
+- ros-hydro-kobuki-ftdi_binarydeb_raring_amd64
+- ros-hydro-kobuki-ftdi_binarydeb_raring_i386
+repo_name: kobuki_core
+repo_url: https://github.com/yujinrobot/kobuki_core
+srvs: []
+timestamp: 1405974038.373342
+url: http://ros.org/wiki/kobuki_ftdi
+vcs: git
+vcs_uri: https://github.com/yujinrobot/kobuki_core.git
+vcs_version: hydro

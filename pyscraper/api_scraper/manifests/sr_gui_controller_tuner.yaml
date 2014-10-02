@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sr_gui_controller_tuner/html
+authors: Ugo Cupcic <software@shadowrobot.com>
+brief: ''
+bugtracker: https://github.com/shadow-robot/sr-visualization/issues
+depends:
+- pr2_mechanism_msgs
+- catkin
+- rqt_gui
+- rospy
+- sr_visualization_icons
+- rqt_gui_py
+- sr_robot_msgs
+depends_on:
+- sr_visualization
+description: A GUI plugin for tuning the sr_mechanism_controllers
+devel_jobs:
+- devel-hydro-sr_visualization
+doc_job: doc-hydro-sr_visualization
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Shadow Robot's software team <software@shadowrobot.com>
+metapackages:
+- sr_visualization
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sr-gui-controller-tuner_sourcedeb
+- ros-hydro-sr-gui-controller-tuner_binarydeb_precise_amd64
+- ros-hydro-sr-gui-controller-tuner_binarydeb_precise_i386
+- ros-hydro-sr-gui-controller-tuner_binarydeb_quantal_amd64
+- ros-hydro-sr-gui-controller-tuner_binarydeb_quantal_i386
+- ros-hydro-sr-gui-controller-tuner_binarydeb_raring_amd64
+- ros-hydro-sr-gui-controller-tuner_binarydeb_raring_i386
+repo_name: sr_visualization
+repo_url: https://github.com/shadow-robot/sr-visualization
+srvs: []
+timestamp: 1405773996.061915
+url: http://ros.org/wiki/sr_gui_controller_tuner
+vcs: git
+vcs_uri: https://github.com/shadow-robot/sr-visualization.git
+vcs_version: hydro-devel

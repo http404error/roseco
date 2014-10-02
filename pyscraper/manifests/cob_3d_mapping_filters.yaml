@@ -1,0 +1,34 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_3d_mapping_filters/html
+authors: Georg Arbeiter
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- sensor_msgs
+- cob_3d_mapping_common
+- nodelet
+- libpcl-all
+- pcl_ros
+depends_on:
+- cob_3d_segmentation
+- cob_environment_perception
+- cob_3d_meshing
+description: Filters for point clouds.
+doc_job: doc-hydro-cob_environment_perception
+has_changelog_rst: false
+license: LGPL
+maintainers: Georg Arbeiter <goa@ipa.fhg.de>
+metapackages:
+- cob_environment_perception
+msgs: []
+package_type: package
+repo_name: cob_environment_perception
+repo_url: ''
+srvs: []
+timestamp: 1405962346.98382
+url: http://wiki.ros.org/cob_3d_mapping_filters
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_environment_perception.git
+vcs_version: hydro_dev

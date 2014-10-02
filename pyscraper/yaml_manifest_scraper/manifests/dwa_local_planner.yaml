@@ -1,0 +1,56 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/dwa_local_planner/html
+authors: Eitan Marder-Eppstein, contradict@gmail.com
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- nav_msgs
+- pcl_conversions
+- eigen
+- costmap_2d
+- pluginlib
+- cmake_modules
+- nav_core
+- tf
+- catkin
+- base_local_planner
+- roscpp
+depends_on:
+- navigation
+description: "This package provides an implementation of the Dynamic Window Approach\
+  \ to\n        local robot navigation on a plane. Given a global plan to follow and\
+  \ a\n        costmap, the local planner produces velocity commands to send to a\
+  \ mobile\n        base. This package supports any robot who's footprint can be represented\
+  \ as\n        a convex polygon or cicrle, and exposes its configuration as ROS parameters\n\
+  \        that can be set in a launch file. The parameters for this planner are also\n\
+  \        dynamically reconfigurable. This package's ROS wrapper adheres to the\n\
+  \        BaseLocalPlanner interface specified in the <a href=\"http://wiki.ros.org/nav_core\"\
+  >nav_core</a> package."
+devel_jobs:
+- devel-hydro-navigation
+doc_job: doc-hydro-navigation
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <fergs@unboundedrobotics.com>
+metapackages:
+- navigation
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-dwa-local-planner_sourcedeb
+- ros-hydro-dwa-local-planner_binarydeb_precise_amd64
+- ros-hydro-dwa-local-planner_binarydeb_precise_i386
+- ros-hydro-dwa-local-planner_binarydeb_quantal_amd64
+- ros-hydro-dwa-local-planner_binarydeb_quantal_i386
+- ros-hydro-dwa-local-planner_binarydeb_raring_amd64
+- ros-hydro-dwa-local-planner_binarydeb_raring_i386
+repo_name: navigation
+repo_url: ''
+srvs: []
+timestamp: 1405974597.546425
+url: http://wiki.ros.org/dwa_local_planner
+vcs: git
+vcs_uri: https://github.com/ros-planning/navigation.git
+vcs_version: hydro-devel

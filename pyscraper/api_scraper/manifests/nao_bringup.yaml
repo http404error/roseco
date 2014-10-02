@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nao_bringup/html
+authors: ''
+brief: ''
+bugtracker: https://github.com/ros-nao/nao_robot/issues
+depends:
+- catkin
+- diagnostic_aggregator
+- robot_state_publisher
+- nao_driver
+- nao_description
+- nao_pose
+depends_on:
+- nao_robot
+description: "Launch files and scripts needed to bring ROS interfaces for Nao up into\
+  \ a\n      running state."
+devel_jobs:
+- devel-hydro-nao_robot
+doc_job: doc-hydro-nao_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Severin Lemaignan <severin.lemaignan@epfl.ch>
+metapackages:
+- nao_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-nao-bringup_sourcedeb
+- ros-hydro-nao-bringup_binarydeb_precise_amd64
+- ros-hydro-nao-bringup_binarydeb_precise_i386
+- ros-hydro-nao-bringup_binarydeb_quantal_amd64
+- ros-hydro-nao-bringup_binarydeb_quantal_i386
+- ros-hydro-nao-bringup_binarydeb_raring_amd64
+- ros-hydro-nao-bringup_binarydeb_raring_i386
+repo_name: nao_robot
+repo_url: https://github.com/ros-nao/nao_robot
+srvs: []
+timestamp: 1405974443.874454
+url: http://www.ros.org/wiki/nao_robot
+vcs: git
+vcs_uri: https://github.com/ros-nao/nao_robot.git
+vcs_version: master

@@ -1,0 +1,59 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/uwsim/html
+authors: Mario Prats <marioprats@gmail.com>, Javier Perez <perezsolerj@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- urdf
+- catkin
+- roscpp
+- opengl
+- uwsim_bullet
+- robot_state_publisher
+- libxml++-2.6
+- sensor_msgs
+- kdl_parser
+- image_transport
+- resource_retriever
+- libopenscenegraph
+- uwsim_osgocean
+- geometry_msgs
+- tf
+- uwsim_osgbullet
+- underwater_sensor_msgs
+- boost
+- pluginlib
+- uwsim_osgworks
+depends_on: []
+description: UWSim is an UnderWater SIMulator for marine robotics research and development.
+  UWSim visualizes an underwater virtual scenario that can be configured using standard
+  modeling software. Controllable underwater vehicles, surface vessels and robotic
+  manipulators, as well as simulated sensors, can be added to the scene and accessed
+  externally through ROS interfaces. This allows to easily integrate the visualization
+  tool with existing control architectures.
+devel_jobs:
+- devel-hydro-underwater_simulation
+doc_job: doc-hydro-underwater_simulation
+has_changelog_rst: false
+license: GPL
+maintainer_status: maintained
+maintainers: Mario Prats <marioprats@gmail.com>, Javier Perez <perezsolerj@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-uwsim_sourcedeb
+- ros-hydro-uwsim_binarydeb_precise_amd64
+- ros-hydro-uwsim_binarydeb_precise_i386
+- ros-hydro-uwsim_binarydeb_quantal_amd64
+- ros-hydro-uwsim_binarydeb_quantal_i386
+- ros-hydro-uwsim_binarydeb_raring_amd64
+- ros-hydro-uwsim_binarydeb_raring_i386
+repo_name: underwater_simulation
+repo_url: ''
+srvs: []
+timestamp: 1405521937.192525
+url: http://www.irs.uji.es/uwsim/
+vcs: git
+vcs_uri: https://github.com/uji-ros-pkg/underwater_simulation.git
+vcs_version: hydro-devel

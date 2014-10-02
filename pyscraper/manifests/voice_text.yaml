@@ -1,0 +1,22 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/voice_text/html
+authors: k-okada
+brief: voice_text
+bugtracker: ''
+depends:
+- nkf
+depends_on: []
+description: "\n\n     voice_text (www.voicetext.jp)\n\n  "
+doc_job: doc-hydro-jsk_common
+license: HOYA License
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771554.085467
+url: http://ros.org/wiki/voice_text
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

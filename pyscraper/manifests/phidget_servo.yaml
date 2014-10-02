@@ -1,0 +1,33 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/phidget_servo/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- corobot_msgs
+- catkin
+- roscpp
+- std_msgs
+- diagnostic_updater
+- corobot_diagnostics
+depends_on:
+- corobot
+- corobot_launch
+description: "Node interfacing the Phidget Advanced Servo Controller. \n\tThis package\
+  \ depends on the Phidget client library being installed manually:\n\t\thttp://www.phidgets.com/drivers.php"
+doc_job: doc-hydro-corobot
+has_changelog_rst: false
+license: BSD
+maintainers: Morgan Cormier <mcormier@coroware.com>
+metapackages:
+- corobot
+msgs: []
+package_type: package
+repo_name: corobot
+repo_url: ''
+srvs: []
+timestamp: 1405962618.38797
+url: http://ros.org/wiki/phidget_servo
+vcs: git
+vcs_uri: https://github.com/morgancormier/corobot.git
+vcs_version: master

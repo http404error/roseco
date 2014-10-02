@@ -1,0 +1,25 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/mrpt_ro_slam/html
+authors: Jose Luis
+brief: mrpt_ro_slam
+bugtracker: ''
+depends:
+- mrpt_libs
+- mrpt_msgs
+depends_on: []
+description: "\n\n     mrpt_ro_slam\n\n  "
+doc_job: doc-hydro-mrpt_slam
+license: BSD
+maintainers: ''
+metapackages:
+- mrpt_slam
+msgs: []
+package_type: package
+repo_name: mrpt_slam
+repo_url: ''
+srvs: []
+timestamp: 1405772056.201047
+url: http://ros.org/wiki/mrpt_ro_slam
+vcs: git
+vcs_uri: https://github.com/mrpt-ros-pkg/mrpt_slam.git
+vcs_version: master

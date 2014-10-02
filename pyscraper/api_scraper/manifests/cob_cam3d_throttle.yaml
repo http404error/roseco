@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_cam3d_throttle/html
+authors: Georg Arbeiter <goa@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- message_filters
+- pluginlib
+- sensor_msgs
+- nodelet
+depends_on:
+- cob_bringup
+- cob_driver
+description: 'cob_cam3d_throttle: only for Trottel'
+devel_jobs:
+- devel-hydro-cob_driver
+doc_job: doc-hydro-cob_driver
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Georg Arbeiter <goa@ipa.fhg.de>
+metapackages:
+- cob_driver
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-cam3d-throttle_sourcedeb
+- ros-hydro-cob-cam3d-throttle_binarydeb_precise_amd64
+- ros-hydro-cob-cam3d-throttle_binarydeb_precise_i386
+- ros-hydro-cob-cam3d-throttle_binarydeb_quantal_amd64
+- ros-hydro-cob-cam3d-throttle_binarydeb_quantal_i386
+- ros-hydro-cob-cam3d-throttle_binarydeb_raring_amd64
+- ros-hydro-cob-cam3d-throttle_binarydeb_raring_i386
+repo_name: cob_driver
+repo_url: ''
+srvs: []
+timestamp: 1405973106.13613
+url: http://ros.org/wiki/cob_cam3d_throttle
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_driver.git
+vcs_version: hydro_release_candidate

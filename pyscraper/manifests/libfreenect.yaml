@@ -1,0 +1,24 @@
+authors: Hector Martin, Josh Blake, Kyle Machulis, OpenKinect community
+depends:
+- catkin
+- glut
+- libusb-1.0-dev
+- libxi-dev
+- cmake
+- libxmu-dev
+description: Open source libraries that will enable the Kinect to be used with Windows,
+  Linux, and Mac.
+license: Apache 2.0
+maintainers: Jack O'Quin <jack.oquin@gmail.com>, Piyush Khandelwal <piyushk@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-libfreenect_sourcedeb
+- ros-hydro-libfreenect_binarydeb_precise_amd64
+- ros-hydro-libfreenect_binarydeb_precise_i386
+- ros-hydro-libfreenect_binarydeb_quantal_amd64
+- ros-hydro-libfreenect_binarydeb_quantal_i386
+- ros-hydro-libfreenect_binarydeb_raring_amd64
+- ros-hydro-libfreenect_binarydeb_raring_i386
+repo_name: libfreenect
+timestamp: 1405956414.850647
+url: http://ros.org/wiki/libfreenect

@@ -1,0 +1,21 @@
+authors: ''
+depends:
+- libopenscenegraph
+- cmake
+- boost
+- catkin
+- opengl
+description: The OSG Works library adapted to UWSim. See https://code.google.com/p/osgworks
+license: LGPL
+maintainers: Mario Prats <marioprats@gmail.com>, Javier Perez <perezsolerj@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-uwsim-osgworks_sourcedeb
+- ros-hydro-uwsim-osgworks_binarydeb_precise_amd64
+- ros-hydro-uwsim-osgworks_binarydeb_precise_i386
+- ros-hydro-uwsim-osgworks_binarydeb_quantal_amd64
+- ros-hydro-uwsim-osgworks_binarydeb_quantal_i386
+- ros-hydro-uwsim-osgworks_binarydeb_raring_amd64
+- ros-hydro-uwsim-osgworks_binarydeb_raring_i386
+repo_name: uwsim_osgworks
+timestamp: 1405956415.143539

@@ -1,0 +1,29 @@
+authors: Brian Gerkey
+depends:
+- nav_msgs
+- rosconsole
+- open_karto
+- catkin
+- eigen
+- message_filters
+- sensor_msgs
+- cmake_modules
+- visualization_msgs
+- tf
+- sparse_bundle_adjustment
+- roscpp
+description: "This package pulls in the Karto mapping library, and provides a ROS\n\
+  \     wrapper for using it."
+license: LGPL
+maintainers: Michael Ferguson <fergs@unboundedrobotics.com>
+package_type: package
+release_jobs:
+- ros-hydro-slam-karto_sourcedeb
+- ros-hydro-slam-karto_binarydeb_precise_amd64
+- ros-hydro-slam-karto_binarydeb_precise_i386
+- ros-hydro-slam-karto_binarydeb_quantal_amd64
+- ros-hydro-slam-karto_binarydeb_quantal_i386
+- ros-hydro-slam-karto_binarydeb_raring_amd64
+- ros-hydro-slam-karto_binarydeb_raring_i386
+repo_name: slam_karto
+timestamp: 1405956415.079972

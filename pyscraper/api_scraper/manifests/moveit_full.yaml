@@ -1,0 +1,23 @@
+authors: Ioan Sucan <isucan@willowgarage.com>, Sachin Chitta <sachinc@willowgarage.com>
+depends:
+- catkin
+- moveit_setup_assistant
+- moveit_commander
+- moveit_ros
+- moveit_plugins
+- moveit_planners
+description: All MoveIt components and plugins
+license: BSD
+maintainers: Ioan Sucan <isucan@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-moveit-full_sourcedeb
+- ros-hydro-moveit-full_binarydeb_precise_amd64
+- ros-hydro-moveit-full_binarydeb_precise_i386
+- ros-hydro-moveit-full_binarydeb_quantal_amd64
+- ros-hydro-moveit-full_binarydeb_quantal_i386
+- ros-hydro-moveit-full_binarydeb_raring_amd64
+- ros-hydro-moveit-full_binarydeb_raring_i386
+repo_name: moveit_metapackages
+timestamp: 1405956414.879361
+url: http://moveit.ros.org

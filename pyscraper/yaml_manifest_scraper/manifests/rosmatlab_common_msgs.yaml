@@ -1,0 +1,28 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rosmatlab_common_msgs/html
+authors: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+brief: ''
+bugtracker: ''
+depends:
+- rosgraph_msgs
+- catkin
+- rosmatlab
+- std_msgs
+- common_msgs
+depends_on: []
+description: rosmatlab_common_msgs makes all message types in common_msgs available
+  in Matlab.
+doc_job: doc-hydro-rosmatlab
+has_changelog_rst: false
+license: BSD
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+msgs: []
+package_type: package
+repo_name: rosmatlab
+repo_url: ''
+srvs: []
+timestamp: 1405975112.554744
+url: http://github.com/tu-darmstadt-ros-pkg/rosmatlab/wiki/common_msgs
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/rosmatlab.git
+vcs_version: master

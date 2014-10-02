@@ -1,0 +1,21 @@
+authors: Adam Leeper <adamleeper@gmail.com>, David Gossow <dgossow@willowgarage.com>
+depends:
+- cmake_modules
+- catkin
+- rviz
+- pluginlib
+description: A simple rviz view controller that follows a TF frame.
+license: BSD
+maintainers: Adam Leeper <adamleeper@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-rviz-fixed-view-controller_sourcedeb
+- ros-hydro-rviz-fixed-view-controller_binarydeb_precise_amd64
+- ros-hydro-rviz-fixed-view-controller_binarydeb_precise_i386
+- ros-hydro-rviz-fixed-view-controller_binarydeb_quantal_amd64
+- ros-hydro-rviz-fixed-view-controller_binarydeb_quantal_i386
+- ros-hydro-rviz-fixed-view-controller_binarydeb_raring_amd64
+- ros-hydro-rviz-fixed-view-controller_binarydeb_raring_i386
+repo_name: rviz_fixed_view_controller
+timestamp: 1405956415.057445
+url: http://ros.org/wiki/rviz_fixed_view_controller

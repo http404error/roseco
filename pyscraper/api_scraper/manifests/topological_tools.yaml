@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/topological_tools/html
+authors: Joao Messias <jmessias@isr.ist.utl.pt>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- actionlib
+- message_runtime
+- std_msgs
+- mdm_library
+- message_generation
+- predicate_manager
+- actionlib_msgs
+depends_on:
+- mdm_bundle
+- mdm_example
+- markov_decision_making
+description: "The topological_tools package contains utilities to ease the deployment\n\
+  \               of the MDM Library in topological navigation problems."
+doc_job: doc-hydro-markov_decision_making
+has_changelog_rst: false
+license: LGPLv3
+maintainers: Joao Messias <jmessias@isr.ist.utl.pt>
+metapackages:
+- mdm_bundle
+- markov_decision_making
+msgs:
+- PoseLabel
+package_type: package
+repo_name: markov_decision_making
+repo_url: ''
+srvs: []
+timestamp: 1405963787.571198
+url: http://ros.org/wiki/topological_tools
+vcs: git
+vcs_uri: https://github.com/larsys/markov_decision_making.git
+vcs_version: master

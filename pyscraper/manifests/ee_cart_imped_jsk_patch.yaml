@@ -1,0 +1,22 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/ee_cart_imped_jsk_patch/html
+authors: Yusuke Furuta, Yohei Kakiuchi
+brief: ee_cart_imped_jsk_patch
+bugtracker: ''
+depends: ''
+depends_on:
+- pr2eus_impedance
+description: "\n\n     ee_cart_imped_jsk_patch\n\n  "
+doc_job: doc-hydro-jsk_common
+license: BSD
+maintainers: ''
+msgs: []
+package_type: package
+repo_name: jsk_common
+repo_url: ''
+srvs: []
+timestamp: 1405771580.586018
+url: http://ros.org/wiki/ee_cart_imped_jsk_patch
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_common.git
+vcs_version: master

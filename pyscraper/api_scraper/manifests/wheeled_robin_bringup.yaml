@@ -1,0 +1,39 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/wheeled_robin_bringup/html
+authors: Johannes Mayr <joh.mayr@jku.at>, Klemens Springer <klemens.springer@jku.at>
+brief: ''
+bugtracker: https://github.com/robinJKU/wheeled_robin/issues
+depends:
+- depthimage_to_laserscan
+- catkin
+- diagnostic_aggregator
+- zeroconf_avahi
+- robot_state_publisher
+- rocon_app_manager
+- wheeled_robin_description
+- openni_launch
+- wheeled_robin_node
+- robot_pose_ekf
+- linux_hardware
+depends_on:
+- wheeled_robin_rviz_launchers
+- wheeled_robin
+- wheeled_robin_core_apps
+description: wheeled_robin_bringup provides roslaunch scripts for starting the WheeledRobin
+  base functionality.
+doc_job: doc-hydro-wheeled_robin
+has_changelog_rst: false
+license: BSD
+maintainers: Johannes Mayr <joh.mayr@jku.at>
+metapackages:
+- wheeled_robin
+msgs: []
+package_type: package
+repo_name: wheeled_robin
+repo_url: https://github.com/robinJKU/wheeled_robin
+srvs: []
+timestamp: 1405774474.351644
+url: http://ros.org/wiki/wheeled_robin_bringup
+vcs: git
+vcs_uri: https://github.com/robinJKU/wheeled_robin.git
+vcs_version: hydro-devel

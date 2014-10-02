@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sicktoolbox_wrapper/html
+authors: Morgan Quigley <mquigley@cs.stanford.edu>
+brief: ''
+bugtracker: https://github.com/ros-drivers/sicktoolbox_wrapper/issues
+depends:
+- rosconsole
+- catkin
+- roscpp
+- sensor_msgs
+- diagnostic_updater
+- sicktoolbox
+depends_on:
+- husky_bringup
+- kurt_bringup
+description: "sicktoolbox_wrapper is a ROS wrapper for the outstanding <a href=\"\
+  http://www.ros.org/wiki/sicktoolbox\">sicktoolbox</a>\n    library for interfacing\
+  \ with the SICK LMS2xx lasers."
+doc_job: doc-hydro-sicktoolbox_wrapper
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Chad Rockey <chadrockey@gmail.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-sicktoolbox-wrapper_sourcedeb
+- ros-hydro-sicktoolbox-wrapper_binarydeb_precise_amd64
+- ros-hydro-sicktoolbox-wrapper_binarydeb_precise_i386
+- ros-hydro-sicktoolbox-wrapper_binarydeb_quantal_amd64
+- ros-hydro-sicktoolbox-wrapper_binarydeb_quantal_i386
+- ros-hydro-sicktoolbox-wrapper_binarydeb_raring_amd64
+- ros-hydro-sicktoolbox-wrapper_binarydeb_raring_i386
+repo_name: sicktoolbox_wrapper
+repo_url: https://github.com/ros-drivers/sicktoolbox_wrapper
+srvs: []
+timestamp: 1405975380.240275
+url: http://ros.org/wiki/sicktoolbox_wrapper
+vcs: git
+vcs_uri: https://github.com/ros-drivers/sicktoolbox_wrapper.git
+vcs_version: hydro-devel

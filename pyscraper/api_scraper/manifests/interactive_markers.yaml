@@ -1,0 +1,25 @@
+authors: David Gossow
+depends:
+- rosconsole
+- catkin
+- roscpp
+- std_msgs
+- rostest
+- rospy
+- visualization_msgs
+- tf
+description: 3D interactive marker communication library for RViz and similar tools.
+license: BSD
+maintainers: David Gossow <dgossow@willowgarage.com>
+package_type: package
+release_jobs:
+- ros-hydro-interactive-markers_sourcedeb
+- ros-hydro-interactive-markers_binarydeb_precise_amd64
+- ros-hydro-interactive-markers_binarydeb_precise_i386
+- ros-hydro-interactive-markers_binarydeb_quantal_amd64
+- ros-hydro-interactive-markers_binarydeb_quantal_i386
+- ros-hydro-interactive-markers_binarydeb_raring_amd64
+- ros-hydro-interactive-markers_binarydeb_raring_i386
+repo_name: interactive_markers
+timestamp: 1405956414.822336
+url: http://ros.org/wiki/interactive_markers

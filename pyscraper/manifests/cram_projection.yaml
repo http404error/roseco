@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cram_projection/html
+authors: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+brief: ''
+bugtracker: https://github.com/cram-code/cram_core/issues
+depends:
+- alexandria
+- catkin
+- lisp_unit
+- cram_utilities
+- cram_language
+- cram_execution_trace
+- cram_process_modules
+- sbcl
+depends_on:
+- cram_core
+description: "Library which enables execution of cram plans in a simulated \n    \
+  \ environment, so called 'projections'. Additionally, provides means\n     of logging\
+  \ events and states in projections. Finally, has utilities\n     to query projection\
+  \ events and states after projections have finished."
+devel_jobs:
+- devel-hydro-cram_core
+doc_job: doc-hydro-cram_core
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Lorenz Moesenlechner <moesenle@cs.tum.edu>, Georg Bartels <georg.bartels@cs.uni-bremen.de>
+metapackages:
+- cram_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cram-projection_sourcedeb
+- ros-hydro-cram-projection_binarydeb_precise_amd64
+- ros-hydro-cram-projection_binarydeb_precise_i386
+- ros-hydro-cram-projection_binarydeb_quantal_amd64
+- ros-hydro-cram-projection_binarydeb_quantal_i386
+- ros-hydro-cram-projection_binarydeb_raring_amd64
+- ros-hydro-cram-projection_binarydeb_raring_i386
+repo_name: cram_core
+repo_url: https://github.com/cram-code/cram_core
+srvs: []
+timestamp: 1405962812.803978
+url: http://cram-project.org
+vcs: git
+vcs_uri: https://github.com/cram-code/cram_core.git
+vcs_version: master

@@ -1,0 +1,24 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/joint_state_muxer/html
+authors: "Martin G\xFCnther"
+brief: joint_state_muxer
+bugtracker: ''
+depends:
+- urdfdom_py
+depends_on: []
+description: "\n\n     joint_state_muxer\n\n  "
+doc_job: doc-hydro-uos_tools
+license: BSD
+maintainers: ''
+metapackages:
+- uos_tools
+msgs: []
+package_type: package
+repo_name: uos_tools
+repo_url: ''
+srvs: []
+timestamp: 1405965450.397988
+url: http://ros.org/wiki/joint_state_muxer
+vcs: git
+vcs_uri: https://github.com/uos/uos_tools.git
+vcs_version: hydro

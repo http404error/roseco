@@ -1,0 +1,22 @@
+authors: Eric Perko, Chad Rockey, Rohan Agrawal
+depends:
+- catkin
+- boost
+- sensor_msgs
+- roscpp
+description: Neato XV-11 Laser Driver. This driver works with the laser when it is
+  removed from the XV-11 Robot as opposed to reading scans from the Neato's USB port.
+license: BSD
+maintainers: rohan <send2arohan@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-xv-11-laser-driver_sourcedeb
+- ros-hydro-xv-11-laser-driver_binarydeb_precise_amd64
+- ros-hydro-xv-11-laser-driver_binarydeb_precise_i386
+- ros-hydro-xv-11-laser-driver_binarydeb_quantal_amd64
+- ros-hydro-xv-11-laser-driver_binarydeb_quantal_i386
+- ros-hydro-xv-11-laser-driver_binarydeb_raring_amd64
+- ros-hydro-xv-11-laser-driver_binarydeb_raring_i386
+repo_name: xv_11_laser_driver
+timestamp: 1405956415.187134
+url: http://ros.org/wiki/xv_11_laser_driver

@@ -1,0 +1,57 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/industrial_robot_client/html
+authors: Jeremy Zoss
+brief: ''
+bugtracker: ''
+depends:
+- urdf
+- catkin
+- roscpp
+- std_msgs
+- actionlib_msgs
+- trajectory_msgs
+- sensor_msgs
+- industrial_utils
+- simple_message
+- industrial_msgs
+- control_msgs
+- actionlib
+depends_on:
+- motoman_driver
+- industrial_robot_simulator
+- industrial_core
+- fanuc_m16ib20_arm_navigation
+- fanuc_driver
+- abb_common
+- fanuc_m10ia_arm_navigation
+- fanuc_m430ia2f_arm_navigation
+description: "industrial robot client contains generic clients for connecting \n \
+  \    to industrial robot controllers with servers that adhere to the\n     simple\
+  \ message protocol."
+devel_jobs:
+- devel-hydro-industrial_core
+doc_job: doc-hydro-industrial_core
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Shaun Edwards <sedwards@swri.org>
+metapackages:
+- industrial_core
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-industrial-robot-client_sourcedeb
+- ros-hydro-industrial-robot-client_binarydeb_precise_amd64
+- ros-hydro-industrial-robot-client_binarydeb_precise_i386
+- ros-hydro-industrial-robot-client_binarydeb_quantal_amd64
+- ros-hydro-industrial-robot-client_binarydeb_quantal_i386
+- ros-hydro-industrial-robot-client_binarydeb_raring_amd64
+- ros-hydro-industrial-robot-client_binarydeb_raring_i386
+repo_name: industrial_core
+repo_url: ''
+srvs: []
+timestamp: 1405771381.341545
+url: http://ros.org/wiki/industrial_robot_client
+vcs: git
+vcs_uri: https://github.com/ros-industrial/industrial_core.git
+vcs_version: hydro

@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_common/html
+authors: John Hsu, Austin Hendrix
+brief: ''
+bugtracker: https://github.com/PR2/pr2_common/issues
+depends: &id001
+- pr2_description
+- pr2_dashboard_aggregator
+- catkin
+- pr2_msgs
+- pr2_machine
+depends_on:
+- pr2_navigation
+description: URDF description of the robot kinematics and dynamics, 3D models of robot
+  components, information required for gazebo to simulate the PR2, and messages specific
+  to the PR2 such as detailed information about its power board and fingertip pressure
+  sensors.
+devel_jobs:
+- devel-hydro-pr2_common
+doc_job: doc-hydro-pr2_common
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-pr2-common_sourcedeb
+- ros-hydro-pr2-common_binarydeb_precise_amd64
+- ros-hydro-pr2-common_binarydeb_precise_i386
+- ros-hydro-pr2-common_binarydeb_quantal_amd64
+- ros-hydro-pr2-common_binarydeb_quantal_i386
+- ros-hydro-pr2-common_binarydeb_raring_amd64
+- ros-hydro-pr2-common_binarydeb_raring_i386
+repo_name: pr2_common
+repo_url: ''
+srvs: []
+timestamp: 1405772583.013497
+url: http://ros.org/wiki/pr2_common
+vcs: git
+vcs_uri: https://github.com/PR2/pr2_common.git
+vcs_version: hydro-devel

@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/hector_quadrotor_teleop/html
+authors: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+brief: ''
+bugtracker: https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor/issues
+depends:
+- geometry_msgs
+- sensor_msgs
+- roscpp
+- catkin
+- joy
+depends_on:
+- hector_quadrotor_gazebo
+- hector_quadrotor
+description: "hector_quadrotor_teleop enables quadrotor flying with a joystick by\n\
+  \     processing joy/Joy messages and translating them to geometry_msgs/Twist."
+doc_job: doc-hydro-hector_quadrotor
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+metapackages:
+- hector_quadrotor
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-hector-quadrotor-teleop_sourcedeb
+- ros-hydro-hector-quadrotor-teleop_binarydeb_precise_amd64
+- ros-hydro-hector-quadrotor-teleop_binarydeb_precise_i386
+- ros-hydro-hector-quadrotor-teleop_binarydeb_quantal_amd64
+- ros-hydro-hector-quadrotor-teleop_binarydeb_quantal_i386
+- ros-hydro-hector-quadrotor-teleop_binarydeb_raring_amd64
+- ros-hydro-hector-quadrotor-teleop_binarydeb_raring_i386
+repo_name: hector_quadrotor
+repo_url: ''
+srvs: []
+timestamp: 1405973505.727764
+url: http://ros.org/wiki/hector_quadrotor_teleop
+vcs: git
+vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor.git
+vcs_version: hydro-devel

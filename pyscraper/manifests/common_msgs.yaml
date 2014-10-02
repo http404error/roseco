@@ -1,0 +1,61 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/common_msgs/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends: &id001
+- nav_msgs
+- shape_msgs
+- catkin
+- stereo_msgs
+- actionlib_msgs
+- trajectory_msgs
+- sensor_msgs
+- geometry_msgs
+- visualization_msgs
+- diagnostic_msgs
+depends_on:
+- ar_tools
+- dynamixel_motor_experimental
+- mrpt_hwdrivers
+- erratic_robot
+- kurt_driver
+- nao_extras
+- frontier_exploration
+- humanoid_navigation
+- hector_visualization
+- rosmatlab_common_msgs
+- mrpt_common
+description: "common_msgs contains messages that are widely used by other ROS packages.\n\
+  \    These includes messages for\n    actions (<a href=\"http://ros.org/wiki/actionlib_msgs\"\
+  >actionlib_msgs</a>),\n    diagnostics (<a href=\"http://ros.org/wiki/diagnostic_msgs\"\
+  >diagnostic_msgs</a>),\n    geometric primitives (<a href=\"http://ros.org/wiki/geometry_msgs\"\
+  >geometry_msgs</a>),\n    robot navigation (<a href=\"http://ros.org/wiki/nav_msgs\"\
+  >nav_msgs</a>),\n    and common sensors (<a href=\"http://ros.org/wiki/sensor_msgs\"\
+  >sensor_msgs</a>), such as laser range finders, cameras, point clouds."
+devel_jobs:
+- devel-hydro-common_msgs
+doc_job: doc-hydro-common_msgs
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Tully Foote <tfoote@osrfoundation.org>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-common-msgs_sourcedeb
+- ros-hydro-common-msgs_binarydeb_precise_amd64
+- ros-hydro-common-msgs_binarydeb_precise_i386
+- ros-hydro-common-msgs_binarydeb_quantal_amd64
+- ros-hydro-common-msgs_binarydeb_quantal_i386
+- ros-hydro-common-msgs_binarydeb_raring_amd64
+- ros-hydro-common-msgs_binarydeb_raring_i386
+repo_name: common_msgs
+repo_url: ''
+srvs: []
+timestamp: 1405962307.791982
+url: http://www.ros.org/wiki/common_msgs
+vcs: git
+vcs_uri: https://github.com/ros/common_msgs.git
+vcs_version: hydro-devel

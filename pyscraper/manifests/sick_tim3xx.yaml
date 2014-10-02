@@ -1,0 +1,34 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/sick_tim3xx/html
+authors: "Jochen Sprickerhof <ros@jochen.sprickerhof.de>, Martin G\xFCnther <mguenthe@uos.de>"
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- driver_base
+- libusb-1.0
+- sensor_msgs
+- diagnostic_updater
+- libusb-1.0-dev
+depends_on:
+- calvin_bringup
+- calvin_gazebo
+description: "A ROS driver for the SICK TiM series of laser scanners.\n    Currently,\
+  \ the pacakge supports serveral types of TiM310 and TiM551\n    scanners."
+doc_job: doc-hydro-sick_tim3xx
+has_changelog_rst: false
+license: BSD
+maintainers: "Martin G\xFCnther <mguenthe@uos.de>"
+metapackages:
+- sick_tim3xx
+msgs: []
+package_type: package
+repo_name: sick_tim3xx
+repo_url: ''
+srvs: []
+timestamp: 1405975340.635825
+url: ''
+vcs: git
+vcs_uri: https://github.com/uos/sick_tim3xx.git
+vcs_version: hydro_catkin

@@ -1,0 +1,48 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_reconfigure/html
+authors: Isaac Saito, Ze'ev Klapow
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt_common_plugins/issues
+depends:
+- dynamic_reconfigure
+- catkin
+- rqt_gui
+- rospy
+- rqt_console
+- rqt_gui_py
+- rqt_py_common
+depends_on:
+- rqt_common_plugins
+- node_manager_fkie
+description: "This rqt plugin succeeds former dynamic_reconfigure's GUI\n\t\t(reconfigure_gui),\
+  \ and provides the way to view and edit the parameters\n\t\tthat are accessible\
+  \ via dynamic_reconfigure.<br/>\n\t\t<br/>\n\t\t(12/27/2012) In the future, arbitrary\
+  \ parameters that are not associated \n\t\twith any nodes (which are not handled\
+  \ by dynamic_reconfigure) might \n\t\tbecome handled.\n\t\tHowever, currently as\
+  \ the name indicates, this pkg solely is dependent \n\t\ton dynamic_reconfigure\
+  \ that allows access to only those params latched \n\t\tto nodes."
+doc_job: doc-hydro-rqt_common_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Scott K Logan <logans@cottsay.net>
+metapackages:
+- rqt_common_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-reconfigure_sourcedeb
+- ros-hydro-rqt-reconfigure_binarydeb_precise_amd64
+- ros-hydro-rqt-reconfigure_binarydeb_precise_i386
+- ros-hydro-rqt-reconfigure_binarydeb_quantal_amd64
+- ros-hydro-rqt-reconfigure_binarydeb_quantal_i386
+- ros-hydro-rqt-reconfigure_binarydeb_raring_amd64
+- ros-hydro-rqt-reconfigure_binarydeb_raring_i386
+repo_name: rqt_common_plugins
+repo_url: https://github.com/ros-visualization/rqt_common_plugins/rqt_reconfigure
+srvs: []
+timestamp: 1405975228.832063
+url: http://ros.org/wiki/rqt_reconfigure
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt_common_plugins.git
+vcs_version: groovy-devel

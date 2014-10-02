@@ -1,0 +1,45 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/nao_robot/html
+authors: ''
+brief: ''
+bugtracker: https://github.com/ros-nao/nao_robot/issues
+depends: &id001
+- nao_msgs
+- catkin
+- nao_driver
+- nao_description
+- nao_pose
+- nao_bringup
+depends_on:
+- nao_extras
+description: "<p>The nao_robot metapackage contains some useful nodes to integrate\
+  \ the Nao humanoid robot into ROS.\n    Check out the <a href=\"http://www.ros.org/wiki/nao_extras\"\
+  >nao_extras stack</a> for more functionality.\n    The <a href=\"http://www.ros.org/wiki/humanoid_navigation\"\
+  > humanoid_navigation stack</a> contains some more general packages for humanoid/biped\
+  \ robots.</p>"
+devel_jobs:
+- devel-hydro-nao_robot
+doc_job: doc-hydro-nao_robot
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-nao-robot_sourcedeb
+- ros-hydro-nao-robot_binarydeb_precise_amd64
+- ros-hydro-nao-robot_binarydeb_precise_i386
+- ros-hydro-nao-robot_binarydeb_quantal_amd64
+- ros-hydro-nao-robot_binarydeb_quantal_i386
+- ros-hydro-nao-robot_binarydeb_raring_amd64
+- ros-hydro-nao-robot_binarydeb_raring_i386
+repo_name: nao_robot
+repo_url: https://github.com/ros-nao/nao_robot
+srvs: []
+timestamp: 1405974446.37803
+url: http://www.ros.org/wiki/nao_robot
+vcs: git
+vcs_uri: https://github.com/ros-nao/nao_robot.git
+vcs_version: master

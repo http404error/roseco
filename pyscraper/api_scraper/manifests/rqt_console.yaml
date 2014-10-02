@@ -1,0 +1,47 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_console/html
+authors: Aaron Blasdel
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt_common_plugins/issues
+depends:
+- catkin
+- rqt_logger_level
+- rqt_gui
+- roslib
+- python-rospkg
+- rospy
+- rqt_gui_py
+depends_on:
+- rqt_msg
+- rqt_common_plugins
+- rqt_launch
+- rqt_reconfigure
+- grizzly_desktop
+- rqt_robot_dashboard
+description: rqt_console provides a GUI plugin for displaying and filtering ROS messages.
+doc_job: doc-hydro-rqt_common_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Aaron Blasdel <ablasdel@gmail.com>
+metapackages:
+- rqt_common_plugins
+- grizzly_desktop
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-console_sourcedeb
+- ros-hydro-rqt-console_binarydeb_precise_amd64
+- ros-hydro-rqt-console_binarydeb_precise_i386
+- ros-hydro-rqt-console_binarydeb_quantal_amd64
+- ros-hydro-rqt-console_binarydeb_quantal_i386
+- ros-hydro-rqt-console_binarydeb_raring_amd64
+- ros-hydro-rqt-console_binarydeb_raring_i386
+repo_name: rqt_common_plugins
+repo_url: https://github.com/ros-visualization/rqt_common_plugins
+srvs: []
+timestamp: 1405975220.964371
+url: http://ros.org/wiki/rqt_console
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt_common_plugins.git
+vcs_version: groovy-devel

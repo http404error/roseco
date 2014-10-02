@@ -1,0 +1,36 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rocon_python_utils/html
+authors: Daniel Stonier
+brief: ''
+bugtracker: https://github.com/robotics-in-concert/rocon_tools/issues
+depends:
+- catkin
+- roslib
+- python-rospkg
+- python-catkin-pkg
+- rostest
+- rospy
+- rosunit
+- rocon_std_msgs
+depends_on:
+- rocon_tools
+- rocon_interactions
+- rocon_master_info
+- rocon_launch
+description: Python system and ros utilities.
+doc_job: doc-hydro-rocon_tools
+has_changelog_rst: true
+license: BSD
+maintainers: Daniel Stonier <d.stonier@gmail.com>
+metapackages:
+- rocon_tools
+msgs: []
+package_type: package
+repo_name: rocon_tools
+repo_url: https://github.com/robotics-in-concert/rocon_tools
+srvs: []
+timestamp: 1399026939.710665
+url: http://ros.org/wiki/rocon_python_utils
+vcs: git
+vcs_uri: https://github.com/robotics-in-concert/rocon_tools.git
+vcs_version: hydro-devel

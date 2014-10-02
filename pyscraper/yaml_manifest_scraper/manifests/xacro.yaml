@@ -1,0 +1,106 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/xacro/html
+authors: Stuart Glaser
+brief: ''
+bugtracker: https://github.com/ros/xacro/issues
+depends:
+- roslint
+- roslaunch
+- rostest
+- catkin
+depends_on:
+- fanuc_m10ia_support
+- cyton_gamma_1500_description
+- urdf_tutorial
+- turtlebot_description
+- sr_moveit_config
+- reemc_description
+- segbot_description
+- fanuc_lrmate200ic5l_moveit_config
+- kingfisher_description
+- fanuc_m10ia_moveit_config
+- grizzly_description
+- atlas_v3_moveit_config
+- fanuc_lrmate200ic_moveit_config
+- bwi_gazebo_entities
+- kurt_description
+- irb_6640_moveit_config
+- sr_edc_launch
+- erratic_description
+- pr2_gazebo
+- jaco_model
+- hector_components_description
+- fanuc_m430ia_support
+- erratic_robot
+- joint_trajectory_controller
+- create_description
+- uos_common_urdf
+- diff_drive_controller
+- ur10_moveit_config
+- multisense_description
+- fanuc_lrmate200id_moveit_config
+- calvin_description
+- sr_description
+- turtlebot_gazebo
+- wheeled_robin_description
+- biorob_description
+- fanuc_m20ia_moveit_config
+- fanuc_m16ib_support
+- fanuc_m20ia10l_moveit_config
+- fanuc_lrmate200ic_support
+- flir_ptu_description
+- gripper_action_controller
+- fanuc_m20ia_support
+- fanuc_lrmate200id_support
+- ackermann_vehicle_gazebo
+- abb_common
+- roomba_robin_description
+- biorob_common
+- calvin_moveit_config
+- husky_description
+- motoman_sia20d_moveit_config
+- hector_sensors_description
+- sr_ronex_examples
+- fanuc_m430ia2f_moveit_config
+- fanuc_lrmate200ic5h_moveit_config
+- maxwell_defs
+- roomba_robin_gazebo
+- moveit_setup_assistant
+- hector_xacro_tools
+- husky_navigation
+- kobuki_description
+- robot_upstart
+- cob_moveit_config
+- ur5_moveit_config
+- fanuc_m16ib20_moveit_config
+- ackermann_vehicle_description
+- fanuc_m430ia2p_moveit_config
+- pr2_description
+description: "Xacro (XML Macros)\n\n    Xacro is an XML macro language. With xacro,\
+  \ you can construct shorter and more readable XML files by using macros that expand\
+  \ to larger XML expressions."
+devel_jobs:
+- devel-hydro-xacro
+doc_job: doc-hydro-xacro
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: William Woodall <wwoodall@willowgarage.com>
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-xacro_sourcedeb
+- ros-hydro-xacro_binarydeb_precise_amd64
+- ros-hydro-xacro_binarydeb_precise_i386
+- ros-hydro-xacro_binarydeb_quantal_amd64
+- ros-hydro-xacro_binarydeb_quantal_i386
+- ros-hydro-xacro_binarydeb_raring_amd64
+- ros-hydro-xacro_binarydeb_raring_i386
+repo_name: xacro
+repo_url: https://github.com/ros/xacro
+srvs: []
+timestamp: 1405975741.243892
+url: http://ros.org/wiki/xacro
+vcs: git
+vcs_uri: https://github.com/ros/xacro.git
+vcs_version: hydro-devel

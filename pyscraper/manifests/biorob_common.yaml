@@ -1,0 +1,25 @@
+api_documentation: http://docs.ros.org/hydro/api/biorob_common/html
+authors: Stefan Kohlbrecher
+brief: biorob_common
+depends:
+- ros
+- xacro
+- robot_model
+- pr2_simulator
+depends_on: []
+description: "\n    URDF description of the robot kinematics and dynamics, 3D models\
+  \ of robot components\n    "
+doc_job: doc-hydro-biorob_common
+license: BSD
+msgs: []
+package_type: stack
+packages:
+- biorob_gazebo
+- biorob_description
+repo_name: biorob_common
+srvs: []
+timestamp: 1405972742.174955
+url: http://ros.org/wiki/biorob_common
+vcs: svn
+vcs_uri: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/biorob_common
+vcs_version: HEAD

@@ -1,0 +1,20 @@
+authors: William Woodall <william@osrfoundation.org>, Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+depends:
+- catkin
+description: This package contains standard capability interfaces, which describe
+  common robot capabilities in terms of ROS concepts such as topics, services, actions,
+  and parameters.
+license: BSD
+maintainers: William Woodall <william@osrfoundation.org>, Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+package_type: package
+release_jobs:
+- ros-hydro-std-capabilities_sourcedeb
+- ros-hydro-std-capabilities_binarydeb_precise_amd64
+- ros-hydro-std-capabilities_binarydeb_precise_i386
+- ros-hydro-std-capabilities_binarydeb_quantal_amd64
+- ros-hydro-std-capabilities_binarydeb_quantal_i386
+- ros-hydro-std-capabilities_binarydeb_raring_amd64
+- ros-hydro-std-capabilities_binarydeb_raring_i386
+repo_name: std_capabilities
+timestamp: 1405956415.10325
+url: http://ros.org/wiki/std_capabilities

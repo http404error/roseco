@@ -1,0 +1,41 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_robots/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends: &id001
+- catkin
+- cob_bringup
+- cob_controller_configuration_gazebo
+- cob_monitoring
+- cob_hardware_config
+- cob_default_robot_config
+depends_on: []
+description: This stack holds packages for hardware configuration as well as launch
+  files for starting up the basic layer for operating Care-O-bot.
+devel_jobs:
+- devel-hydro-cob_robots
+doc_job: doc-hydro-cob_robots
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-cob-robots_sourcedeb
+- ros-hydro-cob-robots_binarydeb_precise_amd64
+- ros-hydro-cob-robots_binarydeb_precise_i386
+- ros-hydro-cob-robots_binarydeb_quantal_amd64
+- ros-hydro-cob-robots_binarydeb_quantal_i386
+- ros-hydro-cob-robots_binarydeb_raring_amd64
+- ros-hydro-cob-robots_binarydeb_raring_i386
+repo_name: cob_robots
+repo_url: ''
+srvs: []
+timestamp: 1405973131.088558
+url: http://ros.org/wiki/cob_robots
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_robots.git
+vcs_version: hydro_release_candidate

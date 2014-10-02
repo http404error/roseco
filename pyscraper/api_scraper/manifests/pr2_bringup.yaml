@@ -1,0 +1,70 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pr2_bringup/html
+authors: Wim Meeussen
+brief: ''
+bugtracker: ''
+depends:
+- pr2_controller_manager
+- catkin
+- pr2_ethercat
+- pr2_computer_monitor
+- wifi_ddwrt
+- pr2_power_board
+- ocean_battery_driver
+- robot_pose_ekf
+- single_joint_position_action
+- power_monitor
+- pr2_camera_synchronizer
+- ethercat_trigger_controllers
+- pr2_machine
+- prosilica_camera
+- rostest
+- tf2_ros
+- wge100_camera
+- pr2_description
+- diagnostic_aggregator
+- pr2_controller_configuration
+- joy
+- robot_state_publisher
+- pr2_dashboard_aggregator
+- pr2_run_stop_auto_restart
+- joint_trajectory_action
+- pr2_gripper_action
+- pr2_head_action
+- hokuyo_node
+- std_srvs
+- sound_play
+- pr2_calibration_controllers
+- robot_mechanism_controllers
+- microstrain_3dmgx2_imu
+- stereo_image_proc
+- rosbag
+depends_on:
+- sr_edc_launch
+- pr2_robot
+description: Launch files and scripts needed to bring a PR2 up into a running state.
+doc_job: doc-hydro-pr2_robot
+has_changelog_rst: false
+license: BSD
+maintainer_status: maintained
+maintainers: Austin Hendrix <ahendrix@willowgarage.com>
+metapackages:
+- pr2_robot
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-pr2-bringup_sourcedeb
+- ros-hydro-pr2-bringup_binarydeb_precise_amd64
+- ros-hydro-pr2-bringup_binarydeb_precise_i386
+- ros-hydro-pr2-bringup_binarydeb_quantal_amd64
+- ros-hydro-pr2-bringup_binarydeb_quantal_i386
+- ros-hydro-pr2-bringup_binarydeb_raring_amd64
+- ros-hydro-pr2-bringup_binarydeb_raring_i386
+repo_name: pr2_robot
+repo_url: ''
+srvs: []
+timestamp: 1405974829.871141
+url: http://ros.org/wiki/pr2_bringup
+vcs: git
+vcs_uri: https://github.com/PR2/pr2_robot.git
+vcs_version: hydro-devel

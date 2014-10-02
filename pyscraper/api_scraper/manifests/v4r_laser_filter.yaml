@@ -1,0 +1,31 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/v4r_laser_filter/html
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- catkin
+- roscpp
+- sensor_msgs
+- std_msgs
+- opencv2
+depends_on: []
+description: "The v4r_laser_filter package filters sensor_msgs::LaserScan messages.\n\
+  \  Currently there are two filters, max range, and a line filter. \n  The max range\
+  \ filter removes inf values and replaces them with max range. \n  This comes handy\
+  \ by clearing cost maps."
+doc_job: doc-hydro-v4r_ros
+has_changelog_rst: false
+license: BSD
+maintainers: Markus Bader <markus.bader@tuwien.ac.at>
+msgs: []
+package_type: package
+repo_name: v4r_ros
+repo_url: ''
+srvs: []
+timestamp: 1405965401.0945
+url: ''
+vcs: git
+vcs_uri: https://github.com/moresun/v4r_ros.git
+vcs_version: hydro-devel

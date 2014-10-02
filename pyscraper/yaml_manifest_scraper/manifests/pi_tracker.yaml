@@ -1,0 +1,34 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/pi_tracker/html
+authors: Patrick Goebel <patrick@pirobot.org>
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- skeleton_markers
+- catkin
+- roscpp
+- message_runtime
+- std_msgs
+- message_generation
+- geometry_msgs
+- tf
+- rospy
+depends_on: []
+description: Skeleton Tracker Teleop Package for the Pi Robot Project
+doc_job: doc-hydro-pi_tracker
+has_changelog_rst: false
+license: BSD
+maintainers: Patrick Goebel <patrick@pirobot.org>
+msgs:
+- Skeleton
+package_type: package
+repo_name: pi_tracker
+repo_url: ''
+srvs:
+- SetCommand
+timestamp: 1405772553.924054
+url: http://ros.org/wiki/pi_tracker
+vcs: git
+vcs_uri: https://github.com/pirobot/pi_tracker.git
+vcs_version: hydro-devel

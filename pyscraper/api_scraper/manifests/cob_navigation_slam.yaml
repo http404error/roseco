@@ -1,0 +1,44 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_navigation_slam/html
+authors: Florian Weisshardt <fmw@ipa.fraunhofer.de>
+brief: ''
+bugtracker: ''
+depends:
+- cob_navigation_global
+- cob_navigation_config
+- catkin
+- cob_mapping_slam
+- rviz
+depends_on:
+- cob_navigation
+description: This package provides launch files for running  <a href="http://ros.org/wiki/care-o-bot">Care-O-bot</a>
+  with the  <a href="http://ros.org/wiki/gmapping">gmapping</a> slam package of ROS.
+  It further provides the usual navigation functionalities as provided by the <a href="http://ros.org/wiki/move_base">move_base</a>
+  node.
+devel_jobs:
+- devel-hydro-cob_navigation
+doc_job: doc-hydro-cob_navigation
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fraunhofer.de>
+metapackages:
+- cob_navigation
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-navigation-slam_sourcedeb
+- ros-hydro-cob-navigation-slam_binarydeb_precise_amd64
+- ros-hydro-cob-navigation-slam_binarydeb_precise_i386
+- ros-hydro-cob-navigation-slam_binarydeb_quantal_amd64
+- ros-hydro-cob-navigation-slam_binarydeb_quantal_i386
+- ros-hydro-cob-navigation-slam_binarydeb_raring_amd64
+- ros-hydro-cob-navigation-slam_binarydeb_raring_i386
+repo_name: cob_navigation
+repo_url: ''
+srvs: []
+timestamp: 1405770130.738591
+url: http://ros.org/wiki/cob_navigation_slam
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_navigation.git
+vcs_version: hydro_release_candidate

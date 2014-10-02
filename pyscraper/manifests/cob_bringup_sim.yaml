@@ -1,0 +1,42 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/cob_bringup_sim/html
+authors: Florian Weisshardt <fmw@ipa.fhg.de>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- cob_default_env_config
+- cob_gazebo
+- cob_default_robot_config
+- cob_gazebo_worlds
+- gazebo_ros
+depends_on:
+- cob_simulation
+description: This package provides launch files for starting a simulated Care-O-bot.
+devel_jobs:
+- devel-hydro-cob_simulation
+doc_job: doc-hydro-cob_simulation
+has_changelog_rst: true
+license: LGPL
+maintainer_status: developed
+maintainers: Florian Weisshardt <fmw@ipa.fhg.de>
+metapackages:
+- cob_simulation
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-cob-bringup-sim_sourcedeb
+- ros-hydro-cob-bringup-sim_binarydeb_precise_amd64
+- ros-hydro-cob-bringup-sim_binarydeb_precise_i386
+- ros-hydro-cob-bringup-sim_binarydeb_quantal_amd64
+- ros-hydro-cob-bringup-sim_binarydeb_quantal_i386
+- ros-hydro-cob-bringup-sim_binarydeb_raring_amd64
+- ros-hydro-cob-bringup-sim_binarydeb_raring_i386
+repo_name: cob_simulation
+repo_url: ''
+srvs: []
+timestamp: 1405973178.19646
+url: http://ros.org/wiki/cob_bringup_sim
+vcs: git
+vcs_uri: https://github.com/ipa320/cob_simulation.git
+vcs_version: hydro_release_candidate

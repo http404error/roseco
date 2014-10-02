@@ -1,0 +1,38 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/slam_gmapping/html
+authors: Brian Gerkey
+brief: ''
+bugtracker: ''
+depends: &id001
+- openslam_gmapping
+- catkin
+- gmapping
+depends_on:
+- erratic_robot
+- pr2_navigation
+description: slam_gmapping contains a wrapper around gmapping which provides SLAM
+  capabilities.
+doc_job: doc-hydro-slam_gmapping
+has_changelog_rst: true
+license: CreativeCommons-by-nc-sa-2.0
+maintainer_status: maintained
+maintainers: Vincent Rabaud <vincent.rabaud@gmail.com>
+msgs: []
+package_type: metapackage
+packages: *id001
+release_jobs:
+- ros-hydro-slam-gmapping_sourcedeb
+- ros-hydro-slam-gmapping_binarydeb_precise_amd64
+- ros-hydro-slam-gmapping_binarydeb_precise_i386
+- ros-hydro-slam-gmapping_binarydeb_quantal_amd64
+- ros-hydro-slam-gmapping_binarydeb_quantal_i386
+- ros-hydro-slam-gmapping_binarydeb_raring_amd64
+- ros-hydro-slam-gmapping_binarydeb_raring_i386
+repo_name: slam_gmapping
+repo_url: ''
+srvs: []
+timestamp: 1405773791.510713
+url: http://ros.org/wiki/slam_gmapping
+vcs: git
+vcs_uri: https://github.com/ros-perception/slam_gmapping.git
+vcs_version: hydro-devel

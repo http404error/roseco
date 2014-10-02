@@ -1,0 +1,20 @@
+<?xml version="1.0" ?><package>
+  <name>jaco_sdk</name>
+  <version>0.0.4</version>
+  <description>JACO Software SDK and API</description>
+
+  <maintainer email="davidkent@wpi.edu">David Kent</maintainer>
+  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+
+  <url type="website">http://ros.org/wiki/jaco_sdk</url>
+  <url type="bugtracker">https://github.com/RIVeR-Lab/wpi_jaco/issues</url>
+  <url type="repository">https://github.com/RIVeR-Lab/wpi_jaco</url>
+
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>libusb-1.0</build_depend>
+  
+  <run_depend>libusb-1.0</run_depend>
+</package>

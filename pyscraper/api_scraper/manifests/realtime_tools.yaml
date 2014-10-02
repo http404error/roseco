@@ -1,0 +1,71 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/realtime_tools/html
+authors: Stuart Glaser <sglaser@willowgarage.com>
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rospy
+- roscpp
+depends_on:
+- ros_ethercat_hardware
+- steered_wheel_base_controller
+- pr2_mechanism_controllers
+- force_torque_sensor_controller
+- ros_ethercat_loop
+- ethercat_hardware
+- joint_trajectory_controller
+- pr2_ethercat
+- diff_drive_controller
+- open_controllers_interface
+- sr_ronex_examples
+- joint_state_controller
+- controller_manager
+- pr2_calibration_controllers
+- gripper_action_controller
+- pr2_controller_manager
+- imu_sensor_controller
+- effort_controllers
+- tedusar_cartesian_controller
+- sr_ronex_drivers
+- robot_mechanism_controllers
+- sr_mechanism_controllers
+- ethercat_trigger_controllers
+- sr_robot_lib
+- ros_control
+- control_toolbox
+description: "This package contains a set of tools that can be used from a hard\n\
+  \    realtime thread, without breaking the realtime behavior.  The\n    tools currently\
+  \ only provides the realtime publisher, which makes\n    it possible to publish\
+  \ messages to a ROS topic from a realtime\n    thread. We plan to add a basic implementation\
+  \ of a realtime\n    buffer, to make it possible to get data from a (non-realtime)\n\
+  \    topic callback into the realtime loop. Once the lockfree buffer is\n    created,\
+  \ the realtime publisher will start using it, which will\n    result in major API\
+  \ changes for the realtime publisher (removal of\n    all lock methods)."
+devel_jobs:
+- devel-hydro-realtime_tools
+doc_job: doc-hydro-realtime_tools
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Stuart Glaser <sglaser@willowgarage.com>
+metapackages:
+- ros_control
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-realtime-tools_sourcedeb
+- ros-hydro-realtime-tools_binarydeb_precise_amd64
+- ros-hydro-realtime-tools_binarydeb_precise_i386
+- ros-hydro-realtime-tools_binarydeb_quantal_amd64
+- ros-hydro-realtime-tools_binarydeb_quantal_i386
+- ros-hydro-realtime-tools_binarydeb_raring_amd64
+- ros-hydro-realtime-tools_binarydeb_raring_i386
+repo_name: realtime_tools
+repo_url: ''
+srvs: []
+timestamp: 1405974833.090079
+url: http://ros.org/wiki/realtime_tools
+vcs: git
+vcs_uri: https://github.com/ros-controls/realtime_tools.git
+vcs_version: hydro-devel

@@ -1,0 +1,31 @@
+<package>
+  <name>rosh_geometry</name>
+  <version>1.0.1</version>
+  <description>ROSH plugin for the geometry stack, including tf.</description>
+  <maintainer email="dan@lazewatsky.com">Dan Lazewatsky</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/rosh_geometry</url>
+  <url type="bugtracker">https://github.com/OSUrobotics/rosh_robot_plugins/issues</url>
+
+  <author>Ken Conley</author>
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  
+  <run_depend>roslib</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>rosh</run_depend>
+
+  
+  
+  
+  
+  
+  
+
+</package>

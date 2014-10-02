@@ -1,0 +1,21 @@
+authors: ''
+depends:
+- r2_description
+- r2_msgs
+- r2_teleop
+- r2_dynamic_reconfigure
+- catkin
+description: The nasa_r2_common package
+license: BSD
+maintainers: David Lu!! <davidvlu@gmail.com>
+package_type: package
+release_jobs:
+- ros-hydro-nasa-r2-common_sourcedeb
+- ros-hydro-nasa-r2-common_binarydeb_precise_amd64
+- ros-hydro-nasa-r2-common_binarydeb_precise_i386
+- ros-hydro-nasa-r2-common_binarydeb_quantal_amd64
+- ros-hydro-nasa-r2-common_binarydeb_quantal_i386
+- ros-hydro-nasa-r2-common_binarydeb_raring_amd64
+- ros-hydro-nasa-r2-common_binarydeb_raring_i386
+repo_name: nasa_r2_common
+timestamp: 1405956414.887882

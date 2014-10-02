@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/imagesift/html
+authors: Rosen Diankov (rdiankov@cs.cmu.edu), Kei Okada
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- sensor_msgs
+- libsiftfast
+- image_transport
+- posedetection_msgs
+- cv_bridge
+depends_on:
+- jsk_recognition
+- jsk_perception
+description: "For every image, computes its sift features and send a new message with\
+  \ the image, its intrinsic parameters, and the features.\n    Parameters include:\n\
+  \    display - shows the image on the local computer"
+devel_jobs:
+- devel-hydro-jsk_recognition
+doc_job: doc-hydro-jsk_recognition
+has_changelog_rst: true
+license: LGPL
+maintainer_status: maintained
+maintainers: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+metapackages:
+- jsk_recognition
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-imagesift_sourcedeb
+- ros-hydro-imagesift_binarydeb_precise_amd64
+- ros-hydro-imagesift_binarydeb_precise_i386
+- ros-hydro-imagesift_binarydeb_quantal_amd64
+- ros-hydro-imagesift_binarydeb_quantal_i386
+- ros-hydro-imagesift_binarydeb_raring_amd64
+- ros-hydro-imagesift_binarydeb_raring_i386
+repo_name: jsk_recognition
+repo_url: ''
+srvs: []
+timestamp: 1405974140.497498
+url: ''
+vcs: git
+vcs_uri: https://github.com/jsk-ros-pkg/jsk_recognition.git
+vcs_version: master

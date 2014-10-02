@@ -1,0 +1,62 @@
+<package>
+  <name>hector_slam</name>
+  <version>0.3.3</version>
+  <description>
+    The hector_slam metapackage that installs hector_mapping and related packages.
+  </description>
+
+   
+  <maintainer email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</maintainer>
+
+
+  
+  
+  
+  <license>BSD</license>
+
+
+  
+  
+  <url type="website">http://ros.org/wiki/hector_slam</url>
+
+
+  
+  
+  <author email="kohlbrecher@sim.tu-darmstadt.de">Stefan Kohlbrecher</author>
+  <author email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</author>
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>hector_compressed_map_transport</run_depend>
+  <run_depend>hector_geotiff</run_depend>
+  <run_depend>hector_geotiff_plugins</run_depend>
+  <run_depend>hector_imu_attitude_to_tf</run_depend>
+  <run_depend>hector_map_server</run_depend>
+  <run_depend>hector_map_tools</run_depend>
+  <run_depend>hector_mapping</run_depend>
+  <run_depend>hector_marker_drawing</run_depend>
+  <run_depend>hector_nav_msgs</run_depend>
+  <run_depend>hector_slam_launch</run_depend>
+  <run_depend>hector_trajectory_server</run_depend>
+
+
+  
+  <export>
+    
+    <metapackage />
+
+    
+
+  </export>
+</package>

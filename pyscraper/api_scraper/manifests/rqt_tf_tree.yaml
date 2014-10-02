@@ -1,0 +1,46 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_tf_tree/html
+authors: Thibault Kruse
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt_robot_plugins/issues
+depends:
+- python-mock
+- catkin
+- tf2_ros
+- rqt_gui
+- python-rospkg
+- rqt_graph
+- geometry_msgs
+- qt_dotgraph
+- rospy
+- rqt_gui_py
+- tf2_msgs
+- tf2
+depends_on:
+- rqt_robot_plugins
+description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.
+doc_job: doc-hydro-rqt_robot_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: maintained
+maintainers: Isaac Saito <isao.saito@mavs.uta.edu>
+metapackages:
+- rqt_robot_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-tf-tree_sourcedeb
+- ros-hydro-rqt-tf-tree_binarydeb_precise_amd64
+- ros-hydro-rqt-tf-tree_binarydeb_precise_i386
+- ros-hydro-rqt-tf-tree_binarydeb_quantal_amd64
+- ros-hydro-rqt-tf-tree_binarydeb_quantal_i386
+- ros-hydro-rqt-tf-tree_binarydeb_raring_amd64
+- ros-hydro-rqt-tf-tree_binarydeb_raring_i386
+repo_name: rqt_robot_plugins
+repo_url: https://github.com/ros-visualization/rqt_robot_plugins
+srvs: []
+timestamp: 1405773553.871901
+url: http://ros.org/wiki/rqt_tf_tree
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt_robot_plugins.git
+vcs_version: groovy-devel

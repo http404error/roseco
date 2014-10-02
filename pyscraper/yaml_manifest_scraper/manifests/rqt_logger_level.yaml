@@ -1,0 +1,43 @@
+actions: []
+api_documentation: http://docs.ros.org/hydro/api/rqt_logger_level/html
+authors: Aaron Blasdel
+brief: ''
+bugtracker: https://github.com/ros-visualization/rqt_common_plugins/issues
+depends:
+- rqt_gui_py
+- catkin
+- rqt_gui
+- python-rospkg
+- rosservice
+- rospy
+- rosnode
+depends_on:
+- rqt_common_plugins
+- rqt_console
+description: "rqt_logger_level provides a GUI plugin for configuring the logger level\
+  \ of ROS nodes.<br/>\n   <br/>\n  rqt_logger_level takes over `wx`-based tool [[rxloggerlevel]]."
+doc_job: doc-hydro-rqt_common_plugins
+has_changelog_rst: true
+license: BSD
+maintainer_status: developed
+maintainers: Aaron Blasdel <ablasdel@gmail.com>
+metapackages:
+- rqt_common_plugins
+msgs: []
+package_type: package
+release_jobs:
+- ros-hydro-rqt-logger-level_sourcedeb
+- ros-hydro-rqt-logger-level_binarydeb_precise_amd64
+- ros-hydro-rqt-logger-level_binarydeb_precise_i386
+- ros-hydro-rqt-logger-level_binarydeb_quantal_amd64
+- ros-hydro-rqt-logger-level_binarydeb_quantal_i386
+- ros-hydro-rqt-logger-level_binarydeb_raring_amd64
+- ros-hydro-rqt-logger-level_binarydeb_raring_i386
+repo_name: rqt_common_plugins
+repo_url: https://github.com/ros-visualization/rqt_common_plugins
+srvs: []
+timestamp: 1405975218.615562
+url: http://ros.org/wiki/rqt_logger_level
+vcs: git
+vcs_uri: https://github.com/ros-visualization/rqt_common_plugins.git
+vcs_version: groovy-devel
