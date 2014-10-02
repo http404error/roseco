@@ -1,6 +1,0 @@
-health:
- - metric: pkg_repo_health_composite
-   include: True
-   weights: 
-    pkg_health_weight: 1.0
-    repo_health_weight: 0.75

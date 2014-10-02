@@ -1,6 +1,0 @@
-impact:
-- metric: pkg_impact
-  include: True
-  weights:
-   maintaining: 1.0
-   authored: 0.5
