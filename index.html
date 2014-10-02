@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>RosEco Landing Page</title>
+	</head>
+	<body>
+		<h1>RosEco Package Graph</h1>
+		<p><a href="http://http404error.github.io/roseco/graph.html?id=ros.json" target="_blank">View Graph Here</a></p>
+		<h3>Features:</h3>
+		<ul>
+			<li>View a directed graph of ROS packages linked by dependencies.</li>
+			<li>Narrow the view by setting a single package as a focus, and setting the number of recursive dependency generations to view.</li>
+			<li>Transitive edge reduction, removing redundant relations from the current view.</li>
+			<li>Tree view, ranking dependencies by generation and removing all indirect edges.</li>
+			<li>Color packages by any of several data metrics, using a heatmap color scheme.</li>
+		</ul>
+		<h3>Things to try:</h3>
+		<ul>
+			<li>The following items are to help familiarize you with the interface.</li>
+			<li>Changing the focus and adjusting the sliders.</li>
+			<li>Switching edge reduction from Standard to Tree. Disabling is not recommended on large graphs.</li>
+			<li>Selecting packages (click, ctrl-click, shift-click, context menu) and hiding them via the context menu.</li>
+			<li>"Link to Current Settings" to save your current view configuration or share it with other users.</li>
+			<li><b>Make sure to hit Apply after changing settings.</b></li>
+		</ul>
+		<h3>Metrics:</h3>
+		<ul>
+			<li>Health: based on number of open Github tickets and response times. Doesn't reflect well on some nodes it should.</li>
+			<li>Impact: based on number of packages that depend on this one, including recursively. Each degree of removal halves the weight.</li>
+			<li>Runtime: based on live data recorded by RosKomodo. Hasn't been normalized yet, so coloration is binary.</li>
+		</ul>
+		<h3>Known issues:</h3>
+		<ul>
+			<li>No distinction between Run, Build, and Buildtool dependencies.</li>
+			<li>Some context menu options are broken. Only first author is listed.</li>
+		</ul>
+		<h3>Feedback:</h3>
+		<ul>
+			<li>Which features are useful? Which aren't?</li>
+			<li>What's missing? New metrics you'd like to see?</li>
+			<li>Send me an email at <a href="mailto:arveyb@onid.oregonstate.edu">arveyb@onid.oregonstate.edu</a> with your thoughts.</li>
+		</ul>
+		<p>Credit goes to my teammates Thomas Thornton and Will Curran for metrics and data, and to Dr. Bill Smart.</p>
+		<p>This project was developed by Ben Arvey, based on <a href="https://github.com/brownsys/X-Trace/tree/master/src/main/resources/webui/html/interactive">XTrace</a> by Jonathan Mace, to whom I owe many thanks.</p>
+	</body>
+</html>
