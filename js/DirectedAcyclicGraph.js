@@ -47,7 +47,7 @@ function DirectedAcyclicGraph() {
 			existing_nodes.classed("pre-existing", false);
 
 			// Animate into new positions
-			if (animate && window.navigator.userAgent.indexOf("Firefox") == -1) { // FIXME: Firefox has a bug right now
+			if (animate) {
 				svg.select(".graph").selectAll(".edge.visible").transition().duration(800).attrTween("d", graph.edgeTween);//attr("d", graph.splineGenerator);
 				existing_nodes.transition().duration(800).attr("transform", graph.nodeTranslate);
 			} else {
