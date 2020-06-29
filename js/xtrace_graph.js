@@ -319,15 +319,6 @@ function XTraceDAG(attachPoint, reports, /*optional*/ params) {
 			node.isFocus = false;
 			node.level = null;
 			node.metapackage = null;
-
-			// Set Code Quality randomly
-			var quality = Math.random();
-			if (quality >= 0.25) {
-				quality = ((quality - 0.25) / 3) + 0.75;
-			} else {
-				quality = quality * 3;
-			}
-			node.report["Quality"] = quality;
 		}
 
 		var narrow_focus = function() {
@@ -528,8 +519,7 @@ function XTraceDAG(attachPoint, reports, /*optional*/ params) {
 		var huemap = {
 			Health: 352,
 			Impact: 120,
-			Maintainers: 120,
-			Quality: 255
+			Maintainers: 120
 		};
 		var colorByDataset = function() {
 			$("#key_label").text(colorby);
@@ -547,8 +537,6 @@ function XTraceDAG(attachPoint, reports, /*optional*/ params) {
 				} else if (dataset == "Runtime") {
 					scale = 6.0;
 					logscale = true;
-				} else if (dataset == "Quality") {
-					// leave scale at 1.0
 				} else {
 					console.error("Didn't recognize data set", dataset);
 				}
@@ -696,9 +684,6 @@ function XTraceDAG(attachPoint, reports, /*optional*/ params) {
 		} else if (colorby == "Runtime") {
 			$("#color_select1").prop("selected", false);
 			$("#color_select3").prop("selected", true);
-		} else if (colorby == "Quality") {
-			$("#color_select1").prop("selected", false);
-			$("#color_select4").prop("selected", true);
 		}
 		$("#color_dataset").selectmenu({
 			width: "200px"		// I'm honestly clueless why this defaults to 0px.
@@ -747,8 +732,6 @@ function XTraceDAG(attachPoint, reports, /*optional*/ params) {
 				colorby = "Impact";
 			} else if ($("#color_select3").prop("selected")) {
 				colorby = "Runtime";
-			} else {
-				colorby = "Quality";
 			}
 
 			if ($("#direction_radio2").prop("checked")) {
