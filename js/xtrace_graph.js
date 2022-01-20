@@ -326,6 +326,13 @@ function XTraceDAG(attachPoint, reports, /*optional*/ params) {
 
 			// Then, selectively show focus and height above and depth below
 			var focused_node = nodes[focus];
+
+			if (!focused_node) {
+				focused_node = nodes["rviz"];
+				console.error("Couldn't find " + focus);
+				alert("Couldn't find any data for package: " + focus + "\n(Defaulting display to rviz)");
+			}
+
 			var ancestors = (maxheight > 0) ? focused_node.getParents() : [];
 			var descendants = (maxdepth > 0) ? focused_node.getChildren() : [];
 
